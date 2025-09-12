@@ -1,0 +1,39 @@
+
+//MONGO DB
+
+// Utilisateurs
+{
+  "_id": "user_123",
+  "nom_utilisateur": "Jean",
+  "mot_de_passe": "hash...",
+  "email": "jean@example.com",
+  "date_inscription": "2025-09-12T10:00:00Z"
+}
+
+// Recettes
+{
+  "_id": "recette_456",
+  "titre": "Pizza Margherita",
+  "description": "Pizza simple et délicieuse",
+  "etapes": [
+    "Préparer la pâte",
+    "Ajouter la sauce tomate",
+    "Mettre la mozzarella",
+    "Cuire au four"
+  ],
+  "tags": ["italien", "rapide"],
+  "auteur_id": "user_123",
+  "date_creation": "2025-09-12T12:00:00Z",
+  "ingredients": [
+    { "nom": "Farine", "type": "sec", "quantite": "500g" },
+    { "nom": "Tomates", "type": "légume", "quantite": "3" },
+    { "nom": "Mozzarella", "type": "fromage", "quantite": "200g" }
+  ],
+  "avis": [
+    { "user_id": "user_789", "commentaire": "Délicieux", "date": "2025-09-12T14:00:00Z" }
+  ],
+  "likes": ["user_111", "user_222"],
+  "suggestions": [
+    { "auteur_id": "user_456", "contenu": "Ajoute du basilic", "date": "2025-09-12T15:00:00Z" }
+  ]
+}

@@ -1,68 +1,60 @@
+--CASSANDRA
 CREATE TABLE Utilisateurs (
-    utilisateur_id INT PRIMARY KEY AUTO_INCREMENT,
-    nom_utilisateur VARCHAR(50) NOT NULL UNIQUE,
-    mot_de_passe VARCHAR(255) NOT NULL,
-    email VARCHAR(100) NOT NULL UNIQUE,
-    date_inscription TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    utilisateur_id UUID PRIMARY KEY,
+    nom_utilisateur TEXT,
+    mot_de_passe TEXT,
+    email TEXT,
+    date_inscription TIMESTAMP
 );
--- 5000 à 10000recettes
+
 CREATE TABLE Recettes (
-    _id INT PRIMARY KEY AUTO_INCREMENT,
-    titre VARCHAR(100) NOT NULL,
+    recette_id UUID PRIMARY KEY,
+    titre TEXT,
     description TEXT,
-    ingredient_id INT,
-    etapes TEXT NOT NULL,
-    tags VARCHAR(100),
-    auteur INT,
-    date_creation TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (auteur) REFERENCES Utilisateurs (utilisateur_id),
-    FOREIGN KEY (ingredient_id) REFERENCES Ingredients (ingredients_id)
+    etapes LIST<TEXT>,
+    tags LIST<TEXT>,
+    auteur_id UUID,
+    date_creation TIMESTAMP,
+    ingredients LIST<FROZEN<MAP<TEXT, TEXT>>>
+    -- Exemple : [{nom: "Farine", type: "sec", quantite: "500g"}]
 );
 
 CREATE TABLE Avis (
-    recipe_id INT,
-    user_id INT,
+    recette_id UUID,
+    user_id UUID,
     commentaire TEXT,
-    date_publication TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    PRIMARY KEY (recipe_id, user_id),
-    FOREIGN KEY (recipe_id) REFERENCES Recettes (_id),
-    FOREIGN KEY (user_id) REFERENCES Utilisateurs (utilisateur_id)
+    date_publication TIMESTAMP,
+    PRIMARY KEY (recette_id, user_id)
 );
 
 CREATE TABLE Likes (
-    post_id INT,
-    user_id INT,
-    date_like TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    PRIMARY KEY (post_id, user_id),
-    FOREIGN KEY (post_id) REFERENCES Recettes (_id),
-    FOREIGN KEY (user_id) REFERENCES Utilisateurs (utilisateur_id)
+    recette_id UUID,
+    user_id UUID,
+    date_like TIMESTAMP,
+    PRIMARY KEY (recette_id, user_id)
 );
 
 CREATE TABLE Suggestions (
-    suggestion_id INT PRIMARY KEY AUTO_INCREMENT,
-    ref_recette INT,
-    contenu TEXT NOT NULL,
-    auteur INT,
-    date_suggestion TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-    FOREIGN KEY (auteur) REFERENCES Utilisateurs (utilisateur_id),
-    FOREIGN KEY (ref_recette) REFERENCES Recettes (_id)
+    suggestion_id UUID PRIMARY KEY,
+    recette_id UUID,
+    auteur_id UUID,
+    contenu TEXT,
+    date_suggestion TIMESTAMP
 );
 
 CREATE TABLE Ingredients (
-    ingredients_id INT PRIMARY KEY AUTO_INCREMENT,
+    ingredient_id UUID PRIMARY KEY,
+    nom_ingredient TEXT,
+    type_ingredient TEXT
 );
 
-CREATE TABLE Ingredients_Recettes (
-    recette_id INT,
-    ingredient_id INT,
-    quantite VARCHAR(50),
-    PRIMARY KEY (recette_id, ingredient_id),
-    FOREIGN KEY (recette_id) REFERENCES Recettes (_id),
-    FOREIGN KEY (ingredient_id) REFERENCES Ingredients (ingredients_id)
-);
 
--- REDIS, cassandra, mongoDB
+-- voler les données sur marmiton
+-- REDIS -> Cache des informations utilisateur et sessions , cassandra ->  Gestion des publications  , mongoDB ->  Stockage des recettes
 --CREATE TABLE sessions () ?
 --CREATE TABLE preference () ?
 --CREATE TABLE notif () ?
 
+--cookies?
+
+-- préférence sur interface (sombre, clair)
