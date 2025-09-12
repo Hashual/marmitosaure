@@ -18,11 +18,11 @@
       "Ajouter le mélange œufs-fromage et bien mélanger."
     ],
     "tags": [
-      { "id": "t1", "name": "sans gluten" },
-      { "id": "t2", "name": "rapide" }
+      { "_id": "t1", "name": "sans gluten" },
+      { "_id": "t2", "name": "rapide" }
     ],
     "author": {
-      "id": "u1",
+      "_id": "u1",
       "name": "Alice Dupont"
     },
     "date_creation": "2025-09-12T10:30:00.000Z"
@@ -46,11 +46,11 @@
       "Parsemer de copeaux de parmesan."
     ],
     "tags": [
-      { "id": "t3", "name": "salade" },
-      { "id": "t4", "name": "léger" }
+      { "_id": "t3", "name": "salade" },
+      { "_id": "t4", "name": "léger" }
     ],
     "author": {
-      "id": "u2",
+      "_id": "u2",
       "name": "Bob Martin"
     },
     "date_creation": "2025-09-10T14:15:00.000Z"
@@ -74,11 +74,11 @@
       "Verser dans un moule et cuire 25 minutes."
     ],
     "tags": [
-      { "id": "t5", "name": "dessert" },
-      { "id": "t6", "name": "chocolat" }
+      { "_id": "t5", "name": "dessert" },
+      { "_id": "t6", "name": "chocolat" }
     ],
     "author": {
-      "id": "u3",
+      "_id": "u3",
       "name": "Clara Rossi"
     },
     "date_creation": "2025-09-05T18:00:00.000Z"
