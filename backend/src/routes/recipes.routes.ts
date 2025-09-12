@@ -1,5 +1,6 @@
 import { RecipesController } from "../controllers/recipes/RecipesController";
 import { Router } from "express";
+import { ReviewsRouter } from "./reviews.routes";
 
 export const RecipesRouter = Router();
 
@@ -10,3 +11,5 @@ RecipesRouter.get("/search", RecipesController.Search);
 
 RecipesRouter.get("/:id", RecipesController.GetById);
 RecipesRouter.put("/:id", RecipesController.Update);
+
+RecipesRouter.use('/:id/reviews', ReviewsRouter);
