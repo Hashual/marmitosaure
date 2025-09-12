@@ -46,8 +46,8 @@
       "Parsemer de copeaux de parmesan."
     ],
     "tags": [
-      { "id": "t3", "label": "salade" },
-      { "id": "t4", "label": "léger" }
+      { "id": "t3", "name": "salade" },
+      { "id": "t4", "name": "léger" }
     ],
     "author": {
       "id": "u2",
@@ -74,8 +74,8 @@
       "Verser dans un moule et cuire 25 minutes."
     ],
     "tags": [
-      { "id": "t5", "label": "dessert" },
-      { "id": "t6", "label": "chocolat" }
+      { "id": "t5", "name": "dessert" },
+      { "id": "t6", "name": "chocolat" }
     ],
     "author": {
       "id": "u3",
