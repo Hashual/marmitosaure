@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "_id": "u1",
+    "name": "Alice Dupont"
+  },
+  {
+    "_id": "u2",
+    "name": "Bob Martin"
+  },
+  {
+    "_id": "u3",
+    "name": "Clara Rossi"
+  },
+  {
+    "_id": "u4",
+    "name": "David Nguyen"
+  },
+  {
+    "_id": "u5",
+    "name": "Emma Leroy"
+  }
+]

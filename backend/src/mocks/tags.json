@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "_id": "t1",
+    "name": "italien"
+  },
+  {
+    "_id": "t2",
+    "name": "rapide"
+  },
+  {
+    "_id": "t3",
+    "name": "salade"
+  },
+  {
+    "_id": "t4",
+    "name": "léger"
+  },
+  {
+    "_id": "t5",
+    "name": "dessert"
+  },
+  {
+    "_id": "t6",
+    "name": "chocolat"
+  },
+  {
+    "_id": "t7",
+    "name": "végétarien"
+  },
+  {
+    "_id": "t8",
+    "name": "sans gluten"
+  }
+]
