@@ -11,13 +11,27 @@ CREATE TABLE Recettes (
     recette_id UUID PRIMARY KEY,
     titre TEXT,
     description TEXT,
+    temps_preparation TEXT,
     etapes LIST<TEXT>,
     tags LIST<TEXT>,
+    origine TEXT,
     auteur_id UUID,
     date_creation TIMESTAMP,
-    ingredients LIST<FROZEN<MAP<TEXT, TEXT>>>
-    -- Exemple : [{nom: "Farine", type: "sec", quantite: "500g"}]
-);
+    ingredients LIST<FROZEN<MAP<TEXT, TEXT>>>)
+    -- Exemple : [{ingredient_id: 1, quantite: "500g"}]
+
+CREATE TABLE ingredients(
+    ingredient_id UUID,
+    nom_ingredient TEXT,
+    type_id UUID,
+    PRIMARY KEY (ingredient_id, nom_ingredient),
+    FOREIGN KEY (type_id) REFERENCES type(id_type)
+)
+
+CREATE TABLE type(
+    id_type UUID PRIMARY KEY,
+    nom_type TEXT
+)
 
 CREATE TABLE Avis (
     recette_id UUID,
@@ -47,6 +61,19 @@ CREATE TABLE Ingredients (
     nom_ingredient TEXT,
     type_ingredient TEXT
 );
+
+CREATE TABLE Ustensiles (
+    ustensiles_id UUID PRIMARY KEY,
+    nom_ustensiles TEXT,
+    catégories_ustensilest TEXT
+);
+
+-- REDIS
+-- Sessions
+SET session:12345 "{ 'user_id': 123, 'connected': true, 'expires': '2025-09-12T15:00:00Z' }"
+
+-- Cache preferences
+SET prefs:123 "{ 'user_id': 123, 'tags': ['italien', 'rapide'], 'allergenes': ['gluten'], 'type_recettes': ['vegan'], 'ingredients': ['tofu', 'tomates'] }"
 
 
 -- voler les données sur marmiton
