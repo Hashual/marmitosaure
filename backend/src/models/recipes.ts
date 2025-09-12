@@ -6,10 +6,14 @@ const recipes: Recipe[] = recipesData.map(r => ({
 	date_creation: new Date(r.date_creation)
 }));
 
-function getRecipeById(id: string): Recipe | undefined {
+export function getAllRecipes(): Recipe[] {
+	return recipes;
+}
+
+export function getRecipeById(id: string): Recipe | undefined {
 	return recipes.find(recipe => recipe._id === id);
 }
 
-function getRecipeByTitle(title: string): Recipe | undefined {
-	return recipes.find(recipe => recipe.title === title);
+export function filterRecipeByTitle(title: string): Recipe[] {
+	return recipes.filter(recipe => recipe.title.includes(title));
 }
