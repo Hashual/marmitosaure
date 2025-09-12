@@ -8,6 +8,6 @@ export type Recipe = {
   ingredients: string[]
   steps: string[]
   tags: Tag[]
-  author: User[]
+  author: User
   date_creation: Date
 }
