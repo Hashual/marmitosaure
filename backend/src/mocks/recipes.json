@@ -18,8 +18,8 @@
       "Ajouter le mélange œufs-fromage et bien mélanger."
     ],
     "tags": [
-      { "id": "t1", "label": "sans gluten" },
-      { "id": "t2", "label": "rapide" }
+      { "id": "t1", "name": "sans gluten" },
+      { "id": "t2", "name": "rapide" }
     ],
     "author": {
       "id": "u1",
