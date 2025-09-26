@@ -10,7 +10,7 @@ export class RecipesController {
 
 	static GetById(req: Request, res: Response) {
 		const { id } = req.params;
-		
+
 		// TODO
 		res.status(200).send({
 			data: { id }
