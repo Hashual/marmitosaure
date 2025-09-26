@@ -1,140 +1,3824 @@
 [
   {
-    "ingredient_id": "8958b332-8d41-497d-ba41-df2729237296",
-    "nom": "pâtes à pizza",
+    "ingredient_id": "732e6850-21b7-411e-b662-c3028af3760c",
+    "nom": "pains pour hamburger",
     "type": "féculents",
-    "date_ajout": "2025-09-13T20:14:45.883266"
+    "date_ajout": "2025-09-26T14:56:38.445516"
   },
   {
-    "ingredient_id": "775bd7c6-1803-4363-ad36-fd3d57c4714f",
-    "nom": "boules de mozzarella de buflonne (la vraie !)",
-    "type": "fromages",
-    "date_ajout": "2025-09-13T20:14:45.883266"
-  },
-  {
-    "ingredient_id": "ab36212b-d250-4bcd-a43c-05dca06cd46f",
-    "nom": "courgettes",
-    "type": "légumes",
-    "date_ajout": "2025-09-13T20:14:45.883266"
-  },
-  {
-    "ingredient_id": "531f0943-bd61-429e-a2c5-1ef36baf93a9",
-    "nom": "brin de romarin",
-    "type": "herbes",
-    "date_ajout": "2025-09-13T20:14:45.883266"
-  },
-  {
-    "ingredient_id": "862b6260-2a26-444a-8313-db495346a95f",
-    "nom": "Pâtes à Pizza Fine et Rectangulaire HERTA®",
-    "type": "féculents",
-    "date_ajout": "2025-09-13T20:14:49.883560"
-  },
-  {
-    "ingredient_id": "f38fefc4-0d31-4712-be09-e69843caa072",
-    "nom": "tranches de jambon LE BON PARIS® HERTA® Conservation Sans Nitrite Sel réduit",
+    "ingredient_id": "6831bc03-c1ca-4ea1-b502-7bcdfc64ee72",
+    "nom": "filet de boeuf",
     "type": "viandes",
-    "date_ajout": "2025-09-13T20:14:49.883560"
+    "date_ajout": "2025-09-26T14:56:38.445516"
   },
   {
-    "ingredient_id": "68f91732-aa8b-44e6-aa9f-ab884aa8f835",
-    "nom": "sauce tomate",
+    "ingredient_id": "d6f8a470-7c43-4cef-aca9-f979611142de",
+    "nom": "carotte",
     "type": "légumes",
-    "date_ajout": "2025-09-13T20:14:49.883560"
+    "date_ajout": "2025-09-26T14:56:38.445516"
   },
   {
-    "ingredient_id": "6b4b8bc3-6ef9-45cf-9e00-d17897d9b19b",
-    "nom": "mozzarella râpée",
-    "type": "fromages",
-    "date_ajout": "2025-09-13T20:14:49.883560"
+    "ingredient_id": "4103f69f-1114-4986-a3e5-f50d53fc0821",
+    "nom": "oignons",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:56:38.445516"
   },
   {
-    "ingredient_id": "5b6de63e-736c-4bd8-be48-6b6a1683c7aa",
-    "nom": "d'olives noires",
+    "ingredient_id": "eac36800-040c-4620-9657-98c28bb3ea97",
+    "nom": "bouquets garnis",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:56:38.445516"
+  },
+  {
+    "ingredient_id": "ddf5e8db-3c9a-409b-af23-29b873fd0452",
+    "nom": "champignon émincés surgelés",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:56:38.445516"
+  },
+  {
+    "ingredient_id": "517d8c32-0f33-492f-8343-0c78d8ceb600",
+    "nom": "lardons",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:56:38.445516"
+  },
+  {
+    "ingredient_id": "85430d34-3a5e-4c38-9f5e-fd72b4236275",
+    "nom": "à soupe de farine",
+    "type": "farines",
+    "date_ajout": "2025-09-26T14:56:38.445516"
+  },
+  {
+    "ingredient_id": "1d2e33ac-e54a-4f10-b7f2-159d7da62747",
+    "nom": "vin rouge",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:56:38.445516"
+  },
+  {
+    "ingredient_id": "0b7d9716-91d2-4966-bcda-5c87ecbf5202",
+    "nom": "à soupe d'huile d'olive",
     "type": "huiles",
-    "date_ajout": "2025-09-13T20:14:49.883560"
+    "date_ajout": "2025-09-26T14:56:38.445516"
   },
   {
-    "ingredient_id": "cece888c-fa81-4d80-a501-be6b80ffcacc",
-    "nom": "basilic frais",
-    "type": "herbes",
-    "date_ajout": "2025-09-13T20:14:49.883560"
+    "ingredient_id": "dffec5ed-4097-4e89-b242-615d879f8f15",
+    "nom": "poivre",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:56:38.445516"
   },
   {
-    "ingredient_id": "4e0f1d98-210f-4fe1-8c6e-7892ac311e0d",
-    "nom": "framboises",
-    "type": "autre",
-    "date_ajout": "2025-09-13T20:14:53.222292"
+    "ingredient_id": "8b8ccb74-6be1-4ecc-b549-0b0f8337cc7e",
+    "nom": "sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:56:38.445516"
   },
   {
-    "ingredient_id": "5ee04846-8215-4fa2-8306-c9e7e4726081",
-    "nom": "meringue",
-    "type": "autre",
-    "date_ajout": "2025-09-13T20:14:53.222292"
-  },
-  {
-    "ingredient_id": "0b41f24f-b278-46a6-b011-5dd3dd4a2c06",
-    "nom": "crème fraîche fluide",
-    "type": "produits_laitiers",
-    "date_ajout": "2025-09-13T20:14:53.222292"
-  },
-  {
-    "ingredient_id": "c4b1825a-5dd6-4ee1-ad56-d012906e2407",
-    "nom": "à soupe de sucre glace",
+    "ingredient_id": "47a57edb-2bf1-41a4-a127-32ae4dee5d41",
+    "nom": "morceaux de sucre",
     "type": "sucrants",
-    "date_ajout": "2025-09-13T20:14:53.222292"
+    "date_ajout": "2025-09-26T14:56:38.445516"
   },
   {
-    "ingredient_id": "b09104d1-fc92-425c-a167-26cfad04d272",
-    "nom": "sachets de sucre vanillé",
-    "type": "sucrants",
-    "date_ajout": "2025-09-13T20:14:53.222292"
-  },
-  {
-    "ingredient_id": "044f8a55-6404-4224-bf55-1c1686dbc2d7",
-    "nom": "poires de taille moyenne",
+    "ingredient_id": "c4431286-8c54-4d13-8279-9c22b46822ce",
+    "nom": "pomme de terre",
     "type": "légumes",
-    "date_ajout": "2025-09-13T20:14:56.785639"
+    "date_ajout": "2025-09-26T14:56:45.053014"
   },
   {
-    "ingredient_id": "9c679b43-d845-4131-ad80-96a9638d66ba",
+    "ingredient_id": "1f1ed18d-ad78-4393-9b13-ddb4a6754d61",
+    "nom": "d'eau",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:56:50.687708"
+  },
+  {
+    "ingredient_id": "d14fba66-16f3-4bd0-8418-4a70b1f1421b",
+    "nom": "cubes de tsuyu (bouillon au poisson volant)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:56:50.687708"
+  },
+  {
+    "ingredient_id": "5ed3f699-073e-4139-b3eb-e5cca423d1c4",
+    "nom": "portions de colin d'alaska (produits congelés)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:56:50.687708"
+  },
+  {
+    "ingredient_id": "a1138199-f1d0-4ac6-bc3f-ec32737ad4b1",
+    "nom": "pommes de terre coupées en tranches fines",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T14:56:50.687708"
+  },
+  {
+    "ingredient_id": "33634b9d-ff7a-46d8-94e0-530056f287f2",
+    "nom": "pots de crème fraîche de 20 cl chacun",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:56:50.687708"
+  },
+  {
+    "ingredient_id": "e365eeb5-1967-487b-b426-119197085600",
+    "nom": "gruyère",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T14:56:50.687708"
+  },
+  {
+    "ingredient_id": "f9e92208-cf4d-4905-b556-77fcf53625e3",
+    "nom": "filets de poisson blanc (julienne, colin....)",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T14:56:54.355861"
+  },
+  {
+    "ingredient_id": "ff5fb689-e83e-44be-a365-56157eb6b7e6",
+    "nom": "échalotes",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:56:54.355861"
+  },
+  {
+    "ingredient_id": "2aa5233b-b8c2-4c76-bf7f-e11fc3cc24f1",
+    "nom": "brousse ou 300 g de chèvre frais",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T14:56:54.355861"
+  },
+  {
+    "ingredient_id": "7b3c92e9-f7cb-44c3-9b30-44b3e99559be",
+    "nom": "à soupe de thym frais (congelé)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:56:54.355861"
+  },
+  {
+    "ingredient_id": "20eb4f32-f5c2-4c2c-b691-0dc3145451b6",
+    "nom": "farine",
+    "type": "farines",
+    "date_ajout": "2025-09-26T14:57:01.122800"
+  },
+  {
+    "ingredient_id": "fcd7ad29-d36f-4f62-8e36-ed8bececcc2d",
+    "nom": "sucre",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T14:57:01.122800"
+  },
+  {
+    "ingredient_id": "c4e81095-949c-4e47-a6b6-b022f6a22b57",
+    "nom": "oeufs",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T14:57:01.122800"
+  },
+  {
+    "ingredient_id": "da2bd4fb-39c8-431f-b7cd-ffa294b62f65",
+    "nom": "1/2 paquets de levure chimique",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:01.122800"
+  },
+  {
+    "ingredient_id": "12f42b00-e236-4dc0-977f-eea46ffada4d",
+    "nom": "beurre",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:57:01.122800"
+  },
+  {
+    "ingredient_id": "45414a9a-8a62-49b1-84b7-32b932241285",
+    "nom": "citrons râpé (non traité)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T14:57:01.122800"
+  },
+  {
+    "ingredient_id": "f434a360-cc30-4388-b3e1-729a85156e3c",
+    "nom": "morceaux de sucre n°4",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T14:57:01.122800"
+  },
+  {
+    "ingredient_id": "911ab2ed-5280-4000-a11a-2f4bb81a16cf",
+    "nom": "citron",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T14:57:01.122800"
+  },
+  {
+    "ingredient_id": "3e7aeff1-5eaa-4d6c-b1bf-0c7277a9de2d",
+    "nom": "filets de poisson blanc(flétan, loup, etc.)",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T14:57:06.234704"
+  },
+  {
+    "ingredient_id": "6681f49d-565a-4551-9942-295d0a50f096",
+    "nom": "poireaux",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T14:57:06.234704"
+  },
+  {
+    "ingredient_id": "9bb14d2f-910e-420e-87f3-5cbc6915b709",
+    "nom": "huile d'olive",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T14:57:06.234704"
+  },
+  {
+    "ingredient_id": "fcb5753c-1ca6-4f13-8b16-f1077bf55fe6",
+    "nom": "crème allégée",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:57:06.234704"
+  },
+  {
+    "ingredient_id": "eb429aad-c2ec-4bce-9651-b663ac3e3336",
+    "nom": "épices selon votre goût (curry, columbo ou autre)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:57:06.234704"
+  },
+  {
+    "ingredient_id": "c7ccd240-31b1-44d5-96f6-39abe23e26f6",
+    "nom": "chapelure",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:06.234704"
+  },
+  {
+    "ingredient_id": "f3be2c91-f3e3-4731-a021-6158a4a0931c",
+    "nom": "riz rond japonais",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T14:57:09.946245"
+  },
+  {
+    "ingredient_id": "d0dbb229-8c91-4293-bd33-7d57ec0b8f24",
+    "nom": "à soupe de vinaigre de riz",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T14:57:09.946245"
+  },
+  {
+    "ingredient_id": "c1875082-c525-47d0-8780-dd039161b9c2",
+    "nom": "à café de sucre",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T14:57:09.948256"
+  },
+  {
+    "ingredient_id": "b89f84de-571c-4ca4-b691-a19850a669bb",
+    "nom": "à café de sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:57:09.948256"
+  },
+  {
+    "ingredient_id": "e53b78ff-b18f-4df9-a926-c6e449eb2a0f",
+    "nom": "saumon frais",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T14:57:09.948256"
+  },
+  {
+    "ingredient_id": "6b872a8b-3aea-4890-8465-022b6e702104",
+    "nom": "avocats",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:09.948256"
+  },
+  {
+    "ingredient_id": "8e2cfc53-fabb-4dbe-93a3-951782f02226",
+    "nom": "mangues",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:09.948256"
+  },
+  {
+    "ingredient_id": "f8463d96-f6db-4fe4-b8ee-659b3c78e726",
+    "nom": "sésame",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:09.948256"
+  },
+  {
+    "ingredient_id": "5ee903d4-7b1e-41e4-aaba-e46db7b38da0",
+    "nom": "pâtes brisées",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T14:57:13.864031"
+  },
+  {
+    "ingredient_id": "2eb718c1-c8d3-4e9e-a4b5-62ed65d99616",
+    "nom": "boîtes d'épinards hachés à la crème surgelé",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:13.864031"
+  },
+  {
+    "ingredient_id": "99d4b242-3daf-45a2-be60-5b04046903f3",
+    "nom": "bûchettes de chèvre frais",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T14:57:13.864031"
+  },
+  {
+    "ingredient_id": "9971dea4-7241-4b60-81cb-c261785795a4",
+    "nom": "huile d'olive ou 1 jaune d'oeuf",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T14:57:13.865551"
+  },
+  {
+    "ingredient_id": "5860a07a-58ff-4c40-8a32-52826041dee5",
+    "nom": "lieu noir surgelés",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:13.865551"
+  },
+  {
+    "ingredient_id": "b16f7c88-3513-4a4f-89e0-bed080a909c1",
+    "nom": "poisson (darne de saumon ou de \"wahoo\", dos de cabillaud) (wahoo, mahé-mahé, selon le pays, c'est le nom donné à la dorade coryphène)",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T14:57:18.904928"
+  },
+  {
+    "ingredient_id": "8cdaa43d-5d3f-4b98-904c-03b8f209818a",
+    "nom": "oignons rouges émincé",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:18.905437"
+  },
+  {
+    "ingredient_id": "f3c330c5-966d-4ac5-9e2a-50605cc05635",
+    "nom": "gousses d'ail émincées",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:18.905437"
+  },
+  {
+    "ingredient_id": "6e51d2d1-c917-4715-83a3-649f91e94bb5",
+    "nom": "poivrons rouges coupé en lanières",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:18.905437"
+  },
+  {
+    "ingredient_id": "1fdcafc6-1fae-410f-8e41-950947861d5b",
+    "nom": "poivrons verts coupé en lanières",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:18.905437"
+  },
+  {
+    "ingredient_id": "63a63b2c-b3cc-47fa-9762-ed0b6e7cff7f",
+    "nom": "beaux morceaux de gingembre frais coupé en fins bâtonnets de 2 à 3 cm de long",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:18.905437"
+  },
+  {
+    "ingredient_id": "9f8e99ce-35f3-482a-8b0d-bea1ad2fcd9f",
+    "nom": "tomates moyennes coupées en petits morceaux",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:18.905437"
+  },
+  {
+    "ingredient_id": "fc76bd24-414f-4ee4-afb9-f5e2ec015495",
+    "nom": "citron vert",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T14:57:18.905437"
+  },
+  {
+    "ingredient_id": "25445985-db43-4c21-b229-97af5b9b66c1",
+    "nom": "boîtes de lait de coco",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:57:18.905437"
+  },
+  {
+    "ingredient_id": "ee88e0f2-1957-450f-892c-f17e4ab7b277",
+    "nom": "à café de curry de Madras",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:57:18.905437"
+  },
+  {
+    "ingredient_id": "eab54ed7-18b8-4472-a84c-050bec8bc203",
+    "nom": "à café de curcuma",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:18.905437"
+  },
+  {
+    "ingredient_id": "b5e62824-9a61-4224-a493-2603810799cf",
+    "nom": "à café de piment séché broyé",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:18.905437"
+  },
+  {
+    "ingredient_id": "3f4cf5ef-162c-41db-a6cb-a7c501fc0a4d",
+    "nom": "aubergines",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:22.833728"
+  },
+  {
+    "ingredient_id": "b690a82e-7633-41ea-ac40-de588848ebb4",
+    "nom": "oignons s jaunes",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:22.833728"
+  },
+  {
+    "ingredient_id": "568a6487-f530-4749-bcbd-c0dbd363f3ef",
+    "nom": "pulpe de tomate s",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:22.833728"
+  },
+  {
+    "ingredient_id": "373071e0-93b8-4aef-80ce-383a5c59c97d",
+    "nom": "viande hachée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:22.833728"
+  },
+  {
+    "ingredient_id": "6f8a4e88-8ca8-436a-8c96-eec968ab4cb8",
+    "nom": "tranches de cheddar à burger",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:22.833728"
+  },
+  {
+    "ingredient_id": "851a2f55-5e21-445a-9f67-4d9011fc914d",
+    "nom": "pâtes cuites (type farfalle ou collerettes)",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T14:57:22.833728"
+  },
+  {
+    "ingredient_id": "e508157a-f29b-420e-a1e7-8968b8e8b2d0",
+    "nom": "d'emmental rapé",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:22.833728"
+  },
+  {
+    "ingredient_id": "a0e166c5-ddd4-4d43-b93d-1abddafb3bcc",
+    "nom": "café d'Herbes de provence",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:22.833728"
+  },
+  {
+    "ingredient_id": "d31c56b9-47d0-4170-aed3-0d34fe33a3f7",
+    "nom": "grosses boîtes de ratatouille achetée dans le commerce (contenance 850 ml)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:26.580039"
+  },
+  {
+    "ingredient_id": "b5a1421f-6733-47bf-846e-a7431ae95611",
+    "nom": "filets de poisson blanc selon votre goût (filets de perche, cabillaud, merlan...)",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T14:57:26.580039"
+  },
+  {
+    "ingredient_id": "0c9b11a1-504b-4672-9cdf-198e902ea32e",
+    "nom": "à soupe de moutarde",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:31.358345"
+  },
+  {
+    "ingredient_id": "5686c9c7-bfd7-43b6-90bf-25fde787e429",
+    "nom": "à soupe de ketchup allégé",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:31.358345"
+  },
+  {
+    "ingredient_id": "6c5138c2-715c-40a5-bbae-730ea6ef81aa",
+    "nom": "sachets de levure de boulanger",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:31.358345"
+  },
+  {
+    "ingredient_id": "29de7a95-b1c7-4a96-9e9a-6b09fa63c2c7",
+    "nom": "jaunes d'oeuf",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T14:57:31.358345"
+  },
+  {
+    "ingredient_id": "148965ec-d1e3-4f39-bc58-faff37d9ae4f",
+    "nom": "pincées de graines de sésame",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:31.358345"
+  },
+  {
+    "ingredient_id": "9b898e2e-fe6b-4436-b2b8-54041359a0d0",
+    "nom": "lait écrémé",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:57:31.358345"
+  },
+  {
+    "ingredient_id": "76927cb4-6a92-465a-bda0-731bac8a8aa6",
+    "nom": "cornichons",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:31.358345"
+  },
+  {
+    "ingredient_id": "eb5a73bb-ef39-4fd6-b770-21549ed480ea",
+    "nom": "tranches de cheddar Sans additifs",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:31.358345"
+  },
+  {
+    "ingredient_id": "8a9560fb-28a2-47ae-be5a-a52301d41c11",
+    "nom": "1/2 oignons",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:31.358345"
+  },
+  {
+    "ingredient_id": "b7c0529b-45ab-4572-871a-0fe114cfd8d2",
+    "nom": "steak haché 5%",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:31.358345"
+  },
+  {
+    "ingredient_id": "a7c5eed7-d66c-474b-a1ef-9f2dad750bab",
+    "nom": "filets de poisson dorade et saumon ou truite avec un poisson blanc (colin, limande...), à raison de 4 files de chaque",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T14:57:35.064867"
+  },
+  {
+    "ingredient_id": "2e73ba20-0ef5-4209-b70c-9b09959094e9",
+    "nom": "1/2 sachets de bouillon",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:35.068609"
+  },
+  {
+    "ingredient_id": "8fd3d115-bdec-4ad8-a8bd-0420da5d8e74",
+    "nom": "crème fraîche",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:57:35.068609"
+  },
+  {
+    "ingredient_id": "54d02874-0e3f-45e1-a3a4-25bd4550531a",
+    "nom": "persil",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T14:57:35.068609"
+  },
+  {
+    "ingredient_id": "3259eae4-74cb-4a92-a5a8-1aeb475ef729",
+    "nom": "à café rases de sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:57:35.068609"
+  },
+  {
+    "ingredient_id": "d66a639a-6b17-4226-8cc1-92f7d1724c19",
+    "nom": "à café rases de poivre",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:57:35.068609"
+  },
+  {
+    "ingredient_id": "5c6fbb24-b976-43a0-b5a1-8582211f8729",
+    "nom": "lieu noir ou de cabillaud",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T14:57:42.137906"
+  },
+  {
+    "ingredient_id": "0d919e85-678c-4398-8ef3-69a9aa3a75d2",
+    "nom": "champignons de Paris en boîte",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:42.137906"
+  },
+  {
+    "ingredient_id": "d06a96d8-fad7-46ad-bf35-006980eb68cd",
+    "nom": "vin blanc",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T14:57:42.137906"
+  },
+  {
+    "ingredient_id": "3b3c4291-1268-45ad-8676-4104a8536980",
+    "nom": "crème fraîche liquide",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:57:42.137906"
+  },
+  {
+    "ingredient_id": "50f90f89-9ae2-4eab-b875-7c054b2eded1",
+    "nom": "bouquet garni",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:42.137906"
+  },
+  {
+    "ingredient_id": "692ea9e9-bc42-443b-9212-89f03af99533",
+    "nom": "farine et de beurre",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:57:42.137906"
+  },
+  {
+    "ingredient_id": "51f1b506-8e09-40fc-b007-5dff7b0bd1b1",
+    "nom": "pincées de sucre",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "21404b40-ad44-45b0-8550-749eeec86863",
+    "nom": "1/2 miel",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "9ed3eb99-a002-4ee4-bf90-c58d8d9bba40",
+    "nom": "lait",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "11f52d1c-1225-438e-b558-38ea2b5254ad",
+    "nom": "sésame ou d'avoine",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "a7e0536c-ed07-4930-85dc-88d85e82d167",
+    "nom": "herbes de Provence",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "56fa2c61-da5c-41b2-9550-bae367962e17",
+    "nom": "boîte de concentré de tomates (selon si vous voulez une sauce blanche ou une sauce tomate, je propose souvent les 2)",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "e2c68c93-bec6-4795-b682-3fc750ce8bdd",
+    "nom": "oignons blancs",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "16f3c6af-0337-4f1d-8701-ff9bceedebd0",
+    "nom": "oignons jaunes",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "f117d164-97a1-4e6e-b11f-68c424d9d933",
+    "nom": "tabasco",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "29d1cd27-7e0f-48a3-9c6b-b4a34f2e3b6f",
+    "nom": "gouttes de vinaigre balsamique",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "4fe6207a-6347-4b5e-b757-ab1dfd6dd578",
+    "nom": "tranches de gruyère ou emmental",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "17cdd4ca-1492-4695-9748-e0d2f4f1801e",
+    "nom": "tranches de bleu",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "cbc9b51d-4b1b-47e8-a9f2-b86118a4ba03",
+    "nom": "tranches de reblochon",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "946c1cb4-f88e-44ec-86cf-c5662a622c79",
+    "nom": "tranches de toastinette",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "bd0c717c-43fd-4310-b077-fdedcf2ae14c",
+    "nom": "steaks",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "54dc885d-685a-4deb-8ce7-a54e2bd93262",
+    "nom": "tranches d'aubergine (une à 2 aubergine selon la taille)",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "082de42f-ac68-4d61-a6e5-1cea1ec06c5a",
+    "nom": "tranches de tomate type coeur de boeuf (2 tomates sont nécessaires en général, je ne prends pas les cotés bombés sinon ca rend le buger totalement instable, pareil pour l'aubergine, je laisse l'entame)",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "46632a90-1e5b-4370-9e9d-ef20c388027a",
+    "nom": "feuilles de salade",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "ec246f7a-8eae-4953-ba61-6a7cdb9d71a5",
+    "nom": "tranche de bacon .",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:57:46.207945"
+  },
+  {
+    "ingredient_id": "1daa34b3-f20a-4b9f-95ba-e5e9c9e72df3",
+    "nom": "crème fraîche (allégée pour une sauce light)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:57:51.101662"
+  },
+  {
+    "ingredient_id": "6de52666-bba5-4991-b87a-97c69243a59a",
+    "nom": "jus de citron",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T14:57:51.101662"
+  },
+  {
+    "ingredient_id": "ed888989-6075-4bdc-b5c9-8fa835d10c5d",
+    "nom": "ciboulette fraîche ou déshydratée",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T14:57:51.101662"
+  },
+  {
+    "ingredient_id": "2d2617a2-dbb9-48af-82cb-d5cbe9c432bd",
+    "nom": "1/2 verres de vin blanc sec",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T14:57:58.119301"
+  },
+  {
+    "ingredient_id": "77c5be0c-1742-45f5-936b-13cba8a26116",
+    "nom": "1/2 citrons",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T14:57:58.119301"
+  },
+  {
+    "ingredient_id": "982f0508-f0f3-4506-8993-3c05c5a3ff3a",
+    "nom": "tranches de bacon",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:03.403185"
+  },
+  {
+    "ingredient_id": "c5e737f1-b61c-4f83-8f3f-35e8bcf67d3a",
+    "nom": "sauce hollandaise",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:03.403185"
+  },
+  {
+    "ingredient_id": "3cd12395-b4f7-41ef-acfd-6dff66e6c0c5",
+    "nom": "pincées de sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:58:03.403185"
+  },
+  {
+    "ingredient_id": "5485aff4-724d-4fb4-84c5-68ca3eec3f94",
+    "nom": "pains pour hamburger (faits maisons si possible)",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T14:58:08.575992"
+  },
+  {
+    "ingredient_id": "76687fac-1e6e-45f1-9da7-115a184d658d",
+    "nom": "beurre (sauce poivre)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:58:08.575992"
+  },
+  {
+    "ingredient_id": "0278a2b2-8ae0-4315-815d-046e286bb11d",
+    "nom": "à café de poivre en grains",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:58:08.575992"
+  },
+  {
+    "ingredient_id": "c071fb26-509f-466d-9cd4-171fb42000bd",
+    "nom": "noisettes de beurre",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:58:08.575992"
+  },
+  {
+    "ingredient_id": "069c653b-edb3-4934-bc8d-94f221512efb",
     "nom": "à soupe de sucre",
     "type": "sucrants",
-    "date_ajout": "2025-09-13T20:14:56.785639"
+    "date_ajout": "2025-09-26T14:58:08.575992"
   },
   {
-    "ingredient_id": "f5861f36-49bb-4045-b0a7-05819ae7cce6",
-    "nom": "à soupe de miel",
-    "type": "sucrants",
-    "date_ajout": "2025-09-13T20:14:56.785639"
+    "ingredient_id": "67258e00-faa1-40b8-bf31-30566eee079c",
+    "nom": "verres d'eau",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:08.575992"
   },
   {
-    "ingredient_id": "d6f7977e-db70-4d27-96cc-69acd7e30223",
-    "nom": "à soupe de Liqueur sucrée (Mei Kui Lu, Cherry brandy ou crème de menthe)",
+    "ingredient_id": "ec60603f-379a-4647-b813-e7af7cf4b544",
+    "nom": "steaks hachés de 180g chacun",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:08.575992"
+  },
+  {
+    "ingredient_id": "9aafc2cb-b48b-42cb-b54f-42d60830c255",
+    "nom": "tranches de comté affiné",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:08.575992"
+  },
+  {
+    "ingredient_id": "467b027c-c01e-44d9-993c-e51fd7b88fb9",
+    "nom": "salade",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:08.575992"
+  },
+  {
+    "ingredient_id": "aae3478b-1ba5-4f97-ab4d-1ce30a012e91",
+    "nom": "cornichons ou 2 cornichons américains",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:08.575992"
+  },
+  {
+    "ingredient_id": "94845b3b-a68d-4d7f-a4fb-709dd07cc551",
+    "nom": "poisson cuits",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:12.287117"
+  },
+  {
+    "ingredient_id": "75e9dc85-080a-4ab7-bd25-3e7b0fa908d8",
+    "nom": "langoustine",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:12.287117"
+  },
+  {
+    "ingredient_id": "2667acbd-da1a-4451-b65c-47ec56ae2c95",
+    "nom": "crevettes cuites et décortiquées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:12.287117"
+  },
+  {
+    "ingredient_id": "30c6d4e6-0c20-4fe8-bc75-6fb22724b456",
+    "nom": "moules cuites et décoquillées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:12.287117"
+  },
+  {
+    "ingredient_id": "6e4e82dd-590d-4ff8-81db-2c812ed8f019",
+    "nom": "champignon",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:12.287117"
+  },
+  {
+    "ingredient_id": "4d15bb8f-701c-4763-98b3-5adc1833a118",
+    "nom": "boîtes de crabe",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:12.287117"
+  },
+  {
+    "ingredient_id": "4d27e9f6-eee6-4ac4-aa12-35386d3f9593",
+    "nom": "béchamel",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:12.287117"
+  },
+  {
+    "ingredient_id": "099044d2-5dc9-4323-90dc-f73377b3967c",
+    "nom": "gruyère râpé",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T14:58:12.287117"
+  },
+  {
+    "ingredient_id": "2af464e3-9570-4d09-9606-f3607d4a6edd",
+    "nom": "quelques de tomate tranches",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:16.948291"
+  },
+  {
+    "ingredient_id": "859af99e-6fad-4c09-a450-ed2a376532c6",
+    "nom": "steak 3 x 100 g",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:16.948291"
+  },
+  {
+    "ingredient_id": "e3de1753-7307-463a-9da6-696559b8e157",
+    "nom": "tranches de bacon Maigre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:16.948291"
+  },
+  {
+    "ingredient_id": "caa6ea41-b480-4ade-8945-265c2fe371c4",
+    "nom": "quelques de salade feuilles",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:16.948291"
+  },
+  {
+    "ingredient_id": "017bd470-d927-48e7-8cfd-2ff167718953",
+    "nom": "skyr 0%",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:16.948291"
+  },
+  {
+    "ingredient_id": "3a393f99-cff3-452c-a0ac-082efb7ab619",
+    "nom": "à café de ketchup Allégé",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:16.948291"
+  },
+  {
+    "ingredient_id": "eb674fa3-b97a-408d-840d-b1b5b71c08be",
+    "nom": "à café de moutarde",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:16.948291"
+  },
+  {
+    "ingredient_id": "3b192e4e-337f-4abf-b627-aa2927127f14",
+    "nom": "filets de lieu noir",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:20.643604"
+  },
+  {
+    "ingredient_id": "90e81d37-8b1d-4c13-a34b-13cb5f3ff2ef",
+    "nom": "tomates",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:20.643604"
+  },
+  {
+    "ingredient_id": "24613daa-dad5-405b-af84-aad250f83fef",
+    "nom": "courgettes",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:20.643604"
+  },
+  {
+    "ingredient_id": "6181c37b-d77a-4b6c-8d0f-cfe39f585414",
+    "nom": "gousses d'ail",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:20.643604"
+  },
+  {
+    "ingredient_id": "e52bf94b-e331-40d4-bdfd-eea5ca5f7f58",
+    "nom": "à soupe de pesto à l'aubergine grillée et basilic",
     "type": "herbes",
-    "date_ajout": "2025-09-13T20:14:56.785639"
+    "date_ajout": "2025-09-26T14:58:20.643604"
   },
   {
-    "ingredient_id": "2f7912e3-a6ff-47dd-98e7-47f643149244",
-    "nom": "potiron",
+    "ingredient_id": "00f7ebdf-6721-43ba-8de0-63968d0bffc6",
+    "nom": "filets de poisson",
     "type": "autre",
-    "date_ajout": "2025-09-13T20:15:00.121939"
+    "date_ajout": "2025-09-26T14:58:27.562316"
   },
   {
-    "ingredient_id": "a49a6bcf-6bbd-44d7-a495-64529f8cfdc8",
-    "nom": "sucre cristal",
-    "type": "sucrants",
-    "date_ajout": "2025-09-13T20:15:00.121939"
-  },
-  {
-    "ingredient_id": "fd97968a-955a-4072-967f-4e469c9ba385",
-    "nom": "noix pilées",
+    "ingredient_id": "e6fa6d5c-f0d2-4179-b87a-0e1d92964ad7",
+    "nom": "bonnes cuillères à soupe de moutarde de Dijon",
     "type": "autre",
-    "date_ajout": "2025-09-13T20:15:00.121939"
+    "date_ajout": "2025-09-26T14:58:27.562316"
   },
   {
-    "ingredient_id": "9b5b669d-a9c4-47ca-84a9-b3f9f10959e2",
+    "ingredient_id": "84a87bf8-fb87-4382-9d9e-b25d49aa0b33",
+    "nom": "bonnes cuillères à soupe de crème fraîche allégée",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:58:27.562316"
+  },
+  {
+    "ingredient_id": "9ff3716f-0bfd-4c96-b7dd-e961c7fd4fd1",
+    "nom": "à soupe de cornichons hachés",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:27.562316"
+  },
+  {
+    "ingredient_id": "21131438-8519-464c-99bb-1c428cba69e5",
+    "nom": "tranches de saumon fumé",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T14:58:31.229743"
+  },
+  {
+    "ingredient_id": "4afd796c-7517-47f1-9a14-48dc04859846",
+    "nom": "petits pots de crème fraîche épaisse à 15 % de matière grasse",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:58:31.229743"
+  },
+  {
+    "ingredient_id": "69305413-ee6d-4bb5-824c-fd2a86c5905e",
+    "nom": "à soupe de ciboulette fraîche ou surgelée",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T14:58:31.229743"
+  },
+  {
+    "ingredient_id": "8ccb1262-ed82-4900-b310-a1418da4268a",
+    "nom": "oignons rouges",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:31.229743"
+  },
+  {
+    "ingredient_id": "69a7392f-864c-45c1-826d-dcce76f1e0fd",
+    "nom": "1/2 concombres",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:31.229743"
+  },
+  {
+    "ingredient_id": "0e3213a8-dd22-41b1-8743-22b1f13cf0fe",
+    "nom": "feuille de salade",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:31.229743"
+  },
+  {
+    "ingredient_id": "37d9d0ac-9f28-4b7c-8903-46a1b1f2eb86",
+    "nom": "tabasco ou piment",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:31.229743"
+  },
+  {
+    "ingredient_id": "dd81659f-a448-4020-870f-804f779c71c2",
+    "nom": "avocats pas trop mur",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:31.229743"
+  },
+  {
+    "ingredient_id": "0d5287f0-b63f-43e4-ba38-de2f87976dd7",
+    "nom": "cornichons sucrés pour la déco",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:31.229743"
+  },
+  {
+    "ingredient_id": "63b50dfb-7562-4e16-8885-8a6935a76645",
+    "nom": "champignons de Paris en boite",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:35.099873"
+  },
+  {
+    "ingredient_id": "581f1215-04c4-46f5-9675-5a07b831f916",
+    "nom": "crème liquide",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:58:35.099873"
+  },
+  {
+    "ingredient_id": "99822183-c52a-4641-8229-e90f704d78f6",
+    "nom": "demis de pain sec",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T14:58:35.103639"
+  },
+  {
+    "ingredient_id": "b89a8a16-4cb5-4bd2-bd77-f97d755f532b",
+    "nom": "à soupe d'ail en poudre",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:35.103639"
+  },
+  {
+    "ingredient_id": "1fae9284-6bc8-475c-b5de-8c9d656c61c0",
+    "nom": "à soupe de persil en poudre",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T14:58:35.103639"
+  },
+  {
+    "ingredient_id": "e7298a73-2554-4701-8cb3-ff36a6dcca51",
+    "nom": "cubes de bouillon de boeuf",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T14:58:35.103639"
+  },
+  {
+    "ingredient_id": "c3ee7edf-995b-49ff-95cb-306133b0746d",
+    "nom": "kub or",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:35.103639"
+  },
+  {
+    "ingredient_id": "99088208-f2a4-48b6-8763-250cad909103",
+    "nom": "à café de madère (facultatif)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:35.103639"
+  },
+  {
+    "ingredient_id": "0f65fc89-d766-4137-a2fd-0b185969d774",
+    "nom": "tranches de bacon coupé en allumettes",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:39.561852"
+  },
+  {
+    "ingredient_id": "657837ce-9540-4690-8084-28d58b054b15",
+    "nom": "farine de blé",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T14:58:39.561852"
+  },
+  {
+    "ingredient_id": "d96ec3c7-a2ae-4158-bff9-c752356b3c47",
+    "nom": "pincées d'Oignons frits",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:39.561852"
+  },
+  {
+    "ingredient_id": "e0b3bb3b-b283-459d-94b2-8b85c14ae802",
+    "nom": "viande hachée 5%",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:39.561852"
+  },
+  {
+    "ingredient_id": "ab71c810-d6dc-4c98-91c5-978de92c88e0",
+    "nom": "crème allégée 4%",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:58:39.561852"
+  },
+  {
+    "ingredient_id": "0d781bf0-c617-481d-a6cd-1a9f9b7ca191",
+    "nom": "carré frais 0%",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:39.561852"
+  },
+  {
+    "ingredient_id": "81a9f47d-1829-45b5-8a41-265a1977fb19",
+    "nom": "à café d'Oignons frits en poudre",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:39.561852"
+  },
+  {
+    "ingredient_id": "bf553b54-7f20-4c7d-a68e-18efeb76c0cf",
+    "nom": "filets de poisson blanc",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T14:58:43.415563"
+  },
+  {
+    "ingredient_id": "8c800fef-ad17-44ee-8e87-7e4a73477c1b",
+    "nom": "fromage râpé",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T14:58:43.415563"
+  },
+  {
+    "ingredient_id": "84cf0e54-f9d4-411d-8f7e-ae5ef3a63246",
+    "nom": "pots de crème fraîche épaisse",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:58:43.415563"
+  },
+  {
+    "ingredient_id": "ab21b44d-2c58-471a-9ea3-01e9c5f2633a",
+    "nom": "boîtes de homard",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:43.415563"
+  },
+  {
+    "ingredient_id": "7e698a74-dea3-46c8-aa07-f0c30aff5f03",
+    "nom": "cubes de bouillon de légumes",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:48.432478"
+  },
+  {
+    "ingredient_id": "906a580b-4baa-4aba-b5e5-269b0f891e61",
+    "nom": "polenta",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:48.432478"
+  },
+  {
+    "ingredient_id": "7ad16ac8-39b5-482c-adbd-72c436dfb1d5",
+    "nom": "safran",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:48.432478"
+  },
+  {
+    "ingredient_id": "d6a77321-7fba-419d-a1da-7b3bff94022f",
+    "nom": "pointes de muscade",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:58:48.432478"
+  },
+  {
+    "ingredient_id": "9f5bc1c6-1910-4a88-bdc3-364cc73d89b4",
+    "nom": "mozzarella",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T14:58:48.432478"
+  },
+  {
+    "ingredient_id": "42d8e8ae-bbb1-4b49-851f-254d53fb830a",
+    "nom": "à soupe de crème fraîche",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:58:48.432478"
+  },
+  {
+    "ingredient_id": "9a40c267-6920-42b6-b78e-8f88f607b9bb",
+    "nom": "brin de ciboulette",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T14:58:48.432478"
+  },
+  {
+    "ingredient_id": "26a2f1b9-b1d5-428a-834c-052553a5198a",
+    "nom": "dorades ou 4 filets de poisson maigre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:52.103567"
+  },
+  {
+    "ingredient_id": "301a0b30-5d8f-4c4c-8e8e-3f4f07e6261a",
+    "nom": "1/2 verres d'huile d'arachide ou de tournesol",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T14:58:52.103567"
+  },
+  {
+    "ingredient_id": "565e1538-5983-435d-b659-fddaac6d741a",
+    "nom": "grains de poivre entiers",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:58:52.103567"
+  },
+  {
+    "ingredient_id": "bc81ff66-0214-4c92-b409-d9b7b64b6024",
+    "nom": "gingembre frais",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:52.103567"
+  },
+  {
+    "ingredient_id": "3aeca8a6-9090-4343-8140-720ffaa7f236",
+    "nom": "ail",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:52.103567"
+  },
+  {
+    "ingredient_id": "b7628414-ba0a-41ec-af33-209721ddaf28",
+    "nom": "oignons frais avec leurs tiges",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:52.103567"
+  },
+  {
+    "ingredient_id": "33638174-bc0e-4f39-b7a8-af10f540ffca",
+    "nom": "1/2 verres de soja",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:52.103567"
+  },
+  {
+    "ingredient_id": "8510c804-c55a-4700-b4e4-674282520018",
+    "nom": "poisson en gros dés (mérou, cabillaud, limande, lotte, lieu...)",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T14:58:55.765337"
+  },
+  {
+    "ingredient_id": "e028f8eb-ed84-44dd-8924-5a8bb244d5d5",
+    "nom": "Fruits de mer (moules, crevettes, coquilles st Jacques- pétoncles)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:55.765337"
+  },
+  {
+    "ingredient_id": "6579a4e8-562e-437d-b024-63f1e7ca1651",
+    "nom": "huile de friture",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T14:58:55.765337"
+  },
+  {
+    "ingredient_id": "34c77b4b-76f8-428e-9a10-94f194ad92ff",
+    "nom": "oeufs battus en omelette",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T14:58:55.765337"
+  },
+  {
+    "ingredient_id": "9f4b3901-651d-463e-bd43-3a9df6044d19",
+    "nom": "filets de poisson (perche du Nil)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:59.599584"
+  },
+  {
+    "ingredient_id": "c1c779b7-37a8-4a92-b095-0ff37868b2e0",
+    "nom": "carottes",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:59.599584"
+  },
+  {
+    "ingredient_id": "566c1f88-ff74-425e-ad0f-5756575ea4b4",
+    "nom": "tomates confites à l’huile",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:58:59.599584"
+  },
+  {
+    "ingredient_id": "18302759-5e17-4541-987c-2c5725f63a42",
+    "nom": "thym",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:58:59.599584"
+  },
+  {
+    "ingredient_id": "e35ad98f-725f-4682-b4a6-713292dfcf10",
+    "nom": "crème",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:58:59.599584"
+  },
+  {
+    "ingredient_id": "537a45c4-b21e-43c2-8408-024140c6d3fa",
+    "nom": "aneth",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:58:59.599584"
+  },
+  {
+    "ingredient_id": "679eecb9-2350-4f48-acfe-904c984783cd",
+    "nom": "plaque de lasagnes",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:05.407287"
+  },
+  {
+    "ingredient_id": "335d8334-da69-47a8-b4bb-b597e7b49e89",
+    "nom": "poisson variés (saumon, maquereau, lieu...)",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T14:59:05.407287"
+  },
+  {
+    "ingredient_id": "e54fd535-5d70-4279-b568-8c40376f03ed",
+    "nom": "pots de sauce tomate cuisinées (évidemment c'est encore meilleur avec de la sauce tomate \"maison\")",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:59:05.407287"
+  },
+  {
+    "ingredient_id": "8c6aab94-d8e4-4a3e-b3da-84e3d066ef4d",
+    "nom": "pots de boursin cuisine à la tomate",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:59:05.407287"
+  },
+  {
+    "ingredient_id": "157f2704-3986-4e64-8053-2cd65aab5ed2",
+    "nom": "gruyère râpé (ou mozzarella)",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T14:59:05.407287"
+  },
+  {
+    "ingredient_id": "14c063f7-1c04-4238-bc23-506475d6c07d",
+    "nom": "filets de poisson par personne (cabillaud, sole ou autre)",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T14:59:09.194065"
+  },
+  {
+    "ingredient_id": "419ad443-c1b8-48f1-a71e-1fdb8ad9bea5",
+    "nom": "verres de vin blanc",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T14:59:09.194065"
+  },
+  {
+    "ingredient_id": "0c18aea5-176c-4ab3-b4af-aae60a45a03e",
+    "nom": "à soupe de maïzena",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:09.194065"
+  },
+  {
+    "ingredient_id": "3ed38991-a028-4e4e-8366-e18d39d516c7",
+    "nom": "ciboulette hâchée",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T14:59:09.194065"
+  },
+  {
+    "ingredient_id": "f2471330-7cde-4680-b358-97d913d5b58c",
+    "nom": "paprika",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:59:09.194065"
+  },
+  {
+    "ingredient_id": "4ea90d60-f9d1-43ed-859e-26d53ec92dc5",
+    "nom": "oignons émincés",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:59:16.142271"
+  },
+  {
+    "ingredient_id": "9f35b632-d57b-4518-aa6c-46c9fc10264e",
+    "nom": "noix de coco rapée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:16.142271"
+  },
+  {
+    "ingredient_id": "439ecd91-274d-4c44-b66a-83fc4e24016d",
+    "nom": "coriandre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:16.142271"
+  },
+  {
+    "ingredient_id": "296efccf-19ca-4364-a5c5-fe57158ef2af",
+    "nom": "cumin",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:59:16.142271"
+  },
+  {
+    "ingredient_id": "585601ae-2b74-4954-8d24-ced8f01c74d2",
+    "nom": "gingembre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:16.142271"
+  },
+  {
+    "ingredient_id": "8c8e8d7d-0b0f-4577-bb8b-33007196722e",
+    "nom": "muscade",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:59:16.142271"
+  },
+  {
+    "ingredient_id": "161fbfe5-424f-4e2b-b0ba-a4bed1f06246",
+    "nom": "cannelle",
+    "type": "épices",
+    "date_ajout": "2025-09-26T14:59:16.142271"
+  },
+  {
+    "ingredient_id": "40c68ca9-9d71-4745-8ee3-98dec4f05605",
+    "nom": "lait de coco",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:59:16.142271"
+  },
+  {
+    "ingredient_id": "aedc7f8e-30c4-44e5-841d-ae0e323f510d",
+    "nom": "blanquette de veau ( de la dinde ou du filet de poulet fond aussi l'affaire )",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T14:59:19.901175"
+  },
+  {
+    "ingredient_id": "eac8e897-854d-479b-8b84-80186b121a37",
+    "nom": "cubes de bouillon de poulet",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T14:59:19.901175"
+  },
+  {
+    "ingredient_id": "83a9727b-4b5b-45fe-80a7-2f4c1af3315a",
+    "nom": "cubes de bouillon de légume",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:19.901175"
+  },
+  {
+    "ingredient_id": "b87a1332-f2c2-4b80-ae25-f03edc243248",
+    "nom": "petites boîtes de champignon (coupés)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:19.901175"
+  },
+  {
+    "ingredient_id": "f13f06e1-b921-424c-984d-5685ca240a5a",
+    "nom": "petits pots de crème fraîche",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:59:19.901175"
+  },
+  {
+    "ingredient_id": "3f4cfa76-6545-4a81-ab4a-c0639b8f8781",
+    "nom": "tranches de cheddar",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:19.901175"
+  },
+  {
+    "ingredient_id": "eec4a717-41b8-4d33-87a9-62bbf0f047ad",
+    "nom": "boîtes de 400 g de pois chiches égouttée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:25.008013"
+  },
+  {
+    "ingredient_id": "ae6dd368-1699-49bb-8ef9-8977464b3d7a",
+    "nom": "carottes râpée",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:59:25.008013"
+  },
+  {
+    "ingredient_id": "e57c3207-2c53-424d-9636-6d6ae9b3941b",
+    "nom": "graines de tournesol",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T14:59:25.008013"
+  },
+  {
+    "ingredient_id": "318bac54-dbc2-48d9-9e32-c6ff357e841c",
+    "nom": "à café de tahiné (pâte de sésame)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:25.008013"
+  },
+  {
+    "ingredient_id": "8370a828-eb91-4777-b57d-00e5cdf7769e",
+    "nom": "demi de citron",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T14:59:25.008013"
+  },
+  {
+    "ingredient_id": "a1852339-8d4a-446d-87ba-c2c1bc825b88",
+    "nom": "pâtes feuilletées",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T14:59:28.809209"
+  },
+  {
+    "ingredient_id": "3a6a1e87-0511-44f9-af97-393ec025500a",
+    "nom": "steaks hachés",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:28.809209"
+  },
+  {
+    "ingredient_id": "38f42c24-a172-443a-a143-9c32a8603801",
+    "nom": "ketchup",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:28.809209"
+  },
+  {
+    "ingredient_id": "15688c84-1572-43c7-89ba-3e475dd6d547",
+    "nom": "filets d'huile d'olive",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T14:59:28.809209"
+  },
+  {
+    "ingredient_id": "cd543495-61fd-4250-9911-fca1694f4348",
+    "nom": "boîtes de fromage ail et fines herbes",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:59:33.665472"
+  },
+  {
+    "ingredient_id": "a121409e-7626-4fd1-b5d1-8c976b0c4886",
+    "nom": "pots de crème fraîche liquide",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:59:33.665472"
+  },
+  {
+    "ingredient_id": "d8b8bcff-5bea-49f7-8cdd-37979fd57f22",
+    "nom": "porc",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T14:59:37.516816"
+  },
+  {
+    "ingredient_id": "4465a2f9-e23c-495e-8ee3-ef2075ac9ed8",
+    "nom": "à soupe de sauce nuoc mam",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:37.516816"
+  },
+  {
+    "ingredient_id": "7a64f473-4e44-4db0-a2b2-c46936eb4285",
+    "nom": "à soupe d'huile de sésame",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T14:59:37.516816"
+  },
+  {
+    "ingredient_id": "863d8bcd-77be-4b3a-99e6-d6b0e84f58cb",
+    "nom": "à soupe de sauce soja",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:37.516816"
+  },
+  {
+    "ingredient_id": "cf2263c4-846d-43d1-94c5-6c51fa411519",
+    "nom": "citrons verts",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T14:59:37.516816"
+  },
+  {
+    "ingredient_id": "53d365d1-3372-4f55-8ba4-41b8d168fcba",
+    "nom": "lait tiède",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T14:59:37.516816"
+  },
+  {
+    "ingredient_id": "8f04c118-60d9-4ccf-9b04-5ad5dba93f28",
+    "nom": "carotte pickles",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:59:37.516816"
+  },
+  {
+    "ingredient_id": "e1b32e4f-9018-4dab-8081-ef57a963e5ba",
+    "nom": "bouquets de coriandre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:37.516816"
+  },
+  {
+    "ingredient_id": "ae17f624-7dd3-4840-98c8-624caa28db76",
+    "nom": "lieu noir",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:42.713198"
+  },
+  {
+    "ingredient_id": "187b05c5-0488-4797-a60b-68430808797a",
+    "nom": "saumon",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T14:59:42.713198"
+  },
+  {
+    "ingredient_id": "bbf94319-ce2b-45ce-9904-2bcb4a7efcca",
+    "nom": "coquille saint-jacques surgelées (avec corail)",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:59:42.713198"
+  },
+  {
+    "ingredient_id": "8f78addc-fe6c-4eb9-b570-df8a1e1fb170",
+    "nom": "tsuyu (bouillon au poisson volant)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:42.713198"
+  },
+  {
+    "ingredient_id": "758c8306-8237-40b8-8a70-60fa50eb0603",
+    "nom": "Parmesan",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T14:59:42.713198"
+  },
+  {
+    "ingredient_id": "321721b2-c94f-4485-9575-8d635a1cb146",
+    "nom": "plaques de lasagnes",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:46.680895"
+  },
+  {
+    "ingredient_id": "d2557faa-c2b9-496e-aa01-de577a004dd1",
+    "nom": "poisson (colin, lieu, saumon...)",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T14:59:46.680895"
+  },
+  {
+    "ingredient_id": "31a0c9ae-f445-449d-98da-794c323034bd",
+    "nom": "d'épinards à la crème surgelés",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:59:46.680895"
+  },
+  {
+    "ingredient_id": "19f1485f-bbd2-4123-b40a-b617f9388d01",
+    "nom": "pots de boursin cuisine",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:46.680895"
+  },
+  {
+    "ingredient_id": "32e33f58-1dd3-4f04-bba8-46e4288f97ca",
+    "nom": "pommes de terre",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T14:59:50.425274"
+  },
+  {
+    "ingredient_id": "54dd4056-b1a4-4d84-a10f-7862b6ba1e24",
+    "nom": "cubes de bouillon de poisson",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:50.425274"
+  },
+  {
+    "ingredient_id": "50ea4b4d-8217-4efa-b2d2-042a672747d6",
+    "nom": "carottes (selon la taille)",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:59:50.425274"
+  },
+  {
+    "ingredient_id": "ce25bbfd-8785-4e36-bf23-4ddbc121539f",
+    "nom": "bouquets de persil plat (ou persil turc)",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T14:59:50.425274"
+  },
+  {
+    "ingredient_id": "744cd654-138d-4f06-a34e-0c09f33efd1c",
+    "nom": "petites boîtes de concentré de tomates de 70 g",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T14:59:50.425274"
+  },
+  {
+    "ingredient_id": "c6e6e8fd-ff81-4627-b5e0-259edae795fe",
+    "nom": "filets de saumon frais (ou surgelé)",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T14:59:50.425274"
+  },
+  {
+    "ingredient_id": "963beb78-0fb5-4a39-9dd0-4958a781d140",
+    "nom": "filets de lieu noir noir frais (ou surgelé)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:50.425274"
+  },
+  {
+    "ingredient_id": "12856123-f38f-4c08-8f79-65abcc7719d5",
+    "nom": "filets de tilapia (ou autre poisson blanc du genre cabillaud)",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T14:59:55.579001"
+  },
+  {
+    "ingredient_id": "c338c67c-8c89-4e6e-a34f-520f0d12e7ca",
+    "nom": "pommes vertes (granny)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T14:59:55.579001"
+  },
+  {
+    "ingredient_id": "ef1f8da7-86c0-408c-9be9-e570b7c9c7d9",
+    "nom": "lardons fumés bien maigres",
+    "type": "autre",
+    "date_ajout": "2025-09-26T14:59:55.579001"
+  },
+  {
+    "ingredient_id": "02ee20ad-19c8-4378-9ecb-2c2534656e3e",
     "nom": "noix de beurre",
     "type": "produits_laitiers",
-    "date_ajout": "2025-09-13T20:15:00.121939"
+    "date_ajout": "2025-09-26T14:59:55.579001"
+  },
+  {
+    "ingredient_id": "8ff2c485-919d-4136-ae4f-bedf391f9ba3",
+    "nom": "riz basmati",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T14:59:55.579001"
+  },
+  {
+    "ingredient_id": "69856e52-0642-4587-9330-d167c964f119",
+    "nom": "curcuma (facultatif)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:02.489232"
+  },
+  {
+    "ingredient_id": "f36d5470-1205-4b90-8673-44c4d6868290",
+    "nom": "boîtes de 400 g de ravioli au fromage",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:00:05.977689"
+  },
+  {
+    "ingredient_id": "3253017e-4585-4ee7-a8a4-4cbc963b54f6",
+    "nom": "1/2 boîtes de tomates concassées",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:00:05.977689"
+  },
+  {
+    "ingredient_id": "bc3e60c9-625c-4502-8802-54a4c3300ef5",
+    "nom": "1/4 boîtes de coulis de tomate",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:00:05.977689"
+  },
+  {
+    "ingredient_id": "708c5699-607f-4a1d-b964-ac46c797d1f5",
+    "nom": "boîtes de champignons de Paris émincés",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:05.977689"
+  },
+  {
+    "ingredient_id": "256f34a8-4516-4988-8b32-3f389cf709fb",
+    "nom": "poignées de tortils",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:05.977689"
+  },
+  {
+    "ingredient_id": "4e39c1c2-607b-469f-b7c4-581ac5d94e18",
+    "nom": "poignées de gruyère râpé",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:00:05.977689"
+  },
+  {
+    "ingredient_id": "f9218763-d470-44fc-b7f6-08e355b136df",
+    "nom": "basilic en poudre",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:00:05.977689"
+  },
+  {
+    "ingredient_id": "41222d4e-1e36-403d-8ce1-ac684ddf4b6b",
+    "nom": "colin",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:09.847292"
+  },
+  {
+    "ingredient_id": "ba36f1c7-735d-41bf-a8c6-4af85443f0cc",
+    "nom": "blancs d'oeuf",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:00:09.847292"
+  },
+  {
+    "ingredient_id": "8b252a30-dafa-4f97-b3d2-9bbabcb0e6f4",
+    "nom": "citrons pressé",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:00:09.847292"
+  },
+  {
+    "ingredient_id": "d01380af-4ec9-456c-a713-53022008c99f",
+    "nom": "petits pots d'oeuf de lump",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:00:09.847292"
+  },
+  {
+    "ingredient_id": "d06c903d-44d9-499b-be7e-303aba7ef6e6",
+    "nom": "brin d'aneth",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:09.847292"
+  },
+  {
+    "ingredient_id": "d2bb2dc7-6b05-4ed2-be12-7d5cc3a6d8b6",
+    "nom": "lentilles vertes",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:14.982503"
+  },
+  {
+    "ingredient_id": "18a30696-f809-45c8-8074-61864794b575",
+    "nom": "à café de cumin",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:00:14.984803"
+  },
+  {
+    "ingredient_id": "ead21517-013f-4f0c-a1e0-66e187ac7dcf",
+    "nom": "à soupe de concentré de tomates",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:00:14.984803"
+  },
+  {
+    "ingredient_id": "8962f1c3-7737-4cf7-834c-bd8f8b873600",
+    "nom": "comté",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:14.985106"
+  },
+  {
+    "ingredient_id": "883b9468-b334-49f7-a510-defe0d686565",
+    "nom": "à soupe de ketchup",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:14.985106"
+  },
+  {
+    "ingredient_id": "8201b486-0e3c-4898-be98-aa1aeff525d0",
+    "nom": "à soupe de mayonnaise",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:14.985106"
+  },
+  {
+    "ingredient_id": "81785f81-b73b-4238-81a8-960eb6fa545d",
+    "nom": "pincées de poivre",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:00:14.985106"
+  },
+  {
+    "ingredient_id": "bacc5d26-bae7-4212-b384-d4bbf93cac7e",
+    "nom": "crème fraîche épaisse",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:00:18.447392"
+  },
+  {
+    "ingredient_id": "5ddc5501-7c97-444c-b684-fdface096f78",
+    "nom": "beurre ou margarine",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:00:18.447392"
+  },
+  {
+    "ingredient_id": "318b4818-a184-4d81-95bb-fb87c9e6b865",
+    "nom": "boîtes de sardine à l'huile d'olive",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T15:00:22.837509"
+  },
+  {
+    "ingredient_id": "07619fb5-5e2b-4773-81af-210142b199ad",
+    "nom": "d'amandes en poudre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:22.837509"
+  },
+  {
+    "ingredient_id": "8c895115-45af-436a-a5fa-a860839386df",
+    "nom": "brins de thym",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:00:22.837509"
+  },
+  {
+    "ingredient_id": "dc9dba08-3c2b-4761-8619-cde79e231e9a",
+    "nom": "zestes de citron non traité",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:00:22.837509"
+  },
+  {
+    "ingredient_id": "793a1026-72f4-43bc-b041-34fb6d81f9d0",
+    "nom": "tomate",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:00:22.837509"
+  },
+  {
+    "ingredient_id": "7cd09875-3a53-452d-9220-e78e08616366",
+    "nom": "branches de basilic",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:00:22.837509"
+  },
+  {
+    "ingredient_id": "522762cb-ade5-430d-81c0-dcecaaa43547",
+    "nom": "à soupe de Vinaigre de vin rouge Amora",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:22.837509"
+  },
+  {
+    "ingredient_id": "6d1024d2-169e-41ad-9fc6-a8eb929b91c8",
+    "nom": "poivre du moulin",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:00:22.837509"
+  },
+  {
+    "ingredient_id": "c99c327d-5112-41ff-a63d-041a0b751ac4",
+    "nom": "lait d'avoine",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:00:27.516106"
+  },
+  {
+    "ingredient_id": "7abbbd51-7297-4191-9fb3-0c8a2fa7cc14",
+    "nom": "à café de levure de boulanger sèche",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:27.516106"
+  },
+  {
+    "ingredient_id": "632ded13-03d9-4d6d-a609-508c074a4b11",
+    "nom": "bonnes pincées de sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:00:27.516106"
+  },
+  {
+    "ingredient_id": "f5fdb340-b268-4243-a1cc-dcdf114f51cf",
+    "nom": "à soupe de sésame",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:27.516106"
+  },
+  {
+    "ingredient_id": "6a838cca-8383-4d00-a505-9e9b6a2b8b5d",
+    "nom": "1/2 choux-fleurs",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:27.516106"
+  },
+  {
+    "ingredient_id": "45d3e61d-ffa7-44f2-9d0b-3151481bcff3",
+    "nom": "chou rouge",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:27.516791"
+  },
+  {
+    "ingredient_id": "90a7a5c6-a775-4f81-b634-21dc0a4f3a5f",
+    "nom": "feuilles de laitue",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:00:27.516791"
+  },
+  {
+    "ingredient_id": "b6e8ca17-342b-4530-b454-c1e242bd273d",
+    "nom": "à soupe de crème de coco",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:00:27.516791"
+  },
+  {
+    "ingredient_id": "a79a1425-5492-46d7-be0b-4b8a21d34830",
+    "nom": "à café rases de curry doux",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:00:27.516791"
+  },
+  {
+    "ingredient_id": "82dcdfa9-8087-4e89-8d61-e5420b2dbe09",
+    "nom": "pincées de piment facultatif",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:00:27.516791"
+  },
+  {
+    "ingredient_id": "5a903dd9-62b3-44aa-bcba-962e4473b612",
+    "nom": "canneloni à farcir",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:09.123329"
+  },
+  {
+    "ingredient_id": "abecda94-6fd7-4ea3-b425-96c8e509543f",
+    "nom": "viande hachée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:09.123329"
+  },
+  {
+    "ingredient_id": "e0a44d45-7175-415c-b203-9ae916103c8e",
+    "nom": "d'épinards",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:09.123329"
+  },
+  {
+    "ingredient_id": "2e2e10cf-2af6-47fe-8118-421fab5a7ca1",
+    "nom": "gruyère râpé",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:02:09.123329"
+  },
+  {
+    "ingredient_id": "1b700aec-d0c0-4ae5-8b22-ec40db5e55a4",
+    "nom": "coulis de tomate",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:09.123329"
+  },
+  {
+    "ingredient_id": "b447c169-4674-4a68-93c2-8ac08071850d",
+    "nom": "oeufs",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:02:09.123329"
+  },
+  {
+    "ingredient_id": "0b9c00d1-cd71-44e7-906d-0651e388fce6",
+    "nom": "oignons",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:09.123329"
+  },
+  {
+    "ingredient_id": "5d60540e-a1a4-4fdc-b643-182d74232ca8",
+    "nom": "bouquets de persil",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:02:09.123329"
+  },
+  {
+    "ingredient_id": "ded4198a-bf5c-4656-87c4-3aeda27a5c88",
+    "nom": "gousses d'ail",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:09.123329"
+  },
+  {
+    "ingredient_id": "c2c4bfcc-1f4f-4809-8f0f-5d2d14befe46",
+    "nom": "poivre",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:02:09.123329"
+  },
+  {
+    "ingredient_id": "d1821106-c25c-4b08-96a6-9f21e9126d70",
+    "nom": "sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:02:09.123329"
+  },
+  {
+    "ingredient_id": "559058b5-3eab-417e-ba0d-010979f15e1e",
+    "nom": "huile d'olive (ou de pépins de raisin)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:02:09.123329"
+  },
+  {
+    "ingredient_id": "0ccddb0d-27db-4675-8c74-f3377ac9f66d",
+    "nom": "à soupe de mayonnaise",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:13.855992"
+  },
+  {
+    "ingredient_id": "dee833b2-16de-4987-9aa6-59aec3eb778d",
+    "nom": "à soupe de crème fraîche",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:02:13.855992"
+  },
+  {
+    "ingredient_id": "bfa959fe-81aa-4b6b-99e9-9d07299d130d",
+    "nom": "1/2 cuillères à soupe de ciboulette séchée",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:02:13.855992"
+  },
+  {
+    "ingredient_id": "b88fd599-be5e-4b2b-84bb-4b5fe22aaca0",
+    "nom": "1/2 cuillères à soupe de persil haché séché",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:02:13.855992"
+  },
+  {
+    "ingredient_id": "93f3ce38-8ec0-4df6-a97c-ca77f4ff4fa3",
+    "nom": "à café de jus de citron",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:02:13.855992"
+  },
+  {
+    "ingredient_id": "a4381e87-941a-42d7-8122-f20ac03e833b",
+    "nom": "à café d'ail séché",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:13.855992"
+  },
+  {
+    "ingredient_id": "a15d0eb5-69d9-415a-afbf-d1f744c08991",
+    "nom": "filets d'eau pour la consistance",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:13.855992"
+  },
+  {
+    "ingredient_id": "08c6ff51-3b40-408d-a3ea-1f0ecb880ebc",
+    "nom": "filets d'anchois",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:17.609576"
+  },
+  {
+    "ingredient_id": "38fa3c09-c821-48dd-8624-071a7cddb56e",
+    "nom": "d'huile d'olive (extra vierge)",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:02:17.609576"
+  },
+  {
+    "ingredient_id": "c5044074-8b8b-48eb-aee6-f3a3f2fc1b22",
+    "nom": "oeufs durs",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:02:17.609576"
+  },
+  {
+    "ingredient_id": "248d3488-6921-44eb-9d86-5b21e458ef36",
+    "nom": "vinaigre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:17.609576"
+  },
+  {
+    "ingredient_id": "b84f8879-a01b-4cc6-9f74-664b7377f885",
+    "nom": "câpres",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:17.609576"
+  },
+  {
+    "ingredient_id": "0f6bab56-79a3-4467-a468-5bc254ffed9d",
+    "nom": "pain",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:02:17.609576"
+  },
+  {
+    "ingredient_id": "a62580da-7c8f-4457-9a29-743acd5bc806",
+    "nom": "persil",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:02:17.609576"
+  },
+  {
+    "ingredient_id": "0c981d07-1944-4b82-9231-c9b52581b18f",
+    "nom": "pincées de sucre",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:02:17.609576"
+  },
+  {
+    "ingredient_id": "71b4eec0-594d-4764-87cb-451999a7b17c",
+    "nom": "viande d’agneau",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:02:21.319629"
+  },
+  {
+    "ingredient_id": "598986db-92cb-44be-a83d-5714fd4dae86",
+    "nom": "citrons",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:02:21.319629"
+  },
+  {
+    "ingredient_id": "d765ef83-1315-4793-b353-ee910e586710",
+    "nom": "à soupe d'huile olive",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:02:21.319629"
+  },
+  {
+    "ingredient_id": "77797879-a143-4bbc-91af-17415a979890",
+    "nom": "yaourts type bulgare",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:02:21.319629"
+  },
+  {
+    "ingredient_id": "d0af9d12-60d7-4834-85c4-31b10709bb4e",
+    "nom": "menthe fraîche",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:02:21.319629"
+  },
+  {
+    "ingredient_id": "e22b1040-5338-4e24-93fc-dabf904bf98e",
+    "nom": "pâtes brisées",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:02:25.150514"
+  },
+  {
+    "ingredient_id": "d538bc5e-bc28-4e24-bd22-768eb86d9a53",
+    "nom": "poivrons rouges",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:25.150514"
+  },
+  {
+    "ingredient_id": "e2535c5f-4c16-4eb6-b296-b4cc341f244f",
+    "nom": "poivrons verts",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:25.150514"
+  },
+  {
+    "ingredient_id": "5da4564b-fc2a-4b8b-8a38-9d43186318e2",
+    "nom": "petites boîtes de concentré de tomates",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:25.150514"
+  },
+  {
+    "ingredient_id": "e37a3ea4-83d3-468a-b3a8-0e40ad4ce514",
+    "nom": "mozzarella",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:02:25.150514"
+  },
+  {
+    "ingredient_id": "07796931-fff9-46e0-bc89-f8ece1ff78ab",
+    "nom": "beurre",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:02:25.150514"
+  },
+  {
+    "ingredient_id": "2b4db504-ba43-4267-a832-6ade8163aef8",
+    "nom": "d'eau",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:25.150514"
+  },
+  {
+    "ingredient_id": "27c0aaf3-dd93-4e57-b418-68a0de69ca57",
+    "nom": "fromage râpé",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:02:25.150514"
+  },
+  {
+    "ingredient_id": "8ac253d4-b256-43b5-a3db-59f07b3d4060",
+    "nom": "à café de sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:02:25.150514"
+  },
+  {
+    "ingredient_id": "cc3dfa9b-add5-46ce-b6af-398c278cf25a",
+    "nom": "à café de poivre",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:02:25.150514"
+  },
+  {
+    "ingredient_id": "31d2e531-954d-4d77-95e4-e2ddd086112b",
+    "nom": "à café de paprika",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:02:25.150514"
+  },
+  {
+    "ingredient_id": "ac97eb9d-2866-46a9-b203-384218a610cd",
+    "nom": "à café d'ail en poudre",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:25.150514"
+  },
+  {
+    "ingredient_id": "cb6eac99-dd15-436f-aaaa-9c340697ca53",
+    "nom": "pâtes à pizza",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:02:28.807096"
+  },
+  {
+    "ingredient_id": "d563fdda-fe61-4994-9ee6-c976fd0dab69",
+    "nom": "à soupe de coulis de tomate",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:28.807096"
+  },
+  {
+    "ingredient_id": "7fb86f7e-a453-438c-9060-7d713d0d5ef5",
+    "nom": "poulet kebbab",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:02:28.807096"
+  },
+  {
+    "ingredient_id": "62b48abb-d711-4871-9ab8-712cefdb1b95",
+    "nom": "boules de mozzarella",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:02:28.807096"
+  },
+  {
+    "ingredient_id": "46f7ecab-ed54-457f-8107-c37ec88c8fa5",
+    "nom": "gruyère",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:02:28.807096"
+  },
+  {
+    "ingredient_id": "f26133b9-ae45-4fbe-9924-df3b3d1cd917",
+    "nom": "tomates en rondelles",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:28.807096"
+  },
+  {
+    "ingredient_id": "dd62bf78-d342-4e70-adeb-ebb2b8812328",
+    "nom": "filets d'huile d'olive",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:02:28.807096"
+  },
+  {
+    "ingredient_id": "4583ddf5-fee6-4b68-84cb-c1f2fb1e43c3",
+    "nom": "d'époisses affiné à point",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:32.471807"
+  },
+  {
+    "ingredient_id": "838b8ba5-3a88-46db-8bdb-d1908c67dddc",
+    "nom": "crème semi-épaisse",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:02:32.471807"
+  },
+  {
+    "ingredient_id": "879a0631-5170-464f-bcee-cfdd7a540494",
+    "nom": "muscade",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:02:32.471807"
+  },
+  {
+    "ingredient_id": "80362c5b-cccb-446e-be10-09541cf07195",
+    "nom": "à soupe de curry",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:02:36.179154"
+  },
+  {
+    "ingredient_id": "3c9b5487-64db-4a7f-b20f-5d9f23c3de60",
+    "nom": "viande (poulet, dinde, boeuf ou porc)",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:02:36.179154"
+  },
+  {
+    "ingredient_id": "8919e550-6390-4c4a-83f0-2666fd9e9d1b",
+    "nom": "lait de coco",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:02:36.179154"
+  },
+  {
+    "ingredient_id": "2786f396-590b-4a6c-bed8-7d200821a2c9",
+    "nom": "pomme de terre",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:36.179154"
+  },
+  {
+    "ingredient_id": "1bd62a86-c5ac-46c0-beac-6e713b66fea4",
+    "nom": "carotte",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:36.179154"
+  },
+  {
+    "ingredient_id": "de36b668-5e29-4fd9-beb1-0168ffaafa6f",
+    "nom": "d'oignon",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:36.179154"
+  },
+  {
+    "ingredient_id": "b8ef69d0-2e06-4526-aa0c-56fc5ba2973a",
+    "nom": "d'échalote écrasées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:36.179154"
+  },
+  {
+    "ingredient_id": "2875716b-521d-434b-b054-80871026a62e",
+    "nom": "rouleaux de pâte feuilletée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:39.880313"
+  },
+  {
+    "ingredient_id": "03417592-82da-494d-bebb-740665a5b7ca",
+    "nom": "boeuf haché",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:02:39.880313"
+  },
+  {
+    "ingredient_id": "896afc1c-479c-4a44-b89f-ad3df50d3f54",
+    "nom": "viande hachée de porc",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:02:39.880313"
+  },
+  {
+    "ingredient_id": "c91f3dd7-83d1-405f-995e-273e1ab66d0d",
+    "nom": "courgettes",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:39.880313"
+  },
+  {
+    "ingredient_id": "f02f8d50-3b4a-4341-b91f-281a1cff8eb8",
+    "nom": "carottes",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:39.880313"
+  },
+  {
+    "ingredient_id": "41be9595-3ccb-4cff-a022-a31bc662c9ca",
+    "nom": "poivrons rouges et 1 vert",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:39.880313"
+  },
+  {
+    "ingredient_id": "554e22a4-0d63-4fa6-84a4-15d6a9c2cc73",
+    "nom": "crème liquide",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:02:39.880313"
+  },
+  {
+    "ingredient_id": "6378b326-dbb0-4aee-a99c-d8a4eb3a4c14",
+    "nom": "à soupe de pistou",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:39.880313"
+  },
+  {
+    "ingredient_id": "ea7280a7-e3ea-4b3b-881b-1c2c71cf6d43",
+    "nom": "Ras el Hanout (2 cuillères à café)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:39.880313"
+  },
+  {
+    "ingredient_id": "b104ab46-944b-419c-b299-005483e073a3",
+    "nom": "brin de thym",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:02:39.880313"
+  },
+  {
+    "ingredient_id": "920eb573-dd41-41a4-b046-a80045e4b577",
+    "nom": "herbes de Provence",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:39.880313"
+  },
+  {
+    "ingredient_id": "75fdfbe0-12d4-4469-94fd-48183508ad86",
+    "nom": "persil ciselé",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:02:39.880313"
+  },
+  {
+    "ingredient_id": "48e4911c-2588-4fa6-a394-7346302166b6",
+    "nom": "huile d'olive",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:02:39.880313"
+  },
+  {
+    "ingredient_id": "1471467c-223b-4e2e-b005-835efd6b5d9b",
+    "nom": "boeuf maigre haché",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:02:46.636251"
+  },
+  {
+    "ingredient_id": "cb3c15c5-d744-441b-a5c2-93b963ac9ce9",
+    "nom": "pincées de muscade",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:02:46.636251"
+  },
+  {
+    "ingredient_id": "3c840b1a-32db-4368-9d9b-e5664d529e9a",
+    "nom": "à soupe de ketchup épicé",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:46.636251"
+  },
+  {
+    "ingredient_id": "565576fd-8fe0-4a7d-b0bf-2f92937a5472",
+    "nom": "tranche de poivron",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:50.987197"
+  },
+  {
+    "ingredient_id": "1ff33ebe-1847-4707-bc1b-90dd522440ce",
+    "nom": "épices",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:50.987197"
+  },
+  {
+    "ingredient_id": "57286d2d-1aae-4575-818d-8091458cfdf0",
+    "nom": "concentré de tomates",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:50.987197"
+  },
+  {
+    "ingredient_id": "9771fb56-0a30-4ff8-adaf-675bb07a0022",
+    "nom": "tomates",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:50.987197"
+  },
+  {
+    "ingredient_id": "98c661cb-d3b5-46d1-9976-aeb6f231fcf0",
+    "nom": "feuilles de salade",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:02:50.987197"
+  },
+  {
+    "ingredient_id": "c125d481-e88a-40d6-9cba-55d456b28d1e",
+    "nom": "verres d'eau",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:50.987197"
+  },
+  {
+    "ingredient_id": "a17bd923-8d0b-4fdb-bb99-6f36a38786dd",
+    "nom": "aneth",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:50.987197"
+  },
+  {
+    "ingredient_id": "2484403c-0c47-44e6-a3b2-561b39ea51f2",
+    "nom": "tranches de concombre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:50.987197"
+  },
+  {
+    "ingredient_id": "881b9682-73fb-43f4-a0c4-62144e6ab83c",
+    "nom": "crème fraîche",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:02:50.987197"
+  },
+  {
+    "ingredient_id": "3838db39-ae20-4445-b184-231c18d8c6fe",
+    "nom": "d'huile d'olive",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:02:50.987197"
+  },
+  {
+    "ingredient_id": "6c6f5ea9-fd9e-411c-be00-77930fcc5495",
+    "nom": "galettes wrap",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:50.987197"
+  },
+  {
+    "ingredient_id": "95bee749-9662-4dde-a728-ad51c543619e",
+    "nom": "yaourt à la grecque",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:02:54.553603"
+  },
+  {
+    "ingredient_id": "cb7c150b-28ab-431e-99ff-00e719ef648d",
+    "nom": "menthe",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:02:54.553603"
+  },
+  {
+    "ingredient_id": "a678f463-6f8d-4a0c-8d9f-8452bb699bde",
+    "nom": "eau",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:54.553603"
+  },
+  {
+    "ingredient_id": "5c251afc-8834-463e-b1b8-09ee01ee1e19",
+    "nom": "veau maigre",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:02:58.165875"
+  },
+  {
+    "ingredient_id": "4b45998c-ae82-4747-aed1-46356c484fb9",
+    "nom": "jambon (fumé ou non selon votre goût)",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:02:58.165875"
+  },
+  {
+    "ingredient_id": "26c0d270-da77-4ad6-b079-e4bf3f13810c",
+    "nom": "poitrine de porc fraîche",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:02:58.165875"
+  },
+  {
+    "ingredient_id": "a8b39912-d5bc-4e5b-b015-7131035107f8",
+    "nom": "à soupe de farine",
+    "type": "farines",
+    "date_ajout": "2025-09-26T15:02:58.165875"
+  },
+  {
+    "ingredient_id": "97d6cb30-1f92-4e84-ac49-73aa48690544",
+    "nom": "1/2 l de lait",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:02:58.165875"
+  },
+  {
+    "ingredient_id": "cf76cd80-f47c-4d76-8d2d-7ea4503431db",
+    "nom": "1/2 cuillères à café de poivre",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:02:58.165875"
+  },
+  {
+    "ingredient_id": "49fe687a-9f71-465e-a6fa-32198aee9cbf",
+    "nom": "à café de muscade râpée",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:02:58.165875"
+  },
+  {
+    "ingredient_id": "e9d560f6-d630-4501-9dc4-2a14b632df87",
+    "nom": "verres de Liqueur de parfum au choix, eau de fleur d’oranger, alcool de votre goût",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:02:58.165875"
+  },
+  {
+    "ingredient_id": "fa182565-a194-4c6e-8a54-fb8865d82927",
+    "nom": "bardes de lard",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:58.165875"
+  },
+  {
+    "ingredient_id": "f211a118-ca09-4d55-b692-ea59003c7ca9",
+    "nom": "sachets de gelée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:02:58.165875"
+  },
+  {
+    "ingredient_id": "a446ab06-0ad6-4eb0-86c3-e30e78582144",
+    "nom": "feuilles de brick",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:03.225477"
+  },
+  {
+    "ingredient_id": "f0328ecf-6f9b-48cf-b817-b337d91ac692",
+    "nom": "oignons ou une échalote",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:03:03.225477"
+  },
+  {
+    "ingredient_id": "7430d783-7f0c-46ac-a283-1c2680151cf6",
+    "nom": "à soupe de moutarde à l'ancienne",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:03.225477"
+  },
+  {
+    "ingredient_id": "70444493-3ac7-4596-a63d-0e03d54866bd",
+    "nom": "1/2 cuillères à café de sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:03:03.225477"
+  },
+  {
+    "ingredient_id": "dc036e65-10bf-4274-b644-fd60c1787f66",
+    "nom": "1/2 cuillères à café de poivre noir",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:03:03.225477"
+  },
+  {
+    "ingredient_id": "b1e29d5c-1592-474a-aa87-9ee003a0d90f",
+    "nom": "noisettes de beurre",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:03:03.225477"
+  },
+  {
+    "ingredient_id": "cbbf719c-cf7a-48eb-849d-a85a26499318",
+    "nom": "huile pour la friture",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:03:03.225477"
+  },
+  {
+    "ingredient_id": "79f20ad0-aef9-475e-b0c4-0abb318b37d6",
+    "nom": "bottes de persil",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:03:06.798818"
+  },
+  {
+    "ingredient_id": "2be7df1a-30ff-4b3e-9d3e-0cde89b4dcbc",
+    "nom": "tranches de pain de mie",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:03:06.798818"
+  },
+  {
+    "ingredient_id": "27fc54c4-2f66-4ce5-a742-119ae60a3d0e",
+    "nom": "lait",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:03:06.798818"
+  },
+  {
+    "ingredient_id": "8de5ca3b-0561-47e4-9369-203d83a9a527",
+    "nom": "carrés de pâte feuilletée (environ 10 cm x 10 cm)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:10.287920"
+  },
+  {
+    "ingredient_id": "37a28ca4-ea33-4dbc-bd96-06deabd659f8",
+    "nom": "pignons de pin",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:10.287920"
+  },
+  {
+    "ingredient_id": "bb8c6203-b3af-4eea-8000-5f0d9ff51742",
+    "nom": "jaunes d'oeuf",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:03:10.287920"
+  },
+  {
+    "ingredient_id": "38a7f1f7-348c-4c02-abb6-dbefed5266aa",
+    "nom": "ail",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:03:10.287920"
+  },
+  {
+    "ingredient_id": "696c6208-8de6-4f06-95a6-2bba50d852ab",
+    "nom": "à café de crème fraîche",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:03:10.287920"
+  },
+  {
+    "ingredient_id": "be847fa3-72b1-436a-b3be-b723f426b117",
+    "nom": "paquets de boulettes de viande de boeuf",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:03:20.540155"
+  },
+  {
+    "ingredient_id": "363ab620-60e6-4dac-93e5-e37caa427c3b",
+    "nom": "pommes de terre",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:03:20.540155"
+  },
+  {
+    "ingredient_id": "28914764-84db-49dc-83d5-16298c262e88",
+    "nom": "tranches de toastinette",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:20.540155"
+  },
+  {
+    "ingredient_id": "4ebbc23f-8553-4cee-b58c-b4ec0cec37d3",
+    "nom": "fond de veau",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:03:20.540155"
+  },
+  {
+    "ingredient_id": "43edb169-ae7e-4475-bb45-c1a1216985be",
+    "nom": "thym",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:03:20.540155"
+  },
+  {
+    "ingredient_id": "44edb439-19da-4915-b801-3f0b0bfb7487",
+    "nom": "viande hachée (boeuf et porc)",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "7ce289f9-fa0b-4003-8517-93c7f8c2ffd7",
+    "nom": "tranches de pain de mie rassis",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "973494db-5124-471a-b82d-d6dfec8fa197",
+    "nom": "bouillon",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "69702840-ca7d-4010-89ff-4b7793a0c798",
+    "nom": "feta",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "35b86e67-ac01-43c4-9372-a01dd7116cd8",
+    "nom": "bouquets de persil ou coriandre",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "30de5d7d-4fd0-4281-b298-80c45a445d50",
+    "nom": "1/2 tasses d'origan",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "52505128-cbd2-4f63-a1c3-24d07aed13f0",
+    "nom": "1/2 tasses de thym",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "e0d49b92-0af8-46fb-a1eb-2caea8fcc1e4",
+    "nom": "piment (selon le goût)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "03a4639b-ee79-4cb4-8751-205428ebc32e",
+    "nom": "tomate séchée",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "f759b8ec-82ae-4218-b3f5-06454655a79c",
+    "nom": "d'olives aux anchois",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "e4bcb6f9-da65-470b-8e5d-ff6608b023bc",
+    "nom": "bouquets de basilic",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "496b3440-8fef-4232-86b3-1be9f408b4c3",
+    "nom": "poivre et sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "bb7199d2-9693-4a12-9b00-4d85d780c4ee",
+    "nom": "piment",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "c56ef7d4-eab6-49a9-bbed-f73d9b95ed62",
+    "nom": "carotte rappées finement",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "f5ee833a-df37-4eb9-831c-d58613257e5b",
+    "nom": "1/2 cuillères à café de citronnelle",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "b78f4fd0-c899-48da-8fb8-cd83067d7414",
+    "nom": "1/2 cuillères à café de cumin",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "e3c24d9d-b4c1-4765-8c6e-9005c61a9c9a",
+    "nom": "1/2 cuillères à café de coriandre fraîche",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "be89eaaf-c4e5-46a0-9dab-851dd31065ee",
+    "nom": "à soupe de sauce soja",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "7c24bf13-7077-41bf-afb2-aa5ac91c255f",
+    "nom": "champignons de Paris",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "13e887cf-1b3c-4263-a91c-cf115808e968",
+    "nom": "cèpes séchés (ou 100 g de frais)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "32328a58-0c92-48a0-8d2b-0319a8b65d8e",
+    "nom": "gousses d'ail hachées",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "7595d124-cdc1-4641-9b18-8605a0e67d77",
+    "nom": "carvi",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "083bc5f6-7df4-4dd1-a5ab-69daa9d113d2",
+    "nom": "marjolaine",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "f63952d5-06b6-461d-8957-70d894cb77d5",
+    "nom": "moutarde",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "ffd5f506-b616-4703-9c06-5bbcb527570c",
+    "nom": "d'olives noires",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "d54b5ca7-13fb-4301-af5d-4c4a951e9ba8",
+    "nom": "d'olives vertes",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "2c8b9898-8e1b-48a6-a07f-e57e3209f493",
+    "nom": "aubergines",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:24.348072"
+  },
+  {
+    "ingredient_id": "1135b9bd-db29-41b1-bc1e-7ab43e87de53",
+    "nom": "1/2 tasses de herbes de Provence",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:24.350444"
+  },
+  {
+    "ingredient_id": "23659379-bc96-4916-bbad-5787e33724e3",
+    "nom": "courgettes de taille moyenne",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:03:31.108462"
+  },
+  {
+    "ingredient_id": "82c58ffc-07df-443a-b394-e81d64ba9af1",
+    "nom": "crème fraîche liquide entière",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:03:31.108462"
+  },
+  {
+    "ingredient_id": "dda2783f-83e4-47be-9750-5d1e65e10a5b",
+    "nom": "sachets de gruyère râpé",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:03:31.108462"
+  },
+  {
+    "ingredient_id": "fa3f1874-409c-4ea4-8c9b-317f2e579487",
+    "nom": "baguettes de pain",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:03:34.797729"
+  },
+  {
+    "ingredient_id": "32fc8ab1-f01e-4140-ba6b-ec3c52b37cf6",
+    "nom": "steaks hachés",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:34.797729"
+  },
+  {
+    "ingredient_id": "4caf56e3-da70-49b0-b929-2dcae3fe9b6e",
+    "nom": "à café d'huile",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:03:34.797729"
+  },
+  {
+    "ingredient_id": "d6e49923-b08c-4ca7-8a44-ea80b4915e78",
+    "nom": "à café de pesto",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:34.797729"
+  },
+  {
+    "ingredient_id": "6ec7e33b-b63e-4f0c-9330-7778e84246c0",
+    "nom": "oignons jaunes",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:03:34.797729"
+  },
+  {
+    "ingredient_id": "793ca074-4479-4260-a922-4cd0fc64bdfb",
+    "nom": "comté ou d'abondance",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:34.797729"
+  },
+  {
+    "ingredient_id": "bd9071ef-c91e-4d88-b83f-9c7ecf4bbdf0",
+    "nom": "nouilles aux oeufs (400 g env)",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:03:38.532774"
+  },
+  {
+    "ingredient_id": "2b70c097-5cc3-44e9-8e15-9b52c0415f43",
+    "nom": "viande (selon vos goûts, porc, boeuf, volailles...)",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:03:38.532774"
+  },
+  {
+    "ingredient_id": "7fcc4903-d94f-4942-95d7-85e45703c246",
+    "nom": "légumes (carottes, brocolis, soja... toujours au choix selon vos goûts)",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:03:38.532774"
+  },
+  {
+    "ingredient_id": "ac39057d-7e8a-4c54-8b03-9a35122572be",
+    "nom": "crevettes",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:38.532774"
+  },
+  {
+    "ingredient_id": "a121135d-dbcf-4d02-9cb4-20ce231e625b",
+    "nom": "huile de sésame",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:03:38.532774"
+  },
+  {
+    "ingredient_id": "d97b4c82-b62b-4c6b-b237-951efd441672",
+    "nom": "huître (ou bouillon de viandes/légumes)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:38.532774"
+  },
+  {
+    "ingredient_id": "099f30b7-5ab0-4fd3-bbe5-fd79c5039a3e",
+    "nom": "à café de fécule de pomme de terre",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:03:38.532774"
+  },
+  {
+    "ingredient_id": "08288b7a-e7a2-451a-bdf2-466521c4b0f9",
+    "nom": "farine de sarrasin",
+    "type": "farines",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "c99026c1-90eb-4c5d-b3e3-c4c2e6c25faf",
+    "nom": "gigot d'agneau",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "63d6c82e-80ea-4f15-ae45-22a2d1e4f6b4",
+    "nom": "couenne de porc",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "61fee241-2721-4dfd-b8e5-3fb89678b82e",
+    "nom": "tomate",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "213ab1b6-be62-4c87-b726-a4d36a0ee974",
+    "nom": "vin blanc",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "8311d607-6589-44a9-9505-11d7a21bf673",
+    "nom": "cognac",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "cd03bab0-8e6f-4977-a8cb-3ff8e7b91f23",
+    "nom": "bouquets de menthe",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "932319e2-5879-40a4-b974-6a3f6bc21c37",
+    "nom": "sucrines",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "db5ef0a8-fe7e-47ef-8ae0-7f8eb2e17212",
+    "nom": "jus de cuisson de l'agneau",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "bbc61679-bcb8-4b20-86a9-3f55db241a9a",
+    "nom": "miel",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "3c0ef0a9-af92-48f2-9892-a7cc64aa3d8b",
+    "nom": "cumin",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "909e4833-77f3-4d7b-a055-60cbff8f086f",
+    "nom": "agar-agar",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "1a2384bc-b8e6-4971-8efa-574d01fe922e",
+    "nom": "d'huile de pépin de raisin",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "ccb4b15e-a489-4f21-8ef5-f9e61cf675f3",
+    "nom": "piment d'Espelette",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "ad58334b-3a5d-4187-955e-cd4f50446165",
+    "nom": "sel et poivre",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "410d64fe-2a28-4fbe-895e-f53904dbcb75",
+    "nom": "poivre blanc",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "86f2107e-47a4-4844-8d82-1cf8e95c61bf",
+    "nom": "gros sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:03:43.059273"
+  },
+  {
+    "ingredient_id": "e723826f-ea4d-4603-b873-f62f6a055a3e",
+    "nom": "farine",
+    "type": "farines",
+    "date_ajout": "2025-09-26T15:03:46.624295"
+  },
+  {
+    "ingredient_id": "c320dc4f-1ed3-4831-a4b9-8bb85ab97f8e",
+    "nom": "oeufs (dont 1 jaune pour souder)",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:03:46.624295"
+  },
+  {
+    "ingredient_id": "4294b2d6-1d42-4fe4-9a4c-8736644af401",
+    "nom": "à café d'huile d'olive",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:03:46.624295"
+  },
+  {
+    "ingredient_id": "e7b2512b-e1ac-4a1c-9b30-b0b5a8de1c7d",
+    "nom": "tranches de jambon",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:03:46.624295"
+  },
+  {
+    "ingredient_id": "80febb9a-6d93-48f4-a058-cdef504c7180",
+    "nom": "fromage de chèvre frais",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:03:46.624295"
+  },
+  {
+    "ingredient_id": "b3bbd72f-255e-4493-bed1-6a2266e82c89",
+    "nom": "basilic",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:03:46.624295"
+  },
+  {
+    "ingredient_id": "21ea4692-7203-43a7-8f7f-e7bf503ade75",
+    "nom": "oignons frais",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:03:50.239609"
+  },
+  {
+    "ingredient_id": "9e3b1189-983e-42ac-8f94-c8f9dfdb95c0",
+    "nom": "thym et romarin",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:03:50.239609"
+  },
+  {
+    "ingredient_id": "a02cfcf4-4033-440f-aebb-868360387eb4",
+    "nom": "Parmesan",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:03:50.239609"
+  },
+  {
+    "ingredient_id": "cbab7bf7-484a-44c3-8745-b011302531ed",
+    "nom": "à soupe d'huile d'olive",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:03:50.239609"
+  },
+  {
+    "ingredient_id": "37be9c33-7d7b-4101-9675-d8035dba9ad3",
+    "nom": "pain dur",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:03:53.675256"
+  },
+  {
+    "ingredient_id": "909638b4-a5e9-43c7-a319-2656ae3eedef",
+    "nom": "d'échine de porc désossée",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:03:57.453615"
+  },
+  {
+    "ingredient_id": "620a88a5-de50-443a-8bb4-853a5015ff79",
+    "nom": "boeuf à braiser",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:03:57.453615"
+  },
+  {
+    "ingredient_id": "26cafec2-44ff-4e0f-85a0-bf3a9914f5b9",
+    "nom": "jambon fumé",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:03:57.453615"
+  },
+  {
+    "ingredient_id": "d949b265-09ee-406c-9e05-d4e88e3fcf9f",
+    "nom": "verres de vin rouge",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:57.453615"
+  },
+  {
+    "ingredient_id": "ace3e5a7-3395-4652-9cf3-de37713691be",
+    "nom": "à soupe de concentré de tomates",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:03:57.453615"
+  },
+  {
+    "ingredient_id": "4e2146d7-7295-407b-834e-9ac9d6084a05",
+    "nom": "laurier",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:57.453615"
+  },
+  {
+    "ingredient_id": "753eb68f-70ac-4fdb-86df-2d226cd26ccb",
+    "nom": "sauge",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:03:57.453615"
+  },
+  {
+    "ingredient_id": "92b55524-a3d2-4b6d-8ed5-e179c7995d0f",
+    "nom": "pâtes feuilletées",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:04:01.147180"
+  },
+  {
+    "ingredient_id": "2dd13e66-b972-46f3-bde5-3fa85a8a01b7",
+    "nom": "à café de curry",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:04:01.147180"
+  },
+  {
+    "ingredient_id": "7f4f56c7-f4ff-4ed3-8c1b-1ba479d36213",
+    "nom": "à soupe de miel",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:04:01.147180"
+  },
+  {
+    "ingredient_id": "132661bc-d9db-4153-a88d-a4e0bee813ca",
+    "nom": "à soupe d'huile d'arachide",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:04:01.147180"
+  },
+  {
+    "ingredient_id": "d37c0b6f-06e1-4600-b8b5-71813cf2481f",
+    "nom": "1/2 aubergines",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:05.055533"
+  },
+  {
+    "ingredient_id": "423e00cf-6533-4f50-aa90-bd150a44bef7",
+    "nom": "1/2 poivrons verts",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:04:05.055533"
+  },
+  {
+    "ingredient_id": "2961a0b7-f3de-48c1-b366-a1e0d62d8ea5",
+    "nom": "1/2 poivrons jaunes",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:04:05.055533"
+  },
+  {
+    "ingredient_id": "02564964-f988-49d5-9f5f-310f0195627e",
+    "nom": "1/2 poivrons rouges",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:04:05.055533"
+  },
+  {
+    "ingredient_id": "b0f7dbe2-c1ee-47d9-b0a7-e2934fd64597",
+    "nom": "boîtes de tomates pelées",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:04:05.055533"
+  },
+  {
+    "ingredient_id": "b37c6ee5-941f-4a60-b9de-94465b705542",
+    "nom": "boeuf",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:04:05.055533"
+  },
+  {
+    "ingredient_id": "71a0006c-9fa0-47eb-82a9-db9e6d1fcb5f",
+    "nom": "feuilles de laurier",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:05.055533"
+  },
+  {
+    "ingredient_id": "f080b2bb-927a-493b-8dc8-95d16cffd54f",
+    "nom": "thym ,",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:04:05.055533"
+  },
+  {
+    "ingredient_id": "e97a097f-4413-48c8-abe1-3deda64fe0d2",
+    "nom": "beurre (pour le moule)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:04:05.055533"
+  },
+  {
+    "ingredient_id": "5af9d5f1-a980-4c40-b789-73f40b5cff14",
+    "nom": "à soupe de farine (pour le moule)",
+    "type": "farines",
+    "date_ajout": "2025-09-26T15:04:05.055533"
+  },
+  {
+    "ingredient_id": "20421178-135a-4a8b-8aef-2990f7f3e896",
+    "nom": "choux frisé",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:09.961634"
+  },
+  {
+    "ingredient_id": "b85f9e35-c83d-46f2-983a-4283ad0eefca",
+    "nom": "chair à saucisse",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:09.961634"
+  },
+  {
+    "ingredient_id": "4b4fe310-5b3f-4644-bcd1-f5f84bbd10ca",
+    "nom": "fromage râpé (emmental, gruyère...)",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:04:09.961634"
+  },
+  {
+    "ingredient_id": "cc3dd42b-64b1-408e-900c-70205a49602e",
+    "nom": "viande hachée de porc et de veau",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:04:13.753034"
+  },
+  {
+    "ingredient_id": "8fe075f2-a4b1-48a5-bd35-6c485b5c7503",
+    "nom": "oignons émincé très finement",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:04:13.753034"
+  },
+  {
+    "ingredient_id": "509d2aaf-173b-4f78-bbc0-f75119f66f92",
+    "nom": "biscottes en miettes",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:13.753034"
+  },
+  {
+    "ingredient_id": "e0f0dddc-41ce-4b70-9f76-6b2f1d4d8bc1",
+    "nom": "oeufs battu",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:04:13.753034"
+  },
+  {
+    "ingredient_id": "be11cc9f-a81c-4d60-b94e-99c5af714a3f",
+    "nom": "brins de ciboulette",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:04:13.753034"
+  },
+  {
+    "ingredient_id": "4c9fea09-77d8-44a1-96fa-4178d6c58f97",
+    "nom": "poivre et paprika",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:04:13.753034"
+  },
+  {
+    "ingredient_id": "1699af31-5994-4585-b274-4fc194dfa971",
+    "nom": "poignées de salade verte",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:04:17.566217"
+  },
+  {
+    "ingredient_id": "e375084c-50a6-435b-9faf-70648c83b8f8",
+    "nom": "boîtes de haricots rouges",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:17.566217"
+  },
+  {
+    "ingredient_id": "093a07b6-0ef5-4a0c-a6cd-b70e596f8373",
+    "nom": "boîtes de maïs",
+    "type": "farines",
+    "date_ajout": "2025-09-26T15:04:17.566217"
+  },
+  {
+    "ingredient_id": "d68e04f3-f91e-4949-8454-e3ef278a2340",
+    "nom": "avocats",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:17.566217"
+  },
+  {
+    "ingredient_id": "e42ff0e9-649c-49cd-b8c6-9e39490331aa",
+    "nom": "poivrons rouges en bocal",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:04:17.566217"
+  },
+  {
+    "ingredient_id": "932f7c81-e867-493d-8746-fe5c6b878b67",
+    "nom": "mimolette râpée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:17.566217"
+  },
+  {
+    "ingredient_id": "4b985ea6-def0-4ea6-8c80-ac23aa52610b",
+    "nom": "d'olives noires ou vertes",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:04:17.566217"
+  },
+  {
+    "ingredient_id": "dfd7aeea-b845-4a90-b737-a60d58a2a4e3",
+    "nom": "tacos",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:17.566217"
+  },
+  {
+    "ingredient_id": "a45dfdfe-94d0-4e00-9ed9-064666d41571",
+    "nom": "yaourts brassés",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:04:17.566217"
+  },
+  {
+    "ingredient_id": "b3744d4a-fb60-4ea7-8f64-b43c79b266a1",
+    "nom": "traits de vinaigre de Xérés",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:17.566217"
+  },
+  {
+    "ingredient_id": "c1273b1a-5d6c-44c0-92f5-5d21db657f9f",
+    "nom": "à soupe de ketchup",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:17.566217"
+  },
+  {
+    "ingredient_id": "ed852674-832f-4078-9865-5d180fbecd41",
+    "nom": "à café de tabasco",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:17.566217"
+  },
+  {
+    "ingredient_id": "d5d690db-4a00-49e2-8beb-efb4b2e313cf",
+    "nom": "courgette",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:04:24.487450"
+  },
+  {
+    "ingredient_id": "7a4ae407-ab7a-4cc6-83f4-070f4dea89df",
+    "nom": "poivrons (ou deux moitiés de deux couleurs différentes)",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:04:24.487450"
+  },
+  {
+    "ingredient_id": "52258b54-1998-4037-8e14-a0e552e7e604",
+    "nom": "curry (facultatif)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:04:24.487450"
+  },
+  {
+    "ingredient_id": "e238ea9c-c17d-4ab5-8157-34fed391f2e7",
+    "nom": "à soupe d'huile",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:04:28.466678"
+  },
+  {
+    "ingredient_id": "815d85e4-578b-452e-bd39-ed17e48fbc6f",
+    "nom": "poireaux émincés",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:04:28.466678"
+  },
+  {
+    "ingredient_id": "624e43de-4ac0-4f81-aba6-06186837c765",
+    "nom": "bulbes de fenouil émincé",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:28.466678"
+  },
+  {
+    "ingredient_id": "bb120cdb-c269-43a0-a70c-795b1af990f7",
+    "nom": "viande hachée porc et de veau",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:04:28.466678"
+  },
+  {
+    "ingredient_id": "985842f8-948a-4798-b8b2-a880b6dd92aa",
+    "nom": "à café d'origan",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:04:28.466678"
+  },
+  {
+    "ingredient_id": "37ac0329-ecee-4c28-8c72-f8f959d2c11b",
+    "nom": "pommes de terre , pelées et coupées (1 kg)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:04:28.466678"
+  },
+  {
+    "ingredient_id": "9af4704c-c662-40e0-b75d-2ae964588661",
+    "nom": "cheddar râpé",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:28.466678"
+  },
+  {
+    "ingredient_id": "8e319943-faf0-4295-836b-642e5f9b2f79",
+    "nom": "crème fraîche épaisse",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:04:28.466678"
+  },
+  {
+    "ingredient_id": "4e0b8fe7-5db6-450f-a710-f8ce5cd80447",
+    "nom": "gigot d'agneau Desossé",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:04:33.425394"
+  },
+  {
+    "ingredient_id": "08851d82-45b1-4143-ae32-b9cc90381fe8",
+    "nom": "d'oignon blanc",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:04:33.425394"
+  },
+  {
+    "ingredient_id": "029964e4-0407-401e-9b69-dc6df2b3c9d0",
+    "nom": "jus de citron",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:04:33.425394"
+  },
+  {
+    "ingredient_id": "ca20b279-a602-4507-96dd-7d0904eb5781",
+    "nom": "verres d'huile d'olive",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:04:33.425394"
+  },
+  {
+    "ingredient_id": "c34b849f-621f-4376-a8ac-7a0746e2e3f7",
+    "nom": "à soupe de poivre",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:04:33.425394"
+  },
+  {
+    "ingredient_id": "91989541-1999-4aed-8779-571343c4c73b",
+    "nom": "à soupe de sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:04:33.425394"
+  },
+  {
+    "ingredient_id": "cb66c409-cc84-4491-aa96-f90391bda307",
+    "nom": "à soupe de cumin",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:04:33.425394"
+  },
+  {
+    "ingredient_id": "9410b9f4-d61a-45e0-8248-b3304c402252",
+    "nom": "tomates pelées",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:04:37.355411"
+  },
+  {
+    "ingredient_id": "58b1271d-2931-42ba-87cf-d03aca63760b",
+    "nom": "à soupe de basilic ciselé",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:04:37.355411"
+  },
+  {
+    "ingredient_id": "af8cae57-2a96-48ed-9008-75a61fa089e7",
+    "nom": "à café de muscade rapée",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:04:37.355411"
+  },
+  {
+    "ingredient_id": "90f533e1-f87e-4ec8-9a6b-19c95f72b20f",
+    "nom": "fleur de sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:04:37.355411"
+  },
+  {
+    "ingredient_id": "e34a7a0f-2eba-4e37-9a83-f3799adbea0c",
+    "nom": "boeuf haché (type cheveux d'ange)",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:04:41.349239"
+  },
+  {
+    "ingredient_id": "3ec31806-49be-4523-afd7-8cf65eed9a21",
+    "nom": "échalotes",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:41.349239"
+  },
+  {
+    "ingredient_id": "6b6895cd-6e0c-4c03-bb98-a35fcdb645be",
+    "nom": "endives",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:41.349239"
+  },
+  {
+    "ingredient_id": "4fc39568-d6ce-4bb5-87fd-bc6b2f113b6d",
+    "nom": "poivrons",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:04:41.349239"
+  },
+  {
+    "ingredient_id": "b47f8a6d-24e6-4a0c-8918-268738a3a63b",
+    "nom": "à café de sucre en poudre",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:04:41.349239"
+  },
+  {
+    "ingredient_id": "e50f6092-7882-46a2-a0cf-70cef81cf345",
+    "nom": "moitié de crème fraîche",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:04:41.349239"
+  },
+  {
+    "ingredient_id": "9614963a-9f27-4c38-a9b6-8c8cc5380287",
+    "nom": "pincées de thym",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:04:41.349239"
+  },
+  {
+    "ingredient_id": "5dd866c0-0b6e-4af4-98be-82051b518c6b",
+    "nom": "branches de laurier",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:41.349239"
+  },
+  {
+    "ingredient_id": "95c33eab-4d00-4592-a0c6-88c06a72bbae",
+    "nom": "pâte brisée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:45.041169"
+  },
+  {
+    "ingredient_id": "c34f3b3f-3b23-4db5-ac29-a8cf60b527e9",
+    "nom": "porc maigre",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:04:45.041169"
+  },
+  {
+    "ingredient_id": "85c6ee09-a6ba-48b7-a66f-793e6ed1adc5",
+    "nom": "pommes",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:04:45.041169"
+  },
+  {
+    "ingredient_id": "531e9b38-183e-4c33-a8c0-5d33cab611ff",
+    "nom": "petites boîtes de marrons au naturel",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:45.041169"
+  },
+  {
+    "ingredient_id": "85ba2e9f-8284-4311-8e18-180674521a48",
+    "nom": "madère",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:45.041169"
+  },
+  {
+    "ingredient_id": "102fd8c9-b0d4-4740-be0c-357f772f0abd",
+    "nom": "crème fraîche (allégée par exemple 15% matières grasses)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:04:49.892327"
+  },
+  {
+    "ingredient_id": "0818dcec-cd79-4ad8-bbc0-3cc03c79c2a8",
+    "nom": "à soupe de moutarde",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:49.892327"
+  },
+  {
+    "ingredient_id": "e72c9196-cab1-49a0-b5fb-0e7f0da32726",
+    "nom": "à soupe de vinaigre de cidre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:49.892327"
+  },
+  {
+    "ingredient_id": "ab4b6443-a230-4b3d-8d8a-2a7550013312",
+    "nom": "pointes de couteau de curry",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:04:49.892327"
+  },
+  {
+    "ingredient_id": "ee4b9907-325b-4a97-b89d-90e6b2afa9f6",
+    "nom": "tortillas",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:53.512153"
+  },
+  {
+    "ingredient_id": "d690aff6-e4ac-4e81-a7fb-bb21c09651cf",
+    "nom": "Philadelphia",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:53.512153"
+  },
+  {
+    "ingredient_id": "c90c1ef2-51c0-4063-a52d-d026e3774f71",
+    "nom": "origan",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:04:53.512153"
+  },
+  {
+    "ingredient_id": "2a0adaee-ca28-4898-9e04-a1b32ba1e8aa",
+    "nom": "lardons",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:58.100680"
+  },
+  {
+    "ingredient_id": "423ca647-4a8d-478a-a2f6-7a91568ad7dc",
+    "nom": "morceaux de poivron",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:04:58.100680"
+  },
+  {
+    "ingredient_id": "428a5c55-f9c4-4618-a2e0-cd3b1d10f41c",
+    "nom": "d'emmental râpé",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:04:58.100680"
+  },
+  {
+    "ingredient_id": "e095f3da-a01e-4251-b4bf-c53f07785d0b",
+    "nom": "poivrons de couleur",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:05:01.965587"
+  },
+  {
+    "ingredient_id": "4dae19ff-6aba-47e1-a131-a75dc83581d9",
+    "nom": "bouquets de coriandre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:05:01.965587"
+  },
+  {
+    "ingredient_id": "10f65ec4-e35e-4be4-8c21-d49452d3e20f",
+    "nom": "boîtes de pulpe de tomate",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:05:01.965587"
+  },
+  {
+    "ingredient_id": "f64a4873-7059-4e0a-a266-a4281c4a766f",
+    "nom": "gruyère râpé (ou parmesan rapé ou mozarella)",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:05:01.965587"
+  },
+  {
+    "ingredient_id": "d64fb6bb-f607-4621-8a1c-17f528a56117",
+    "nom": "huile",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:05:01.965587"
+  },
+  {
+    "ingredient_id": "6926f815-e31c-4d9d-a279-3097cfe9310a",
+    "nom": "colorant alimentaire orange en poudre (dans les épiceries orientales)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:05:01.965587"
+  },
+  {
+    "ingredient_id": "cc4c8fb2-f346-4471-9f79-2998f1573ab5",
+    "nom": "échalotes émincées très finement",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:05:05.874016"
+  },
+  {
+    "ingredient_id": "b2409658-165c-4f7f-8125-3bba876cc521",
+    "nom": "bouquets garnis",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:05:05.874016"
+  },
+  {
+    "ingredient_id": "c878c163-aece-4a52-b554-7ac16a716caf",
+    "nom": "rhum ambré",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:05:05.874016"
+  },
+  {
+    "ingredient_id": "167cff77-fcdb-4136-b4c7-422f1d3f19a8",
+    "nom": "poivre (2 tours)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:05:05.874016"
+  },
+  {
+    "ingredient_id": "1a4e2852-fc0a-4873-8373-cf0db7efe725",
+    "nom": "gousses d'ail entières, juste épluchées",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:05:05.874016"
+  },
+  {
+    "ingredient_id": "4a2818d3-50dc-49c3-9547-34868d5134bc",
+    "nom": "grandes boîtes de tomates pelées",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:05:12.724944"
+  },
+  {
+    "ingredient_id": "8887d595-cae4-4056-8eaf-8e89d5b4eb8d",
+    "nom": "oignons râpé",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:05:12.724944"
+  },
+  {
+    "ingredient_id": "b6839479-881b-4226-9a7b-fe20011b8fc6",
+    "nom": "à café de cumin (ou plus suivant les goûts)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:05:12.724944"
+  },
+  {
+    "ingredient_id": "44c5909b-3cba-4aaa-b1d6-b6beb9cecfeb",
+    "nom": "pincées de gingembre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:05:12.724944"
+  },
+  {
+    "ingredient_id": "23a4e479-0232-480f-bc03-401754772d4a",
+    "nom": "poignées de persil",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:05:12.724944"
+  },
+  {
+    "ingredient_id": "a0c8123d-886f-4a6b-a43f-05586f528bb1",
+    "nom": "beurre (ou un peu moins suivant les goûts)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:05:12.724944"
+  },
+  {
+    "ingredient_id": "6a43b6f4-9ada-484a-b687-694803e89482",
+    "nom": "sel /poivre",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:05:12.724944"
+  },
+  {
+    "ingredient_id": "33f837f2-4111-4247-8519-70e2b41a7356",
+    "nom": "piment doux (facultatif)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:05:12.724944"
+  },
+  {
+    "ingredient_id": "50176394-ba62-47cd-b991-ea1b229357ce",
+    "nom": "1/2 chou blanc",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:05:19.619238"
+  },
+  {
+    "ingredient_id": "5b9686c1-257b-4420-a11a-6ecd911b4496",
+    "nom": "viande hachée (mélange boeuf-porc)",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:05:19.619238"
+  },
+  {
+    "ingredient_id": "acc70315-f78c-446b-84e0-25ccda3415bf",
+    "nom": "à soupe de carvi (ou un peu de cumin moulu)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:05:19.619238"
+  },
+  {
+    "ingredient_id": "8f783189-7811-4fac-96df-ef1f233cb49e",
+    "nom": "viande hachée (porc et veau)",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:05:23.746418"
+  },
+  {
+    "ingredient_id": "3a79b665-efd7-4343-a358-12abc6b1f6ad",
+    "nom": "jambon",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:05:23.746418"
+  },
+  {
+    "ingredient_id": "860b4962-a187-4a9f-80fe-50e56e80fc58",
+    "nom": "petites cuillères de basilic séché",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:05:23.746418"
+  },
+  {
+    "ingredient_id": "6e92502f-9598-4c0d-829d-c3fb95b70a03",
+    "nom": "petites cuillères d'origan séché",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:05:23.746418"
+  },
+  {
+    "ingredient_id": "729a1e48-11af-4de1-b112-07af531dbdac",
+    "nom": "boîtes de canneloni",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:05:23.746418"
+  },
+  {
+    "ingredient_id": "e169ab70-7701-4214-8acf-27580c1762fc",
+    "nom": "petites boîtes de tomates pelées (3 x 400g)",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:05:23.746418"
+  },
+  {
+    "ingredient_id": "875e4c17-14af-4cf0-8a11-c105b08ffc51",
+    "nom": "poivre …",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:05:23.746418"
+  },
+  {
+    "ingredient_id": "9852d7c1-f0f2-4d04-9da6-863574a7f3e8",
+    "nom": "d'épaule (ou autre) d'agneau haché",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:05:27.541522"
+  },
+  {
+    "ingredient_id": "698d75aa-88bd-4f95-a644-943a138d7e26",
+    "nom": "haché de veau",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:05:27.543532"
+  },
+  {
+    "ingredient_id": "5a74199c-9a36-44bb-abb1-eba00bcf252b",
+    "nom": "oignons (rouge et doux de préférence)",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:05:27.543532"
+  },
+  {
+    "ingredient_id": "c8c64682-bfbc-4a50-9d8e-bdfb6c1a79da",
+    "nom": "poignées de coriandre fraîche (et/ou persil plat)",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:05:27.543532"
+  },
+  {
+    "ingredient_id": "a333ce1f-4497-4c06-8744-f9a48991a738",
+    "nom": "à soupe de cannelle moulue",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:05:27.543532"
+  },
+  {
+    "ingredient_id": "8ed8cf50-c791-48d1-9be7-3bd7b8c603a0",
+    "nom": "à soupe de piment doux moulu (paprika)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:05:27.543532"
+  },
+  {
+    "ingredient_id": "4ea43bd0-65b7-4f22-8dad-5071d5d84af6",
+    "nom": "1/4 cuillères à café de gingembre moulu",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:05:27.543532"
+  },
+  {
+    "ingredient_id": "b111c31e-7d5c-4714-a2ba-f2f1b8e73455",
+    "nom": "1/2 l de lait ou 50 cl de crème fraîche",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:05:33.552137"
+  },
+  {
+    "ingredient_id": "c0637b8b-c18b-41bd-b291-cf42dc39648e",
+    "nom": "sauce à tacos",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:05:33.552137"
+  },
+  {
+    "ingredient_id": "802e8dc6-1721-402b-8373-d1665317d9f0",
+    "nom": "pains de campagne en tranches",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:05:38.462594"
+  },
+  {
+    "ingredient_id": "322de8be-bd28-46b0-b7a0-c8bec09007c3",
+    "nom": "boîtes d'anchois",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:05:38.462594"
+  },
+  {
+    "ingredient_id": "25d4f158-64f3-48fb-89cb-460c85b80a49",
+    "nom": "sarriette sèche (herbe de Provence)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:05:38.462594"
+  },
+  {
+    "ingredient_id": "517087de-0d5d-461b-9e43-34c807dabc1c",
+    "nom": "viande ! (un lapin, un rôti de port, un roulé de dinde ou n'importe quoi d'autre) compter 200 g par personne",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:05:43.228211"
+  },
+  {
+    "ingredient_id": "ce137b34-de0a-44a2-82c3-7d75cf8cfd65",
+    "nom": "petit pot de crème (optionnel)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:05:43.228211"
+  },
+  {
+    "ingredient_id": "6b4d273f-af46-4bdc-acce-a347990f1377",
+    "nom": "boîtes de champignon (optionnel)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:05:43.228211"
+  },
+  {
+    "ingredient_id": "536575b8-9404-4306-8d4e-711283bbabe4",
+    "nom": "à soupe de farine (optionnel)",
+    "type": "farines",
+    "date_ajout": "2025-09-26T15:05:43.228211"
   }
 ]
