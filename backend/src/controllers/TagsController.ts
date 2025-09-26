@@ -1,5 +1,5 @@
 import type { Request, Response } from "express";
-import { getAllTags } from "../../models/tags.js";
+import { getAllTags } from "../models/tags.js";
 
 
 

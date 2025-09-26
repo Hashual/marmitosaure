@@ -3820,5 +3820,3347 @@
     "nom": "à soupe de farine (optionnel)",
     "type": "farines",
     "date_ajout": "2025-09-26T15:05:43.228211"
+  },
+  {
+    "ingredient_id": "1be189fd-af97-439e-84eb-67bc3fb7ddc1",
+    "nom": "barquettes de Saint Morêt",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:08:45.875076"
+  },
+  {
+    "ingredient_id": "ed11c400-98dd-4b53-a715-0d3ae8627b2e",
+    "nom": "pots de sauce salsa douce (ou épicée pour ceux qui aiment très relevé)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:08:45.875076"
+  },
+  {
+    "ingredient_id": "168bdc24-3074-4cf8-9fba-f1435cd0b27e",
+    "nom": "feuille de chêne ciselée",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:08:45.875076"
+  },
+  {
+    "ingredient_id": "68837fa0-c588-4059-9bdc-efb77011c5dd",
+    "nom": "mimolette râpée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:08:45.875076"
+  },
+  {
+    "ingredient_id": "c2f26774-d304-45de-92fc-2e415d5e1dda",
+    "nom": "framboises",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:11:09.467195"
+  },
+  {
+    "ingredient_id": "b094b475-d1b9-4619-ae06-76d0995e144f",
+    "nom": "sucre cristallisé",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:11:09.467195"
+  },
+  {
+    "ingredient_id": "ab1645f6-6a08-434e-a5d9-2b9327b7cf48",
+    "nom": "citron",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:11:09.467195"
+  },
+  {
+    "ingredient_id": "0e23e8a4-eebf-4076-817a-d07c825867a3",
+    "nom": "fromage blanc zero pour cent de matiere grasse",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:11:13.075940"
+  },
+  {
+    "ingredient_id": "76fe0888-759f-4a9a-8998-5bc6d6e71b85",
+    "nom": "fraises (ou de framboises, myrtilles, cassis etc)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:11:13.075940"
+  },
+  {
+    "ingredient_id": "ccc409c8-27c9-4ae6-9444-05be4b0c5f73",
+    "nom": "biscuits à la cuillère d'édulcorant (aspartam)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:11:13.075940"
+  },
+  {
+    "ingredient_id": "5453bfb0-45d4-40ad-9248-e9278a75928b",
+    "nom": "glaçons",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:11:13.075940"
+  },
+  {
+    "ingredient_id": "65e72b60-6b5d-4fa4-88e2-f6cadcfc60b2",
+    "nom": "farine",
+    "type": "farines",
+    "date_ajout": "2025-09-26T15:11:16.458938"
+  },
+  {
+    "ingredient_id": "df75de7d-5ba8-4041-a92e-a6f3a2566603",
+    "nom": "sucre en poudre",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:11:16.458938"
+  },
+  {
+    "ingredient_id": "7ca2ba0a-deab-42d6-8727-05052dd1c8b8",
+    "nom": "beurre",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:11:16.458938"
+  },
+  {
+    "ingredient_id": "269f880c-24c4-41e2-92c0-d3a129dd71aa",
+    "nom": "à café de cannelle en poudre",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:11:16.458938"
+  },
+  {
+    "ingredient_id": "6669ed0b-e33d-4696-b5aa-8e04d16f6ac0",
+    "nom": "pommes goldens",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:11:16.458938"
+  },
+  {
+    "ingredient_id": "6fd2b200-8114-4b16-8e6b-f118436b6b51",
+    "nom": "bananes",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:11:16.458938"
+  },
+  {
+    "ingredient_id": "e955a490-13e9-4bd0-874f-a80b4c576a6c",
+    "nom": "boudoirs",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:11:19.868757"
+  },
+  {
+    "ingredient_id": "0c89160a-ad74-465c-b12d-447d6836740a",
+    "nom": "fraises",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:11:19.868757"
+  },
+  {
+    "ingredient_id": "f2d2191d-45e3-42e9-97ff-c3233f062aee",
+    "nom": "faisselle à 0%",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:11:19.868757"
+  },
+  {
+    "ingredient_id": "7f9dc532-3cdc-4aa6-9922-19c9d78aef36",
+    "nom": "sachets de sucre vanillé",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:11:19.868757"
+  },
+  {
+    "ingredient_id": "9248861d-89fc-4672-967e-c0ad44b8ecd7",
+    "nom": "à café d'extrait de vanille",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:11:19.868757"
+  },
+  {
+    "ingredient_id": "38a5df7c-43e9-4d8a-be29-0cd0d28afd3d",
+    "nom": "oranges (pour leur jus ou du jus d'orange en bouteille)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:11:19.868757"
+  },
+  {
+    "ingredient_id": "f970f96b-714f-4b76-b024-b982dc8723c7",
+    "nom": "citrons (pour son jus)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:11:19.868757"
+  },
+  {
+    "ingredient_id": "dcd7748d-a624-4815-a915-219ef579402c",
+    "nom": "à café d'édulcorant",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:11:19.868757"
+  },
+  {
+    "ingredient_id": "8ae9c254-510f-4b7f-bc95-a4c8fecb38dc",
+    "nom": "pomme de terre",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:11:25.779976"
+  },
+  {
+    "ingredient_id": "7cb87b70-a0bd-47d5-885a-ccc9e7296d18",
+    "nom": "pomme",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:11:31.405170"
+  },
+  {
+    "ingredient_id": "00559c8e-74a6-4df6-b44c-b24b2f91a7d1",
+    "nom": "coing",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:11:31.421164"
+  },
+  {
+    "ingredient_id": "59224795-80f2-4b27-99a0-6212b513da36",
+    "nom": "cassonade",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:11:31.421164"
+  },
+  {
+    "ingredient_id": "bb8c5a06-accd-4930-87e6-895ee6790541",
+    "nom": "sel fin",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:11:31.421164"
+  },
+  {
+    "ingredient_id": "7a002f9b-d701-4bf5-b37a-1e9a35417cc9",
+    "nom": "pommes",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:11:37.881110"
+  },
+  {
+    "ingredient_id": "9364cafd-af25-4d2d-890d-f75fe4e32d65",
+    "nom": "poires",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:11:37.881110"
+  },
+  {
+    "ingredient_id": "c8714c48-beb5-40a1-8ace-8dfed83ac046",
+    "nom": "beurre + 20 g pour le plat",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:11:37.881110"
+  },
+  {
+    "ingredient_id": "faf9043c-b6fb-4e93-bce8-2e6a3da55ef4",
+    "nom": "d'amandes en poudre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:11:37.881110"
+  },
+  {
+    "ingredient_id": "6a440c68-4fc7-4a07-9331-b8a0c908e35a",
+    "nom": "1/2 jus de citron",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:11:37.881110"
+  },
+  {
+    "ingredient_id": "82749718-aa37-4e16-8f6d-67b76d9e962d",
+    "nom": "1/2 cuillères à café de cannelle",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:11:37.881110"
+  },
+  {
+    "ingredient_id": "67ed1252-0f24-4e80-9bbf-86e49bb2a774",
+    "nom": "framboises surgelées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:11:43.175072"
+  },
+  {
+    "ingredient_id": "b1ca198b-3a9a-4ebd-9d40-e1930c208063",
+    "nom": "sucre",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:11:43.175072"
+  },
+  {
+    "ingredient_id": "221ede4f-b2f8-4cea-b37b-e03cb74c30c6",
+    "nom": "blancs d'oeuf",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:11:43.175072"
+  },
+  {
+    "ingredient_id": "1b98d38e-a9c2-4f7f-9dfe-07e9ab6b1f88",
+    "nom": "1/2 cuillères à café de sel fin",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:11:50.021512"
+  },
+  {
+    "ingredient_id": "884c7da0-74ba-4ce7-969c-73ca91bab3cc",
+    "nom": "1/2 sachets de levure chimique",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:11:50.021512"
+  },
+  {
+    "ingredient_id": "0fd328e8-9336-480a-8973-956e14fe0d4e",
+    "nom": "oeufs",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:11:50.021512"
+  },
+  {
+    "ingredient_id": "9c7d91a7-201c-4ea6-9818-57c8c7d9cad6",
+    "nom": "lait",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:11:50.021512"
+  },
+  {
+    "ingredient_id": "16bc9441-d3aa-4770-a467-d8e477fd47f9",
+    "nom": "d'huile de tournesol",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:11:50.021512"
+  },
+  {
+    "ingredient_id": "6993b5f4-eaba-419f-bced-316edb304f0a",
+    "nom": "feuilles de menthe",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:11:50.021512"
+  },
+  {
+    "ingredient_id": "63fb6090-e3ef-4d99-ad8c-d42202dd8be3",
+    "nom": "beurre pour les moules",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:11:50.021512"
+  },
+  {
+    "ingredient_id": "31f8267a-7208-4d63-aad5-5f6cdc406464",
+    "nom": "jaunes d'oeuf",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:11:57.029844"
+  },
+  {
+    "ingredient_id": "b7e72ef1-d0de-4a5d-85ee-aa176c174d67",
+    "nom": "d'eau",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:11:57.029844"
+  },
+  {
+    "ingredient_id": "a02db759-6157-4b93-91bf-892e1a92fc90",
+    "nom": "pincées de sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:11:57.029844"
+  },
+  {
+    "ingredient_id": "e42bbf93-c916-4f97-8acf-3d140f6279b8",
+    "nom": "fraises (ou plus ;)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:11:57.029844"
+  },
+  {
+    "ingredient_id": "d9f227b6-4053-4de0-a004-8845ea8ec73b",
+    "nom": "pots de yaourt",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:12:00.577846"
+  },
+  {
+    "ingredient_id": "fc81ac68-5cf5-4679-8cf0-bb80c226f500",
+    "nom": "feuille de menthe",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:12:00.577846"
+  },
+  {
+    "ingredient_id": "f1b75a98-3556-4d3f-8c20-0d659db570d5",
+    "nom": "à soupe de crème fraîche",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:12:03.992940"
+  },
+  {
+    "ingredient_id": "1d1c77ba-682d-4de4-8953-6782606ac139",
+    "nom": "sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:12:03.992940"
+  },
+  {
+    "ingredient_id": "cac73206-4be3-4848-bf17-0df53fd69f6c",
+    "nom": "myrtilles (même surgelées)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:03.992940"
+  },
+  {
+    "ingredient_id": "7f8c0931-06a5-42f3-9992-de91bfc690fd",
+    "nom": "beurre pour le moule",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:12:03.992940"
+  },
+  {
+    "ingredient_id": "d3dd7587-5d39-4146-895c-7b7885b37cac",
+    "nom": "spéculoos",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:10.706780"
+  },
+  {
+    "ingredient_id": "e2dc1d79-6571-4f17-8fc0-eb4fb630d4ea",
+    "nom": "mascarpone",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:10.706780"
+  },
+  {
+    "ingredient_id": "a88fb9f5-2bcf-4f0b-86a6-2e8e74b45721",
+    "nom": "pincées de vanille en poudre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:10.707373"
+  },
+  {
+    "ingredient_id": "97b48718-dce0-49ed-adf1-05c2775f63d0",
+    "nom": "coulis de framboise",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:15.395914"
+  },
+  {
+    "ingredient_id": "038754ea-1dcf-4a16-a82a-6d01f0828aa4",
+    "nom": "fromage blanc lisse",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:12:15.395914"
+  },
+  {
+    "ingredient_id": "3f671b81-a22c-4aae-96b1-5043f122d319",
+    "nom": "citrons",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:12:15.395914"
+  },
+  {
+    "ingredient_id": "9b521a3e-54b6-473c-8491-7644de8fd185",
+    "nom": "feuilles de gélatine",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:15.395914"
+  },
+  {
+    "ingredient_id": "1ffa23bd-d5c6-4d38-b300-3639b14ce729",
+    "nom": "beurre tendre",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:12:19.883052"
+  },
+  {
+    "ingredient_id": "d1eb4c18-01e8-4cee-8f4a-1ddc067b29b1",
+    "nom": "framboises (fraîche ou surgelées)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:19.883052"
+  },
+  {
+    "ingredient_id": "8598019f-1355-47e7-ba7f-8b3f63d1926a",
+    "nom": "crème dessert au chocolat",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:12:23.467412"
+  },
+  {
+    "ingredient_id": "ea6bff41-70a0-4e5b-9e3e-34fffbc3f299",
+    "nom": "Confiture de framboise",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:23.467412"
+  },
+  {
+    "ingredient_id": "c6a52db2-4ee9-40dd-bd04-034667999abe",
+    "nom": "framboises (fraîches ou décongelées pour décoration)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:23.467412"
+  },
+  {
+    "ingredient_id": "a5920f73-dcc4-404b-8d03-cafce72e8ff8",
+    "nom": "sucre glace (pour décoration)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:12:23.467412"
+  },
+  {
+    "ingredient_id": "cfba6a59-e80d-482d-aa0d-ceae8eeea3d4",
+    "nom": "crème liquide à 5%",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:12:30.170539"
+  },
+  {
+    "ingredient_id": "57746f53-971c-4cb5-acf7-223e42a2dc6f",
+    "nom": "sachets de levure",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:30.170539"
+  },
+  {
+    "ingredient_id": "02bf8fd9-eac2-45cd-985a-e6d7158229cb",
+    "nom": "cannelle (selon votre goût)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:12:30.170539"
+  },
+  {
+    "ingredient_id": "d82c8630-ac26-4401-8a4f-f4b9748b2075",
+    "nom": "à soupe de rhum ou de calvados",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:30.170539"
+  },
+  {
+    "ingredient_id": "ce525fcd-9def-40bf-ba10-6be6b165f9f0",
+    "nom": "beurre ou de margarine",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:12:34.862260"
+  },
+  {
+    "ingredient_id": "526b1345-a3ac-426d-86ce-9c7a3e0456d4",
+    "nom": "sucre semoule",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:12:34.862260"
+  },
+  {
+    "ingredient_id": "b55b3f3a-bc4e-4a23-9a64-1fe7e334a192",
+    "nom": "sachets de levure chimique",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:34.862260"
+  },
+  {
+    "ingredient_id": "fabe1224-1207-4d4e-b641-871f6844ebda",
+    "nom": "pommes golden",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:12:34.862260"
+  },
+  {
+    "ingredient_id": "c12e9a7d-2cc1-4899-b36f-42fea71a7490",
+    "nom": "noisettes moulues",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:34.862260"
+  },
+  {
+    "ingredient_id": "df3b491d-09cd-4f26-9830-23133214eab7",
+    "nom": "chocolat noir concassé",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:34.862260"
+  },
+  {
+    "ingredient_id": "98590fad-aeca-4552-bb77-f483be949b20",
+    "nom": "à soupe de cannelle moulue",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:12:34.862260"
+  },
+  {
+    "ingredient_id": "7e417188-36a6-4011-ad61-226c3622b653",
+    "nom": "à soupe de rhum",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:34.862260"
+  },
+  {
+    "ingredient_id": "29fdfb8c-04de-4113-a6f8-db2db91e06c6",
+    "nom": "fécule",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:39.588260"
+  },
+  {
+    "ingredient_id": "f8f13f92-584d-4cb7-a68b-b77903869906",
+    "nom": "confiture de fraises",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:12:39.588260"
+  },
+  {
+    "ingredient_id": "19a11e5a-5cc4-499b-8deb-e2fe5e3d0eab",
+    "nom": "à soupe de liqueur de fraises (facultatif)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:12:39.588260"
+  },
+  {
+    "ingredient_id": "9e1c244f-930c-4b24-bded-c59fa43a6d16",
+    "nom": "à soupe d'huile",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:12:39.588260"
+  },
+  {
+    "ingredient_id": "6dde6462-194a-46ce-8c1b-959c9a11861a",
+    "nom": "crème anglaise prête à l'emploi",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:12:39.588260"
+  },
+  {
+    "ingredient_id": "08bb9277-872e-47c1-9cf8-af4f4ebc041e",
+    "nom": "lait de coco en boîte",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:12:39.588260"
+  },
+  {
+    "ingredient_id": "7622d43b-054f-4ea3-ade7-5162d811b609",
+    "nom": "à soupe de noix de coco",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:39.588260"
+  },
+  {
+    "ingredient_id": "89196cbf-b9cc-4e1a-99cc-cbef5be65ad2",
+    "nom": "crème liquide",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:12:39.588260"
+  },
+  {
+    "ingredient_id": "7c79138e-e3fc-42d8-84a9-2de0fa604417",
+    "nom": "zeste de citron vert",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:12:39.588260"
+  },
+  {
+    "ingredient_id": "66086fad-2180-4e53-886d-3e641a235a0b",
+    "nom": "paquets de biscuit rose de Reims",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:39.588260"
+  },
+  {
+    "ingredient_id": "81aa9464-c62e-4e2b-81d3-8fdcfe0001d5",
+    "nom": "barquettes de fraises et des copeaux de chocolat blanc (facultatif)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:12:39.588260"
+  },
+  {
+    "ingredient_id": "5243e325-9648-409b-b4ec-a3ca2bd66fbb",
+    "nom": "coulis de fruits de la passion et mangue",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:46.453346"
+  },
+  {
+    "ingredient_id": "9b1ca6ba-a4c8-41c6-9092-49ea48612d96",
+    "nom": "crème fraîche entière liquide",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:12:46.453346"
+  },
+  {
+    "ingredient_id": "6079f963-8b06-4470-9b35-a621076b099d",
+    "nom": "gelée de fruits rouges (groseilles, mûres, ou framboises fait parfaitement l'affaire)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:46.453346"
+  },
+  {
+    "ingredient_id": "b2e5b2ea-3be7-4f20-b785-7dc86ec44f80",
+    "nom": "1/2 feuilles de gélatine",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:46.453346"
+  },
+  {
+    "ingredient_id": "75f48364-ad42-4173-bb0f-115e6fc36073",
+    "nom": "pâte d'amande rose",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:46.453346"
+  },
+  {
+    "ingredient_id": "4273a45c-64cb-4521-95ca-ac8d57ab63e5",
+    "nom": "copeaux de chocolat blanc",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:12:46.453346"
+  },
+  {
+    "ingredient_id": "43759a19-98d4-4d6e-beec-c3e7efa26626",
+    "nom": "pâtes feuilletées déjà étalées",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:12:52.303290"
+  },
+  {
+    "ingredient_id": "f28425e9-21d3-402a-aeec-aeed925719c4",
+    "nom": "crème pâtissière (maison)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:12:52.303290"
+  },
+  {
+    "ingredient_id": "31a6e78a-674d-41ed-a287-62d2bbe179c2",
+    "nom": "fraises (500 g minimum)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:12:52.303290"
+  },
+  {
+    "ingredient_id": "73c2f1bd-157d-46bb-916b-478827f3a8d3",
+    "nom": "1/2 pots de mascarpone",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:55.766171"
+  },
+  {
+    "ingredient_id": "88f5be2d-647c-4322-b09e-b65025ba0d71",
+    "nom": "briquettes de crème liquide entière",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:12:55.766171"
+  },
+  {
+    "ingredient_id": "58ff24bb-cb7a-4e49-b4b8-fc0924e32bdd",
+    "nom": "spéculoos (4 par personne)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:12:55.766171"
+  },
+  {
+    "ingredient_id": "4a058af1-c8e6-463f-b180-2829b5f39c21",
+    "nom": "gâteaux au chocolat",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:00.453271"
+  },
+  {
+    "ingredient_id": "041dd359-1961-4d33-a0ac-5c9b1e1d6b69",
+    "nom": "chocolat pâtissier",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:00.453271"
+  },
+  {
+    "ingredient_id": "79d223e3-ef24-4a5d-910b-18599498cef6",
+    "nom": "1/3 levure chimique",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:00.453271"
+  },
+  {
+    "ingredient_id": "341796e5-392f-49d1-8aa8-72f18ba53602",
+    "nom": "pralin (mélange amande-noisette en poudre)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:00.453271"
+  },
+  {
+    "ingredient_id": "46ddc238-77ac-49a4-b3b5-184c74dba097",
+    "nom": "chocolat",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:00.453271"
+  },
+  {
+    "ingredient_id": "dc0e9771-874d-4fd9-b06e-78a343ab3772",
+    "nom": "eau",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:00.453271"
+  },
+  {
+    "ingredient_id": "4334f801-b47c-435c-b765-4acd98cb5968",
+    "nom": "vanille liquide",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:06.420894"
+  },
+  {
+    "ingredient_id": "9ae995c8-e6a2-48c8-a0fe-e59d15dc600f",
+    "nom": "crème fraîche épaisse",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:13:06.420894"
+  },
+  {
+    "ingredient_id": "e913fc15-6e58-49fb-a5ed-d2896158dce3",
+    "nom": "amandes effilées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:06.420894"
+  },
+  {
+    "ingredient_id": "b803ff63-5b2f-4eb7-b585-0ccef30d1973",
+    "nom": "biscuits à la cuillère",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:09.969509"
+  },
+  {
+    "ingredient_id": "5e6401d2-d45f-42c0-acce-7084015ab6be",
+    "nom": "d'eau de fleur d'oranger",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:13:09.969509"
+  },
+  {
+    "ingredient_id": "dc630056-5fae-46a4-a134-667a6510ff24",
+    "nom": "pâte sablée",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:13:19.151313"
+  },
+  {
+    "ingredient_id": "d9450ff0-b905-4f91-baff-878e07bab742",
+    "nom": "framboises au minimum",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:19.151313"
+  },
+  {
+    "ingredient_id": "3f51fb3a-e42d-4245-bc49-ce3833f7f1b3",
+    "nom": "pommes de terre farineuses",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:13:24.873039"
+  },
+  {
+    "ingredient_id": "94e7fc3b-5b01-4d66-b871-34da33512e61",
+    "nom": "grosses cuillères à soupe de farine",
+    "type": "farines",
+    "date_ajout": "2025-09-26T15:13:24.873039"
+  },
+  {
+    "ingredient_id": "100b5874-10eb-41d5-a51e-43a5e6b3ab55",
+    "nom": "poivre (pas trop)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:13:24.873039"
+  },
+  {
+    "ingredient_id": "2926efb1-8d5a-4c36-93c3-d4448699112f",
+    "nom": "barquettes de fraises bien parfumées",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:13:28.372978"
+  },
+  {
+    "ingredient_id": "1b04b8f2-c016-4dbd-8f23-91002bbaa3e4",
+    "nom": "yaourts bien crémeux",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:13:28.372978"
+  },
+  {
+    "ingredient_id": "3801ff75-79d2-4cc3-8433-321c53785380",
+    "nom": "à soupe de sucre en poudre",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:13:28.372978"
+  },
+  {
+    "ingredient_id": "65baa7de-b560-4324-9346-7fe9009d4a8d",
+    "nom": "à soupe de vinaigre balsamique",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:28.372978"
+  },
+  {
+    "ingredient_id": "450ef3cc-d709-4283-be17-0276195265ab",
+    "nom": "poignées de pistaches non salées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:28.372978"
+  },
+  {
+    "ingredient_id": "79053db9-877e-4df1-869e-b3cc8a98d9ad",
+    "nom": "à soupe de sucre glace",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:13:32.999596"
+  },
+  {
+    "ingredient_id": "e5eb97d6-7b6c-44bb-8ed9-1165c4d35174",
+    "nom": "pommes de terre",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:13:39.736562"
+  },
+  {
+    "ingredient_id": "856ece4f-7ac9-4d62-bdb9-f5f1d753c715",
+    "nom": "à soupe de farine",
+    "type": "farines",
+    "date_ajout": "2025-09-26T15:13:39.736562"
+  },
+  {
+    "ingredient_id": "894ba87f-f02c-414e-ba5b-177bde11d07c",
+    "nom": "oignons",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:13:39.736562"
+  },
+  {
+    "ingredient_id": "30f320c5-d3df-45c3-97d5-6ecaaa23ae13",
+    "nom": "bottes de ciboulette",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:13:39.737653"
+  },
+  {
+    "ingredient_id": "f308f7b8-2cdc-4562-b2ac-1e8cec60fffb",
+    "nom": "huile",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:13:39.737653"
+  },
+  {
+    "ingredient_id": "bdbd50fc-591a-409a-91db-812862b3cb51",
+    "nom": "à soupe de crème épaisse",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:13:43.327609"
+  },
+  {
+    "ingredient_id": "7a22e1e4-5b2d-4855-834c-c6296fcfdd36",
+    "nom": "boules de glace fraise",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:13:43.327609"
+  },
+  {
+    "ingredient_id": "27b82ea3-29ae-47e7-9d0f-230c04c5852e",
+    "nom": "à café de sucre vanillé",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:13:43.327609"
+  },
+  {
+    "ingredient_id": "14b8c46d-09ab-4917-8f6d-5580f99a5282",
+    "nom": "pommes (tenant à la cuisson)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:13:47.927222"
+  },
+  {
+    "ingredient_id": "7b2afe6b-ae64-4d30-a0fa-4069f56dc5f4",
+    "nom": "framboises (fraîches ou surgelées)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:47.927449"
+  },
+  {
+    "ingredient_id": "947b3e02-739b-4118-8812-4dcbe92add72",
+    "nom": "sucre de canne",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:13:47.927449"
+  },
+  {
+    "ingredient_id": "9604737e-b944-4607-a88a-1381142ba93a",
+    "nom": "crème fraîche (facultatif)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:13:47.927449"
+  },
+  {
+    "ingredient_id": "6e2da33f-b6e7-45df-af56-22e9e39ef74c",
+    "nom": "caramel liquide",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:47.927449"
+  },
+  {
+    "ingredient_id": "1fc87ae2-328b-4e15-94fb-bf37595f5883",
+    "nom": "vanille en poudre ou sucre vanillé",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:13:47.927449"
+  },
+  {
+    "ingredient_id": "155985e7-4fcc-4dff-b30d-a997fde00389",
+    "nom": "chocolat noir",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:53.805930"
+  },
+  {
+    "ingredient_id": "a53d11f1-e533-4267-b4bd-35af5f47bc75",
+    "nom": "framboises si possible fraîches",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:13:53.805930"
+  },
+  {
+    "ingredient_id": "bfed8a46-3c7d-463b-918e-85528a4d6ef2",
+    "nom": "crème fraîche",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:13:57.439860"
+  },
+  {
+    "ingredient_id": "61ab15e1-920f-4fdb-b250-fb9820733272",
+    "nom": "crème fleurette glacée (ou chantilly)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:13:57.439860"
+  },
+  {
+    "ingredient_id": "e0bff785-d4e5-4f7b-af2f-fb1b4f8ec935",
+    "nom": "huile de friture",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:14:04.135638"
+  },
+  {
+    "ingredient_id": "5689e9c8-2fe8-4311-9657-7133924d7147",
+    "nom": "framboises (fraiches ou surgelées)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:14:10.624470"
+  },
+  {
+    "ingredient_id": "58129954-497b-4c7d-8fc7-d07d56872ce7",
+    "nom": "crème fraîche normale (c'est à dire ni liquide ni trop épaisse)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:14:10.624470"
+  },
+  {
+    "ingredient_id": "9b8fd29b-259d-4da7-86ca-003047918a6b",
+    "nom": "feuilles de gélatine (= 6 feuilles que l'on trouve généralement dans le commerce)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:14:10.624470"
+  },
+  {
+    "ingredient_id": "c7f36dfd-a0d2-427a-98e5-6313acf4eb24",
+    "nom": "fromage blanc",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:14:17.276687"
+  },
+  {
+    "ingredient_id": "a9faeac4-342d-426a-92c1-2893658c1f2d",
+    "nom": "paquets de spéculoos",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:14:17.276687"
+  },
+  {
+    "ingredient_id": "8a80f58b-c9e1-44c0-9f04-c227de2cd74a",
+    "nom": "jus de citron",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:14:21.983723"
+  },
+  {
+    "ingredient_id": "366c18fd-b905-4db1-9e48-a28a30f9cb4e",
+    "nom": "marmelade d'orange (facultatif)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:14:21.983723"
+  },
+  {
+    "ingredient_id": "6fc80d0f-14bc-4b08-94f8-7d70082e2c9d",
+    "nom": "sucre glace (facultatif)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:14:21.983723"
+  },
+  {
+    "ingredient_id": "9ca60f00-856a-4d65-98eb-0f9cd5a47f3b",
+    "nom": "à soupe de lait",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:14:28.719351"
+  },
+  {
+    "ingredient_id": "e2a5ce27-6f1b-4e42-ba19-0720e4619e91",
+    "nom": "paquets de levure chimique",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:14:28.719351"
+  },
+  {
+    "ingredient_id": "cf0374b4-96b6-4b85-856e-68ecb01316dd",
+    "nom": "pommes coupées",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:14:28.719351"
+  },
+  {
+    "ingredient_id": "cbebc4e0-279d-4119-a1b2-2d012f23df94",
+    "nom": "à soupe de sucre",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:14:35.327803"
+  },
+  {
+    "ingredient_id": "61068656-b6bf-45a7-810e-d01cb9595906",
+    "nom": "1/2 paquets de levure chimique",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:14:35.327803"
+  },
+  {
+    "ingredient_id": "0a4c5110-7371-40d1-a0fe-82683d407d82",
+    "nom": "beurre + 30 g",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:14:42.139841"
+  },
+  {
+    "ingredient_id": "1cc86e80-4cc5-4fcc-91c6-59578c5cd000",
+    "nom": "pomme épluchées",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:14:42.139841"
+  },
+  {
+    "ingredient_id": "68f9c93e-30f4-49d8-98fe-f957b7532f4d",
+    "nom": "cannelle",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:14:42.139841"
+  },
+  {
+    "ingredient_id": "9b32a810-7f71-4afb-973e-ef3abf2cfa86",
+    "nom": "blanc d'oeuf (3 à 4 œufs suivant la grosseur)",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:14:46.966855"
+  },
+  {
+    "ingredient_id": "dc885a56-f4cf-44bb-82ab-394939f56bbb",
+    "nom": "d'amandes",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:14:46.966855"
+  },
+  {
+    "ingredient_id": "bbe2e48b-c324-462f-88b3-58f94244483f",
+    "nom": "sucre glace",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:14:46.966855"
+  },
+  {
+    "ingredient_id": "73da1aa9-9fea-4dcf-9f6b-333cb8050a8d",
+    "nom": "gouttes d'eau de rose",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:14:46.966855"
+  },
+  {
+    "ingredient_id": "718f05a2-0455-4cfb-bb54-873575249b59",
+    "nom": "colorant rose liquide (si vous utilisez du colorant en poudre, mettre seulement 244 g de sucre glace)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:14:46.966855"
+  },
+  {
+    "ingredient_id": "4737c55c-fcaf-4c97-aa59-6eda79fa7cef",
+    "nom": "crème liquide entière",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:14:46.966855"
+  },
+  {
+    "ingredient_id": "fcbf67d0-78d3-45b3-8e99-3e8a000e5029",
+    "nom": "goutte d'eau de rose",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:14:46.966855"
+  },
+  {
+    "ingredient_id": "d10bee03-8bda-49f3-87b6-ff40e4b824f4",
+    "nom": "goutte de colorant rose liquide",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:14:46.966855"
+  },
+  {
+    "ingredient_id": "c728d789-a324-46f1-8816-6b87d32ceb6c",
+    "nom": "litchis au sirop",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:14:46.966855"
+  },
+  {
+    "ingredient_id": "6303756b-b7e8-42ef-8ac3-b8a0ff9436a8",
+    "nom": "rhubarbe",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:14:51.642620"
+  },
+  {
+    "ingredient_id": "3dc60ce5-3f47-42eb-85e6-42a5bf1dc1e5",
+    "nom": "sucre roux",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:14:51.642620"
+  },
+  {
+    "ingredient_id": "eecfec0d-feef-442a-b311-69635b31ed96",
+    "nom": "zestes de citron ou orange (ou jus)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:14:58.275285"
+  },
+  {
+    "ingredient_id": "8dcf78d9-8e6a-4b33-a725-341a19374ac0",
+    "nom": "à café rases de levure chimique",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:14:58.275285"
+  },
+  {
+    "ingredient_id": "f45cc69f-964c-45fb-abe0-ce5c888bad1a",
+    "nom": "pintades chaponne de 2 kg environ",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:02.761643"
+  },
+  {
+    "ingredient_id": "2fc232a4-d66a-4d65-afce-00f48d50082e",
+    "nom": "pommes de type Royal Gala",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:15:02.761643"
+  },
+  {
+    "ingredient_id": "35773558-86e6-49b0-8e60-44b6b400cb92",
+    "nom": "châtaignes pelées au feu",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:02.761643"
+  },
+  {
+    "ingredient_id": "cfe1fdf2-61b8-4cda-95f3-7772f43bf145",
+    "nom": "branches de romarin frais",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:15:02.761643"
+  },
+  {
+    "ingredient_id": "075abe32-170a-42d8-acf0-0724183d0acd",
+    "nom": "à soupe d'huile d'olive",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:15:02.761643"
+  },
+  {
+    "ingredient_id": "970f591c-ea53-4cb3-8e8f-6409cfe96c64",
+    "nom": "calvados",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:02.761643"
+  },
+  {
+    "ingredient_id": "330d0f05-1491-4ee9-897e-653d1c37290e",
+    "nom": "à café rases de sucre roux",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:15:02.761643"
+  },
+  {
+    "ingredient_id": "3970c8a6-6e00-468d-98be-28fc0e0fc50e",
+    "nom": "muscade en poudre",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:15:02.761643"
+  },
+  {
+    "ingredient_id": "f3e015e8-525b-4f9b-8cf2-d2bc2dd9d783",
+    "nom": "poivre",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:15:02.761643"
+  },
+  {
+    "ingredient_id": "a0b30c26-fd90-429b-818c-ca063945c240",
+    "nom": "citrons non traité",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:15:10.265046"
+  },
+  {
+    "ingredient_id": "84bca24e-bd90-4e63-8489-9804b1981247",
+    "nom": "beurre mou + 20 g pour le moule",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:15:10.265046"
+  },
+  {
+    "ingredient_id": "ce288de8-3dd5-4e55-b938-a97e93db14f2",
+    "nom": "fraises tagada® ®",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:15:13.798898"
+  },
+  {
+    "ingredient_id": "4a42804c-ff1e-427a-b40d-af132d95db4f",
+    "nom": "sirop de citrons pour le trempage",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:15:13.798898"
+  },
+  {
+    "ingredient_id": "b28244f4-f9c5-450a-ad34-6a4f7eba6e94",
+    "nom": "épices",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:20.404594"
+  },
+  {
+    "ingredient_id": "961518cc-1149-4618-96fc-44fea20fd19c",
+    "nom": "persil",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:15:20.404594"
+  },
+  {
+    "ingredient_id": "956d9865-8019-4fac-8230-4c30b5d3b4f1",
+    "nom": "chocolat blanc",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:15:25.044102"
+  },
+  {
+    "ingredient_id": "e8e73be8-d633-4e75-8835-223ea079d71a",
+    "nom": "pistaches décortiquées non salées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:28.692574"
+  },
+  {
+    "ingredient_id": "b2ed0d8c-bc07-4016-a64b-c8dc30c95395",
+    "nom": "pommes (des Canada par exemple)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:15:35.159659"
+  },
+  {
+    "ingredient_id": "b068d047-3e24-4750-8523-69f397d096ad",
+    "nom": "farine de blé",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:15:35.159659"
+  },
+  {
+    "ingredient_id": "5028d422-5c6b-4e64-b0dd-12d559089239",
+    "nom": "beurre doux (le sortir 1/2 heure avant de commencer la recette)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:15:35.159659"
+  },
+  {
+    "ingredient_id": "eb615000-556f-4fa7-89e5-e451daa7a555",
+    "nom": "petites cuillères de cannelle en poudre",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:15:35.159659"
+  },
+  {
+    "ingredient_id": "253f2fff-08a0-4744-8814-f06851dee64a",
+    "nom": "beurre + une noisette pour beurrer le plat",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:15:41.725590"
+  },
+  {
+    "ingredient_id": "8344e2f7-1da6-4b69-b02e-6dfd507125dd",
+    "nom": "glace vanille",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:41.725590"
+  },
+  {
+    "ingredient_id": "2d1e020a-06e9-4529-b753-0d81e5477492",
+    "nom": "1/2 sachets de sucre vanillé",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:15:46.687059"
+  },
+  {
+    "ingredient_id": "a61d9237-c0c4-4350-a7a9-d4daec131165",
+    "nom": "à soupe de crème liquide entière",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:15:53.530118"
+  },
+  {
+    "ingredient_id": "2b8dfc80-3926-4cf4-ac2b-9f8c11e2a78a",
+    "nom": "oeufs entier + 1 jaune",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:15:53.530118"
+  },
+  {
+    "ingredient_id": "c69f80b3-9cc8-4f8b-ba7f-62cc123bb2ed",
+    "nom": "chocolat au lait",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "824af0af-0315-4773-a159-c1e2f315a877",
+    "nom": "beurre doux",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "9f0c6f30-6f60-4902-a61b-53763dd568e1",
+    "nom": "jaune d'oeuf",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "c1e8bf14-26dd-4287-b1da-ce6822c210ac",
+    "nom": "blanc d'oeuf",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "8b665a65-5d71-40d8-a2ec-48fd3d8b4c85",
+    "nom": "farine tamisée",
+    "type": "farines",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "5fa2fd87-18d8-450a-811c-8519b99b9fbf",
+    "nom": "noisettes",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "b2480ac4-0d48-40fe-a15c-b6f8968c345d",
+    "nom": "pralin",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "03e01ea1-8991-484b-ae1b-424e4752dc09",
+    "nom": "crêpe dentelle écrasées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "2f8d9304-31e8-4dd2-9354-33c65b3903a5",
+    "nom": "gélatine (3 feuilles)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "75418a54-13be-4951-b053-5f1ffb274ce1",
+    "nom": "lait entier",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "8d2579ee-b5eb-48b5-bb51-7df99d597803",
+    "nom": "vanille en poudre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "ef2fee7d-ec54-4487-81b2-8484cd4b340f",
+    "nom": "gélatine (2 feuilles)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "f9d9ffc0-aa27-49ec-a127-b6c637b7c6a5",
+    "nom": "crème fraîche liquide",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "4ab73831-0b5b-491e-a2f2-7f5821195e75",
+    "nom": "à café de sucre glace",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "7762aedf-7628-48fe-95d6-2f8d3840f8a0",
+    "nom": "sucre glace tamisé",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "bebf905f-c1bd-4b89-b998-e6dafb52d212",
+    "nom": "d'amandes tamisée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "62cbd25d-f38f-4e23-af98-c22500958727",
+    "nom": "à soupe de cacao",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "016c5219-7d4f-4e42-a783-27a3bebfc11f",
+    "nom": "chocolat au lait haché",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "f3ead4e8-34c2-4aff-a74a-9897f64f1d00",
+    "nom": "framboises fraîches",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:15:57.966947"
+  },
+  {
+    "ingredient_id": "7cef05f2-bf77-4ac3-834f-bd1bd42b3e84",
+    "nom": "pâte brisée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:16:02.951557"
+  },
+  {
+    "ingredient_id": "81ff5ad1-54ef-4075-9181-068d9afa7b33",
+    "nom": "1/2 paquets de gâteaux type \"spritz\" (sablés)",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:16:07.594147"
+  },
+  {
+    "ingredient_id": "77446e71-4ab0-4954-bd41-0be9e5421590",
+    "nom": "framboises fraîches ou surgelées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:16:07.594147"
+  },
+  {
+    "ingredient_id": "21cfe7a3-c8e4-47ed-a51f-56e025734a7a",
+    "nom": "fraises bien mûres",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:16:13.591961"
+  },
+  {
+    "ingredient_id": "d47bf41e-06f3-40a5-8133-78731c5c537e",
+    "nom": "vin blanc",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:16:13.591961"
+  },
+  {
+    "ingredient_id": "82b15273-ad96-488e-b792-4ded2c346ca6",
+    "nom": "farine à gâteaux",
+    "type": "farines",
+    "date_ajout": "2025-09-26T15:16:17.049325"
+  },
+  {
+    "ingredient_id": "2c6fec67-200f-4222-a0db-9795f1d425ad",
+    "nom": "beurre demi-sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:16:17.049325"
+  },
+  {
+    "ingredient_id": "6c8386fe-7d31-4ad6-b135-0a3cd8e5ce5c",
+    "nom": "1/2 cuillères à café de sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:16:22.907384"
+  },
+  {
+    "ingredient_id": "fdb663b6-2b84-4a83-a388-7f26c4f7e3ae",
+    "nom": "à soupe d'eau",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:16:22.907384"
+  },
+  {
+    "ingredient_id": "0d42e663-8683-4417-950a-c625d04116e4",
+    "nom": "à café de cannelle",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:16:22.907384"
+  },
+  {
+    "ingredient_id": "7659a382-119d-4257-9698-9dae95bff15f",
+    "nom": "pomme et poires en quantité égale",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:16:22.907384"
+  },
+  {
+    "ingredient_id": "40e8edc7-a3dc-4f97-a36d-33ec5f86c77c",
+    "nom": "beurre + 5 g pour le moule",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:16:22.907384"
+  },
+  {
+    "ingredient_id": "5d6f33fa-100c-4575-8254-26a355c27941",
+    "nom": "à café de vinaigre balsamique",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:16:22.907384"
+  },
+  {
+    "ingredient_id": "a1db12f4-1d1e-47ad-84f9-0da1bf72d01b",
+    "nom": "pommes Jonagold",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:16:29.608899"
+  },
+  {
+    "ingredient_id": "4fb1e481-c498-4e0e-a1aa-809ad5afa852",
+    "nom": "à soupe de sucre roux de canne",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:16:29.608899"
+  },
+  {
+    "ingredient_id": "3fa434b1-2fdc-4a9c-aa11-84cd1c6bcaa5",
+    "nom": "à soupe de beurre",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:16:29.608899"
+  },
+  {
+    "ingredient_id": "84b7225a-fc58-4d0e-bd3c-0173e44b3e91",
+    "nom": "beurre fondu",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:16:41.432026"
+  },
+  {
+    "ingredient_id": "8ea0ab99-1469-4e40-b392-d21183cd9f68",
+    "nom": "cacao en poudre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:16:41.432026"
+  },
+  {
+    "ingredient_id": "f3e2641e-ce12-45a1-a25c-9b667423cc66",
+    "nom": "à soupe de liqueur de framboise",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:16:41.432026"
+  },
+  {
+    "ingredient_id": "5b0ff6e1-2649-4054-ab15-ecf5c01c62e0",
+    "nom": "chocolat noir à 55% de cacao",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:16:41.432026"
+  },
+  {
+    "ingredient_id": "a050e015-019e-4040-9c05-c016e34358d5",
+    "nom": "à café de pistaches (facultatif)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:16:41.432026"
+  },
+  {
+    "ingredient_id": "416ecab4-5fce-4e59-b125-547edd48fbbb",
+    "nom": "cannelle en poudre",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:16:47.959095"
+  },
+  {
+    "ingredient_id": "14af291b-0285-4d20-9e2b-8c45252eb6c8",
+    "nom": "noix de beurre",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:16:47.959095"
+  },
+  {
+    "ingredient_id": "5fe55b02-e22e-43a4-a1eb-bd1c59723f31",
+    "nom": "framboises entières fraîches ou surgelées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:16:54.968551"
+  },
+  {
+    "ingredient_id": "c797329e-5bc6-40be-afb1-66d8ed422d4b",
+    "nom": "mousse au chocolat noir (en pot)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:16:54.968551"
+  },
+  {
+    "ingredient_id": "7a42e9eb-bb5a-4f91-acd8-213670fd3dc5",
+    "nom": "à café de levure",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:16:58.568680"
+  },
+  {
+    "ingredient_id": "d3d87585-3109-4a53-9084-d8c058f0df89",
+    "nom": "noix de coco rapée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:16:58.568680"
+  },
+  {
+    "ingredient_id": "f92b66b5-d409-40dd-8bc0-f4ccdc2796b6",
+    "nom": "à soupe de sucre ou d'édulcorant",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:17:03.405216"
+  },
+  {
+    "ingredient_id": "75c3b67a-3252-4902-824d-415d32403e2d",
+    "nom": "orange",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:17:07.060437"
+  },
+  {
+    "ingredient_id": "4eda0af3-194f-45bd-938d-2995f3f59315",
+    "nom": "à soupe de crème semi-épaisse",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:17:07.060437"
+  },
+  {
+    "ingredient_id": "5322baea-6334-4b9d-a622-4e2ac6483352",
+    "nom": "feuilles de brick",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:17:14.053871"
+  },
+  {
+    "ingredient_id": "63beb869-9b5e-4dee-8ffd-c7f82377dc8e",
+    "nom": "goutte d'arôme amande amère (facultatif)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:17:14.053871"
+  },
+  {
+    "ingredient_id": "7a06d24a-1b9f-4b7d-a879-508ec442c57a",
+    "nom": "sucre glace et quelques feuilles de menthe pour la décoration",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:17:14.053871"
+  },
+  {
+    "ingredient_id": "8056c7c8-a8f1-4eed-b3d3-c611cf0ce096",
+    "nom": "pommes rouges",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:17:19.655923"
+  },
+  {
+    "ingredient_id": "803d3a89-a1a2-4eaf-a0c9-10df636ab12b",
+    "nom": "à soupe de miel",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:17:19.655923"
+  },
+  {
+    "ingredient_id": "bc0c8f74-b173-4c9f-a6c0-dd2dd6cd6136",
+    "nom": "extrait de vanille liquide ou 1 sachet de sucre vanillé",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:17:19.655923"
+  },
+  {
+    "ingredient_id": "5eca5426-1d2e-4658-aee0-4512c9a3e91a",
+    "nom": "cannelle moulue",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:17:19.655923"
+  },
+  {
+    "ingredient_id": "3b5edb33-ade5-45f1-b310-8d989692190a",
+    "nom": "spéculoos (en fonction de leur taille)",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:17:19.655923"
+  },
+  {
+    "ingredient_id": "1a9c1489-ced5-44eb-8b7c-15c88d37042e",
+    "nom": "framboises (congelées ou fraîches)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:17:24.228636"
+  },
+  {
+    "ingredient_id": "b74563d2-e9e1-42ff-b633-c18dfdde596d",
+    "nom": "crème",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:17:24.228636"
+  },
+  {
+    "ingredient_id": "46756282-af29-4653-87eb-6625c4fd03c0",
+    "nom": "ricotta",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:17:24.228636"
+  },
+  {
+    "ingredient_id": "d2db2933-4ec7-40c5-b871-0e8b7b5ffe40",
+    "nom": "crème fleurette",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:17:35.764644"
+  },
+  {
+    "ingredient_id": "3aaad85f-293e-470f-9818-2323726aefed",
+    "nom": "barquettes de fraises",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:17:44.877222"
+  },
+  {
+    "ingredient_id": "f21547cd-2b71-4071-8fff-b100d7c6f0cc",
+    "nom": "mangues bien mûre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:17:44.877222"
+  },
+  {
+    "ingredient_id": "2eb9a290-c340-4abe-a586-caeef151ac75",
+    "nom": "oranges",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:17:44.877222"
+  },
+  {
+    "ingredient_id": "be964600-e2aa-4c46-acc5-92a55247567a",
+    "nom": "gingembre en poudre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:17:44.877222"
+  },
+  {
+    "ingredient_id": "ceb7d499-0338-4de5-89cc-c91114650e41",
+    "nom": "vanille (ou sucre vanillé)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:17:44.877222"
+  },
+  {
+    "ingredient_id": "05cefb32-5a8c-427f-8ea5-5752d01f6e18",
+    "nom": "pâtes brisées (prête à l'emploi)",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:17:49.732918"
+  },
+  {
+    "ingredient_id": "0b24007c-0924-4abe-9dee-74504009eb5d",
+    "nom": "à soupe de gelée de framboises",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:17:49.732918"
+  },
+  {
+    "ingredient_id": "a9e28bcf-758c-49f8-bacc-7d29716e2972",
+    "nom": "oeufs + 2 jaunes d'oeufs",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:17:49.732918"
+  },
+  {
+    "ingredient_id": "45a67892-7f9c-41cf-a397-323531422818",
+    "nom": "1/2 l de lait",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:17:49.732918"
+  },
+  {
+    "ingredient_id": "83a926ed-55ea-46b4-a052-7b47e3a4c917",
+    "nom": "kiwis",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:17:53.435002"
+  },
+  {
+    "ingredient_id": "bd9374c8-e9bc-4843-ab07-76a1c41498a7",
+    "nom": "jus de citron vert en bouteille (ou jus de citron pressé)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:17:53.435002"
+  },
+  {
+    "ingredient_id": "94820469-6b00-4019-be9f-42bd65d5b219",
+    "nom": "à soupe de miel (ou de sucre)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:17:53.435002"
+  },
+  {
+    "ingredient_id": "43f1bb24-c088-4aad-9b49-028b898be11b",
+    "nom": "paquets de levure",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:17:59.065242"
+  },
+  {
+    "ingredient_id": "bb6af66a-91c7-414d-b4fa-6165a458be42",
+    "nom": "pommes ou 4 poires (ou 2 de chaque !)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:17:59.065242"
+  },
+  {
+    "ingredient_id": "d23b3585-cf95-4d12-bfec-e18c19dfbbff",
+    "nom": "sachets de framboises surgelées (environ 1 kg)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:18:06.509012"
+  },
+  {
+    "ingredient_id": "aab1f027-2da0-4b6c-9a05-e48750a7a9e6",
+    "nom": "à café de sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:18:11.108898"
+  },
+  {
+    "ingredient_id": "54b6fe83-ef44-4bc1-8278-1207b64e05dc",
+    "nom": "gousses de vanille",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:18:11.108898"
+  },
+  {
+    "ingredient_id": "4437b258-1960-4c2b-afa9-a82b1efca155",
+    "nom": "1/2 sachets de levure",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:18:17.623677"
+  },
+  {
+    "ingredient_id": "734a1981-683f-4306-8ca1-b1c1ef9ecb98",
+    "nom": "pots de yaourt + 1/2",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:18:17.623677"
+  },
+  {
+    "ingredient_id": "432ccaa6-7997-41a8-9faa-ac84616e0d0c",
+    "nom": "à café de gingembre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:18:17.623677"
+  },
+  {
+    "ingredient_id": "b1d44590-845c-4aff-b17c-5961e8cb0b8f",
+    "nom": "cuillère de gelée de groseilles",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:18:23.516747"
+  },
+  {
+    "ingredient_id": "3c44aa53-3fef-4fe4-9958-9740066d79c6",
+    "nom": "à soupe de fromage blanc",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:18:23.516747"
+  },
+  {
+    "ingredient_id": "b94290a5-4617-4645-ac1d-4644f17f7efb",
+    "nom": "cannelle (quantité selon votre goût)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:18:30.205837"
+  },
+  {
+    "ingredient_id": "c5832f42-4ef9-44c8-aa3c-88161807b586",
+    "nom": "sucre (facultatif)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:18:30.205837"
+  },
+  {
+    "ingredient_id": "25ba699d-dffc-4660-b1f9-8a400a5a56cf",
+    "nom": "sucre en poudre (à ajuster selon votre goût)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:18:33.621850"
+  },
+  {
+    "ingredient_id": "38bdfbe5-3e15-47f0-af63-3ba18fb30335",
+    "nom": "citrons (jus)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:18:33.621850"
+  },
+  {
+    "ingredient_id": "dda761dd-62ae-4fb7-888c-8511ab0e2087",
+    "nom": "filets d'eau",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:18:33.621850"
+  },
+  {
+    "ingredient_id": "3216aca0-0744-4c67-ae70-deed04a51dae",
+    "nom": "sachets de sucre vanillé (graines de vanille fraiche ou une cuillère à café d'extrait de vanille)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:18:33.621850"
+  },
+  {
+    "ingredient_id": "03b08f20-23a0-4900-bf6b-054f4d2a2833",
+    "nom": "sablés breton (au beurre salé)",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:18:33.621850"
+  },
+  {
+    "ingredient_id": "3fe2474b-df8f-4c41-9a92-0be606271af4",
+    "nom": "poireaux",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:18:40.305458"
+  },
+  {
+    "ingredient_id": "29f99b83-71cd-4674-8c99-ec4240cfe820",
+    "nom": "carottes",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:18:40.305458"
+  },
+  {
+    "ingredient_id": "1ae5d1f3-6163-4a03-b106-ca71c0dd2286",
+    "nom": "cubes de bouillon de volaille",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:18:40.305458"
+  },
+  {
+    "ingredient_id": "d583fdd2-dcee-4a26-9354-23a6d5e966c6",
+    "nom": "saumon fumé",
+    "type": "poissons",
+    "date_ajout": "2025-09-26T15:18:46.029980"
+  },
+  {
+    "ingredient_id": "f0bf39eb-6348-4b6e-8c78-2dba71384aae",
+    "nom": "fromage râpé",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:18:46.029980"
+  },
+  {
+    "ingredient_id": "ffa4b9f0-14ae-48f9-b72f-ab1ac898e807",
+    "nom": "potimarrons",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:18:52.579145"
+  },
+  {
+    "ingredient_id": "65d09757-7a9f-42ef-a427-cfd35330547e",
+    "nom": "oignons hachés",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:18:52.579145"
+  },
+  {
+    "ingredient_id": "4c3f7b22-9876-42da-a1e6-08e94528f106",
+    "nom": "gousses d'ail hachées",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:18:52.579145"
+  },
+  {
+    "ingredient_id": "04a718ee-bddd-4f0e-852c-2b86343ba435",
+    "nom": "à café de curry",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:18:52.579145"
+  },
+  {
+    "ingredient_id": "81950623-6e5b-400b-b149-1974a0896518",
+    "nom": "pincées de muscade",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:18:52.579145"
+  },
+  {
+    "ingredient_id": "6dc7c2e1-353a-4e1a-a06b-ec7c3b6d984a",
+    "nom": "cubes de bouillon de poule",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:18:52.579145"
+  },
+  {
+    "ingredient_id": "99dc090e-3418-4c51-8017-ece64d445344",
+    "nom": "feuilles de laurier",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:18:52.579145"
+  },
+  {
+    "ingredient_id": "f906ec51-1ba1-4ffb-bcdf-32ca75864985",
+    "nom": "pâte feuilletée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:18:59.290746"
+  },
+  {
+    "ingredient_id": "256e8d60-ef5c-4333-8e0e-6c92d3fe2a8f",
+    "nom": "rouleaux de pâte feuilletée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:19:03.664254"
+  },
+  {
+    "ingredient_id": "5ae1fa5b-b828-4e72-995a-3fd9b5fed13c",
+    "nom": "fèves",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:19:03.664254"
+  },
+  {
+    "ingredient_id": "49d20c74-a4c2-42c0-a037-9d8f36c21e92",
+    "nom": "fraises bien mûres et bien parfumées (300 g de pulpe passée)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:19:08.288780"
+  },
+  {
+    "ingredient_id": "6983b7b7-9394-42ce-ac8f-320f0de9b273",
+    "nom": "à soupe de jus de citron",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:19:08.288780"
+  },
+  {
+    "ingredient_id": "d6515335-26ca-4293-a03e-8d6e583692fa",
+    "nom": "pommes coupés en petits dés",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:19:14.861163"
+  },
+  {
+    "ingredient_id": "3160af78-d9e3-4068-bd9e-174723f19f8c",
+    "nom": "d'huile",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:19:14.861163"
+  },
+  {
+    "ingredient_id": "26ad919c-2d1a-4493-8081-a905209b9fbc",
+    "nom": "noix grossièrement concassées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:19:14.861163"
+  },
+  {
+    "ingredient_id": "571a9960-3440-4b80-9b94-5a5486ce0f9e",
+    "nom": "pincée de sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:19:14.861163"
+  },
+  {
+    "ingredient_id": "60da82d3-1d86-4f03-a63f-803ffc578eb8",
+    "nom": "citrons râpé (non traité)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:19:21.370635"
+  },
+  {
+    "ingredient_id": "13aad17a-dae2-4b33-956e-c4c97565ec70",
+    "nom": "morceaux de sucre n°4",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:19:21.370635"
+  },
+  {
+    "ingredient_id": "bf75dc76-f7ab-411a-afad-58ca536afda6",
+    "nom": "sucre vanillé",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:19:26.212429"
+  },
+  {
+    "ingredient_id": "43694428-9f4f-42c3-9cbc-e51f1dc21b9d",
+    "nom": "glace à la pistache",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:19:26.212429"
+  },
+  {
+    "ingredient_id": "905fb87f-e794-4f4b-8281-d62cd290e93b",
+    "nom": "poignées de pistaches écossées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:19:26.212429"
+  },
+  {
+    "ingredient_id": "05aa718e-c649-4fc0-a0e2-d3db637e8702",
+    "nom": "crème liquide entière bien froide",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:19:29.734833"
+  },
+  {
+    "ingredient_id": "4a5ca809-9af5-43f8-b5f4-6c3e6192f7d4",
+    "nom": "noisettes de beurre",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:19:34.448783"
+  },
+  {
+    "ingredient_id": "e09e9769-98ac-417b-9af0-33a76b90208a",
+    "nom": "fruits rouges frais ou surgelés.",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:19:34.448783"
+  },
+  {
+    "ingredient_id": "338b5e4d-3e92-4f02-bc3b-9c093c581744",
+    "nom": "fraises pour le cœur des dômes",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:19:34.448783"
+  },
+  {
+    "ingredient_id": "eef41895-90b4-434b-a2dc-7d452f352cbb",
+    "nom": "oeufs (4 si petits)",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:19:41.002829"
+  },
+  {
+    "ingredient_id": "0bb2ceef-24d7-465f-93d7-64206780a4a3",
+    "nom": "sucre roux (à doser en fonction du sucre des framboises)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:19:41.002829"
+  },
+  {
+    "ingredient_id": "fe1b4b84-78b5-46e7-b05c-5389db73855f",
+    "nom": "à soupe de liqueur de fraises",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:19:52.710820"
+  },
+  {
+    "ingredient_id": "53948bd3-8909-4ee9-9f7c-5b199b6bf64b",
+    "nom": "pâte de pistache",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:19:56.232507"
+  },
+  {
+    "ingredient_id": "e1736785-3ebd-4984-a8a1-fddabb4fdf0d",
+    "nom": "1/2 citrons jaune",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:19:56.232507"
+  },
+  {
+    "ingredient_id": "6ffa6b85-9e8b-4e53-839e-1acb4dd252ea",
+    "nom": "boîtes de framboises au sirop (ou fraîches, c'est encore mieux !)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:19:56.232507"
+  },
+  {
+    "ingredient_id": "77a248f4-9ead-45a6-ab72-4498e33b500b",
+    "nom": "farine avec levure incorporée",
+    "type": "farines",
+    "date_ajout": "2025-09-26T15:20:00.990899"
+  },
+  {
+    "ingredient_id": "ae484fb8-8647-4fc1-a4b3-29af20da5b01",
+    "nom": "farine ordinaire",
+    "type": "farines",
+    "date_ajout": "2025-09-26T15:20:00.990899"
+  },
+  {
+    "ingredient_id": "686a058a-2b52-4dc0-85c8-8a515cc7d574",
+    "nom": "beurre froid",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:20:00.990899"
+  },
+  {
+    "ingredient_id": "4d2d8b1f-e47b-476a-9c0c-4d34fc3817bb",
+    "nom": "à soupe de cassonade",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:20:00.990899"
+  },
+  {
+    "ingredient_id": "09f0269a-6fd8-47f8-b8cf-1eb78c45e08f",
+    "nom": "boudoir",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:20:05.811577"
+  },
+  {
+    "ingredient_id": "14bcf18f-01b1-4c84-99be-61ed5a18e5b1",
+    "nom": "framboises ( surgelées )",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:20:05.811577"
+  },
+  {
+    "ingredient_id": "404cc0c9-0016-4096-ac72-9fdfb6940b54",
+    "nom": "à soupe de sirop de fraise",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:20:05.811577"
+  },
+  {
+    "ingredient_id": "a77a598c-6560-4835-ba5c-cf4ecca31dd9",
+    "nom": "crème chantilly",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:20:09.407843"
+  },
+  {
+    "ingredient_id": "96fca487-e590-4d62-9838-2e3b65718d12",
+    "nom": "biscuits",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:20:09.407843"
+  },
+  {
+    "ingredient_id": "52589f1a-c4c9-4156-8202-7cf935a26fcd",
+    "nom": "feuilles de filo",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:20:14.196101"
+  },
+  {
+    "ingredient_id": "c7908d25-6373-4a14-9f2c-ef645c876bdf",
+    "nom": "pruneaux d'Agen",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:20:14.196101"
+  },
+  {
+    "ingredient_id": "a79a915f-8186-4111-8f38-9609a57b4184",
+    "nom": "à soupe d'armagnac",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:20:14.196101"
+  },
+  {
+    "ingredient_id": "8894d402-9783-48ef-8da7-f651892d6b5c",
+    "nom": "yaourts",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:20:20.077026"
+  },
+  {
+    "ingredient_id": "092c2280-73ea-44a7-82b7-4bbe13436576",
+    "nom": "demi pots d'huile",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:20:20.077026"
+  },
+  {
+    "ingredient_id": "c35ee5e2-3219-47a3-b0f4-ffbc843460c4",
+    "nom": "compote de pomme",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:20:24.561224"
+  },
+  {
+    "ingredient_id": "57545cbc-1854-4569-9897-37ad8c99b535",
+    "nom": "grosses cuillères à soupe de caramel au beurre salé (tout prêt ou à faire)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:20:24.561224"
+  },
+  {
+    "ingredient_id": "ce11899d-accb-4bd0-bb25-3ffd33be1913",
+    "nom": "carotte",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:20:31.271162"
+  },
+  {
+    "ingredient_id": "9bc1453e-298c-4fc0-aebb-9fbdc192fdf1",
+    "nom": "noisette de beurre",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:20:31.271162"
+  },
+  {
+    "ingredient_id": "0bd14286-311b-4ee9-b186-9bcee68f29f3",
+    "nom": "gruyère râpé",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:20:31.271162"
+  },
+  {
+    "ingredient_id": "d91729cf-1667-4154-96c3-617fe1a6b7ff",
+    "nom": "muscade",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:20:31.271162"
+  },
+  {
+    "ingredient_id": "65b9c906-7f68-4186-b123-e62c7d38148a",
+    "nom": "1/2 paquets de levure",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:20:38.282123"
+  },
+  {
+    "ingredient_id": "4352c09e-e198-4f27-820e-744a9483c9c5",
+    "nom": "poulets (ou 4 escalopes)",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:20:44.014428"
+  },
+  {
+    "ingredient_id": "57fe78af-15e9-4551-9e32-45ec37c1068f",
+    "nom": "cidre brut",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:20:44.014428"
+  },
+  {
+    "ingredient_id": "40eab0ff-0f0c-4dd5-a676-2fd902bcc5e0",
+    "nom": "lardons fumés",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:20:44.014428"
+  },
+  {
+    "ingredient_id": "27037294-0b0e-4004-9710-61841007b4dd",
+    "nom": "dl de crème fraîche",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:20:44.014428"
+  },
+  {
+    "ingredient_id": "ae6513cf-9882-4592-afd9-95f6ef69ad8b",
+    "nom": "sucre gélifiant",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:20:47.595019"
+  },
+  {
+    "ingredient_id": "b4ade2f6-a80e-4562-a554-937fd5c2d654",
+    "nom": "à soupe de citron",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:20:47.595019"
+  },
+  {
+    "ingredient_id": "4db874ba-0bef-47b9-a7e0-f69c3b10e38f",
+    "nom": "noisettes de beurre + pour le moule",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:20:53.078596"
+  },
+  {
+    "ingredient_id": "f9a6bd4b-22c4-43c5-8c74-b79300a42e22",
+    "nom": "sucre en poudre (ou cassonade)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:20:53.078596"
+  },
+  {
+    "ingredient_id": "b64cfaa1-4541-485a-a464-f81dd8d982cd",
+    "nom": "biscottes",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:20:53.078596"
+  },
+  {
+    "ingredient_id": "a7d34ed6-321c-4434-9a1e-ca095f677630",
+    "nom": "beurre (pour le moule)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:20:58.676864"
+  },
+  {
+    "ingredient_id": "f7cadbfd-f741-40ed-9bc4-c57a8c0d0fe0",
+    "nom": "bûches de fromage de chèvre (150 g)",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:21:05.526088"
+  },
+  {
+    "ingredient_id": "9df2a68e-66a4-4312-aecb-c04d96d7cf21",
+    "nom": "pâtes feuilletées",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:21:05.526088"
+  },
+  {
+    "ingredient_id": "ae13d152-bcb3-4fbd-bd57-b73ae5b5ce81",
+    "nom": "pommes type Golden ou 1 poire Williams",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:21:05.526088"
+  },
+  {
+    "ingredient_id": "dffed30b-2210-4a3d-a52b-772acb0f5b65",
+    "nom": "ciboulette ou herbes de Provence",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:21:05.526088"
+  },
+  {
+    "ingredient_id": "e23ade30-c0bc-409d-b4f9-44cd6a8b60a9",
+    "nom": "fromage blanc (0% par exemple…)",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:21:10.216950"
+  },
+  {
+    "ingredient_id": "8db13657-b152-4621-aaaa-97e7563e8c08",
+    "nom": "sucre (",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:21:10.216950"
+  },
+  {
+    "ingredient_id": "1c318b0c-058a-4017-8c0a-4f1788a7cb81",
+    "nom": "à café de thé matcha (thé vert en poudre)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:21:10.216950"
+  },
+  {
+    "ingredient_id": "454a3ed2-04c1-4d25-8693-8ef103d8ae44",
+    "nom": "g de pistaches (non salées bien sûr !)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:21:10.216950"
+  },
+  {
+    "ingredient_id": "ee0722f0-73f0-4dc9-b08a-a87c7e377722",
+    "nom": "cerneau de noix",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:21:16.904694"
+  },
+  {
+    "ingredient_id": "bec984a8-1ec7-4659-898b-600880a7ff70",
+    "nom": "à café de levure chimique",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:21:16.904694"
+  },
+  {
+    "ingredient_id": "9d1a47da-0440-4c09-8936-1496c5bc7c09",
+    "nom": "boudoirs ou biscuits à la cuillère",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:21:20.327542"
+  },
+  {
+    "ingredient_id": "6e53cf22-9895-41a1-814a-96001cd5bf16",
+    "nom": "à café de sucre en poudre",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:21:20.327542"
+  },
+  {
+    "ingredient_id": "4c650d53-e8c0-47c1-9ae5-614f86672c53",
+    "nom": "pâtes brisées",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:21:23.994498"
+  },
+  {
+    "ingredient_id": "e8b13ebe-1870-4ac3-a451-51b3d13baef7",
+    "nom": "lait concentré non sucré",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:21:23.994498"
+  },
+  {
+    "ingredient_id": "4e9328c4-2537-47d3-b0f4-0924d15aa2b8",
+    "nom": "crème fraîche allégée",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:21:23.994498"
+  },
+  {
+    "ingredient_id": "cd9f8aa8-df93-4fc7-98bc-3e3d2592458a",
+    "nom": "fraises et des kiwis à volonté",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:21:23.994498"
+  },
+  {
+    "ingredient_id": "606b2bc1-9b2f-4afd-b1c3-8e1d4370fe6e",
+    "nom": "pommes (selon la grosseur)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:21:30.651650"
+  },
+  {
+    "ingredient_id": "5dcc6afa-27d5-47b5-9c0c-cc1f228becb9",
+    "nom": "bananes bien mûres",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:21:34.092977"
+  },
+  {
+    "ingredient_id": "472b400c-9328-44f3-917c-0ac7978ec1b0",
+    "nom": "beurre (le sortir un peu avant afin qu'il soit ramolli)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:21:40.920177"
+  },
+  {
+    "ingredient_id": "5d815ada-8b54-4dcc-b74a-fef3a69aaadf",
+    "nom": "à café de Liqueur de fruits rouges",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:21:40.920177"
+  },
+  {
+    "ingredient_id": "022aa9a5-9f1c-4901-8901-fc6546921f19",
+    "nom": "pâtes brisées (toute prête)",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:21:46.560744"
+  },
+  {
+    "ingredient_id": "25f38c7c-5948-47fb-8bc4-4973cbbef95f",
+    "nom": "boîtes de spéculoos",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:21:50.048975"
+  },
+  {
+    "ingredient_id": "f818127d-8fb7-4666-9bcb-6375d1f86473",
+    "nom": "macarons (1 macaron framboise, 1 macaron pistache)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:21:53.861617"
+  },
+  {
+    "ingredient_id": "68e68364-8d55-497e-ab15-27b699f09a34",
+    "nom": "mascarpone (1 pot)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:21:53.861617"
+  },
+  {
+    "ingredient_id": "fd061c03-330a-45a5-b9ca-82068fa2110e",
+    "nom": "sucre (50 g si macarons industriels très sucrés, 100 g si macarons maison peu sucrés, à adapter selon votre goût)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:21:53.861617"
+  },
+  {
+    "ingredient_id": "b30577a7-ccf8-4a40-ac96-c19b3acc79ee",
+    "nom": "à café de pâte de pistache",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:21:53.861617"
+  },
+  {
+    "ingredient_id": "05ec4c6b-2ddb-418e-8818-e71c4ac8abf7",
+    "nom": "fraises (ou framboises) ou plus",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:21:53.861617"
+  },
+  {
+    "ingredient_id": "eab11bda-5d92-4374-9278-332b48188237",
+    "nom": "lait + quelques goutes d'amande amère ou eau + sirop",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:21:53.861617"
+  },
+  {
+    "ingredient_id": "08ff73e9-10db-477f-b861-ee88bcedc157",
+    "nom": "macaron framboise et pistache (décoration), 8 coques",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:21:53.861617"
+  },
+  {
+    "ingredient_id": "fbc2b762-3146-4687-9fb0-ba3f9fe73e9c",
+    "nom": "pistaches (non salées)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:21:53.861617"
+  },
+  {
+    "ingredient_id": "208f469a-352e-4ab7-b594-48bf0312d045",
+    "nom": "maïzena",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:21:58.553611"
+  },
+  {
+    "ingredient_id": "00ba3a24-fc39-4e57-900a-1fa390ae7305",
+    "nom": "oeufs entiers",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:21:58.553611"
+  },
+  {
+    "ingredient_id": "8cb5550b-73e2-435b-9fd3-ab936b7c5f93",
+    "nom": "barquettes de framboises rincées (ou autres petits fruits...)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:22:02.316485"
+  },
+  {
+    "ingredient_id": "0fcb9a44-b092-4880-b40c-63454fccffc5",
+    "nom": "mangues",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:22:07.250082"
+  },
+  {
+    "ingredient_id": "e7ebd3df-0bab-4bc3-95a2-1c7bd0819484",
+    "nom": "crème fraîche (ou 150 g selon les goûts)",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:22:10.717306"
+  },
+  {
+    "ingredient_id": "c5096ec5-89eb-4d0d-a09d-07649c390a71",
+    "nom": "fraises épluchées",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:22:15.427940"
+  },
+  {
+    "ingredient_id": "403e776f-81fc-4cdb-af82-b3b15e11576b",
+    "nom": "à soupe de sucre semoule",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:22:18.920596"
+  },
+  {
+    "ingredient_id": "4094f2b6-1180-4bd3-ba94-954484d81afa",
+    "nom": "à soupe de tapioca",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:22:18.920596"
+  },
+  {
+    "ingredient_id": "1dfca0be-de57-49fa-9183-7079aec49080",
+    "nom": "fruits rouges pour décorer",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:22:18.920596"
+  },
+  {
+    "ingredient_id": "15e4e1ea-82f8-449e-95c5-038353a73d87",
+    "nom": "pineau des charentes",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:22:23.484338"
+  },
+  {
+    "ingredient_id": "8384a754-9092-4c5d-8044-1cc87594c43e",
+    "nom": "feuilles de basilic",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:22:23.484338"
+  },
+  {
+    "ingredient_id": "d187ae76-d876-4137-b3a6-9987640d92ae",
+    "nom": "grains de poivre noir écrasés",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:22:23.484338"
+  },
+  {
+    "ingredient_id": "db8d9a1b-a03a-41c8-95a9-a13bab2f9fe6",
+    "nom": "pincées de muscade rapée",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:22:23.484338"
+  },
+  {
+    "ingredient_id": "120cddf6-a941-4cd6-a7b4-cd060897fd33",
+    "nom": "1/2 gousses de vanille fendue en long",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:22:23.484338"
+  },
+  {
+    "ingredient_id": "fcbbc140-b7e7-4bcf-8514-5e01bbae8bac",
+    "nom": "levure",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:22:30.188110"
+  },
+  {
+    "ingredient_id": "5fddac14-a374-4947-8f17-1266f454c2e9",
+    "nom": "noix",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:22:30.188110"
+  },
+  {
+    "ingredient_id": "9c4c499f-0604-43e0-a6e4-ee0b45f91541",
+    "nom": "noisettes ou amandes concassées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:22:30.188110"
+  },
+  {
+    "ingredient_id": "db73a136-6b4f-4416-b7e3-739dd95b55a3",
+    "nom": "framboises surgelées ou fraîches selon la saison",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:22:33.795716"
+  },
+  {
+    "ingredient_id": "26aad395-8c76-48ab-ad2a-04bb2fc9c1d6",
+    "nom": "1/2 citrons",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:22:33.795716"
+  },
+  {
+    "ingredient_id": "93d3ca04-9e1d-4916-a43e-3bbc59c51aa2",
+    "nom": "à soupe de cacao non sucré en poudre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:22:33.795716"
+  },
+  {
+    "ingredient_id": "e7c35966-9ceb-435e-8bee-f3f510405289",
+    "nom": "framboises (surgelées)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:22:46.582098"
+  },
+  {
+    "ingredient_id": "2731dc02-dfa2-4765-b72b-0903a9e954a4",
+    "nom": "blanc d'oeuf à température ambiante",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:22:57.095993"
+  },
+  {
+    "ingredient_id": "9f6a2f5e-ad9e-4c7b-a67e-49c8e7646310",
+    "nom": "d'amandes en poudre tamisée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:22:57.095993"
+  },
+  {
+    "ingredient_id": "3fe8a0eb-f490-4d99-b426-878845a97ef5",
+    "nom": "gouttes de colorant alimentaire rouge",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:22:57.095993"
+  },
+  {
+    "ingredient_id": "157d299e-940e-4e26-8088-08d4a350ef5d",
+    "nom": "pommes Boskoop",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:23:07.389377"
+  },
+  {
+    "ingredient_id": "956843a3-6d0d-447e-9630-bfcc935604e7",
+    "nom": "palets bretons pur beurre",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:23:07.389377"
+  },
+  {
+    "ingredient_id": "1398b367-fa3a-4884-a317-c8e0c40a784e",
+    "nom": "crème fraîche fleurette",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:23:07.389377"
+  },
+  {
+    "ingredient_id": "e6200afe-8756-4e4b-91c8-d2d682350b9f",
+    "nom": "à soupe de mascarpone",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:23:07.389377"
+  },
+  {
+    "ingredient_id": "8f4c6e10-1340-4384-a20a-53d948a0da0c",
+    "nom": "1/2 paquets de levure alsacienne",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:23:14.123254"
+  },
+  {
+    "ingredient_id": "0c960c88-b557-487a-ba1d-768e5f809929",
+    "nom": "1/2 gousses de vanille",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:23:20.121378"
+  },
+  {
+    "ingredient_id": "5d97e76f-8c10-43a4-a44f-333455ad5aec",
+    "nom": "fraises + fraises pour accompagnez la glace",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:23:20.121378"
+  },
+  {
+    "ingredient_id": "20f78cb0-b73a-463d-9222-8086fe71183f",
+    "nom": "petits suisses",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:23:23.702739"
+  },
+  {
+    "ingredient_id": "240ffa9c-0353-4a39-a98f-4d67fe680d0b",
+    "nom": "à soupe de sucre en poudre (rase)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:23:27.239420"
+  },
+  {
+    "ingredient_id": "b3017ad2-254a-4ba9-be24-dfe931a5b69d",
+    "nom": "à soupe de sirop de rose",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:23:32.950258"
+  },
+  {
+    "ingredient_id": "d14e76d3-9d6f-4668-ae6f-326e0bfd709a",
+    "nom": "demis de citron jaune",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:23:39.646734"
+  },
+  {
+    "ingredient_id": "c782a0d9-cdff-488b-8bf6-af4aee3d6818",
+    "nom": "melons à maturité",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:23:43.227335"
+  },
+  {
+    "ingredient_id": "623f1670-4633-4bf6-96f8-e3e73a4527ec",
+    "nom": "vin blan moelleux",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:23:43.227335"
+  },
+  {
+    "ingredient_id": "349ec49e-7da5-4bb9-922e-d086d4c4a81c",
+    "nom": "cardamome",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:23:43.227335"
+  },
+  {
+    "ingredient_id": "c05dc1b0-f703-4f3b-b7d9-2fe27e0d0d88",
+    "nom": "fraises très parfumées",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:23:43.227335"
+  },
+  {
+    "ingredient_id": "f37ec3b3-8101-49c4-9dc0-823cd31fe40f",
+    "nom": "feuille de menthe fraîche",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:23:43.228335"
+  },
+  {
+    "ingredient_id": "225610d8-ec6f-4c69-b26a-b90050a3b677",
+    "nom": "palets bretons",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:23:46.704044"
+  },
+  {
+    "ingredient_id": "9e8f7af3-211b-42a9-a211-34eba0a34b08",
+    "nom": "crème à 35%",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:23:46.704044"
+  },
+  {
+    "ingredient_id": "a92220e1-7f03-4c8f-a9f2-23c85e18b01c",
+    "nom": "d'amandes effilées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:23:53.349166"
+  },
+  {
+    "ingredient_id": "d1aa2728-fadf-43e4-8f36-3bb53495e401",
+    "nom": "kirsch",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:23:56.934434"
+  },
+  {
+    "ingredient_id": "93d7e7e9-e3a3-4b3b-8bb1-78671963e91a",
+    "nom": "beurre salé",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:24:00.493398"
+  },
+  {
+    "ingredient_id": "78d6e6d8-609e-4eac-88bb-40bed6e0e48d",
+    "nom": "rhum",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:24:00.493398"
+  },
+  {
+    "ingredient_id": "2cbefb9d-3c58-4c65-9593-0c32d6b46714",
+    "nom": "confiture de fruits rouges",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:24:00.493398"
+  },
+  {
+    "ingredient_id": "9c2c296b-9cc4-4c1d-86a0-aab93855f628",
+    "nom": "oeufs + 2 jaunes",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:24:05.202363"
+  },
+  {
+    "ingredient_id": "4cd16aea-59da-4538-865d-1f83ace57a68",
+    "nom": "gros pots de crème fraîche (50 cl)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:24:05.202363"
+  },
+  {
+    "ingredient_id": "429eb955-d38c-4a6d-b790-828bbfcd1fdc",
+    "nom": "crème entière (bien froide)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:24:08.669688"
+  },
+  {
+    "ingredient_id": "fcb72fb9-404c-4487-98a2-05fb571d02eb",
+    "nom": "chocolat blanc de qualité",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:24:08.669688"
+  },
+  {
+    "ingredient_id": "9b7b9341-ca26-4321-a3ab-182293fa6445",
+    "nom": "pistaches émondée non salée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:24:11.999738"
+  },
+  {
+    "ingredient_id": "3ebff5ba-3652-4e10-a927-9766eec31e35",
+    "nom": "Philadelphia",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:24:11.999738"
+  },
+  {
+    "ingredient_id": "a334595b-2cb1-446d-b710-a3eb5980143c",
+    "nom": "à café de zeste de citron vert",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:24:11.999738"
+  },
+  {
+    "ingredient_id": "819b5daa-e28b-47e5-9b8c-c6ae0651d85b",
+    "nom": "gélatine en feuilles",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:24:11.999738"
+  },
+  {
+    "ingredient_id": "ff974569-d9b1-4d7b-939a-c17efce06531",
+    "nom": "fromage frais peu salé",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:24:18.812227"
+  },
+  {
+    "ingredient_id": "6e83d2ff-fe48-4405-b0de-2f4385af2842",
+    "nom": "crème fraîche entière",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:24:18.812227"
+  },
+  {
+    "ingredient_id": "504152ac-b4e2-40f8-9146-a844fd3e5a58",
+    "nom": "citrons verts",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:24:18.812227"
+  },
+  {
+    "ingredient_id": "212020df-5e2e-4620-96c5-a4a5216b76c5",
+    "nom": "cassonade (sucre brun très fin, au goût caramélisé), à défaut de sucre glace",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:24:18.812227"
+  },
+  {
+    "ingredient_id": "5e14ebe6-4751-4281-aad5-1a77c125d617",
+    "nom": "zestes de citron bio ou non traité",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:24:36.549012"
+  },
+  {
+    "ingredient_id": "6d8292bd-c530-4e77-beee-8e6670e10796",
+    "nom": "sucre glace pour décorer (facultatif)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:24:36.549012"
+  },
+  {
+    "ingredient_id": "f0dd9a44-f642-40e9-95ed-3e1a1c298b53",
+    "nom": "d'épinards frais",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:24:42.344022"
+  },
+  {
+    "ingredient_id": "a52a28f6-fdea-439a-b54d-db251d87e7f2",
+    "nom": "gousses d'ail",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:24:42.359962"
+  },
+  {
+    "ingredient_id": "6ffa05bb-9b29-4f0c-a50b-896a6b926a0c",
+    "nom": "thym",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:24:42.359962"
+  },
+  {
+    "ingredient_id": "c0271448-6ae6-4db1-b698-7c9e6d9c4528",
+    "nom": "muscade râpée",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:24:42.359962"
+  },
+  {
+    "ingredient_id": "9d5e44cc-7205-450c-a662-c15ad3c74410",
+    "nom": "Digestive",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:24:46.284765"
+  },
+  {
+    "ingredient_id": "801864c9-4fb9-4126-b596-9c3554702502",
+    "nom": "crêpe dentelle",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:24:46.284765"
+  },
+  {
+    "ingredient_id": "74a61ae5-ad02-44d7-aee4-5d124a68901c",
+    "nom": "chocolat noir à cuire",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:24:46.284765"
+  },
+  {
+    "ingredient_id": "5138e05d-8d24-44d2-8237-9cfa8cfaf1f9",
+    "nom": "yaourts aux fraises",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:24:51.858027"
+  },
+  {
+    "ingredient_id": "0cbc12c2-1761-4768-8a4b-2730ef23edca",
+    "nom": "1/2 pots d'huile",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:24:51.858027"
+  },
+  {
+    "ingredient_id": "41c1e8d0-a1d8-4b38-86c6-b125a351377a",
+    "nom": "pots de sucre",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:24:51.858027"
+  },
+  {
+    "ingredient_id": "d00faed5-f9d5-4f63-ad16-bec9c0ff8fb3",
+    "nom": "pots de farine",
+    "type": "farines",
+    "date_ajout": "2025-09-26T15:24:51.858027"
+  },
+  {
+    "ingredient_id": "f1de39d7-9832-4d9a-892f-520fb9545a36",
+    "nom": "morceaux de beurre pour le moule",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:24:51.858027"
+  },
+  {
+    "ingredient_id": "950c03e8-8de3-42a4-9048-a53c88cf2d96",
+    "nom": "fromage blanc à 20%",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:25:00.077474"
+  },
+  {
+    "ingredient_id": "7b4bb3c1-12bf-4753-ba18-063e01f5274f",
+    "nom": "feuilles de menthe ou un sachet de tisane à la menthe",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:25:00.077474"
+  },
+  {
+    "ingredient_id": "69734c15-70f8-413b-85e3-7a0ad0563595",
+    "nom": "demis de céleri rave",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:25:04.823294"
+  },
+  {
+    "ingredient_id": "e6a529a4-9b25-4d52-886f-29e3e3d301b6",
+    "nom": "tranches de lard fumé du boucher",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:25:04.823294"
+  },
+  {
+    "ingredient_id": "753cf701-0a04-4676-810b-0fbcb40a3c7b",
+    "nom": "saucisses de Morteau",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:25:04.823294"
+  },
+  {
+    "ingredient_id": "df8fd195-2d3d-4ab3-9e36-b5a238162d55",
+    "nom": "fond de volaille",
+    "type": "légumes",
+    "date_ajout": "2025-09-26T15:25:04.823294"
+  },
+  {
+    "ingredient_id": "9da6608f-c4b0-42bd-9a7b-65e757fc25a0",
+    "nom": "boeuf ou légumes",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:25:04.823294"
+  },
+  {
+    "ingredient_id": "0ddf1646-3700-4041-ae95-40d56b5a251e",
+    "nom": "bottes de cerfeuil",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:25:04.823294"
+  },
+  {
+    "ingredient_id": "3edd47f5-d009-40c7-954f-bbcb1307aad2",
+    "nom": "paupiettes de veau",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:25:11.615516"
+  },
+  {
+    "ingredient_id": "7f77bd40-78cb-4aed-84db-5c77decbab5e",
+    "nom": "pommes (un peu acides, c'est mieux, ça compense le goût très sucré des pruneaux)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:25:11.615516"
+  },
+  {
+    "ingredient_id": "84653db5-16a8-4f3d-9675-60fbd6135b1e",
+    "nom": "pruneaux dénoyautés",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:25:11.615516"
+  },
+  {
+    "ingredient_id": "283d84b0-4efb-4f9e-ae94-f521b7839d14",
+    "nom": "fond de veau dilué dans un grand verre d'eau",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:25:11.615516"
+  },
+  {
+    "ingredient_id": "216e14c4-5176-492c-a9dc-ff501a571fb4",
+    "nom": "pommes (ou plus, si elles sont petites)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:25:18.265138"
+  },
+  {
+    "ingredient_id": "1a8d6467-6c88-410c-bd39-222e8a124345",
+    "nom": "verres de sucre (25 cl)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:25:18.265138"
+  },
+  {
+    "ingredient_id": "19c1e6ab-9e02-4000-aa00-7747d3b704c4",
+    "nom": "paquets de sucre vanillé",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:25:18.265138"
+  },
+  {
+    "ingredient_id": "673c5360-c9ec-4e61-8a0e-b2151bdf3085",
+    "nom": "Magrets de Canard frais",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:25:24.795385"
+  },
+  {
+    "ingredient_id": "0d42f9a8-c2cd-43a6-88fb-3656675e28cb",
+    "nom": "à soupe de vinaigre basalmique",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:25:24.795385"
+  },
+  {
+    "ingredient_id": "75277de1-7226-4f5e-8afc-cc240f8a02af",
+    "nom": "à soupe de miel liquide",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:25:24.795385"
+  },
+  {
+    "ingredient_id": "57beee81-5dab-4a19-abdc-a40e2fea1489",
+    "nom": "échalotes",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:25:24.795385"
+  },
+  {
+    "ingredient_id": "b7e29aec-36a3-408b-91cd-dbd69f02bd76",
+    "nom": "poivre mignonnette",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:25:24.795385"
+  },
+  {
+    "ingredient_id": "5a66977d-80fc-4ef2-8d3e-ee5f759419c9",
+    "nom": "tranches de jambon blanc",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:25:31.597358"
+  },
+  {
+    "ingredient_id": "dfb188c9-b23b-49f7-a269-9d0f553b885f",
+    "nom": "moutarde de Dijon",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:25:31.597358"
+  },
+  {
+    "ingredient_id": "b124b04d-95a5-4c03-b06f-e8dce8427dd9",
+    "nom": "1/2 bols de crème fraîche",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:25:31.597358"
+  },
+  {
+    "ingredient_id": "26fbfb32-ef4f-4660-9292-b5f1d7a5d302",
+    "nom": "1/2 verres de lait",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:25:31.597358"
+  },
+  {
+    "ingredient_id": "b2e98d42-3144-4835-a846-fbab24c3c748",
+    "nom": "Magrets de Canard",
+    "type": "viandes",
+    "date_ajout": "2025-09-26T15:25:37.192494"
+  },
+  {
+    "ingredient_id": "2c68083e-b25b-4c0d-9d2e-0a3b4e9ac505",
+    "nom": "sauce soja",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:25:37.192494"
+  },
+  {
+    "ingredient_id": "b0711ee9-cce5-404e-958b-2c57d7e8ca90",
+    "nom": "fleur de sel",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:25:37.192494"
+  },
+  {
+    "ingredient_id": "33f94666-84cf-48a9-bedf-422d079e6b05",
+    "nom": "poivre du moulin",
+    "type": "épices",
+    "date_ajout": "2025-09-26T15:25:37.192494"
+  },
+  {
+    "ingredient_id": "220544e3-e704-441e-850c-37a620e74352",
+    "nom": "oeufs entiers + 3 jaunes",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:25:42.963171"
+  },
+  {
+    "ingredient_id": "5186d44f-e38d-444e-9782-64fee54267fa",
+    "nom": "glace au chocolat",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:25:46.723041"
+  },
+  {
+    "ingredient_id": "a165bb62-341f-4448-917c-3f2c25b48581",
+    "nom": "1/2 l de framboises",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:25:46.723041"
+  },
+  {
+    "ingredient_id": "8f815279-cae3-4184-b548-b1813d2fae9c",
+    "nom": "crème fraîche fouettable",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:25:46.723041"
+  },
+  {
+    "ingredient_id": "dd6c7e70-695c-4d5a-9236-ab1b300692fd",
+    "nom": "meringues",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:25:46.723041"
+  },
+  {
+    "ingredient_id": "20e0c325-63ce-49ab-8513-74102660c0ed",
+    "nom": "petit beurre (ou spéculoos, sablés...)",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:25:46.723041"
+  },
+  {
+    "ingredient_id": "eb788019-6ff0-43d2-8556-fa522e29b19b",
+    "nom": "carrés de chocolat",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:25:53.505572"
+  },
+  {
+    "ingredient_id": "6ce3dda8-a8ce-472c-a2b0-a48bb3a5f4b6",
+    "nom": "zestes de citron non traité",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:26:00.296149"
+  },
+  {
+    "ingredient_id": "1317fe9a-4926-4537-ad0e-0713dccbc149",
+    "nom": "fromage blanc à 40 % de MG",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:26:07.126838"
+  },
+  {
+    "ingredient_id": "48ca0cf4-df44-4a47-8966-ff7053388e60",
+    "nom": "pommes (style reinette)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:26:13.658016"
+  },
+  {
+    "ingredient_id": "afb9c77a-821b-49c5-b997-7cced5de9a50",
+    "nom": "crème anglaise",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:26:19.265018"
+  },
+  {
+    "ingredient_id": "1fa5eda9-8d25-4be6-8a87-d8517de17510",
+    "nom": "endives",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:24.872917"
+  },
+  {
+    "ingredient_id": "4e0914d8-836f-4147-af31-7dcf4ffe87c4",
+    "nom": "lardons",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:24.872917"
+  },
+  {
+    "ingredient_id": "e68bf576-6f8a-413d-9620-1d6331c2e8f0",
+    "nom": "pâte sablée (de 250 g environ)",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:26:31.608949"
+  },
+  {
+    "ingredient_id": "e6e68336-1746-41ff-8321-0bfb442cce7b",
+    "nom": "gelée de groseille",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:31.608949"
+  },
+  {
+    "ingredient_id": "251b5727-cbd0-4327-a723-234a98375b4e",
+    "nom": "choux frisé",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:37.407864"
+  },
+  {
+    "ingredient_id": "4110cad0-df44-4f7d-b925-ec8331a88e8d",
+    "nom": "cubes de bouillon",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:37.407864"
+  },
+  {
+    "ingredient_id": "b120a45a-ee2e-4ce2-9421-e66c4c17c3ef",
+    "nom": "huile d'olive",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:26:37.407864"
+  },
+  {
+    "ingredient_id": "591b7e99-a0de-4249-b60b-3ba591ca1903",
+    "nom": "vin blanc sec",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:26:37.407864"
+  },
+  {
+    "ingredient_id": "c06693fa-afed-42e1-aa40-d1ea99b6fc37",
+    "nom": "à café de graines de coriandre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:37.407864"
+  },
+  {
+    "ingredient_id": "04c8c7f8-6c2b-47d8-b391-4fad9082e18a",
+    "nom": "genièvre",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:37.407864"
+  },
+  {
+    "ingredient_id": "da646459-e805-401c-ae1a-09c7e71e9e36",
+    "nom": "pincées de quatre-épices",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:37.407864"
+  },
+  {
+    "ingredient_id": "ce4fb688-7ba1-40a0-8205-3a657d1dde83",
+    "nom": "framboises (fraîches, ou bien surgelées, brisées ou entières)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:40.952356"
+  },
+  {
+    "ingredient_id": "b56d6938-763a-4de8-aaf0-c9935afa2e19",
+    "nom": "rhubarbe en tronçons surgelée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:40.952356"
+  },
+  {
+    "ingredient_id": "95c3a1e9-53bb-4fa1-901f-17f0066877c3",
+    "nom": "sucre gélifiant pour confiture",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:26:40.952356"
+  },
+  {
+    "ingredient_id": "f5e5e36f-5b57-4537-a6b2-3d6a1b4194af",
+    "nom": "poignées de framboises (soit environ 60 g)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:44.406342"
+  },
+  {
+    "ingredient_id": "998a0e26-d100-464d-8540-fa482ac6b548",
+    "nom": "yaourts velouté nature",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:26:44.406342"
+  },
+  {
+    "ingredient_id": "c69228fc-e217-434b-acdf-b5692d0b7edb",
+    "nom": "lait (juste pour rendre la préparation un peu plus liquide)",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:26:44.406342"
+  },
+  {
+    "ingredient_id": "c79f915f-58cf-4308-8a11-2004ee4ea316",
+    "nom": "à café de sucre en poudre (si besoin)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:26:44.406342"
+  },
+  {
+    "ingredient_id": "571888b7-bd4b-4228-89c2-9412bf4848eb",
+    "nom": "noix de pécan (faculatif)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:47.824035"
+  },
+  {
+    "ingredient_id": "b3b36cb4-0aed-479b-9eab-6bd46e79df39",
+    "nom": "fond de tarte brisée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:51.343468"
+  },
+  {
+    "ingredient_id": "216ea0cd-3bcc-435d-99f9-a59292b26446",
+    "nom": "bols de framboises",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:51.343468"
+  },
+  {
+    "ingredient_id": "1265e107-8c88-41ea-a3b2-8ec426b04ae3",
+    "nom": "bols de rhubarbe coupée en dés",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:51.343468"
+  },
+  {
+    "ingredient_id": "a486f424-1659-4ad6-809e-9da946975c6a",
+    "nom": "rhubarbe (750 g épluchée)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:57.254489"
+  },
+  {
+    "ingredient_id": "f259e579-eeae-40c5-b06b-5db63b611618",
+    "nom": "sucre blond",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:26:57.254489"
+  },
+  {
+    "ingredient_id": "e4b4d4d0-a1ae-4d4c-b5c7-f9931f860c42",
+    "nom": "à soupe de maïzena",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:26:57.254489"
+  },
+  {
+    "ingredient_id": "3f571bba-5b00-4643-ba58-70271c28f60b",
+    "nom": "à café de citron",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:26:57.254489"
+  },
+  {
+    "ingredient_id": "db495d9c-8663-4acc-864b-be891df3e19a",
+    "nom": "pâtes brisées toute prête",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:27:02.001635"
+  },
+  {
+    "ingredient_id": "47e8c73b-7424-4f4b-b84a-52c60c47fa86",
+    "nom": "1/2 pots de Confiture de framboise",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:27:02.001635"
+  },
+  {
+    "ingredient_id": "e7f6b37c-2d01-4173-9210-bfda5f9b3296",
+    "nom": "pommes Golden (ou autres)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:27:08.546917"
+  },
+  {
+    "ingredient_id": "d0203564-f678-4fb8-ba39-0238b417bf39",
+    "nom": "noix de coco",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:27:08.546917"
+  },
+  {
+    "ingredient_id": "c0e6f543-019f-49f7-aef8-781df2a91354",
+    "nom": "chorizo fort",
+    "type": "féculents",
+    "date_ajout": "2025-09-26T15:27:15.291322"
+  },
+  {
+    "ingredient_id": "ccfd3b7b-45b2-4841-9186-1c3f426e18a1",
+    "nom": "fromage blanc 0% MG",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:27:18.867238"
+  },
+  {
+    "ingredient_id": "179b4e55-7532-40cc-94c3-d5c399fe9519",
+    "nom": "à soupe de sucre roux",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:27:18.867238"
+  },
+  {
+    "ingredient_id": "a3120ddb-ff63-4dbc-8ba7-c4e03a1f28a3",
+    "nom": "framboises fraîches ou congelées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:27:18.867238"
+  },
+  {
+    "ingredient_id": "2cdfaf8c-bc63-451f-898a-3de4ada66089",
+    "nom": "coulis de fruits rouges",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:27:18.867238"
+  },
+  {
+    "ingredient_id": "21a4e89f-1a1c-4d36-8bf9-57f436a0e3b0",
+    "nom": "agar-agar",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:27:18.867238"
+  },
+  {
+    "ingredient_id": "571bb14b-77d9-4adc-85ef-cbd454d96771",
+    "nom": "potiron",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:27:25.468300"
+  },
+  {
+    "ingredient_id": "9983c33d-8047-4e27-afc4-3fa526a010be",
+    "nom": "sucre à confiture",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:27:25.468300"
+  },
+  {
+    "ingredient_id": "2587d291-9b98-436e-bb77-2d6b72f15d95",
+    "nom": "lait tiède",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:27:32.414628"
+  },
+  {
+    "ingredient_id": "744c2c0f-a6b0-4215-9184-5fe05410c674",
+    "nom": "framboises fraîches (ou surgelées si ce n'est pas la saison)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:27:32.414628"
+  },
+  {
+    "ingredient_id": "ddb4e53f-89bd-46d3-b9cf-315921692af2",
+    "nom": "poudre de noisette",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:27:36.054766"
+  },
+  {
+    "ingredient_id": "0ef5d583-d6ad-4162-bb0b-5a7aeaeb5b04",
+    "nom": "blanc d'oeuf (soit environ de 4-5 œufs)",
+    "type": "oeufs",
+    "date_ajout": "2025-09-26T15:27:36.054766"
+  },
+  {
+    "ingredient_id": "433c69c6-848d-44e5-a674-527fc19d1945",
+    "nom": "mangue surgelées en tranche",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:27:36.054766"
+  },
+  {
+    "ingredient_id": "6082f331-c024-4abf-9002-cc16b502ef1d",
+    "nom": "sachets de sucre vanillé (plus si la mangue n’est pas très sucré)",
+    "type": "sucrants",
+    "date_ajout": "2025-09-26T15:27:36.054766"
+  },
+  {
+    "ingredient_id": "331cf1b8-d8c3-4df2-a7b8-d3b3c31f83ed",
+    "nom": "lamelle de mangue",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:27:36.054766"
+  },
+  {
+    "ingredient_id": "def5a1d6-04a5-4ff3-99cc-5f0d9126a64a",
+    "nom": "fraises (gariguettes)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:27:42.830572"
+  },
+  {
+    "ingredient_id": "3161da71-9028-4fc5-b327-9dd6cd443b80",
+    "nom": "pots de Gervita (= fromage blanc + crème fouettée)",
+    "type": "fromages",
+    "date_ajout": "2025-09-26T15:27:42.830572"
+  },
+  {
+    "ingredient_id": "5875366a-bc73-42cd-88fa-01a2e0f7b8d6",
+    "nom": "alcool pour fruits ou Grand Marnier (pour ceux qui préfèrent la version alcoolisée)",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:27:42.830572"
+  },
+  {
+    "ingredient_id": "0e889dcb-9702-441d-862a-cd9fb08434aa",
+    "nom": "concombres",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:27:46.357972"
+  },
+  {
+    "ingredient_id": "55efb6d9-5030-4d5c-bffd-f7ce95901103",
+    "nom": "bouquets de menthe fraîche",
+    "type": "herbes",
+    "date_ajout": "2025-09-26T15:27:46.357972"
+  },
+  {
+    "ingredient_id": "ce04421a-fd17-4443-bd44-05b8585e0873",
+    "nom": "1/2 verres d'huile",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:27:52.233825"
+  },
+  {
+    "ingredient_id": "6d3a30df-5c3d-4ea5-9773-9f807a176a23",
+    "nom": "poire",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:27:55.864503"
+  },
+  {
+    "ingredient_id": "3234d99f-aa20-4bd2-934d-c1eceb1ce9fc",
+    "nom": "1/2 verres d'huile de colza",
+    "type": "huiles",
+    "date_ajout": "2025-09-26T15:28:09.187844"
+  },
+  {
+    "ingredient_id": "cfcaa182-17e6-47f5-a02e-2a8a82ef8078",
+    "nom": "rouleaux de pâte brisée",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:28:16.004101"
+  },
+  {
+    "ingredient_id": "543a0be0-23f9-49ce-9dc9-3013fa6327b6",
+    "nom": "boîtes moyennes de compote de pommes",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:28:22.739744"
+  },
+  {
+    "ingredient_id": "908983d8-857f-4642-a04c-b707f138001c",
+    "nom": "pommes ( selon la grosseur)",
+    "type": "fruits",
+    "date_ajout": "2025-09-26T15:28:22.739744"
+  },
+  {
+    "ingredient_id": "57937463-a0bf-476b-8cf7-1e812363a3af",
+    "nom": "beurre à température ambiante coupé en petits dés",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-26T15:28:22.739744"
+  },
+  {
+    "ingredient_id": "8062f8c7-73ee-4160-8d07-5558d70c9df3",
+    "nom": "poignées de framboises fraiches ou surgelées",
+    "type": "autre",
+    "date_ajout": "2025-09-26T15:28:27.638610"
   }
 ]
