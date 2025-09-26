@@ -8,7 +8,7 @@
   "mot_de_passe": "hash...",
   "email": "jean@example.com",
   "date_inscription": "2025-09-12T10:00:00Z"
-}
+};
 
 // Recettes
 {
@@ -45,7 +45,7 @@
   "suggestions": [
     { "auteur_id": "user_456", "contenu": "Ajoute du basilic", "date": "2025-09-12T15:00:00Z" }
   ]
-}
+};
 
 //Type
 
@@ -60,7 +60,7 @@
 {
   "type_id": 3,
   "nom": "Céréale"
-}
+};
 
 // Ingrédients
 {
@@ -77,4 +77,4 @@
   "_id": 3,
   "nom": "Farine",
   "type": 3
-}
+};
