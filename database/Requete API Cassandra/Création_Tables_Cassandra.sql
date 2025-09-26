@@ -21,19 +21,6 @@ CREATE TABLE Recettes (
     ingredients LIST<FROZEN<MAP<TEXT, TEXT>>>)
     -- Exemple : [{ingredient_id: 1, quantite: "500g"}]
 
-CREATE TABLE ingredients(
-    ingredient_id UUID,
-    nom_ingredient TEXT,
-    type_id UUID,
-    PRIMARY KEY (ingredient_id, nom_ingredient),
-    FOREIGN KEY (type_id) REFERENCES type(id_type)
-)
-
-CREATE TABLE type(
-    id_type UUID PRIMARY KEY,
-    nom_type TEXT
-)
-
 CREATE TABLE Avis (
     recette_id UUID,
     user_id UUID,
