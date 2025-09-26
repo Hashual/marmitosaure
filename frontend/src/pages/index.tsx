@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <div>
       <div>hello world</div>
-      <Link to="/about">about</Link>
+      <Link to="/about" className="text-blue">
+        about
+      </Link>
     </div>
   );
 }

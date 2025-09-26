@@ -4,7 +4,9 @@ export default function About() {
   return (
     <div>
       <div>about!</div>
-      <Link to="/">home</Link>
+      <Link to="/" className="text-blue">
+        home
+      </Link>
     </div>
   );
 }
