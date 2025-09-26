@@ -1,11 +1,13 @@
 import type { Request, Response } from "express";
+import {create} from "node:domain";
+import {createReview, getAllReviews} from "../../../models/reviews.ts";
 
 export class ReviewsController {
 	static Create(req: Request, res: Response) {
 		const { id } = req.params;
 		const { body } = req;
 
-		// TODO - Create a review for recipe with id
+		createReview(body);
 
 		res.status(201).send({
 			data: { id, ...body }
@@ -15,7 +17,7 @@ export class ReviewsController {
 	static GetAll(req: Request, res: Response) {
 		const { id } = req.params;
 
-		// TODO - Get all reviews for recipe with id
+        const reviews = getAllReviews();
 
 		res.status(200).send({
 			data: []
