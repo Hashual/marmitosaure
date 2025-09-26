@@ -1,0 +1,935 @@
+[
+  {
+    "recette_id": "38092",
+    "url": "https://www.marmiton.org/recettes/recette_pizza-blanche-express-aux-courgettes-et-a-la-mozzarella_38092.aspx",
+    "titre": "Pizza aux courgettes et à la mozzarella",
+    "description": "pâte à pizza, mozzarella, courgette, romarin",
+    "temps_preparation": "5 min",
+    "temps_cuisson": "15 min",
+    "nb_personnes": "2 personnes",
+    "difficulte": "Non spécifié",
+    "cout": "Non spécifié",
+    "etapes": [
+      "Préchauffez le four à 220°C.",
+      "Emincez la mozzarella et répartissez-la sur la pâte.",
+      "Recouvrez de la courgette taillée dans la longueur en très fines lanières à l'aide d'un économe.",
+      "Salez, poivrez, saupoudrez de romarin.",
+      "Versez un filet d'huile d'olive et glissez au four pour une quizaine de minutes."
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": "8958b332-8d41-497d-ba41-df2729237296",
+        "quantite": "1",
+        "unite": "",
+        "nom": "pâtes à pizza",
+        "type": "féculents",
+        "texte_original": "1 pâtes à pizza"
+      },
+      {
+        "ingredient_id": "775bd7c6-1803-4363-ad36-fd3d57c4714f",
+        "quantite": "1.5",
+        "unite": "",
+        "nom": "boules de mozzarella de buflonne (la vraie !)",
+        "type": "fromages",
+        "texte_original": "1.5 boules de mozzarella de buflonne (la vraie !)"
+      },
+      {
+        "ingredient_id": "ab36212b-d250-4bcd-a43c-05dca06cd46f",
+        "quantite": "1",
+        "unite": "",
+        "nom": "courgettes",
+        "type": "légumes",
+        "texte_original": "1 courgettes"
+      },
+      {
+        "ingredient_id": "531f0943-bd61-429e-a2c5-1ef36baf93a9",
+        "quantite": "",
+        "unite": "",
+        "nom": "brin de romarin",
+        "type": "herbes",
+        "texte_original": "brin de romarin"
+      }
+    ],
+    "ustensiles": [],
+    "tags": [
+      "cuisine",
+      "très facile",
+      "plat de résistance",
+      "romarin",
+      "confiserie",
+      "recettes",
+      "bon marché",
+      "pizza",
+      "testées",
+      "mozzarella",
+      "cocktail",
+      "boisson",
+      "dessert",
+      "courgette",
+      "recettes de cuisine",
+      "pâte à pizza",
+      "plat",
+      "entrée",
+      "recette",
+      "Pizza aux courgettes et à la mozzarella"
+    ],
+    "origine": "Plat principal",
+    "auteur": {
+      "user_id": "903cd550-ed0e-4c6f-8859-779af2c97612",
+      "nom": "Anonyme"
+    },
+    "note_moyenne": 4.6,
+    "nb_avis": 30,
+    "avis": [
+      {
+        "avis_id": "62a00afb-7bf0-4490-85f6-6d993a3c868d",
+        "recette_id": "38092",
+        "user_id": "8ba31cb9-7a9f-4c7d-b05b-d117de97be59",
+        "nickname": "anonyme_171660",
+        "commentaire": "Suivant un des commentaires précédents j'ai effectué un mélange mozzarella (1 boule) et chèvre (1/2 bûche) et j'ai forcé sur les épices car j'aime que ce soit relevé. J'ai testé une des parties sans épices et chèvre c'était trop fade. Sinon rien à redire : excellent et rapide, change de la pizza traditionnelle.",
+        "note": 5.0,
+        "date_publication": "2010-07-17T00:39:43+02:00",
+        "nb_likes": 3
+      },
+      {
+        "avis_id": "28239883-b56d-4262-a08f-2968f6757368",
+        "recette_id": "38092",
+        "user_id": "18dea42f-ff95-424c-8f11-612778eeb8a7",
+        "nickname": "anonyme_581277",
+        "commentaire": "Excellent ! J'ai mis 2 courgettes et du thym en plus du romarin. Ca va devenir un classique.",
+        "note": 5.0,
+        "date_publication": "2016-06-19T23:38:40+02:00",
+        "nb_likes": 2
+      },
+      {
+        "avis_id": "9d4a274b-52d2-4067-b281-5cdda2c32299",
+        "recette_id": "38092",
+        "user_id": "210b4125-0d66-40ec-bdf3-f5bc83a53971",
+        "nickname": "camille_1183",
+        "commentaire": "Vraiment bon ! J'ai relevé avec un peu de piment d'Espelette et tartiné la pâte à pizza d'un peu de crème avant de poser la mozzarella, ça la \"fusionne\" à la pâte. Trop bon, mais plus calorique que la version proposée :)",
+        "note": 4.0,
+        "date_publication": "2014-09-23T21:30:55+02:00",
+        "nb_likes": 2
+      },
+      {
+        "avis_id": "d9e3f93f-8dda-4dd1-b669-f32f5d405a6b",
+        "recette_id": "38092",
+        "user_id": "629a99e6-d2f7-4551-902d-fd48d0a1c99c",
+        "nickname": "anonyme_2376937",
+        "commentaire": "Très bon. J'ai seulement ajouté de la sauce tomate et un peu d'ail ! Excellente recette, toute la famille en a redemandé ! Merci ! ",
+        "note": 5.0,
+        "date_publication": "2014-08-10T00:06:03+02:00",
+        "nb_likes": 2
+      },
+      {
+        "avis_id": "4149289a-d7ba-47a7-a92e-f0785df8e70d",
+        "recette_id": "38092",
+        "user_id": "6e19ca8d-ff65-4a59-a419-be7a7c251b29",
+        "nickname": "mia_14672294",
+        "commentaire": "Très bon. J'ai ajouté de la purée de tomate sur la pâte puis j'ai mis les lamelles de courgettes et enfin la mozza.",
+        "note": 5.0,
+        "date_publication": "2009-05-23T22:32:32+02:00",
+        "nb_likes": 2
+      },
+      {
+        "avis_id": "107f6930-69d9-4839-98ba-a87825dc7a3c",
+        "recette_id": "38092",
+        "user_id": "a6d43545-e7c8-4793-aef0-18ba20fb9be8",
+        "nickname": "tartopeche",
+        "commentaire": "superbe recette ! Il faut manger des courgettes lol",
+        "note": 5.0,
+        "date_publication": "2021-06-30T10:11:02+02:00",
+        "nb_likes": 1
+      },
+      {
+        "avis_id": "33f527be-1577-46ea-8d8d-4cf6ca6d0c1b",
+        "recette_id": "38092",
+        "user_id": "95efd028-2245-4273-8586-df5daf607612",
+        "nickname": "anonyme_2165399",
+        "commentaire": "Super! Ajouter crème fraîche, chorizo et champignons frais! Un seul mot... Délicieux! ",
+        "note": 5.0,
+        "date_publication": "2016-04-12T22:08:37+02:00",
+        "nb_likes": 1
+      },
+      {
+        "avis_id": "c51ea6be-7c12-4dec-bda2-4d7ac0855d40",
+        "recette_id": "38092",
+        "user_id": "d0755293-f49e-4e9c-9750-3e3e6b371b44",
+        "nickname": "anonyme_2520307",
+        "commentaire": "Un régal ! On l'a goûté hier pour la première fois et on en refait une aujourd'hui !",
+        "note": 5.0,
+        "date_publication": "2015-07-14T18:29:16+02:00",
+        "nb_likes": 1
+      },
+      {
+        "avis_id": "f9f89647-d69e-493b-9e20-b008ed1891ff",
+        "recette_id": "38092",
+        "user_id": "3256402c-4732-4dd4-b6e7-2570394622a5",
+        "nickname": "noor_15986105",
+        "commentaire": "Excellent et vite fait! J'ai suivi la recette à la lettre et on s'est régalé. C'est parfait pour un petit dîner de semaine ou en entrée.",
+        "note": 5.0,
+        "date_publication": "2015-07-07T18:51:46+02:00",
+        "nb_likes": 1
+      },
+      {
+        "avis_id": "077587bd-1f8f-4dd1-9b72-98bb8928d6d2",
+        "recette_id": "38092",
+        "user_id": "81bedb87-04a3-4281-9304-1145fbb42eca",
+        "nickname": "anonyme_1466508",
+        "commentaire": "Très bon, ai ajouté du chorizo pour relever la pizza.",
+        "note": 4.0,
+        "date_publication": "2014-09-17T00:32:56+02:00",
+        "nb_likes": 1
+      },
+      {
+        "avis_id": "ea0c0217-8612-49e5-88cb-e2daf30a5c20",
+        "recette_id": "38092",
+        "user_id": "8977b44b-0c95-4cca-a7fd-9fb3d1091902",
+        "nickname": "anonyme_798072",
+        "commentaire": "J'ai fait moi même la pâte à pizza et j'ajoute entre la mozzarella et les courgettes de la pancetta ou de la bressaola, pour que ce soit moins fade. L'autre différence est que j'utilise des courgettes de Nice (trompette), meilleures à mon goût.",
+        "note": 5.0,
+        "date_publication": "2013-07-30T17:50:53+02:00",
+        "nb_likes": 1
+      },
+      {
+        "avis_id": "33c1572d-ab1d-4c89-a353-19910cb572e5",
+        "recette_id": "38092",
+        "user_id": "24bda141-a02c-4973-a26a-237337695d7b",
+        "nickname": "laura_14864948",
+        "commentaire": "Savoureux. Toutefois, après un premier essai, j'ai trouvé que la courgette rendait un peu d'eau, donc, la fois suivante, j'ai préalablement poêlé la courgette, et j'ai aussi pris soin de bien égoutter la mozzarella. Cela n'en fut que meilleur !",
+        "note": 5.0,
+        "date_publication": "2009-07-07T18:57:40+02:00",
+        "nb_likes": 1
+      },
+      {
+        "avis_id": "294ee88c-6fbc-407c-95ca-b0f46eabb163",
+        "recette_id": "38092",
+        "user_id": "86c59e4b-5f2b-49bf-95f0-90ae9c8f708a",
+        "nickname": "anonyme_347941",
+        "commentaire": "C'est bon, mais j'ai fait un mélange mozzarella et chèvre, avec poivre au 3 épices et du basilic... C'est un peu plus relevé et c'est meilleurs!",
+        "note": 4.0,
+        "date_publication": "2006-10-11T23:14:01+02:00",
+        "nb_likes": 1
+      },
+      {
+        "avis_id": "3684c964-685e-4085-82f1-4890f3c2c95e",
+        "recette_id": "38092",
+        "user_id": "41d40721-58ec-4f14-a4ce-2f32316267e8",
+        "nickname": "roxane_13709866",
+        "commentaire": "Recette originale mais un peu fade. J'ai râpé la courgette et mis des dés de tomates, beaucoup de basilic, quelques feuilles de menthe. Ca change de la pizza classique.",
+        "note": 4.0,
+        "date_publication": "2006-07-24T23:57:45+02:00",
+        "nb_likes": 1
+      },
+      {
+        "avis_id": "f032af06-decd-4792-8129-f78dc5779deb",
+        "recette_id": "38092",
+        "user_id": "51310361-d9b2-4f5f-b04e-c022826655ff",
+        "nickname": "jolachat",
+        "commentaire": "Très simple et très bon avec une salade.",
+        "note": 5.0,
+        "date_publication": "2023-06-28T10:25:38+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "41396111-9754-4587-964c-493532a5067f",
+        "recette_id": "38092",
+        "user_id": "994e5dc9-7c51-4c22-bb43-e8d10e2570aa",
+        "nickname": "cocox09",
+        "commentaire": "Nickel pour l’été passe très bien ",
+        "note": 3.0,
+        "date_publication": "2022-06-14T23:43:59+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "5d74366b-0bbe-4d45-816c-7f78adcf3895",
+        "recette_id": "38092",
+        "user_id": "d3cc4ab9-7977-4e17-99c4-35edad2695d9",
+        "nickname": "alineg86",
+        "commentaire": "Parfait pour les soirs d'été",
+        "note": 5.0,
+        "date_publication": "2020-09-14T21:36:31+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "7a415460-bef7-474a-a002-45c12246c92f",
+        "recette_id": "38092",
+        "user_id": "590be255-ee69-408d-841c-f32559b4c558",
+        "nickname": "camila_13702797",
+        "commentaire": "Telle quelle, la recette est plutôt fade, la courgette n'est pas connue pour avoir un goût très prononcé, la mozzarella non plus. En badigeonnant la pâte avec du pesto et en ajoutant quelques épices italiennes, ça devient intéressant.",
+        "note": 4.0,
+        "date_publication": "2018-05-15T19:33:52+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "d8c003ef-68b2-413a-a2c1-918998736436",
+        "recette_id": "38092",
+        "user_id": "d36b64b4-d4b3-4dd3-87a9-0713ffa525a8",
+        "nickname": "anonyme_812919",
+        "commentaire": "Très bien !!",
+        "note": 5.0,
+        "date_publication": "2014-09-18T23:59:46+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "002f6c60-f761-4078-bad3-fc2e18087ab4",
+        "recette_id": "38092",
+        "user_id": "acd05c49-f7f2-471a-8cd0-67db87ab57b7",
+        "nickname": "lina_236895",
+        "commentaire": "Super recette, rien à changer : unanimité lors d'un dîner en famille avec mes parents. Elle va devenir un classique à la maison, c'est sûr ! ",
+        "note": 5.0,
+        "date_publication": "2014-07-30T06:46:55+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "8289b7c1-0898-44d0-b45e-edbe67428824",
+        "recette_id": "38092",
+        "user_id": "d19a7ee5-61c9-4712-8815-4a15b6f4fd8b",
+        "nickname": "victor_16601272",
+        "commentaire": "Délicieux ! Rien à changer. J'ai aussi fait une variante avec de la feta à la place de la mozzarella, et c'était également très bon.",
+        "note": 5.0,
+        "date_publication": "2014-04-12T20:23:15+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "3a58bae7-4ae4-4760-9256-c7502026f103",
+        "recette_id": "38092",
+        "user_id": "72929f69-dfe4-4d5c-b021-50f45502facc",
+        "nickname": "anonyme_1166045",
+        "commentaire": "Très fade, cela peut être une bonne base, mais la mozzarella et la courgette seule ne font que ressortir le goût de la pâte et du romarin... ",
+        "note": 1.0,
+        "date_publication": "2013-10-10T16:01:30+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "e9601035-70d6-460e-8d9f-6aa165fdc8f8",
+        "recette_id": "38092",
+        "user_id": "8763dd8a-7845-472a-bb99-5010a647e096",
+        "nickname": "mia_113469",
+        "commentaire": "Très bonne recette qui change de la recette traditionnelle effectivement. J'ai mis du basilic à la place du romarin. Bref à refaire très vite et elle ne coûte que 2,40 € (j'ai calculé le prix de revient en faisant la pâte soi même).",
+        "note": 5.0,
+        "date_publication": "2013-06-03T15:42:49+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "3e7d15ef-3e98-420a-9a4e-6dee14e23be8",
+        "recette_id": "38092",
+        "user_id": "293416b5-c007-4c46-8f1b-d3ffdd86144d",
+        "nickname": "lily_17447168",
+        "commentaire": "Facile et bon",
+        "note": 5.0,
+        "date_publication": "2013-04-26T20:26:29+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "a61c949e-7e58-41e7-a848-6054a34baf53",
+        "recette_id": "38092",
+        "user_id": "1d9c4492-f7ae-4aca-809a-d748aecc1dfe",
+        "nickname": "anonyme_1241572",
+        "commentaire": "Très bon, attention à bien égoutter la mozzarella, elle rend beaucoup d'eau à la cuisson.",
+        "note": 5.0,
+        "date_publication": "2011-08-08T01:44:54+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "4ca81cfb-6b62-4a9e-9ee3-3b079afa23f1",
+        "recette_id": "38092",
+        "user_id": "ce4017bb-f163-40ef-805c-b949fd2eb786",
+        "nickname": "roxane_17157658",
+        "commentaire": "Délicieuse recette. Rien à modifier. Parfait en apéro ou repas du soir avec salade et jambon cru.  ",
+        "note": 5.0,
+        "date_publication": "2009-07-11T18:12:32+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "9798c2f0-d88f-411e-9e63-8eee6907bb42",
+        "recette_id": "38092",
+        "user_id": "41d27e1c-6ceb-4f80-960b-7496f3abf30c",
+        "nickname": "anonyme_160200",
+        "commentaire": "J'ai respecté la recette à la lettre et c'était etonnant, frais, délicieux!",
+        "note": 5.0,
+        "date_publication": "2007-06-21T14:15:25+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "e5170cb0-43a5-483c-99bb-33d0765ca308",
+        "recette_id": "38092",
+        "user_id": "04484ce4-be4a-450a-8e8b-72e406a901ba",
+        "nickname": "sarah_16489355",
+        "commentaire": "Un régal! Moi, j'utilise un fromage un peu plus goûteux que la mozza. J'ajoute par dessus les tranches de courgettes du jambon.",
+        "note": 4.0,
+        "date_publication": "2007-06-05T22:02:21+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "8e6d4ec1-a1aa-4530-8f88-0b9dacd7ea98",
+        "recette_id": "38092",
+        "user_id": "289ff6e7-3f5d-4aad-a878-effac9bbefac",
+        "nickname": "anonyme_257669",
+        "commentaire": "Très bon, j'ai remplacé la mozzarella par du chèvre.",
+        "note": 5.0,
+        "date_publication": "2006-07-30T12:20:44+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "c48a7e9a-5a2b-4a00-bd71-6778241e61e7",
+        "recette_id": "38092",
+        "user_id": "6fbed760-68eb-489c-9480-4bbc998aeb33",
+        "nickname": "agathe_116582",
+        "commentaire": "Merci pour cette recette originale. J'ai mis 2 boules de mozzarella fumée (malheureusement assez difficile a trouver en France) et c'était un pur régal, aussi bien froide que chaude.",
+        "note": 5.0,
+        "date_publication": "2005-08-24T12:53:32+02:00",
+        "nb_likes": 0
+      }
+    ],
+    "image_url": "https://assets.afcdn.com/recipe/20160926/668_w1024h576c1cx1872cy2808.jpg",
+    "date_scraping": "2025-09-13T20:14:45.971935"
+  },
+  {
+    "recette_id": "536651",
+    "url": "https://www.marmiton.org/recettes/recette_pizza-rolls_536651.aspx",
+    "titre": "Pizza rolls",
+    "description": "Pâte à Pizza Fine et Rectangulaire HERTA®, jambon LE BON PARIS® HERTA® Conservation Sans Nitrite Sel réduit, sauce tomate, mozzarella, olives noires, basilic",
+    "temps_preparation": "15 min",
+    "temps_cuisson": "25 min",
+    "nb_personnes": "4 personnes",
+    "difficulte": "Non spécifié",
+    "cout": "Non spécifié",
+    "etapes": [
+      "Dérouler les pâtes à pizza sur le plan de travail.",
+      "Étaler généreusement de la sauce tomate puis ajouter les 2 tranches de jambon à l'Étouffée LE BON PARIS® HERTA® Conservation Sans Nitrite Sel réduit sur chacune des pâtes à pizza.",
+      "Saupoudrer de mozzarella râpée. Hacher des olives noires puis les ajouter par-dessus.",
+      "Rouler les pâtes pour former un boudin. Puis couper chaque boudin en deux dans le sens de la longueur pour obtenir quatre demi-boudins. Joindre les quatre demi-boudins ensemble pour former une seule grande spirale face ouverte vers le haut. Faire la spirale directement sur la plaque de votre four recouverte de papier sulfurisé.",
+      "Une fois qu’on a un bel escargot, enfourner 20/25 minutes à 200 degrés (th 6).",
+      "À la sortie du four, ajouter joliment des feuilles de basilic et des olives hachées."
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": "862b6260-2a26-444a-8313-db495346a95f",
+        "quantite": "2",
+        "unite": "",
+        "nom": "Pâtes à Pizza Fine et Rectangulaire HERTA®",
+        "type": "féculents",
+        "texte_original": "2 Pâtes à Pizza Fine et Rectangulaire HERTA®"
+      },
+      {
+        "ingredient_id": "f38fefc4-0d31-4712-be09-e69843caa072",
+        "quantite": "4",
+        "unite": "",
+        "nom": "tranches de jambon LE BON PARIS® HERTA® Conservation Sans Nitrite Sel réduit",
+        "type": "viandes",
+        "texte_original": "4 tranches de jambon LE BON PARIS® HERTA® Conservation Sans Nitrite Sel réduit"
+      },
+      {
+        "ingredient_id": "68f91732-aa8b-44e6-aa9f-ab884aa8f835",
+        "quantite": "240",
+        "unite": "g",
+        "nom": "sauce tomate",
+        "type": "légumes",
+        "texte_original": "240 g de sauce tomate"
+      },
+      {
+        "ingredient_id": "6b4b8bc3-6ef9-45cf-9e00-d17897d9b19b",
+        "quantite": "100",
+        "unite": "g",
+        "nom": "mozzarella râpée",
+        "type": "fromages",
+        "texte_original": "100 g de mozzarella râpée"
+      },
+      {
+        "ingredient_id": "5b6de63e-736c-4bd8-be48-6b6a1683c7aa",
+        "quantite": "75",
+        "unite": "g",
+        "nom": "d'olives noires",
+        "type": "huiles",
+        "texte_original": "75 g d'olives noires"
+      },
+      {
+        "ingredient_id": "cece888c-fa81-4d80-a501-be6b80ffcacc",
+        "quantite": "",
+        "unite": "",
+        "nom": "basilic frais",
+        "type": "herbes",
+        "texte_original": "basilic frais"
+      }
+    ],
+    "ustensiles": [],
+    "tags": [
+      "cuisine",
+      "plat de résistance",
+      "olives noires",
+      "confiserie",
+      "recettes",
+      "bon marché",
+      "pizza",
+      "testées",
+      "jambon LE BON PARIS® HERTA® Conservation Sans Nitrite Sel réduit",
+      "facile",
+      "Pizza rolls",
+      "mozzarella",
+      "cocktail",
+      "boisson",
+      "dessert",
+      "recettes de cuisine",
+      "basilic",
+      "Pâte à Pizza Fine et Rectangulaire HERTA®",
+      "plat",
+      "sauce tomate",
+      "entrée",
+      "recette"
+    ],
+    "origine": "Plat principal",
+    "auteur": {
+      "user_id": "be7f5e23-9fd1-4ce6-a80f-2cbe96cbc78c",
+      "nom": "recettesherta"
+    },
+    "note_moyenne": 0,
+    "nb_avis": 0,
+    "avis": [],
+    "image_url": "https://assets.afcdn.com/recipe/20240430/150981_w1024h576c1cx282cy209cxt0cyt0cxb565cyb419.png",
+    "date_scraping": "2025-09-13T20:14:49.956005"
+  },
+  {
+    "recette_id": "253957",
+    "url": "https://www.marmiton.org/recettes/recette_dessert-meringue-framboise-super-facile_253957.aspx",
+    "titre": "Dessert meringue-framboise super facile",
+    "description": "framboises, meringue, crème fraîche, sucre glace, sucre vanillé",
+    "temps_preparation": "15 min",
+    "temps_cuisson": "0 min",
+    "nb_personnes": "7 personnes",
+    "difficulte": "Non spécifié",
+    "cout": "Non spécifié",
+    "etapes": [
+      "Mélanger les framboises encore congelées avec 1 cuillère à soupe de sucre glace. ",
+      "Monter la crème fraîche en chantilly, sucrer avec le reste de sucre glace et le sucre vanillé. ",
+      "Concasser grossièrement les meringues. Déposer les ingrédients couche par couche dans un saladier en verre : commencer par la moitié des framboises, ensuite la moitié de la meringue, la moitié de la chantilly et répéter les couches. ",
+      "Finir par décorer avec les framboises restantes. Déposer au frigo 6 h avant de servir ou 3 h à température ambiante."
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": "4e0f1d98-210f-4fe1-8c6e-7892ac311e0d",
+        "quantite": "500",
+        "unite": "g",
+        "nom": "framboises",
+        "type": "autre",
+        "texte_original": "500 g de framboises"
+      },
+      {
+        "ingredient_id": "5ee04846-8215-4fa2-8306-c9e7e4726081",
+        "quantite": "125",
+        "unite": "g",
+        "nom": "meringue",
+        "type": "autre",
+        "texte_original": "125 g de meringue"
+      },
+      {
+        "ingredient_id": "0b41f24f-b278-46a6-b011-5dd3dd4a2c06",
+        "quantite": "50",
+        "unite": "cl",
+        "nom": "crème fraîche fluide",
+        "type": "produits_laitiers",
+        "texte_original": "50 cl de crème fraîche fluide"
+      },
+      {
+        "ingredient_id": "c4b1825a-5dd6-4ee1-ad56-d012906e2407",
+        "quantite": "2",
+        "unite": "cuillères",
+        "nom": "à soupe de sucre glace",
+        "type": "sucrants",
+        "texte_original": "2 cuillères à soupe de sucre glace"
+      },
+      {
+        "ingredient_id": "b09104d1-fc92-425c-a167-26cfad04d272",
+        "quantite": "1",
+        "unite": "",
+        "nom": "sachets de sucre vanillé",
+        "type": "sucrants",
+        "texte_original": "1 sachets de sucre vanillé"
+      }
+    ],
+    "ustensiles": [],
+    "tags": [
+      "cuisine",
+      "plat de résistance",
+      "crème fraîche",
+      "confiserie",
+      "recettes",
+      "bon marché",
+      "sucre glace",
+      "testées",
+      "facile",
+      "sucre vanillé",
+      "cocktail",
+      "boisson",
+      "dessert",
+      "meringue",
+      "rapide",
+      "meringues",
+      "Dessert meringue-framboise super facile",
+      "recettes de cuisine",
+      "framboises",
+      "plat",
+      "entrée",
+      "recette"
+    ],
+    "origine": "Dessert",
+    "auteur": {
+      "user_id": "903cd550-ed0e-4c6f-8859-779af2c97612",
+      "nom": "Anonyme"
+    },
+    "note_moyenne": 5.0,
+    "nb_avis": 5,
+    "avis": [
+      {
+        "avis_id": "e0d81394-c2f5-4f61-a246-52f8e5c6ebf9",
+        "recette_id": "253957",
+        "user_id": "9d7709d7-323d-4e2e-b7ec-af6eb1cb1c73",
+        "nickname": "melo4242",
+        "commentaire": "Excellente recette. Merci. ",
+        "note": 5.0,
+        "date_publication": "2023-06-15T16:03:27+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "f9febb8b-12b8-4e81-aa0d-1a6a6a9bd816",
+        "recette_id": "253957",
+        "user_id": "28b798de-84bd-4a6a-bd5b-73a6e59b853c",
+        "nickname": "molie_18533833",
+        "commentaire": "Bon.",
+        "note": 5.0,
+        "date_publication": "2019-09-29T05:35:02+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "8a3c1064-f718-441f-9dcb-243901ecfd3f",
+        "recette_id": "253957",
+        "user_id": "56273e06-48ac-4a98-9efe-d5a3f848e6b8",
+        "nickname": "chetelatgermain39",
+        "commentaire": "Excellente recette ! A faire à la lettre comme sur la recette ! Le top",
+        "note": 5.0,
+        "date_publication": "2017-02-10T17:48:27+01:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "77528288-453f-4068-8d54-6c260e930346",
+        "recette_id": "253957",
+        "user_id": "138a6db2-b7ae-425b-9c04-a5a0210d35e5",
+        "nickname": "valtigrou",
+        "commentaire": "C'est encore meilleur quand on mélange la crème fraîche montée en chantilly à du mascarpone !",
+        "note": 5.0,
+        "date_publication": "2014-06-21T18:31:51+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "d2d0a339-1b3b-4df1-9d63-ec36e33d7c1e",
+        "recette_id": "253957",
+        "user_id": "5d4d3468-b924-45e3-a06a-e01fec745c01",
+        "nickname": "anonyme_1851611",
+        "commentaire": "Un délice pour les petits et les grands, un grand bravo pour cette nouvelle recette originale !!!",
+        "note": 5.0,
+        "date_publication": "2013-07-04T12:17:15+02:00",
+        "nb_likes": 0
+      }
+    ],
+    "image_url": "https://assets.afcdn.com/recipe/20130206/46914_w1024h576c1cx256cy192.jpg",
+    "date_scraping": "2025-09-13T20:14:53.312427"
+  },
+  {
+    "recette_id": "66138",
+    "url": "https://www.marmiton.org/recettes/recette_poires-au-miel-dessert-chinois_66138.aspx",
+    "titre": "Poires au miel (dessert chinois)",
+    "description": "poire, sucre, miel, Liqueur",
+    "temps_preparation": "15 min",
+    "temps_cuisson": "40 min",
+    "nb_personnes": "4 personnes",
+    "difficulte": "Non spécifié",
+    "cout": "Non spécifié",
+    "etapes": [
+      "Peler les poires en leur laissant la queue et 1 cm de peau autour de celle-ci, pour pouvoir les prendre plus facilement.",
+      "Poser les poires debout dans une casserole et le recouvrir d’eau ; porter doucement à ébullition, puis laisser mijoter 30 mn ; enlever la moitié de l’eau ; saupoudrer les poires de sucre et laisser mijoter encore 10 mn ; les retirer de la casserole et les mettre à glacer 2 heures au réfrigérateur.",
+      "Pendant ce temps, retirer encore la moitié de l’eau dans la casserole ; ajouter le miel et la liqueur ; quand le mélange est homogène, le mettre 2 heures au réfrigérateur.",
+      "Avant de servir, disposer les poires dans des plats individuels ; les napper du mélange au miel."
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": "044f8a55-6404-4224-bf55-1c1686dbc2d7",
+        "quantite": "4",
+        "unite": "",
+        "nom": "poires de taille moyenne",
+        "type": "légumes",
+        "texte_original": "4 poires de taille moyenne"
+      },
+      {
+        "ingredient_id": "9c679b43-d845-4131-ad80-96a9638d66ba",
+        "quantite": "4",
+        "unite": "cuillères",
+        "nom": "à soupe de sucre",
+        "type": "sucrants",
+        "texte_original": "4 cuillères à soupe de sucre"
+      },
+      {
+        "ingredient_id": "f5861f36-49bb-4045-b0a7-05819ae7cce6",
+        "quantite": "4",
+        "unite": "cuillères",
+        "nom": "à soupe de miel",
+        "type": "sucrants",
+        "texte_original": "4 cuillères à soupe de miel"
+      },
+      {
+        "ingredient_id": "d6f7977e-db70-4d27-96cc-69acd7e30223",
+        "quantite": "2",
+        "unite": "cuillères",
+        "nom": "à soupe de Liqueur sucrée (Mei Kui Lu, Cherry brandy ou crème de menthe)",
+        "type": "herbes",
+        "texte_original": "2 cuillères à soupe de Liqueur sucrée (Mei Kui Lu, Cherry brandy ou crème de menthe)"
+      }
+    ],
+    "ustensiles": [],
+    "tags": [
+      "cuisine",
+      "plat de résistance",
+      "sucre",
+      "confiserie",
+      "recettes",
+      "bon marché",
+      "testées",
+      "facile",
+      "Liqueur",
+      "cocktail",
+      "boisson",
+      "dessert",
+      "Poires au miel (dessert chinois)",
+      "recettes de cuisine",
+      "plat",
+      "miel",
+      "entrée",
+      "poire",
+      "recette"
+    ],
+    "origine": "Dessert",
+    "auteur": {
+      "user_id": "903cd550-ed0e-4c6f-8859-779af2c97612",
+      "nom": "Anonyme"
+    },
+    "note_moyenne": 5.0,
+    "nb_avis": 3,
+    "avis": [
+      {
+        "avis_id": "eda86a18-b78e-44fd-a68d-4b73ba6fa5a6",
+        "recette_id": "66138",
+        "user_id": "24db4ed4-2438-4b3f-9868-b8993fd9a539",
+        "nickname": "joela_1",
+        "commentaire": "Délicieux ! J'ai mis le miel en même temps que le sucre et laisseé ensuite mariner les poires dans le sirop jusqu'au moment de servir ! ",
+        "note": 5.0,
+        "date_publication": "2016-02-28T17:08:27+01:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "182f37c0-da7e-4cb9-a59a-bc5e20d22e35",
+        "recette_id": "66138",
+        "user_id": "f46eae7f-6ef5-4aaf-9d45-bb2c049226e9",
+        "nickname": "elena_15923979",
+        "commentaire": "Un pur délice et si léger ! J'ai laissé les poires mariner dans le jus au miel durant toute l'après-midi : très gouteuses !",
+        "note": 5.0,
+        "date_publication": "2013-01-27T21:24:32+01:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "2a06df1c-d4e1-428f-a32b-1125e5b35bac",
+        "recette_id": "66138",
+        "user_id": "f1010390-843a-4fc2-b9bc-1d57d1e2de53",
+        "nickname": "anonyme_523424",
+        "commentaire": "Dessert très léger et agréable en fin de repas. J'ai remplacé la liqueur par une petite cuillère d'eau de fleur d'oranger, et ai rajoute quelques amandes. Un régal !",
+        "note": 5.0,
+        "date_publication": "2008-03-04T09:42:17+01:00",
+        "nb_likes": 0
+      }
+    ],
+    "image_url": "https://assets.afcdn.com/recipe/20200116/106594_w1024h576c1cx2811cy2229cxt0cyt347cxb3937cyb4220.jpg",
+    "date_scraping": "2025-09-13T20:14:56.851806"
+  },
+  {
+    "recette_id": "18576",
+    "url": "https://www.marmiton.org/recettes/recette_dessert-de-potiron-kabak-tatlisi-recette-turque_18576.aspx",
+    "titre": "dessert de potiron (kabak tatlisi : recette turque)",
+    "description": "potiron, sucre, noix, beurre",
+    "temps_preparation": "30 min",
+    "temps_cuisson": "45 min",
+    "nb_personnes": "4 personnes",
+    "difficulte": "Non spécifié",
+    "cout": "Non spécifié",
+    "etapes": [
+      "1 - pelez et coupez le potiron en cube de 5 à 6 cm, disposez les dans une casserole assez large, ajoutez un verre d'eau, le beurre et laissez cuire à feu doux (ajoutez de l'eau si nécessaire). ",
+      "2 -lorsque le potiron est tendre ajoutez le sucre le temps que le potiron prenne une couleur caramélisée et brillante. ",
+      "3 - disposez alors le potiron chaud dans un petit ramequin, saupoudrez de noix pilées et servez tiède ou froid"
+    ],
+    "ingredients": [
+      {
+        "ingredient_id": "2f7912e3-a6ff-47dd-98e7-47f643149244",
+        "quantite": "1",
+        "unite": "kg",
+        "nom": "potiron",
+        "type": "autre",
+        "texte_original": "1 kg de potiron"
+      },
+      {
+        "ingredient_id": "a49a6bcf-6bbd-44d7-a495-64529f8cfdc8",
+        "quantite": "400",
+        "unite": "g",
+        "nom": "sucre cristal",
+        "type": "sucrants",
+        "texte_original": "400 g de sucre cristal"
+      },
+      {
+        "ingredient_id": "fd97968a-955a-4072-967f-4e469c9ba385",
+        "quantite": "100",
+        "unite": "g",
+        "nom": "noix pilées",
+        "type": "autre",
+        "texte_original": "100 g de noix pilées"
+      },
+      {
+        "ingredient_id": "9b5b669d-a9c4-47ca-84a9-b3f9f10959e2",
+        "quantite": "1",
+        "unite": "",
+        "nom": "noix de beurre",
+        "type": "produits_laitiers",
+        "texte_original": "1 noix de beurre"
+      }
+    ],
+    "ustensiles": [],
+    "tags": [
+      "",
+      "cuisine",
+      "très facile",
+      "plat de résistance",
+      "sucre",
+      "confiserie",
+      "recettes",
+      "bon marché",
+      "testées",
+      "cocktail",
+      "boisson",
+      "dessert",
+      "recettes de cuisine",
+      "plat",
+      "dessert de potiron (kabak tatlisi : recette turque)",
+      "noix",
+      "beurre",
+      "entrée",
+      "recette",
+      "potiron"
+    ],
+    "origine": "Dessert",
+    "auteur": {
+      "user_id": "903cd550-ed0e-4c6f-8859-779af2c97612",
+      "nom": "Anonyme"
+    },
+    "note_moyenne": 4.6,
+    "nb_avis": 10,
+    "avis": [
+      {
+        "avis_id": "1124a67f-0a19-4a26-afe6-71d3ac082343",
+        "recette_id": "18576",
+        "user_id": "3396b366-a868-4ad7-8328-5124ac2c84dd",
+        "nickname": "coconutss17",
+        "commentaire": "Moi (je le fais comme ma grand-mère turque) je saupoudre les tranches de potiron la veille et réserve au frais, et le lendemain je les fais cuire dans leur propre eau. ",
+        "note": 5.0,
+        "date_publication": "2012-01-07T15:59:56+01:00",
+        "nb_likes": 1
+      },
+      {
+        "avis_id": "de87f88d-57e2-45f5-b930-cf8d4b00538d",
+        "recette_id": "18576",
+        "user_id": "6980e664-4cbc-4a79-b599-4decdc86b843",
+        "nickname": "anonyme_851007",
+        "commentaire": "Sans réussir à faire caraméliser c'est tout de même un régal ! Ma petite touche perso : j'ai ajouté, en même temps que le sucre, les graines de 8 gousses de cardamome. Top!",
+        "note": 5.0,
+        "date_publication": "2010-10-10T13:50:52+02:00",
+        "nb_likes": 1
+      },
+      {
+        "avis_id": "198f47d5-836c-4a21-b151-3112c10bb6ce",
+        "recette_id": "18576",
+        "user_id": "22a0bdea-6738-4b52-9bed-939c88ebab19",
+        "nickname": "Laurent_Couchoud",
+        "commentaire": "J'ai découvert ce dessert à Istanbul et j'aime beaucoup. La recette est bonne et ce qui change tout est là caramélisation et le côté confit de la courge. À servir avec une crème fouettée peu sucrée ou chantilly sinon et des noisettes émiettées",
+        "note": 4.0,
+        "date_publication": "2022-03-13T13:58:54+01:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "7e0590b2-c6ac-4c1e-91f7-353be0bc8ba7",
+        "recette_id": "18576",
+        "user_id": "075d213a-85c8-4f54-9452-1f26b9f5b064",
+        "nickname": "Benoit_Be",
+        "commentaire": "Nous avons trouvé ça un peu trop sucré et sans plus.",
+        "note": 3.0,
+        "date_publication": "2022-01-30T15:11:32+01:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "e4fd35c5-4dda-40b1-8000-572b83006d78",
+        "recette_id": "18576",
+        "user_id": "8f498c43-5ea3-4bcc-9652-0274b63834dc",
+        "nickname": "anonyme_1048333",
+        "commentaire": "Miam, très bon. ",
+        "note": 5.0,
+        "date_publication": "2016-02-14T21:16:12+01:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "5cb0cb6d-27ea-45f3-867e-8c1a8bb66b6d",
+        "recette_id": "18576",
+        "user_id": "4dbd8b7c-d619-45e9-9f0e-f206d5cbf4e9",
+        "nickname": "gghouse",
+        "commentaire": "J'ai réussi à obtenir un aspect et un goût légèrement caramélisés en faisant cuire un peu plus longtemps qu'indiqué (cela se rapproche de la consistance d'une confiture). Nos invités ont été étonnés de savoir qu'ils venaient de déguster du potiron. La prochaine fois, je ne mettrai pas d'eau au départ de la cuisson car le potiron en rejette suffisamment. Par contre j'utiliserai une cocotte antiadhésive et je surveillerai au départ pour éviter que cela n'attache. ",
+        "note": 5.0,
+        "date_publication": "2010-10-26T15:22:55+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "6f66e8d5-1c26-43fe-a13a-2ce7ab97613f",
+        "recette_id": "18576",
+        "user_id": "32120fe1-8816-4efe-8199-2d27cf96d938",
+        "nickname": "agathe_116582",
+        "commentaire": "Pour moi également ça n'a pas caramelisé, mais c'etait néanmoins bon. Je tenterais également avec des noisettes une prochaine fois.",
+        "note": 4.0,
+        "date_publication": "2009-11-27T21:30:31+01:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "81555200-2aa9-4c8e-afd4-838ec3c431bc",
+        "recette_id": "18576",
+        "user_id": "4b1bea39-2fcc-4152-9855-6cdcfde9fa5b",
+        "nickname": "lily_15041962",
+        "commentaire": "J'ai suivi la recette mais je n'ai pas réussi à faire caraméliser. Le résultat est néanmoins très bon.  A refaire.",
+        "note": 5.0,
+        "date_publication": "2007-10-26T18:33:57+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "d4dff6f8-bb6a-4445-a8e2-422635572602",
+        "recette_id": "18576",
+        "user_id": "b363f5ce-1801-4ec2-83fc-ddd9e7782b41",
+        "nickname": "adam_13840046",
+        "commentaire": "J'ai fait cuire le potiron tout doucement sans eau ce qui permet qu'il cuise dans son jus et d'avoir toute sa saveur. En plus j'ai fait moitié cerneaux de noix moitié noisette. C'est excellent.",
+        "note": 5.0,
+        "date_publication": "2007-10-21T19:42:11+02:00",
+        "nb_likes": 0
+      },
+      {
+        "avis_id": "1ff081fd-77bf-4ddd-b63b-8fcdc3f536c9",
+        "recette_id": "18576",
+        "user_id": "8a61f85d-853e-4342-aacb-2212313a4671",
+        "nickname": "kralice",
+        "commentaire": "Je recouvre les cubes de potiron avec le sucre et je laisse une nuit au réfrigérateur. Le jus du potiron rend alors inutile d'utiliser de l'eau et l'on obtient un confit absolument délicieux.",
+        "note": 5.0,
+        "date_publication": "2002-10-17T10:26:59+02:00",
+        "nb_likes": 0
+      }
+    ],
+    "image_url": "https://assets.afcdn.com/recipe/20221011/135935_w1024h576c1cx721cy706cxt0cyt0cxb2121cyb1414.jpg",
+    "date_scraping": "2025-09-13T20:15:00.188044"
+  }
+]
