@@ -1,37 +1,47 @@
 
 services:
-  db:
-    image: mysql:8.0
-    container_name: marmitosaure_db
+  mongodb:
+    image: mongo:latest
+    container_name: marmitosaure_mongo
     environment:
-      MYSQL_ROOT_PASSWORD: rootpassword
-      MYSQL_DATABASE: marmitosaure_app
-      MYSQL_USER: marmitosaure_user
-      MYSQL_PASSWORD: userpassword
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rootpassword
+      MONGO_INITDB_DATABASE: marmitosaure_app
     volumes:
-      - db_data:/var/lib/mysql
-      - ./db/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - db_data:/var/lib/mongo
+      - ./db/init.js:/docker-entrypoint-initdb.d/init.js
     networks:
       - marmitosaure_network
     ports:
-      - "3306:3306"
-
-  phpmyadmin:
-    image: phpmyadmin/phpmyadmin
-    container_name: marmitosaure_phpmyadmin
-    depends_on:
-      - db
+      - "27017:27017"
+  cassandra:
+    image: cassandra:4.1
+    container_name: marmitosaure_cassandra
     environment:
-      PMA_HOST: db
-      PMA_PORT: 3306
-      MYSQL_ROOT_PASSWORD: rootpassword
-    ports:
-      - "8080:80"
+      CASSANDRA_CLUSTER_NAME: "MarmitosaureCluster"
+    volumes:
+      - cassandra_data:/var/lib/cassandra
     networks:
       - marmitosaure_network
-
+    ports:
+      - "9042:9042"
+  redis:
+    image: redis:latest
+    container_name: marmitosaure_redis
+    environment:
+      REDIS_HOST: redis
+      REDIS_PASSWORD: yourpassword
+    command: ["redis-server", "--appendonly", "yes"]
+    volumes:
+      - redis_data:/data
+    networks:
+      - marmitosaure_network
+    ports:
+      - "6379:6379"
 volumes:
   db_data:
+  cassandra_data:
+  redis_data:
 
 networks:
   marmitosaure_network:
