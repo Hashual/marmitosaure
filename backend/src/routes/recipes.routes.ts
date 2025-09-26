@@ -1,4 +1,4 @@
-import { RecipesController } from "../controllers/recipes/RecipesController";
+import { RecipesController } from "../controllers/RecipesController";
 import { Router } from "express";
 import { ReviewsRouter } from "./reviews.routes";
 

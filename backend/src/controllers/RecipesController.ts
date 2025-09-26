@@ -6,7 +6,7 @@ import {
   getAllRecipes,
   getRecipeById,
   updateRecipe,
-} from "../../models/recipes"
+} from "../models/recipes"
 
 export class RecipesController {
   static GetAll(req: Request, res: Response) {

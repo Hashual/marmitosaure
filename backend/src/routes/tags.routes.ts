@@ -1,6 +1,6 @@
 import { Router } from "express";
 import type { Request, Response } from "express";
-import { TagsController } from "../controllers/recipes/TagsController.js";
+import { TagsController } from "../controllers/TagsController.js";
 
 export const TagsRouter = Router();
 
