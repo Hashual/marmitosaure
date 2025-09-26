@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "1",
+    "recipe_id": "rec_001",
+    "author": {
+      "_id": "u3",
+      "name": "Clara Rossi"
+    },
+    "like": true,
+    "comment": "Délicieuse recette, facile à suivre et le résultat est parfait !,",
+    "date_creation": "2025-09-15T12:00:00.000Z"
+  }
+]
