@@ -5,7 +5,8 @@ export class ReviewsController {
 		const { id } = req.params;
 		const { body } = req;
 
-		// TODO
+		// TODO - Create a review for recipe with id
+
 		res.status(201).send({
 			data: { id, ...body }
 		})
@@ -14,7 +15,8 @@ export class ReviewsController {
 	static GetAll(req: Request, res: Response) {
 		const { id } = req.params;
 
-		// TODO
+		// TODO - Get all reviews for recipe with id
+
 		res.status(200).send({
 			data: []
 		})
