@@ -1,0 +1,140 @@
+[
+  {
+    "ingredient_id": "8958b332-8d41-497d-ba41-df2729237296",
+    "nom": "pâtes à pizza",
+    "type": "féculents",
+    "date_ajout": "2025-09-13T20:14:45.883266"
+  },
+  {
+    "ingredient_id": "775bd7c6-1803-4363-ad36-fd3d57c4714f",
+    "nom": "boules de mozzarella de buflonne (la vraie !)",
+    "type": "fromages",
+    "date_ajout": "2025-09-13T20:14:45.883266"
+  },
+  {
+    "ingredient_id": "ab36212b-d250-4bcd-a43c-05dca06cd46f",
+    "nom": "courgettes",
+    "type": "légumes",
+    "date_ajout": "2025-09-13T20:14:45.883266"
+  },
+  {
+    "ingredient_id": "531f0943-bd61-429e-a2c5-1ef36baf93a9",
+    "nom": "brin de romarin",
+    "type": "herbes",
+    "date_ajout": "2025-09-13T20:14:45.883266"
+  },
+  {
+    "ingredient_id": "862b6260-2a26-444a-8313-db495346a95f",
+    "nom": "Pâtes à Pizza Fine et Rectangulaire HERTA®",
+    "type": "féculents",
+    "date_ajout": "2025-09-13T20:14:49.883560"
+  },
+  {
+    "ingredient_id": "f38fefc4-0d31-4712-be09-e69843caa072",
+    "nom": "tranches de jambon LE BON PARIS® HERTA® Conservation Sans Nitrite Sel réduit",
+    "type": "viandes",
+    "date_ajout": "2025-09-13T20:14:49.883560"
+  },
+  {
+    "ingredient_id": "68f91732-aa8b-44e6-aa9f-ab884aa8f835",
+    "nom": "sauce tomate",
+    "type": "légumes",
+    "date_ajout": "2025-09-13T20:14:49.883560"
+  },
+  {
+    "ingredient_id": "6b4b8bc3-6ef9-45cf-9e00-d17897d9b19b",
+    "nom": "mozzarella râpée",
+    "type": "fromages",
+    "date_ajout": "2025-09-13T20:14:49.883560"
+  },
+  {
+    "ingredient_id": "5b6de63e-736c-4bd8-be48-6b6a1683c7aa",
+    "nom": "d'olives noires",
+    "type": "huiles",
+    "date_ajout": "2025-09-13T20:14:49.883560"
+  },
+  {
+    "ingredient_id": "cece888c-fa81-4d80-a501-be6b80ffcacc",
+    "nom": "basilic frais",
+    "type": "herbes",
+    "date_ajout": "2025-09-13T20:14:49.883560"
+  },
+  {
+    "ingredient_id": "4e0f1d98-210f-4fe1-8c6e-7892ac311e0d",
+    "nom": "framboises",
+    "type": "autre",
+    "date_ajout": "2025-09-13T20:14:53.222292"
+  },
+  {
+    "ingredient_id": "5ee04846-8215-4fa2-8306-c9e7e4726081",
+    "nom": "meringue",
+    "type": "autre",
+    "date_ajout": "2025-09-13T20:14:53.222292"
+  },
+  {
+    "ingredient_id": "0b41f24f-b278-46a6-b011-5dd3dd4a2c06",
+    "nom": "crème fraîche fluide",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-13T20:14:53.222292"
+  },
+  {
+    "ingredient_id": "c4b1825a-5dd6-4ee1-ad56-d012906e2407",
+    "nom": "à soupe de sucre glace",
+    "type": "sucrants",
+    "date_ajout": "2025-09-13T20:14:53.222292"
+  },
+  {
+    "ingredient_id": "b09104d1-fc92-425c-a167-26cfad04d272",
+    "nom": "sachets de sucre vanillé",
+    "type": "sucrants",
+    "date_ajout": "2025-09-13T20:14:53.222292"
+  },
+  {
+    "ingredient_id": "044f8a55-6404-4224-bf55-1c1686dbc2d7",
+    "nom": "poires de taille moyenne",
+    "type": "légumes",
+    "date_ajout": "2025-09-13T20:14:56.785639"
+  },
+  {
+    "ingredient_id": "9c679b43-d845-4131-ad80-96a9638d66ba",
+    "nom": "à soupe de sucre",
+    "type": "sucrants",
+    "date_ajout": "2025-09-13T20:14:56.785639"
+  },
+  {
+    "ingredient_id": "f5861f36-49bb-4045-b0a7-05819ae7cce6",
+    "nom": "à soupe de miel",
+    "type": "sucrants",
+    "date_ajout": "2025-09-13T20:14:56.785639"
+  },
+  {
+    "ingredient_id": "d6f7977e-db70-4d27-96cc-69acd7e30223",
+    "nom": "à soupe de Liqueur sucrée (Mei Kui Lu, Cherry brandy ou crème de menthe)",
+    "type": "herbes",
+    "date_ajout": "2025-09-13T20:14:56.785639"
+  },
+  {
+    "ingredient_id": "2f7912e3-a6ff-47dd-98e7-47f643149244",
+    "nom": "potiron",
+    "type": "autre",
+    "date_ajout": "2025-09-13T20:15:00.121939"
+  },
+  {
+    "ingredient_id": "a49a6bcf-6bbd-44d7-a495-64529f8cfdc8",
+    "nom": "sucre cristal",
+    "type": "sucrants",
+    "date_ajout": "2025-09-13T20:15:00.121939"
+  },
+  {
+    "ingredient_id": "fd97968a-955a-4072-967f-4e469c9ba385",
+    "nom": "noix pilées",
+    "type": "autre",
+    "date_ajout": "2025-09-13T20:15:00.121939"
+  },
+  {
+    "ingredient_id": "9b5b669d-a9c4-47ca-84a9-b3f9f10959e2",
+    "nom": "noix de beurre",
+    "type": "produits_laitiers",
+    "date_ajout": "2025-09-13T20:15:00.121939"
+  }
+]
