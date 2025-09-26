@@ -1,0 +1,5 @@
+FROM node:24
+
+WORKDIR /app
+
+EXPOSE 5000
