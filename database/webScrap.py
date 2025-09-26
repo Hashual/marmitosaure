@@ -1139,16 +1139,16 @@ if __name__ == "__main__":
     scraper = MarmitonScraperFixed("donnees_marmiton_v3")
 
     search_terms = [
-        "kebab",
-        "tacos",
-        "viande"
+        "pomme",
+        "framboise",
+        "fraise"
     ]
 
     try:
         count = scraper.run_scraper(
             search_terms=search_terms,
             max_pages_per_term=10,
-            max_recipes=50
+            max_recipes=200
         )
 
         print(f"\n🎉 Scraping réussi ! {count} recettes collectées")
