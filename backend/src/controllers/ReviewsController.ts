@@ -1,5 +1,4 @@
 import type { Request, Response } from "express";
-import {create} from "node:domain";
 import {createReview, getAllReviews} from "../models/reviews.ts";
 
 export class ReviewsController {

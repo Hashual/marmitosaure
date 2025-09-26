@@ -19,6 +19,10 @@ function isValidReviewBody(body: any): boolean {
     );
 }
 
+export function getAllReviews(): Review[] {
+    return reviews;
+}
+
 export function createReview(body: any): Review | null {
     if (!isValidReviewBody(body)) return null;
 
