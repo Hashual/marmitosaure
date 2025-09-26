@@ -1021,37 +1021,73 @@ class MarmitonScraperFixed:
         return ""
 
     def save_data(self):
-        """Sauvegarder toutes les données collectées"""
+        """Sauvegarder toutes les données collectées en conservant l'existant"""
         try:
-            # Sauvegarder les recettes
-            with open(self.recipes_file, 'w', encoding='utf-8') as f:
-                json.dump(self.recipes, f, ensure_ascii=False, indent=2)
+            # --- Recettes ---
+            old_recipes = []
+            if os.path.exists(self.recipes_file):
+                with open(self.recipes_file, "r", encoding="utf-8") as f:
+                    try:
+                        old_recipes = json.load(f)
+                    except json.JSONDecodeError:
+                        old_recipes = []
 
-            # Sauvegarder les utilisateurs
-            users_list = list(self.users.values())
-            with open(self.users_file, 'w', encoding='utf-8') as f:
-                json.dump(users_list, f, ensure_ascii=False, indent=2)
+            all_recipes = old_recipes + self.recipes
+            with open(self.recipes_file, "w", encoding="utf-8") as f:
+                json.dump(all_recipes, f, ensure_ascii=False, indent=2)
 
-            # Sauvegarder les ingrédients
-            ingredients_list = list(self.ingredients_db.values())
-            with open(self.ingredients_file, 'w', encoding='utf-8') as f:
-                json.dump(ingredients_list, f, ensure_ascii=False, indent=2)
+            # --- Utilisateurs ---
+            old_users = []
+            if os.path.exists(self.users_file):
+                with open(self.users_file, "r", encoding="utf-8") as f:
+                    try:
+                        old_users = json.load(f)
+                    except json.JSONDecodeError:
+                        old_users = []
 
-            # Sauvegarder les avis
-            all_reviews = []
+            new_users = list(self.users.values())
+            all_users = old_users + new_users
+            with open(self.users_file, "w", encoding="utf-8") as f:
+                json.dump(all_users, f, ensure_ascii=False, indent=2)
+
+            # --- Ingrédients ---
+            old_ingredients = []
+            if os.path.exists(self.ingredients_file):
+                with open(self.ingredients_file, "r", encoding="utf-8") as f:
+                    try:
+                        old_ingredients = json.load(f)
+                    except json.JSONDecodeError:
+                        old_ingredients = []
+
+            new_ingredients = list(self.ingredients_db.values())
+            all_ingredients = old_ingredients + new_ingredients
+            with open(self.ingredients_file, "w", encoding="utf-8") as f:
+                json.dump(all_ingredients, f, ensure_ascii=False, indent=2)
+
+            # --- Avis ---
+            old_reviews = []
+            if os.path.exists(self.reviews_file):
+                with open(self.reviews_file, "r", encoding="utf-8") as f:
+                    try:
+                        old_reviews = json.load(f)
+                    except json.JSONDecodeError:
+                        old_reviews = []
+
+            new_reviews = []
             for recipe in self.recipes:
-                for review in recipe.get('avis', []):
+                for review in recipe.get("avis", []):
                     review_copy = review.copy()
-                    review_copy['recette_id'] = recipe['recette_id']
-                    all_reviews.append(review_copy)
+                    review_copy["recette_id"] = recipe["recette_id"]
+                    new_reviews.append(review_copy)
 
-            with open(self.reviews_file, 'w', encoding='utf-8') as f:
+            all_reviews = old_reviews + new_reviews
+            with open(self.reviews_file, "w", encoding="utf-8") as f:
                 json.dump(all_reviews, f, ensure_ascii=False, indent=2)
 
             logger.info(f"✅ Données sauvegardées:")
-            logger.info(f"  - {len(self.recipes)} recettes")
-            logger.info(f"  - {len(users_list)} utilisateurs")
-            logger.info(f"  - {len(ingredients_list)} ingrédients")
+            logger.info(f"  - {len(all_recipes)} recettes")
+            logger.info(f"  - {len(all_users)} utilisateurs")
+            logger.info(f"  - {len(all_ingredients)} ingrédients")
             logger.info(f"  - {len(all_reviews)} avis")
 
         except Exception as e:
@@ -1103,16 +1139,16 @@ if __name__ == "__main__":
     scraper = MarmitonScraperFixed("donnees_marmiton_v3")
 
     search_terms = [
-        "pizza",
-        "pâtes",
-        "dessert"
+        "kebab",
+        "tacos",
+        "viande"
     ]
 
     try:
         count = scraper.run_scraper(
             search_terms=search_terms,
-            max_pages_per_term=2,
-            max_recipes=5
+            max_pages_per_term=10,
+            max_recipes=50
         )
 
         print(f"\n🎉 Scraping réussi ! {count} recettes collectées")

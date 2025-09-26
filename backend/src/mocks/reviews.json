@@ -6,7 +6,7 @@
       "_id": "u3",
       "name": "Clara Rossi"
     },
-    "like": true,
+    "like": 1,
     "comment": "Délicieuse recette, facile à suivre et le résultat est parfait !,",
     "date_creation": "2025-09-15T12:00:00.000Z"
   }

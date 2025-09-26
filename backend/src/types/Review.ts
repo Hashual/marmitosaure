@@ -7,7 +7,7 @@ export type Review = {
         _id: string;
         name: string;
     };
-    like: boolean;
+    like: number
     comment: string;
     date_creation: Date;
 }
