@@ -13,6 +13,7 @@ CREATE TABLE Recettes (
     description TEXT,
     temps_preparation TEXT,
     etapes LIST<TEXT>,
+    ustensiles LIST<TEXT>,
     tags LIST<TEXT>,
     origine TEXT,
     auteur_id UUID,
@@ -56,16 +57,28 @@ CREATE TABLE Suggestions (
     date_suggestion TIMESTAMP
 );
 
+CREATE Table type_ingredients (
+    id_type UUID PRIMARY KEY,
+    nom_type TEXT
+);
+
 CREATE TABLE Ingredients (
     ingredient_id UUID PRIMARY KEY,
     nom_ingredient TEXT,
-    type_ingredient TEXT
+    type_ingredient UUID,
+    FOREIGN KEY (type_ingredient) REFERENCES type_ingredients(id_type)
+);
+
+CREATE TABLE type_ustensiles (
+    id_type UUID PRIMARY KEY,
+    nom_type TEXT
 );
 
 CREATE TABLE Ustensiles (
     ustensiles_id UUID PRIMARY KEY,
     nom_ustensiles TEXT,
-    catégories_ustensilest TEXT
+    type_id UUID,
+    FOREIGN KEY (type_id) REFERENCES type_ustensiles(id_type)
 );
 
 -- voler les données sur marmiton
