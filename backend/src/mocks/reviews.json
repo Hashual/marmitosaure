@@ -1,13 +1,8 @@
 [
   {
-    "_id": "1",
-    "recipe_id": "rec_001",
-    "author": {
-      "_id": "u3",
-      "name": "Clara Rossi"
-    },
-    "like": 1,
-    "comment": "Délicieuse recette, facile à suivre et le résultat est parfait !,",
-    "date_creation": "2025-09-15T12:00:00.000Z"
+    "recipe_id": "328674",
+    "user_id": "f8cffe6b-9ddf-4f61-84d9-f2ebf7612d57",
+    "comment": "Hum exellent  ",
+    "publication_date": "2019-01-29T07:32:23+01:00"
   }
 ]

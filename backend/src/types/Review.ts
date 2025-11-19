@@ -1,13 +1,6 @@
-import type { User } from './User';
-
 export type Review = {
-    _id: string;
     recipe_id: string;
-    author: {
-        _id: string;
-        name: string;
-    };
-    like: number
+    user_id: string;
     comment: string;
-    date_creation: Date;
-}
+    publication_date: Date;
+};
