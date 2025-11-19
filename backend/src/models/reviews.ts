@@ -1,5 +1,5 @@
-import type { Review } from "../types/Review.ts";
 import reviewsData from "../mocks/reviews.json";
+import type { Review } from "../types/Review.ts";
 
 const reviews: Review[] = reviewsData.map((r: any) => ({
     _id: r._id,
@@ -7,7 +7,7 @@ const reviews: Review[] = reviewsData.map((r: any) => ({
     author: r.author,
     like: Number(r.like),
     comment: r.comment,
-    date_creation: r.date_creation ? new Date(r.date_creation) : new Date()
+    date_creation: r.date_creation ? new Date(r.date_creation) : new Date(),
 }));
 
 function isValidReviewBody(body: any): boolean {
@@ -33,9 +33,14 @@ export function createReview(body: any): Review | null {
         author: body.author,
         like: body.like,
         comment: body.comment,
-        date_creation: now
+        date_creation: now,
     };
 
     reviews.push(newReview);
     return newReview;
+}
+
+export function getLikes(reviewId: string): number {
+    const review = reviews.find((r) => r._id === reviewId);
+    return review ? review.like : 0;
 }
