@@ -1,32 +1,15 @@
+import { DataAPIClient } from "@datastax/astra-db-ts";
 import { logger } from "../utils/logger";
 
-// @ts-ignore
-import models from 'express-cassandra';
-import { dirname } from 'path';
-import { fileURLToPath } from 'url';
+const ASTRA_API_KEY = process.env.ASTRA_API_KEY || "";
+const ASTRA_ENDPOINT = process.env.ASTRA_ENDPOINT || "";
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
 
-models.setDirectory( __dirname + '/../cassandra/models').bind(
-    {
-        clientOptions: {
-            contactPoints: ['127.0.0.1'],
-            localDataCenter: 'datacenter1',
-            keyspace: 'mykeyspace',
-            queryOptions: {consistency: models.consistencies.one}
-        },
-        ormOptions: {
-            defaultReplicationStrategy : {
-                class: 'SimpleStrategy',
-                replication_factor: 1
-            },
-            dropTableOnSchemaChange: false
-        }
-    },
-    function(err: Error) {
-        if(err) logger.error(`Cassandra error: ${err.message}`);
-        else logger.info(`Cassandra timeuuid: ${models.timeuuid()}`);
-    }
-);
+let db;
+export async function SetupCassandra() {
+    const client = new DataAPIClient(ASTRA_API_KEY);
+    db = client.db(ASTRA_ENDPOINT);
 
-export async function SetupCassandra() { }
+    await db.listCollections();
+    logger.info('Successfully connected to AstraDB');
+}
