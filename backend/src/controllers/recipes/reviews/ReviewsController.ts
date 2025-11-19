@@ -4,6 +4,7 @@ import {
     createReview,
     getAllReviews,
     getLikes,
+    likeReview,
 } from "../../../models/reviews.ts";
 
 export class ReviewsController {
@@ -31,7 +32,14 @@ export class ReviewsController {
     static Like(req: Request, res: Response) {
         const { id } = req.params;
 
-        // TODO
+        if (!id) {
+            return res.status(400).send({
+                error: "No review id found",
+            });
+        }
+
+        likeReview(id);
+
         res.status(200).send({
             data: {},
         });

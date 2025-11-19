@@ -44,3 +44,10 @@ export function getLikes(reviewId: string): number {
     const review = reviews.find((r) => r._id === reviewId);
     return review ? review.like : 0;
 }
+
+export function likeReview(reviewId: string) {
+    const review = reviews.find((r) => r._id === reviewId);
+    if (review) {
+        review.like += 1;
+    }
+}
