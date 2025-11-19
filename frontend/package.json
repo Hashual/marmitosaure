@@ -11,6 +11,8 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "extract-comments": "^1.1.0",
+    "mlly": "^1.8.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-router": "^7.9.2",
