@@ -10,8 +10,19 @@ export default function Header() {
   const navigate = useNavigate();
 
   return (
-    <div className="fixed left-0 top-0 w-full h-[235px] z-50" style={{ background: 'linear-gradient(180deg, #7dd3bd 0%, #ecf9f5 100%)' }}>
-      <div className="absolute left-1/2 top-[32px] -translate-x-1/2 w-[1030px] h-[40px]">
+    <>
+      {/* Background gradient with clip-path */}
+      <div 
+        className="fixed left-0 top-0 w-full h-[235px] z-0" 
+        style={{ 
+          background: 'linear-gradient(180deg, #7dd3bd 0%, #ecf9f5 100%)',
+          clipPath: 'polygon(0 0, 100% 0, 100% 75%, 0 100%)'
+        }}
+      />
+      
+      {/* Header content */}
+      <div className="fixed left-0 top-0 w-full h-[235px] z-50">
+        <div className="absolute left-1/2 top-[32px] -translate-x-1/2 w-[1030px] h-[40px]">
         <div className="flex items-center justify-between h-full">
           {/* Logo */}
           <Link to="/" className="w-[40px] h-[40px] shrink-0">
@@ -47,7 +58,8 @@ export default function Header() {
             </button>
           </div>
         </div>
+        </div>
       </div>
-    </div>
+    </>
   );
 }
