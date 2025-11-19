@@ -8,5 +8,5 @@ export class TagsController {
     static async getAll(req: Request, res: Response) {
         const data = await getAllTags();
         res.status(200).send({ data });
-}
+    }
 }

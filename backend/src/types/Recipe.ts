@@ -1,13 +1,15 @@
-import type { Tag } from "./Tag"
+import type { Ingredient } from "./Ingredient"
 import type { User } from "./User"
 
 export type Recipe = {
   _id: string
   title: string
   description: string
-  ingredients: string[]
+  preparation_time: string
   steps: string[]
-  tags: Tag[]
+  tags: string[]
+  origines: string[]
   author: User
-  date_creation: Date
+  creation_date: Date
+  ingredients: Ingredient[]  
 }
