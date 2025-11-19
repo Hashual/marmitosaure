@@ -1,12 +1,8 @@
 [
   {
-    "avis_id": "ed1e65ab-94f2-4adc-9574-106eb08a036d",
-    "recette_id": "328674",
+    "recipe_id": "328674",
     "user_id": "f8cffe6b-9ddf-4f61-84d9-f2ebf7612d57",
-    "nickname": "Anonyme",
-    "commentaire": "Hum exellent  ",
-    "note": 5.0,
-    "date_publication": "2019-01-29T07:32:23+01:00",
-    "nb_likes": 0
+    "comment": "Hum exellent  ",
+    "publication_date": "2019-01-29T07:32:23+01:00"
   }
 ]
