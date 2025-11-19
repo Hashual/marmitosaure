@@ -1,11 +1,6 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
-
-const imgGroup1 = "https://www.figma.com/api/mcp/asset/f912f357-1d3e-485d-bc72-9078d1e678af";
-const imgLucidePlus = "https://www.figma.com/api/mcp/asset/67d8e788-2a79-4aa4-b050-1086a2bb9024";
-const imgLucideHeart = "https://www.figma.com/api/mcp/asset/b91610f7-fd64-45ca-b632-7efaf04f60d2";
-const imgGroup2 = "https://www.figma.com/api/mcp/asset/d2d93cd4-c26f-496d-9314-2e4f2bc396a9";
-const imgImage4 = "https://www.figma.com/api/mcp/asset/8bb478b7-370e-4ad4-8905-1b7cd86c3d0e";
+import Header from "../../components/Header";
 
 interface Recipe {
   _id: string;
@@ -59,47 +54,11 @@ export default function RecipePage() {
   };
 
   return (
-    <div className="bg-white relative min-h-screen w-full overflow-x-hidden">
-      {/* Header */}
-      <div className="absolute h-[235px] left-0 top-0 w-full" style={{ background: 'linear-gradient(180deg, #7dd3bd 0%, #ecf9f5 100%)' }}>
-        <div className="absolute h-[40px] left-1/2 top-[32px] -translate-x-1/2 w-[1030px]">
-          <div className="flex items-center justify-between w-full">
-            {/* Logo */}
-            <div className="w-[40px] h-[40px]">
-              <img alt="Logo" className="w-full h-full object-cover" src={imgImage4} />
-            </div>
-
-            {/* Search Bar */}
-            <div className="flex items-center gap-[10px] bg-[#ecf9f5] px-[24px] py-[11px] rounded-md w-[400px]">
-              <div className="w-[16.5px] h-[16.5px] opacity-75">
-                <img alt="Search" className="w-full h-full" src={imgGroup1} />
-              </div>
-              <input
-                type="text"
-                placeholder="Commencez à rechercher une recette..."
-                className="bg-transparent border-none outline-none text-[#24755d] text-[12px] opacity-75 flex-1"
-                style={{ fontFamily: 'Inria Serif, sans-serif' }}
-              />
-            </div>
-
-            {/* Right Icons */}
-            <div className="flex items-center gap-[24px]">
-              <div className="w-[24px] h-[24px] cursor-pointer">
-                <img alt="Plus" className="w-full h-full" src={imgLucidePlus} />
-              </div>
-              <div className="w-[24px] h-[24px] cursor-pointer">
-                <img alt="Heart" className="w-full h-full" src={imgLucideHeart} />
-              </div>
-              <div className="w-[24px] h-[24px] cursor-pointer">
-                <img alt="User" className="w-full h-full" src={imgGroup2} />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div className="bg-white relative min-h-screen w-full">
+      <Header />
 
       {/* Recipe Image */}
-      <div className="absolute left-[270px] top-[122px] w-[507px] h-[507px] rounded-[140px] border-2 border-white/25 overflow-hidden">
+      <div className="absolute left-[270px] top-[122px] w-[507px] h-[507px] rounded-[140px] border-2 border-white/25 overflow-hidden shadow-lg">
         <img
           alt={recipe.title}
           className="w-full h-full object-cover"
