@@ -58,7 +58,7 @@ export default function RecipePage() {
       <Header />
 
       {/* Recipe Image */}
-      <div className="absolute left-[270px] top-[122px] w-[507px] h-[507px] rounded-[140px] border-2 border-white/25 overflow-hidden shadow-lg">
+      <div className="absolute left-[270px] top-[122px] w-[507px] h-[507px] rounded-[140px] border-2 border-white/25 overflow-hidden shadow-lg z-10">
         <img
           alt={recipe.title}
           className="w-full h-full object-cover"
@@ -67,12 +67,12 @@ export default function RecipePage() {
       </div>
 
       {/* Recipe Title */}
-      <h1 className="absolute left-[1150px] top-[281px] -translate-x-1/2 w-[1252px] text-[96px] text-center text-black whitespace-pre-wrap" style={{ fontFamily: 'SF Pro, sans-serif' }}>
+      <h1 className="absolute left-[1150px] top-[281px] -translate-x-1/2 w-[1252px] text-[96px] text-center text-black whitespace-pre-wrap z-10" style={{ fontFamily: 'SF Pro, sans-serif' }}>
         {recipe.title}
       </h1>
 
       {/* Author and Date Info */}
-      <div className="absolute left-[819px] top-[419px] w-[663px] h-[92px] rounded-[25px] flex flex-col justify-center px-[80px]" style={{ backgroundColor: 'rgba(217, 217, 217, 0.25)' }}>
+      <div className="absolute left-[819px] top-[419px] w-[663px] h-[92px] rounded-[25px] flex flex-col justify-center px-[80px] z-10" style={{ backgroundColor: 'rgba(217, 217, 217, 0.25)' }}>
         <p className="text-[20px] text-black" style={{ fontFamily: 'SF Pro, sans-serif' }}>
           Posté par : <span className="text-[#ff754d] underline">{recipe.author.username}</span>
         </p>
@@ -82,7 +82,7 @@ export default function RecipePage() {
       </div>
 
       {/* Ingredients Section */}
-      <div className="absolute left-[281px] top-[680px] w-[486px] min-h-[341px] rounded-[25px] p-[50px]" style={{ backgroundColor: 'rgba(217, 217, 217, 0.25)' }}>
+      <div className="absolute left-[281px] top-[680px] w-[486px] min-h-[341px] rounded-[25px] p-[50px] z-10" style={{ backgroundColor: 'rgba(217, 217, 217, 0.25)' }}>
         <h2 className="text-[40px] text-black mb-[20px]" style={{ fontFamily: 'SF Pro, sans-serif' }}>
           Ingredients: {recipe.ingredients.length} pers
         </h2>
@@ -94,7 +94,7 @@ export default function RecipePage() {
       </div>
 
       {/* Steps Section */}
-      <div className="absolute left-[822px] top-[679px] w-[660px] min-h-[706px] text-[25px] text-black" style={{ fontFamily: 'SF Pro, sans-serif' }}>
+      <div className="absolute left-[822px] top-[679px] w-[660px] min-h-[706px] text-[25px] text-black z-10" style={{ fontFamily: 'SF Pro, sans-serif' }}>
         {recipe.steps.map((step, index) => (
           <div key={index} className="mb-[30px]">
             <p className="font-bold mb-[10px]">Étape {index + 1}</p>
