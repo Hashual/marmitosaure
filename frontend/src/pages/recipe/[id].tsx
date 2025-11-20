@@ -94,7 +94,7 @@ export default function RecipePage() {
       </div>
 
       {/* Steps Section */}
-      <div className="absolute left-[822px] top-[679px] w-[660px] min-h-[706px] text-[25px] text-black z-10" style={{ fontFamily: 'SF Pro, sans-serif' }}>
+      <div className="absolute left-[822px] top-[679px] w-[660px] min-h-[706px] text-[25px] text-black" style={{ fontFamily: 'SF Pro, sans-serif' }}>
         {recipe.steps.map((step, index) => (
           <div key={index} className="mb-[30px]">
             <p className="font-bold mb-[10px]">Étape {index + 1}</p>
