@@ -1,110 +1,132 @@
-import type { Request, Response } from "express"
+import type { Request, Response } from "express";
 import {
-  createRecipe,
-  deleteRecipe,
-  filterRecipeByTitle,
-  getAllRecipes,
-  getRecipeById,
-  updateRecipe,
-} from "../models/recipes"
+    createRecipe,
+    deleteRecipe,
+    filterRecipeByTitle,
+    getAllRecipes,
+    getRecipeById,
+    updateRecipe,
+} from "../models/recipes";
 
 export class RecipesController {
-  static GetAll(req: Request, res: Response) {
-    const data = getAllRecipes();
-    res.status(200).send({
-      data: data,
-    });
-  }
+    static GetAll(req: Request, res: Response) {
+        const data = getAllRecipes();
+        const tags = req.query.tags ? String(req.query.tags).split(",") : [];
 
-  static GetById(req: Request, res: Response) {
-    const { id } = req.params;
-
-    const data = id ? getRecipeById(id) : undefined;
-    if (!data) {
-      return res.status(404).send({ error: "Recipe not found" });
-    }
-    res.status(200).send({
-      data: data,
-    });
-  }
-
-  static Search(req: Request, res: Response) {
-    const title = req.query.title ? String(req.query.title) : "";
-    const data = filterRecipeByTitle(title);
-    res.status(200).send({
-      data: data,
-    });
-  }
-
-  static Create(req: Request, res: Response) {
-    const {
-      _id, title, description,
-      ingredients, steps, tags,
-      author, date_creation,
-    } = req.body;
-
-    if (
-      !_id || !title || !description || 
-      !ingredients || !steps || !tags || 
-      !author || !date_creation
-    ) {
-      return res.status(400).send({ error: "Missing required fields" });
+        let filteredData = data;
+        if (tags.length > 0) {
+            filteredData = data.filter((recipe) =>
+                tags.every((tag) => recipe.tags.includes(tag))
+            );
+        }
+        res.status(200).send({
+            data: filteredData,
+        });
     }
 
-    const recipe = createRecipe(
-      _id,
-      title,
-      description,
-      ingredients,
-      steps,
-      tags,
-      author,
-      new Date(date_creation)
-    );
+    static GetById(req: Request, res: Response) {
+        const { id } = req.params;
 
-    res.status(201).send({
-      data: recipe,
-    });
-  }
-
-  static Update(req: Request, res: Response) {
-    const { id } = req.params;
-    const { key, value } = req.body;
-
-    if (!id) {
-      return res.status(400).send({ error: "Missing or invalid recipe ID" });
+        const data = id ? getRecipeById(id) : undefined;
+        if (!data) {
+            return res.status(404).send({ error: "Recipe not found" });
+        }
+        res.status(200).send({
+            data: data,
+        });
     }
 
-    if (!key || value === undefined) {
-      return res
-        .status(400)
-        .send({ error: "Missing key or value in request body" });
+    static Search(req: Request, res: Response) {
+        const title = req.query.title ? String(req.query.title) : "";
+        const data = filterRecipeByTitle(title);
+        res.status(200).send({
+            data: data,
+        });
     }
 
-    updateRecipe(id, key, value);
+    static Create(req: Request, res: Response) {
+        const {
+            _id,
+            title,
+            description,
+            ingredients,
+            steps,
+            tags,
+            author,
+            date_creation,
+        } = req.body;
 
-    res.status(200).send({
-      data: { id, key, value },
-    });
-  }
+        if (
+            !_id ||
+            !title ||
+            !description ||
+            !ingredients ||
+            !steps ||
+            !tags ||
+            !author ||
+            !date_creation
+        ) {
+            return res.status(400).send({ error: "Missing required fields" });
+        }
 
-  static Delete(req: Request, res: Response){
-    const { id } = req.params;
+        const recipe = createRecipe(
+            _id,
+            title,
+            description,
+            ingredients,
+            steps,
+            tags,
+            author,
+            new Date(date_creation)
+        );
 
-    if (!id) {
-      return res.status(400).send({ error: "Missing or invalid recipe ID" });
+        res.status(201).send({
+            data: recipe,
+        });
     }
 
-    const recipe = getRecipeById(id);
+    static Update(req: Request, res: Response) {
+        const { id } = req.params;
+        const { key, value } = req.body;
 
-    if (!recipe) {
-      return res.status(404).send({ error: "Recipe not found" });
+        if (!id) {
+            return res
+                .status(400)
+                .send({ error: "Missing or invalid recipe ID" });
+        }
+
+        if (!key || value === undefined) {
+            return res
+                .status(400)
+                .send({ error: "Missing key or value in request body" });
+        }
+
+        updateRecipe(id, key, value);
+
+        res.status(200).send({
+            data: { id, key, value },
+        });
     }
 
-    deleteRecipe(id);
+    static Delete(req: Request, res: Response) {
+        const { id } = req.params;
 
-    res.status(200).send({
-      data: { id },
-    });
-  }
+        if (!id) {
+            return res
+                .status(400)
+                .send({ error: "Missing or invalid recipe ID" });
+        }
+
+        const recipe = getRecipeById(id);
+
+        if (!recipe) {
+            return res.status(404).send({ error: "Recipe not found" });
+        }
+
+        deleteRecipe(id);
+
+        res.status(200).send({
+            data: { id },
+        });
+    }
 }
