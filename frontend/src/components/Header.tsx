@@ -6,6 +6,8 @@ import LucideSearch from "../assets/LucideSearch";
 import Logo from "../assets/dino.png";
 
 export default function Header() {
+  const navigate = useNavigate();
+
   return (
     <>
       {/* Background gradient with clip path */}
@@ -69,8 +71,6 @@ export default function Header() {
           </div>
         </div>
       </div>
-
-
-    </header>
+    </>
   );
 }

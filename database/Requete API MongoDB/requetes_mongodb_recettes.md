@@ -151,8 +151,6 @@ db.recettes.updateOne(
 );
 ```
 
-## 4. GET /recettes/search - Rechercher des recettes
-
 ### 4.1 Recherche par ingrédient
 
 ```javascript
