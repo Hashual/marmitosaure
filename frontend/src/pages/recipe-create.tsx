@@ -1,4 +1,4 @@
-import Header from "../components/header";
+import Header from "../components/Header";
 import RecipeEditor from "../components/RecipeEditor";
 
 export default function RecipeCreatePage() {
