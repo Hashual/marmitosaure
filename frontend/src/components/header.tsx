@@ -1,84 +1,65 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+
+const imgLucideSearch = "https://www.figma.com/api/mcp/asset/f912f357-1d3e-485d-bc72-9078d1e678af";
+const imgLucidePlus = "https://www.figma.com/api/mcp/asset/67d8e788-2a79-4aa4-b050-1086a2bb9024";
+const imgLucideHeart = "https://www.figma.com/api/mcp/asset/b91610f7-fd64-45ca-b632-7efaf04f60d2";
+const imgLucideUser = "https://www.figma.com/api/mcp/asset/d2d93cd4-c26f-496d-9314-2e4f2bc396a9";
+const imgLogo = "https://www.figma.com/api/mcp/asset/8bb478b7-370e-4ad4-8905-1b7cd86c3d0e";
 
 export default function Header() {
-  return (
-    <header className="bg-gradient-to-b from-teal-300 to-teal-400 relative pb-16">
-      {/* Barre verte principale */}
-      <div className="px-6 py-3 flex items-center justify-between max-w-7xl mx-auto">
-        {/* Logo */}
-        <Link to="/" className="flex items-center">
-          <div className="w-16 h-16 rounded-full flex items-center justify-center">
-            <img
-              src="src/assets/dino.png"
-              alt="Logo Marmitosaure"
-              className="w-16 h-16"
-            />
-          </div>
-        </Link>
+  const navigate = useNavigate();
 
-        {/* Barre de recherche */}
-        <div className="flex-1 max-w-lg mx-12">
-          <div className="relative">
-            <svg
-              className="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-gray-400"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-              />
-            </svg>
+  return (
+    <>
+      {/* Background gradient with clip-path */}
+      <div 
+        className="fixed left-0 top-0 w-full h-[235px] z-0" 
+        style={{ 
+          background: 'linear-gradient(180deg, #7dd3bd 0%, #ecf9f5 100%)',
+          clipPath: 'polygon(0 0, 100% 0, 100% 75%, 0 100%)'
+        }}
+      />
+      
+      {/* Header content */}
+      <div className="fixed left-0 top-0 w-full h-[235px] z-50">
+        <div className="absolute left-1/2 top-[32px] -translate-x-1/2 w-[1030px] h-[40px]">
+        <div className="flex items-center justify-between h-full">
+          {/* Logo */}
+          <Link to="/" className="w-[40px] h-[40px] shrink-0">
+            <img alt="Logo Marmitosaure" className="w-full h-full object-cover rounded-full" src={imgLogo} />
+          </Link>
+
+          {/* Search Bar */}
+          <div className="flex items-center gap-[10px] bg-[#ecf9f5] px-[24px] py-[11px] w-[400px] h-[37px]">
+            <div className="w-[16.5px] h-[16.5px] opacity-75 shrink-0">
+              <img alt="" className="w-full h-full" src={imgLucideSearch} />
+            </div>
             <input
               type="text"
               placeholder="Commencez à rechercher une recette..."
-              className="w-full px-4 py-2.5 pl-10 rounded-md bg-white bg-opacity-40 text-gray-700 placeholder-gray-600 placeholder-opacity-80 border border-transparent focus:outline-none focus:bg-white focus:border-teal-500 transition-all text-sm"
+              className="bg-transparent border-none outline-none text-[#24755d] text-[12px] opacity-75 flex-1 w-full"
+              style={{ fontFamily: 'Inria Serif, sans-serif' }}
             />
           </div>
+
+          {/* Right Icons */}
+          <div className="flex items-center gap-[24px]">
+            <button className="w-[24px] h-[24px] cursor-pointer hover:opacity-75 transition-opacity">
+              <img alt="Ajouter une recette" className="w-full h-full" src={imgLucidePlus} />
+            </button>
+            <button className="w-[24px] h-[24px] cursor-pointer hover:opacity-75 transition-opacity">
+              <img alt="Favoris" className="w-full h-full" src={imgLucideHeart} />
+            </button>
+            <button 
+              onClick={() => navigate('/login')}
+              className="w-[24px] h-[24px] cursor-pointer hover:opacity-75 transition-opacity"
+            >
+              <img alt="Mon compte" className="w-full h-full" src={imgLucideUser} />
+            </button>
+          </div>
         </div>
-
-        {/* Icônes de navigation */}
-        <div className="flex items-center gap-5">
-          {/* Icône favoris */}
-          <Link to="/favorites" className="text-gray-800 hover:text-gray-900 transition-colors">
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              strokeWidth={2}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-              />
-            </svg>
-          </Link>
-
-          {/* Icône utilisateur */}
-          <Link to="/login" className="text-gray-800 hover:text-gray-900 transition-colors">
-            <svg
-              className="w-6 h-6"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-              strokeWidth={2}
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
-              />
-            </svg>
-          </Link>
         </div>
       </div>
-
-
-    </header>
+    </>
   );
 }
