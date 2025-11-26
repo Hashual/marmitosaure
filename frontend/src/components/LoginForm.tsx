@@ -1,16 +1,25 @@
 import { useState } from "react";
 import type { FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
+import { login } from "../api/auth";
+import { useSetAtom } from "jotai";
+import { tokenAtom } from "../atoms/token";
 
 export default function LoginForm() {
   const navigate = useNavigate();
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [rememberMe, setRememberMe] = useState(false);
+  const setToken = useSetAtom(tokenAtom);
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>): Promise<void> => {
     e.preventDefault();
-    console.log("Login attempt:", { username, password, rememberMe });
+
+    const token = await login(username, password);
+    localStorage.setItem("token", token)
+    setToken(token);
+
+    navigate("/")
   };
 
   return (
