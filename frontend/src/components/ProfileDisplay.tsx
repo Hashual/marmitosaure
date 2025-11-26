@@ -1,8 +1,6 @@
 import { useState } from "react";
-import LucideHeart from "../assets/LucideHeart";
-import LucideSettings from "../assets/LucideSettings";
-
-
+import { Heart, Settings } from 'lucide-react';
+import Header from "./header";
 
 export default function ProfileDisplay() {
   const [activeTab, setActiveTab] = useState<'recettes' | 'likes'>('recettes');
@@ -54,7 +52,7 @@ export default function ProfileDisplay() {
           {/* User Info */}
           <div className="bg-gray-100 rounded-lg p-6 relative">
             <button className="absolute top-4 right-4 text-emerald-500 hover:text-emerald-600">
-            <LucideSettings/>
+              <Settings className="w-5 h-5" />
             </button>
             <h2 className="text-xl font-semibold mb-4">Mes informations</h2>
             <div className="grid grid-cols-2 gap-4">
@@ -119,7 +117,7 @@ export default function ProfileDisplay() {
                 </div>
                 <h3 className="text-sm font-medium mb-1 line-clamp-2">{recipe.title}</h3>
                 <div className="flex items-center gap-1 text-xs text-gray-600">
-                  <LucideHeart />
+                  <Heart className="w-3 h-3" />
                   <span>{recipe.likes}</span>
                 </div>
               </div>
