@@ -7,21 +7,24 @@ import {
     getRecipeById,
     updateRecipe,
 } from "../models/recipes";
+import { paginate, parsePage } from "../utils/pagination";
 
 export class RecipesController {
     static GetAll(req: Request, res: Response) {
         const data = getAllRecipes();
         const tags = req.query.tags ? String(req.query.tags).split(",") : [];
-
+        const pages = req.query.page ? parseInt(String(req.query.page), 10) : 1;
+        const { page, limit } = parsePage(pages, 20);
         let filteredData = data;
         if (tags.length > 0) {
             filteredData = data.filter((recipe) =>
                 tags.every((tag) => recipe.tags.includes(tag))
             );
         }
-        res.status(200).send({
-            data: filteredData,
-        });
+
+        const result = paginate(filteredData, page, limit);
+
+        res.status(200).send(result);
     }
 
     static GetById(req: Request, res: Response) {
@@ -38,10 +41,12 @@ export class RecipesController {
 
     static Search(req: Request, res: Response) {
         const title = req.query.title ? String(req.query.title) : "";
+        const pages = req.query.page ? parseInt(String(req.query.page), 10) : 1;
+        const { page, limit } = parsePage(pages, 20);
         const data = filterRecipeByTitle(title);
-        res.status(200).send({
-            data: data,
-        });
+        const result = paginate(data, page, limit);
+
+        res.status(200).send(result);
     }
 
     static Create(req: Request, res: Response) {
