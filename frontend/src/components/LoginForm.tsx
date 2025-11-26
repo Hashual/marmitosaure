@@ -11,12 +11,10 @@ export default function LoginForm() {
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Login attempt:", { username, password, rememberMe });
-    // TODO: Ajouter la logique de connexion ici
   };
 
   return (
     <div className="w-full max-w-md bg-white rounded-lg shadow-lg overflow-hidden">
-      {/* Header */}
       <div className="bg-teal-400 text-white px-6 py-4 flex items-center justify-between">
         <h2 className="text-xl font-semibold">Connexion</h2>
         <button
@@ -28,9 +26,7 @@ export default function LoginForm() {
         </button>
       </div>
 
-      {/* Form */}
       <form onSubmit={handleSubmit} className="px-6 py-8">
-        {/* Identifiant */}
         <div className="mb-6">
           <label
             htmlFor="username"
@@ -49,7 +45,6 @@ export default function LoginForm() {
           />
         </div>
 
-        {/* Mot de passe */}
         <div className="mb-6">
           <label
             htmlFor="password"
@@ -68,7 +63,6 @@ export default function LoginForm() {
           />
         </div>
 
-        {/* Se souvenir de moi */}
         <div className="mb-6">
           <label className="flex items-center cursor-pointer">
             <input
@@ -83,15 +77,13 @@ export default function LoginForm() {
           </label>
         </div>
 
-        {/* Bouton de connexion */}
         <button
           type="submit"
           className="w-full bg-gray-800 text-white py-3 rounded-md hover:bg-gray-700 transition-colors font-medium"
         >
-          Button
+          Se connecter
         </button>
 
-        {/* Liens */}
         <div className="mt-4 text-center text-sm">
           <button
             type="button"
