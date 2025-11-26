@@ -1,6 +1,6 @@
 import type { Request, Response } from "express";
 import { AuthRepository } from "../models/auth.ts";
-import bcrypt from "bcrypt";
+// import bcrypt from "bcrypt";
 
 
 const SALT = 10
@@ -31,4 +31,3 @@ export class AuthController {
         res.status(200).send({ token: jwt });
     }
 }
-
