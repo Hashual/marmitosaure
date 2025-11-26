@@ -20,7 +20,7 @@ export default function Header() {
       />
 
       {/* Header content */}
-      <div className="left-0 top-0 w-full h-[235px] z-50">
+      <div className="left-0 top-0 w-full h-[100px] z-50">
         <div className="absolute left-1/2 top-[32px] -translate-x-1/2 w-[1030px] h-[40px]">
           <div className="flex items-center justify-between h-full">
             {/* Logo */}
