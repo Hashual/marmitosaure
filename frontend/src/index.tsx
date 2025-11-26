@@ -15,7 +15,7 @@ createRoot(document.getElementById("root")!).render(
   <StrictMode>
     <BrowserRouter>
       <Header/>
-      <LoginPage/>
+      <App />
     </BrowserRouter>
   </StrictMode>
 );
