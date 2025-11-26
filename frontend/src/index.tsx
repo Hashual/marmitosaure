@@ -4,7 +4,6 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter, useRoutes } from "react-router-dom";
 
 import routes from "~react-pages";
-import LoginPage from "./pages/login";
 import Header from "./components/header";
 
 function App() {
