@@ -215,21 +215,12 @@ def main():
     for rec in recettes_data:
         m_rec = {}
         
-        # Rename and map fields
+        # Enforce strict field order per image
         m_rec['title'] = rec['titre']
         m_rec['description'] = rec['description']
         m_rec['preparation_time'] = rec['temps_preparation']
         m_rec['steps'] = rec['etapes']
-        m_rec['tags'] = rec.get('tags', [])
-        m_rec['origin'] = rec.get('origine', '')
-        m_rec['creation_date'] = rec['date_scraping']
         
-        # Author ID
-        if isinstance(rec.get('auteur'), dict):
-             m_rec['author'] = rec['auteur'].get('user_id')
-        else:
-             m_rec['author'] = rec.get('auteur')
-
         # Ingredients
         new_ings = []
         for ing in rec.get('ingredients', []):
@@ -245,9 +236,22 @@ def main():
         m_rec['ingredients'] = new_ings
         
         # Ustensiles
-        # They are already in rec['ustensiles'] as objects from USTENSILES_LIST
-        # USTENSILES_LIST now has 'name' and 'type'.
         m_rec['utensils'] = rec.get('ustensiles', [])
+        
+        m_rec['tags'] = rec.get('tags', [])
+        m_rec['origin'] = rec.get('origine', '')
+        
+        # Author ID
+        if isinstance(rec.get('auteur'), dict):
+             m_rec['author_id'] = rec['auteur'].get('user_id')
+        else:
+             m_rec['author_id'] = rec.get('auteur')
+             
+        # Image URL
+        m_rec['image_url'] = rec.get('image_url', '')
+
+        # Creation date at the end
+        m_rec['creation_date'] = rec['date_scraping']
         
         mongo_recettes.append(m_rec)
 
