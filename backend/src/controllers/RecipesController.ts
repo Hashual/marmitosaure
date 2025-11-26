@@ -11,10 +11,16 @@ import { paginate, parsePage } from "../utils/pagination";
 
 export class RecipesController {
     static GetAll(req: Request, res: Response) {
-        const data = getAllRecipes();
+        let data = getAllRecipes();
+
+        const title = req.query.title ? String(req.query.title) : "";
+        if (title !== "") {
+            data = filterRecipeByTitle(title);
+        }
+
         const tags = req.query.tags ? String(req.query.tags).split(",") : [];
-        const pages = req.query.page ? parseInt(String(req.query.page), 10) : 1;
-        const { page, limit } = parsePage(pages, 20);
+        const { page, limit } = parsePage(req, 20);
+
         let filteredData = data;
         if (tags.length > 0) {
             filteredData = data.filter((recipe) =>
@@ -37,16 +43,6 @@ export class RecipesController {
         res.status(200).send({
             data: data,
         });
-    }
-
-    static Search(req: Request, res: Response) {
-        const title = req.query.title ? String(req.query.title) : "";
-        const pages = req.query.page ? parseInt(String(req.query.page), 10) : 1;
-        const { page, limit } = parsePage(pages, 20);
-        const data = filterRecipeByTitle(title);
-        const result = paginate(data, page, limit);
-
-        res.status(200).send(result);
     }
 
     static Create(req: Request, res: Response) {
