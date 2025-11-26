@@ -6,13 +6,9 @@ import { AuthRepository } from "../models/auth.ts";
 const SALT = 10
 
 export class AuthController {
-    private authRepository: AuthRepository;
+    private authRepository = new AuthRepository();
 
-    constructor() {
-        this.authRepository = new AuthRepository();
-    }
-
-    Login = async (req: Request, res: Response) => {
+    login = async (req: Request, res: Response) => {
         const { username, password } = req.body;
 
         if (!username || !password) {

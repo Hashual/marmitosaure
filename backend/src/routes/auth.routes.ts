@@ -4,4 +4,4 @@ import { AuthController } from "../controllers/AuthController";
 export const AuthRouter = Router();
 const authController = new AuthController();
 
-AuthRouter.post("/", authController.Login);
+AuthRouter.post("/login", authController.login);

@@ -30,7 +30,7 @@ await SetupCassandra();
 
 app.use('/recipes', RecipesRouter);
 app.use('/tags', TagsRouter);
-app.use('/login', AuthRouter);
+app.use('/auth', AuthRouter);
 app.use('/me', MeRouter);
 
 app.listen(port, () => {

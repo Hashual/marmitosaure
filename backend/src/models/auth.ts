@@ -1,5 +1,5 @@
 import { uuid, type Db } from "@datastax/astra-db-ts";
-import { getDb } from "../lib/cassandra";
+import db from "../lib/cassandra";
 import type Redis from "ioredis";
 import redis from "../lib/redis";
 import type { User } from "../types/User";
@@ -11,16 +11,14 @@ const SESSION_EXPIRES_STR = "1h";
 const SESSION_EXPIRES_INT = 3600;
 
 export class AuthRepository {
-    private db: Db;
     private redisDb: Redis;
 
     constructor() {
-        this.db = getDb();
         this.redisDb = redis;
     }
 
     findUserByUsername = async (username: string) => {
-        return this.db.collection("users").findOne({ nom_utilisateur: username }) as Promise<User | undefined>;
+        return db().collection("users").findOne({ nom_utilisateur: username }) as Promise<User | undefined>;
     }
 
     createSession = async (user: User) => {
