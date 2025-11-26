@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import Header from "../../components/Header";
+import LoadingMask from "../../components/LoadingMask";
 
 interface Recipe {
   _id: string;
@@ -41,11 +42,17 @@ export default function RecipePage() {
   }, [id]);
 
   if (loading) {
-    return <div className="flex items-center justify-center h-screen">Chargement...</div>;
+    return <LoadingMask visible={true} text="Chargement de la recette..." />;
   }
 
   if (!recipe) {
-    return <div className="flex items-center justify-center h-screen">Recette non trouvée</div>;
+    return (
+      <div className="min-h-screen bg-gray-50">
+        <div className="flex items-center justify-center h-screen">
+          <p className="text-gray-500 text-lg">Recette non trouvée</p>
+        </div>
+      </div>
+    );
   }
 
   const formatDate = (dateString: string) => {
@@ -55,7 +62,6 @@ export default function RecipePage() {
 
   return (
     <div className="bg-white relative min-h-screen w-full">
-      <Header />
 
       {/* Recipe Image */}
       <div className="absolute left-[270px] top-[122px] w-[507px] h-[507px] rounded-[140px] border-2 border-white/25 overflow-hidden shadow-lg z-10">
