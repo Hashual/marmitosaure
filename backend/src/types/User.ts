@@ -1,7 +1,7 @@
 export type User = {
-    _id: string,
-    username: string,
-    password: string,
-    email: string,
-    date_incription: Date,
+    utilisateur_id: string;
+    nom_utilisateur: string;
+    mot_de_passe: string;
+    email: string;
+    date_inscription: Date;
 };

@@ -1,13 +1,28 @@
 import type { Recipe } from "../types/Recipe";
-import type { User } from "../types/User";
-import type { Tag } from "../types/Tag";
-import recipesData from "../mocks/recipes.json";
+import mongoose from "mongoose";
 
-const recipes: Recipe[] = recipesData.map(r => ({
-	...r,
-	date_creation: new Date(r.date_creation)
-}));
+const RecipeSchema = new mongoose.Schema({
+    title: String,
+    description: String,
+    preparation_time: String,
+    steps: [String],
+    ingredients: {
+        quantity: String,
+        name: String,
+        type: String
+        },
+    ustensils: {
+        name: String,
+        type: String
+    },
+    tags: [String],
+    origines: String,
+    author_id: String,
+    image_url: String,
+    creation_date: {type: Date, default: Date.now},
+});
 
+const Recipes = mongoose.model('Recipe', RecipeSchema);
 
 
 export function getAllRecipes(): Recipe[] {

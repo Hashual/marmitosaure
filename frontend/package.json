@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "extract-comments": "^1.1.0",
+    "jotai": "^2.15.1",
     "mlly": "^1.8.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
