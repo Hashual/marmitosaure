@@ -5,7 +5,7 @@ from pymongo import MongoClient
 
 # Configuration
 MONGODB_URI = "mongodb+srv://romaindesmond_db_user:SrH8SuGLoU2Qd4O0@mamiton.arpq4w5.mongodb.net/?appName=Mamiton"
-DB_NAME = "marmitosaure"
+DB_NAME = "Marmitosaure"
 COLLECTION_NAME = "recipes"
 
 
