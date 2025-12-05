@@ -1,7 +1,7 @@
 import type { Request, Response } from "express"
 import {
     countRecipes,
-    // getRecipeById,
+    getRecipeById,
     // filterRecipeByTitle,
     getRecipes
 } from "../models/recipes"
@@ -28,17 +28,18 @@ export class RecipesController {
         res.status(200).send(data);
     }
 
-    // static GetById(req: Request, res: Response) {
-    //     const { id } = req.params;
+    static async GetById(req: Request, res: Response) {
+        const { id } = req.params;
+        console.log(id)
 
-    //     const data = id ? getRecipeById(id) : undefined;
-    //     if (!data) {
-    //         return res.status(404).send({ error: "Recipe not found" });
-    //     }
-    //     res.status(200).send({
-    //         data: data,
-    //     });
-    // }
+        const data = id ? await getRecipeById(id) : undefined;
+        if (!data) {
+            return res.status(404).send({ error: "Recipe not found" });
+        }
+        res.status(200).send({
+            data: data,
+        });
+    }
 
     // static Create(req: Request, res: Response) {
     //     const {

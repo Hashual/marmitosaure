@@ -42,10 +42,10 @@ export async function getRecipes(numData: number, req: any) {
     return recipes;
 }
 
-// export function getRecipeById(_id: string): Promise<any> {
-//     const recipe = Recipes.find({ id: _id }).exec();
-//     return recipe;
-// }
+export async function getRecipeById(id: string): Promise<any> {
+    const recipe = await Recipes.find({ _id: id }).exec();
+    return recipe;
+}
 
 // export function filterRecipeByTitle(title: string): Recipe[] {
 // 	return recipes.filter(recipe => recipe.title.toLowerCase().includes(title.toLowerCase()));
