@@ -1,34 +1,36 @@
 import type { Request, Response } from "express"
 import {
     countRecipes,
-    filterRecipeByTitle,
     getRecipeById,
     getRecipes
 } from "../models/recipes"
 import { parsePage } from "../utils/pagination"
+import type { RecipeSearchFilters } from "../types/Recipe";
 
 export class RecipesController {
     static async GetRecipes(req: Request, res: Response) {
         let numData = await countRecipes();
-        let data = await getRecipes(numData, req);
 
         const title = req.query.title ? String(req.query.title) : "";
-        if (title !== "") {
-            data = await filterRecipeByTitle(title);
-            const { page , limit } = parsePage(req);
-            data = data.slice((page - 1) * limit, page * limit);
-        }
-
         const tags = req.query.tags ? String(req.query.tags).split(",") : [];
-       
 
-        // let filteredData = data;
-        // if (tags.length > 0) {
-        //     filteredData = data.filter((recipe) =>
-        //         tags.every((tag) => recipe.tags.includes(tag))
-        //     );
-        // }
-        res.status(200).send(data);
+        const searchFilters: RecipeSearchFilters = {
+            title: title || undefined,
+            tags: tags.length > 0 ? tags : undefined,
+        };
+
+        const paginationOptions = parsePage(req);
+        const data = await getRecipes(paginationOptions, searchFilters);
+        
+        res.status(200).send({
+            data: data,
+            pagination: {
+                page: paginationOptions.page,
+                limit: paginationOptions.limit,
+                perPage: Math.ceil(numData / paginationOptions.limit),
+                total: numData,
+            }
+        });
     }
 
     static async GetById(req: Request, res: Response) {

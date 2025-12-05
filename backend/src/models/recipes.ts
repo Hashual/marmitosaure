@@ -1,5 +1,8 @@
-import mongoose from "mongoose"
+import mongoose, { type RootFilterQuery } from "mongoose"
 import { parsePage } from "../utils/pagination"
+import type { Request } from "express"
+import type { RecipeSearchFilters } from "../types/Recipe";
+import type { PaginationOptions } from "../types/PaginationOptions";
 
 const RecipeSchema = new mongoose.Schema({
     title: String,
@@ -33,22 +36,28 @@ export async function countRecipes() {
 	return count;
 }
 
-export async function getRecipes(numData: number, req: any) {
-    const { page, limit } = parsePage(req);
-    const recipes = await Recipes.find()
+export async function getRecipes(paginationOptions: PaginationOptions, searchFilters?: RecipeSearchFilters) {
+    const { page, limit } = paginationOptions;
+
+    const findOptions: RootFilterQuery<typeof RecipeSchema> = {};
+    if (searchFilters?.title) {
+        findOptions.title = { $regex: searchFilters.title, $options: 'i' };
+    }
+
+    if (searchFilters?.tags) {
+        findOptions.tags = { $all: searchFilters.tags };
+    }
+
+    const recipes = await Recipes.find(findOptions)
         .skip((page) * limit)
         .limit(limit)
         .exec();
+
     return recipes;
 }
 
 export async function getRecipeById(id: string): Promise<any> {
     const recipe = await Recipes.find({ _id: id }).exec();
-    return recipe;
-}
-
-export async function filterRecipeByTitle(title: string): Promise<any> {
-    const recipe = await Recipes.find({ title: { $regex: title, $options: 'i' } }).exec();
     return recipe;
 }
 
