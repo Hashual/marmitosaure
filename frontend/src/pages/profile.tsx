@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import Header from "../components/Header";
 import RecipeCard from "../components/RecipeCard";
+import Pagination from "../components/Pagination";
 import LucideSettings from "../assets/LucideSettings";
 import { useAtomValue } from "jotai";
 import { tokenAtom } from "../atoms/token";
@@ -40,8 +41,11 @@ const MOCK_LIKED_RECIPES = [
   },
 ];
 
+const ITEMS_PER_PAGE = 12;
+
 export default function ProfilePage() {
   const [activeTab, setActiveTab] = useState<"recettes" | "likes">("recettes");
+  const [currentPage, setCurrentPage] = useState(1);
   const [user, setUser] = useState<User>();
   const token = useAtomValue(tokenAtom)
   const navigate = useNavigate();
@@ -60,6 +64,18 @@ export default function ProfilePage() {
 
   const displayedRecipes =
     activeTab === "recettes" ? MOCK_USER_RECIPES : MOCK_LIKED_RECIPES;
+
+  // Pagination calculations
+  const totalPages = Math.ceil(displayedRecipes.length / ITEMS_PER_PAGE);
+  const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+  const endIndex = startIndex + ITEMS_PER_PAGE;
+  const currentRecipes = displayedRecipes.slice(startIndex, endIndex);
+
+  // Reset page when changing tabs
+  const handleTabChange = (tab: "recettes" | "likes") => {
+    setActiveTab(tab);
+    setCurrentPage(1);
+  };
 
   return (
     <div className="min-h-screen bg-gray-50">
@@ -110,7 +126,7 @@ export default function ProfilePage() {
         <div className="flex gap-8 mb-6 border-b">
           <button
             type="button"
-            onClick={() => setActiveTab("recettes")}
+            onClick={() => handleTabChange("recettes")}
             className={`pb-3 text-lg font-semibold transition ${
               activeTab === "recettes"
                 ? "text-gray-900 border-b-2 border-teal-500"
@@ -121,7 +137,7 @@ export default function ProfilePage() {
           </button>
           <button
             type="button"
-            onClick={() => setActiveTab("likes")}
+            onClick={() => handleTabChange("likes")}
             className={`pb-3 text-lg font-semibold transition ${
               activeTab === "likes"
                 ? "text-gray-900 border-b-2 border-teal-500"
@@ -133,13 +149,20 @@ export default function ProfilePage() {
         </div>
 
         {/* Recipe Grid with Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {displayedRecipes.map((recipe) => (
-            <RecipeCard key={recipe.id} recipe={recipe} />
-          ))}
-        </div>
-
-        {displayedRecipes.length === 0 && (
+        {displayedRecipes.length > 0 ? (
+          <>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+              {currentRecipes.map((recipe) => (
+                <RecipeCard key={recipe.id} recipe={recipe} />
+              ))}
+            </div>
+            <Pagination
+              currentPage={currentPage}
+              totalPages={totalPages}
+              onPageChange={setCurrentPage}
+            />
+          </>
+        ) : (
           <div className="text-center py-12">
             <p className="text-gray-500 text-lg">
               {activeTab === "recettes"
