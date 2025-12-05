@@ -82,12 +82,12 @@ export default function RecipePage() {
       </div>
 
       {/* Recipe Title */}
-      <h1 className="absolute left-[1150px] top-[281px] -translate-x-1/2 w-[1252px] text-[96px] text-center text-black whitespace-pre-wrap z-10" style={{ fontFamily: 'SF Pro, sans-serif' }}>
+      <h1 className="absolute left-[1150px] top-[281px] -translate-x-1/2 w-[663px] text-[60px] text-center text-black z-10" style={{ fontFamily: 'SF Pro, sans-serif', lineHeight: '1.2' }}>
         {recipe.title}
       </h1>
 
       {/* Info Section */}
-      <div className="absolute left-[819px] top-[419px] w-[663px] h-[92px] rounded-[25px] flex flex-col justify-center px-[80px] z-10" style={{ backgroundColor: 'rgba(217, 217, 217, 0.25)' }}>
+      <div className="absolute left-[819px] top-[420px] w-[663px] min-h-[92px] rounded-[25px] flex flex-col justify-center px-[80px] py-[20px] z-10" style={{ backgroundColor: 'rgba(217, 217, 217, 0.25)' }}>
         <p className="text-[20px] text-black" style={{ fontFamily: 'SF Pro, sans-serif' }}>
           Origine : <span className="text-[#ff754d] underline">{recipe.origin}</span>
         </p>
@@ -135,7 +135,7 @@ export default function RecipePage() {
 
       {/* Tags Section */}
       {recipe.tags && recipe.tags.length > 0 && (
-        <div className="absolute left-[281px] top-[1100px] w-[1200px] z-10">
+        <div className="absolute left-[281px] top-[1100px] w-[486px] z-10">
           <div className="flex flex-wrap gap-[15px]">
             {recipe.tags.map((tag, index) => (
               <span
