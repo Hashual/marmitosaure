@@ -4,14 +4,16 @@ import { logger } from "../utils/logger";
 const ASTRA_API_KEY = process.env.ASTRA_API_KEY || "";
 const ASTRA_ENDPOINT = process.env.ASTRA_ENDPOINT || "";
 
-
-let db: Db | undefined;
+let _db: Db | undefined;
 export async function SetupCassandra() {
     const client = new DataAPIClient(ASTRA_API_KEY);
-    db = client.db(ASTRA_ENDPOINT);
+    _db = client.db(ASTRA_ENDPOINT);
 
-    await db.listCollections();
+    await _db.listCollections();
     logger.info('Successfully connected to AstraDB');
 }
 
-export default db;
+export default function db(): Db {
+    if (!_db) throw new Error("Database connection not initialized");
+    return _db;
+}

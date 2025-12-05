@@ -218,7 +218,7 @@ def main():
         # Enforce strict field order per image
         m_rec['title'] = rec['titre']
         m_rec['description'] = rec['description']
-        m_rec['preparation_time'] = rec['temps_preparation']
+        m_rec['preparation_time'] = rec['temps_preparation'].replace(' min', '').strip()
         m_rec['steps'] = rec['etapes']
         
         # Ingredients

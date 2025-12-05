@@ -5,9 +5,10 @@ import { BrowserRouter, useRoutes } from "react-router-dom";
 
 import routes from "~react-pages";
 import Header from "./components/Header";
+import LoadingMask from "./components/LoadingMask";
 
 function App() {
-  return <Suspense fallback={<p>Loading...</p>}>{useRoutes(routes)}</Suspense>;
+  return <Suspense fallback={<LoadingMask visible={true} />}>{useRoutes(routes)}</Suspense>;
 }
 
 createRoot(document.getElementById("root")!).render(
