@@ -1,7 +1,7 @@
-
 import bodyParser from "body-parser"
 import cors from "cors"
 import express from "express"
+import session from "express-session"
 import { SetupCassandra } from "./lib/cassandra"
 import { SetupMongoose } from "./lib/mongodb"
 import { AuthRouter } from "./routes/auth.routes"
@@ -9,6 +9,7 @@ import { MeRouter } from "./routes/me.routes"
 import { RecipesRouter } from "./routes/recipes.routes"
 import { TagsRouter } from "./routes/tags.routes"
 import { logger } from "./utils/logger"
+
 
 const SESSION_SECRET = process.env.SESSION_SECRET || 'default';
 
