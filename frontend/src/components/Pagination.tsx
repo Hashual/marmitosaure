@@ -120,6 +120,11 @@ export default function Pagination({
           />
         </svg>
       </button>
+
+      {/* Page counter */}
+      <div className="ml-4 text-sm text-gray-600">
+        Page {currentPage} sur {totalPages}
+      </div>
     </div>
   );
 }
