@@ -70,10 +70,11 @@ export default function RecipePage() {
   };
 
   return (
-    <div className="bg-white relative min-h-screen w-full">
+    <div className="bg-white relative min-h-screen w-full flex justify-center">
+      <div className="relative w-[1400px] min-h-screen">
 
       {/* Recipe Image */}
-      <div className="absolute left-[270px] top-[122px] w-[507px] h-[507px] rounded-[140px] border-2 border-white/25 overflow-hidden shadow-lg z-10">
+      <div className="absolute left-[200px] top-[100px] w-[350px] h-[350px] rounded-[100px] overflow-hidden shadow-lg z-10">
         <img
           alt={recipe.title}
           className="w-full h-full object-cover"
@@ -82,52 +83,52 @@ export default function RecipePage() {
       </div>
 
       {/* Recipe Title */}
-      <h1 className="absolute left-[1150px] top-[281px] -translate-x-1/2 w-[663px] text-[60px] text-center text-black z-10" style={{ fontFamily: 'SF Pro, sans-serif', lineHeight: '1.2' }}>
+      <h1 className="absolute left-[800px] top-[200px] -translate-x-1/2 w-[500px] text-[40px] text-center text-black z-10" style={{ fontFamily: 'SF Pro, sans-serif', lineHeight: '1.2' }}>
         {recipe.title}
       </h1>
 
       {/* Info Section */}
-      <div className="absolute left-[819px] top-[420px] w-[663px] min-h-[92px] rounded-[25px] flex flex-col justify-center px-[80px] py-[20px] z-10" style={{ backgroundColor: 'rgba(217, 217, 217, 0.25)' }}>
-        <p className="text-[20px] text-black" style={{ fontFamily: 'SF Pro, sans-serif' }}>
+      <div className="absolute left-[600px] top-[320px] w-[500px] min-h-[70px] rounded-[20px] flex flex-col justify-center px-[60px] py-[15px] z-10" style={{ backgroundColor: 'rgba(217, 217, 217, 0.25)' }}>
+        <p className="text-[16px] text-black" style={{ fontFamily: 'SF Pro, sans-serif' }}>
           Origine : <span className="text-[#ff754d] underline">{recipe.origin}</span>
         </p>
-        <p className="text-[20px] text-black" style={{ fontFamily: 'SF Pro, sans-serif' }}>
+        <p className="text-[16px] text-black" style={{ fontFamily: 'SF Pro, sans-serif' }}>
           le : {formatDate(recipe.creation_date)}
         </p>
       </div>
 
       {/* Utensils Section */}
-      <div className="absolute left-[281px] top-[680px] w-[486px] min-h-[341px] rounded-[25px] p-[50px] z-10" style={{ backgroundColor: 'rgba(217, 217, 217, 0.25)' }}>
-        <h2 className="text-[40px] text-black mb-[20px]" style={{ fontFamily: 'SF Pro, sans-serif' }}>
+      <div className="absolute left-[200px] top-[480px] w-[350px] min-h-[250px] rounded-[20px] p-[35px] z-10" style={{ backgroundColor: 'rgba(217, 217, 217, 0.25)' }}>
+        <h2 className="text-[28px] text-black mb-[15px]" style={{ fontFamily: 'SF Pro, sans-serif' }}>
           Ustensiles
         </h2>
         {recipe.utensils && recipe.utensils.length > 0 ? (
-          <ul className="text-[25px] text-black list-disc pl-[37.5px] space-y-[5px]" style={{ fontFamily: 'SF Pro, sans-serif' }}>
+          <ul className="text-[18px] text-black list-disc pl-[30px] space-y-[3px]" style={{ fontFamily: 'SF Pro, sans-serif' }}>
             {recipe.utensils.map((utensil, index) => (
               <li key={index}>{utensil.name}</li>
             ))}
           </ul>
         ) : (
-          <p className="text-[20px] text-gray-500" style={{ fontFamily: 'SF Pro, sans-serif' }}>
+          <p className="text-[16px] text-gray-500" style={{ fontFamily: 'SF Pro, sans-serif' }}>
             Aucun ustensile spécifié
           </p>
         )}
-        <h2 className="text-[40px] text-black mb-[20px] mt-[40px]" style={{ fontFamily: 'SF Pro, sans-serif' }}>
+        <h2 className="text-[28px] text-black mb-[15px] mt-[30px]" style={{ fontFamily: 'SF Pro, sans-serif' }}>
           Temps: {recipe.preparation_time}
         </h2>
       </div>
 
       {/* Steps Section */}
-      <div className="absolute left-[822px] top-[679px] w-[660px] min-h-[706px] text-[25px] text-black z-10" style={{ fontFamily: 'SF Pro, sans-serif' }}>
+      <div className="absolute left-[600px] top-[480px] w-[500px] min-h-[500px] text-[18px] text-black z-10" style={{ fontFamily: 'SF Pro, sans-serif' }}>
         {recipe.steps && recipe.steps.length > 0 ? (
           recipe.steps.map((step, index) => (
-            <div key={index} className="mb-[30px]">
-              <p className="font-bold mb-[10px]">Étape {index + 1}</p>
+            <div key={index} className="mb-[20px]">
+              <p className="font-bold mb-[8px]">Étape {index + 1}</p>
               <p className="leading-normal whitespace-pre-wrap">{step}</p>
             </div>
           ))
         ) : (
-          <p className="text-[20px] text-gray-500">
+          <p className="text-[16px] text-gray-500">
             Aucune étape disponible
           </p>
         )}
@@ -135,12 +136,12 @@ export default function RecipePage() {
 
       {/* Tags Section */}
       {recipe.tags && recipe.tags.length > 0 && (
-        <div className="absolute left-[281px] top-[1100px] w-[486px] z-10">
-          <div className="flex flex-wrap gap-[15px]">
+        <div className="absolute left-[200px] top-[800px] w-[350px] z-10">
+          <div className="flex flex-wrap gap-[10px]">
             {recipe.tags.map((tag, index) => (
               <span
                 key={index}
-                className="px-[20px] py-[10px] bg-[#ff754d] text-white rounded-[20px] text-[18px]"
+                className="px-[15px] py-[8px] bg-[#ff754d] text-white rounded-[15px] text-[14px]"
                 style={{ fontFamily: 'SF Pro, sans-serif' }}
               >
                 #{tag}
@@ -149,6 +150,8 @@ export default function RecipePage() {
           </div>
         </div>
       )}
+      
+      </div>
     </div>
   );
 }
