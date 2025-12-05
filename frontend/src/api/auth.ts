@@ -34,7 +34,7 @@ export interface User {
 }
 
 export async function getMe (): Promise<User> {
-  const response = await fetch(HOST + "/auth/login", {
+  const response = await fetch(HOST + "/me", {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
