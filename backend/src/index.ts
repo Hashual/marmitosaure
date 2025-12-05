@@ -4,10 +4,6 @@ import express from "express";
 import session from "express-session"
 import bodyParser from "body-parser";
 import { logger } from "./utils/logger";
-import { RecipesRouter } from "./routes/recipes.routes";
-import { TagsRouter } from "./routes/tags.routes";
-import { AuthRouter } from "./routes/auth.routes";
-import { MeRouter } from "./routes/me.routes";
 
 const SESSION_SECRET = process.env.SESSION_SECRET || 'default';
 
@@ -27,6 +23,11 @@ app.use(urlencodedParser);
 
 await SetupMongoose();
 await SetupCassandra();
+
+const { RecipesRouter } = await import("./routes/recipes.routes");
+const { TagsRouter } = await import("./routes/tags.routes");
+const { AuthRouter } = await import("./routes/auth.routes");
+const { MeRouter } = await import("./routes/me.routes");
 
 app.use('/recipes', RecipesRouter);
 app.use('/tags', TagsRouter);
