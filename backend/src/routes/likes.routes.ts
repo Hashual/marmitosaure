@@ -5,5 +5,5 @@ import { LikesController } from "../controllers/LikesController";
 
 export const LikesRouter = Router();
 
-LikesRouter.get("/:id/likes", LikesController.getRecipeLikes);
-LikesRouter.post("/:id/likes", LikesController.postRecipeLikes);
+LikesRouter.post("/:id/likes", LikesController.postRecipeLike);
+LikesRouter.delete("/:id/likes", LikesController.deleteRecipeLike);
