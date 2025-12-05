@@ -1,5 +1,5 @@
-import type { Recipe } from "../types/Recipe";
-import mongoose from "mongoose";
+import mongoose from "mongoose"
+import { parsePage } from "../utils/pagination"
 
 const RecipeSchema = new mongoose.Schema({
     title: String,
@@ -22,43 +22,57 @@ const RecipeSchema = new mongoose.Schema({
     creation_date: {type: Date, default: Date.now},
 });
 
-const Recipes = mongoose.model('Recipe', RecipeSchema);
+const uri = process.env.MONGODB_URI;
+if (!uri) {
+    throw new Error('MONGODB_URI environment variable is not set');
+}
+const Recipes = mongoose.model('recipes', RecipeSchema);
 
-
-export function getAllRecipes(): Recipe[] {
-	return recipes;
+export async function countRecipes() {
+	const count = await Recipes.countDocuments().exec();
+	return count;
 }
 
-export function getRecipeById(_id: string): Recipe | undefined {
-	return recipes.find(recipe => recipe._id === _id);
+export async function getRecipes(numData: number, req: any) {
+    const { page, limit } = parsePage(req, 20);
+    const recipes = await Recipes.find()
+        .skip((page) * limit)
+        .limit(limit)
+        .exec();
+    return recipes;
 }
 
-export function filterRecipeByTitle(title: string): Recipe[] {
-	return recipes.filter(recipe => recipe.title.includes(title));
-}
+// export function getRecipeById(_id: string): Promise<any> {
+//     const recipe = Recipes.find({ id: _id }).exec();
+//     return recipe;
+// }
 
-export function updateRecipe<T extends keyof Recipe>(_id: string, key: T, value: Recipe[T]) {
-	let recipe = recipes.find(recipe => recipe._id === _id);
-	if (recipe) { recipe[key] = value; }
-}
+// export function filterRecipeByTitle(title: string): Recipe[] {
+// 	return recipes.filter(recipe => recipe.title.toLowerCase().includes(title.toLowerCase()));
+// }
 
-export function createRecipe(_id: string, title: string, description: string, ingredients: string[], steps: string[], tags: Tag[], author: User, date_creation: Date): Recipe {
-	let recipe: Recipe = {
-		_id,
-		title,
-		description,
-		ingredients,
-		steps,
-		tags,
-		author,
-		date_creation
-	};
+// export function updateRecipe<T extends keyof Recipe>(_id: string, key: T, value: Recipe[T]) {
+// 	let recipe = recipes.find(recipe => recipe._id === _id);
+// 	if (recipe) { recipe[key] = value; }
+// }
 
-	recipes.push(recipe);
-	return recipe;
-}
+// export function createRecipe(_id: string, title: string, description: string, ingredients: string[], steps: string[], tags: Tag[], author: User, date_creation: Date): Recipe {
+// 	let recipe: Recipe = {
+// 		_id,
+// 		title,
+// 		description,
+// 		ingredients,
+// 		steps,
+// 		tags,
+// 		author,
+// 		date_creation
+// 	};
 
-export function deleteRecipe(_id: string) {
-	const index = recipes.findIndex(recipe => recipe._id === _id);
-	recipes.splice(index, 1);
-}
+// 	recipes.push(recipe);
+// 	return recipe;
+// }
+
+// export function deleteRecipe(_id: string) {
+// 	const index = recipes.findIndex(recipe => recipe._id === _id);
+// 	recipes.splice(index, 1);
+// }

@@ -1,14 +1,13 @@
-import { SetupCassandra } from "./lib/cassandra";
-import { SetupMongoose } from "./lib/mongodb";
-import express from "express";
-import session from "express-session"
-import cors from "cors";
-import bodyParser from "body-parser";
-import { logger } from "./utils/logger";
-import { RecipesRouter } from "./routes/recipes.routes";
-import { TagsRouter } from "./routes/tags.routes";
-import { AuthRouter } from "./routes/auth.routes";
-import { MeRouter } from "./routes/me.routes";
+
+import bodyParser from "body-parser"
+import cors from "cors"
+import { SetupCassandra } from "./lib/cassandra"
+import { SetupMongoose } from "./lib/mongodb"
+import { AuthRouter } from "./routes/auth.routes"
+import { MeRouter } from "./routes/me.routes"
+import { RecipesRouter } from "./routes/recipes.routes"
+import { TagsRouter } from "./routes/tags.routes"
+import { logger } from "./utils/logger"
 
 const SESSION_SECRET = process.env.SESSION_SECRET || 'default';
 
