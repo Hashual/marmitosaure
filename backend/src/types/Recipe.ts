@@ -1,0 +1,17 @@
+import type { Ingredient } from "./Ingredient"
+import type { User } from "./User"
+
+export type Recipe = {
+  _id: string
+  title: string
+  description: string
+  preparation_time: string
+  steps: string[]
+  ingredients: Ingredient[]
+  ustensils: Ingredient[]
+  tags: string[]
+  origin: string
+  author_id: string
+  image_url?: string
+  creation_date: Date
+}
