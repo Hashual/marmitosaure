@@ -4,8 +4,8 @@ import {
     getRecipeById,
     getRecipes
 } from "../models/recipes"
+import type { RecipeSearchFilters } from "../types/Recipe"
 import { parsePage } from "../utils/pagination"
-import type { RecipeSearchFilters } from "../types/Recipe";
 
 export class RecipesController {
     static async GetRecipes(req: Request, res: Response) {
@@ -13,10 +13,12 @@ export class RecipesController {
 
         const title = req.query.title ? String(req.query.title) : "";
         const tags = req.query.tags ? String(req.query.tags).split(",") : [];
+        const author_id = req.query.author_id ? String(req.query.author_id) : "";
 
         const searchFilters: RecipeSearchFilters = {
             title: title || undefined,
             tags: tags.length > 0 ? tags : undefined,
+            author_id: author_id || undefined
         };
 
         const paginationOptions = parsePage(req);

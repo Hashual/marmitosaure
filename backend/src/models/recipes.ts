@@ -1,8 +1,6 @@
 import mongoose, { type RootFilterQuery } from "mongoose"
-import { parsePage } from "../utils/pagination"
-import type { Request } from "express"
-import type { RecipeSearchFilters } from "../types/Recipe";
-import type { PaginationOptions } from "../types/PaginationOptions";
+import type { PaginationOptions } from "../types/PaginationOptions"
+import type { RecipeSearchFilters } from "../types/Recipe"
 
 const RecipeSchema = new mongoose.Schema({
     title: String,
@@ -46,6 +44,10 @@ export async function getRecipes(paginationOptions: PaginationOptions, searchFil
 
     if (searchFilters?.tags) {
         findOptions.tags = { $all: searchFilters.tags };
+    }
+
+    if (searchFilters?.author_id) {
+        findOptions.author_id = { $regex: searchFilters.author_id, $options: 'i' };
     }
 
     const recipes = await Recipes.find(findOptions)
