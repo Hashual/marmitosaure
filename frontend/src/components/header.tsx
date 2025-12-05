@@ -1,6 +1,4 @@
 import { Link, useNavigate } from "react-router-dom";
-import { useAtomValue } from "jotai";
-import { tokenAtom } from "../atoms/token";
 import LucideHeart from "../assets/LucideHeart";
 import LucideUser from "../assets/LucideUser";
 import LucidePlus from "../assets/LucidePlus";
@@ -9,8 +7,6 @@ import Logo from "../assets/dino.png";
 
 export default function Header() {
   const navigate = useNavigate();
-  const token = useAtomValue(tokenAtom);
-  const isAuthenticated = !!token;
 
   return (
     <>
@@ -58,14 +54,12 @@ export default function Header() {
               >
                 <LucidePlus />
               </button>
-              {isAuthenticated && (
-                <button
-                  className="w-[24px] h-[24px] cursor-pointer hover:opacity-75 transition-opacity"
-                  aria-label="Favoris"
-                >
-                  <LucideHeart />
-                </button>
-              )}
+              <button
+                className="w-[24px] h-[24px] cursor-pointer hover:opacity-75 transition-opacity"
+                aria-label="Favoris"
+              >
+                <LucideHeart />
+              </button>
               <button
                 onClick={() => navigate("/login")}
                 className="w-[24px] h-[24px] cursor-pointer hover:opacity-75 transition-opacity"
