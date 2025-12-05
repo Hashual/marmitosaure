@@ -1,6 +1,6 @@
 import type { Request } from "express"
 
-const NUMBER_OF_ITEMS_PER_PAGE = 9;
+const NUMBER_OF_ITEMS_PER_PAGE = 12;
 
 export function parsePage(req: Request, defaultLimit = NUMBER_OF_ITEMS_PER_PAGE) {
     const requestedPage = parseInt(String(req.query.page ?? "1"), 10) || 1;
