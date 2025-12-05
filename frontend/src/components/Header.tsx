@@ -16,7 +16,7 @@ export default function Header() {
     <>
       {/* Background gradient with clip path */}
       <div
-        className="left-0 top-0 w-full h-[235px] z-0"
+        className="absolute left-0 top-0 w-full h-[235px] z-0"
         style={{
           background: "linear-gradient(180deg, #7dd3bd 0%, #ecf9f5 100%)",
           clipPath: "polygon(0 0, 100% 0, 100% 75%, 0 100%)",
