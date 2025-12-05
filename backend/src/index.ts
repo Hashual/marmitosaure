@@ -2,6 +2,7 @@ import { SetupCassandra } from "./lib/cassandra";
 import { SetupMongoose } from "./lib/mongodb";
 import express from "express";
 import session from "express-session"
+import cors from "cors";
 import bodyParser from "body-parser";
 import { logger } from "./utils/logger";
 import { RecipesRouter } from "./routes/recipes.routes";
@@ -21,6 +22,7 @@ app.use(session({
     secret: SESSION_SECRET,
     cookie: { maxAge: 60000 }
 }));
+app.use(cors());
 
 app.use(jsonParser);
 app.use(urlencodedParser);
