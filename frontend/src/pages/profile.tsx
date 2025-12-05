@@ -1,7 +1,11 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Header from "../components/Header";
 import RecipeCard from "../components/RecipeCard";
 import LucideSettings from "../assets/LucideSettings";
+import { useAtomValue } from "jotai";
+import { tokenAtom } from "../atoms/token";
+import { useNavigate } from "react-router";
+import { getMe, type User } from "../api/auth";
 
 const MOCK_USER_RECIPES = [
   {
@@ -38,6 +42,21 @@ const MOCK_LIKED_RECIPES = [
 
 export default function ProfilePage() {
   const [activeTab, setActiveTab] = useState<"recettes" | "likes">("recettes");
+  const [user, setUser] = useState<User>();
+  const token = useAtomValue(tokenAtom)
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    void async function () {
+      try {
+        const user = await getMe();
+        setUser(user);
+      }
+      catch {
+        navigate("/login")
+      }
+    }()
+  }, [token])
 
   const displayedRecipes =
     activeTab === "recettes" ? MOCK_USER_RECIPES : MOCK_LIKED_RECIPES;
@@ -46,7 +65,7 @@ export default function ProfilePage() {
     <div className="min-h-screen bg-gray-50">
       <main className="max-w-7xl mx-auto px-6 py-8">
         {/* Welcome Section */}
-        <h1 className="text-3xl font-bold text-gray-800 mb-8">Bienvenue, User</h1>
+        <h1 className="text-3xl font-bold text-gray-800 mb-8">Bienvenue, {user?.nom_utilisateur}</h1>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           {/* Stats */}
@@ -80,20 +99,8 @@ export default function ProfilePage() {
             <h2 className="text-xl font-semibold mb-4">Mes informations</h2>
             <div className="grid grid-cols-2 gap-4">
               <div>
-                <label className="text-sm text-gray-600">Nom :</label>
-                <div className="mt-1 text-gray-800">Doe</div>
-              </div>
-              <div>
                 <label className="text-sm text-gray-600">Email :</label>
-                <div className="mt-1 text-gray-800">user@example.com</div>
-              </div>
-              <div>
-                <label className="text-sm text-gray-600">Prénom :</label>
-                <div className="mt-1 text-gray-800">John</div>
-              </div>
-              <div>
-                <label className="text-sm text-gray-600">Tél :</label>
-                <div className="mt-1 text-gray-800">+33 6 12 34 56 78</div>
+                <div className="mt-1 text-gray-800">{user?.email}</div>
               </div>
             </div>
           </div>
@@ -145,4 +152,3 @@ export default function ProfilePage() {
     </div>
   );
 }
-

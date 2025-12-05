@@ -19,7 +19,7 @@ export default function LoginForm() {
     localStorage.setItem("token", token)
     setToken(token);
 
-    navigate("/")
+    navigate("/profile")
   };
 
   return (
