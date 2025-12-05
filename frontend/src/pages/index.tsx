@@ -1,9 +1,9 @@
 import { useState, useEffect } from "react";
 import RecipeCard from "../components/RecipeCard";
-import Filter from "../components/Filter";
+import Filter from "../components/filter";
 import Pagination from "../components/Pagination";
 import type { FilterGroup } from "../mocks/filters";
-import type { Recipe } from "../types/Recipe";
+import type { Recipe } from "../types/recipe";
 import { fetchRecipes } from "../api/recipes";
 
 const ITEMS_PER_PAGE = 12;
