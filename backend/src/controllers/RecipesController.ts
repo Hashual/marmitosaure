@@ -1,10 +1,11 @@
 import type { Request, Response } from "express"
 import {
     countRecipes,
+    filterRecipeByTitle,
     getRecipeById,
-    // filterRecipeByTitle,
     getRecipes
 } from "../models/recipes"
+import { parsePage } from "../utils/pagination"
 
 export class RecipesController {
     static async GetRecipes(req: Request, res: Response) {
@@ -12,9 +13,11 @@ export class RecipesController {
         let data = await getRecipes(numData, req);
 
         const title = req.query.title ? String(req.query.title) : "";
-        // if (title !== "") {
-        //     data = filterRecipeByTitle(title);
-        // }
+        if (title !== "") {
+            data = await filterRecipeByTitle(title);
+            const { page , limit } = parsePage(req);
+            data = data.slice((page - 1) * limit, page * limit);
+        }
 
         const tags = req.query.tags ? String(req.query.tags).split(",") : [];
        
