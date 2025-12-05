@@ -34,7 +34,7 @@ export async function countRecipes() {
 }
 
 export async function getRecipes(numData: number, req: any) {
-    const { page, limit } = parsePage(req, 20);
+    const { page, limit } = parsePage(req);
     const recipes = await Recipes.find()
         .skip((page) * limit)
         .limit(limit)
@@ -47,9 +47,10 @@ export async function getRecipeById(id: string): Promise<any> {
     return recipe;
 }
 
-// export function filterRecipeByTitle(title: string): Recipe[] {
-// 	return recipes.filter(recipe => recipe.title.toLowerCase().includes(title.toLowerCase()));
-// }
+export async function filterRecipeByTitle(title: string): Promise<any> {
+    const recipe = await Recipes.find({ title: { $regex: title, $options: 'i' } }).exec();
+    return recipe;
+}
 
 // export function updateRecipe<T extends keyof Recipe>(_id: string, key: T, value: Recipe[T]) {
 // 	let recipe = recipes.find(recipe => recipe._id === _id);
