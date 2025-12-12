@@ -33,6 +33,7 @@ await SetupMongoose();
 await SetupCassandra();
 
 const { RecipesRouter } = await import("./routes/recipes.routes");
+const { ReviewsRouter } = await import("./routes/reviews.routes");
 const { TagsRouter } = await import("./routes/tags.routes");
 const { AuthRouter } = await import("./routes/auth.routes");
 const { MeRouter } = await import("./routes/me.routes");
@@ -40,6 +41,7 @@ const { MeRouter } = await import("./routes/me.routes");
 app.use('/images', express.static('public'));
 
 app.use('/recipes', RecipesRouter);
+app.use('/reviews', ReviewsRouter);
 app.use('/tags', TagsRouter);
 app.use('/auth', AuthRouter);
 app.use('/me', MeRouter);

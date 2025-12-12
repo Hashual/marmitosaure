@@ -1,26 +1,68 @@
 import type { Request, Response } from "express";
 
-import { createReview, getAllReviews } from "../models/reviews.ts";
+import { parsePage } from "../utils/pagination.ts";
+import { getUserFromId } from "../models/user.ts";
+import { getAllUserReviews, getAllUserReviewsWithRecipes, getBestRatedRecipes, getUsersWithLowRatings } from "../models/reviews.ts";
+import { ReviewSortBy, type ReviewSortFilter } from "../types/Review.ts";
 
 export class ReviewsController {
-    static Create(req: Request, res: Response) {
-        const { id } = req.params;
-        const { body } = req;
+    async getAllForUser(req: Request, res: Response) {
+        const paginationOptions = parsePage(req);
+        const userId = req.params.userId;
+        
+        if (!userId) {
+            return res.status(400).send({ error: "User ID is required" });
+        }
 
-        createReview(body);
+        const user = await getUserFromId(userId);
+        if (!user) {
+            return res.status(404).send({ error: "User not found" });
+        }
 
-        res.status(201).send({
-            data: { id, ...body },
+        const sort = req.query.sort as string | undefined;
+        if (sort) {
+            if (!ReviewSortBy[sort as keyof typeof ReviewSortBy]) {
+                return res.status(400).send({ error: "Invalid sort parameter" });
+            }
+        }
+
+        const formattedSort = sort ? ReviewSortBy[sort as keyof typeof ReviewSortBy] : undefined;
+
+        const sortFilter: ReviewSortFilter = {
+            sortBy: formattedSort,
+        };
+
+        const includeRecipes = req.query.includeRecipes === 'true' || req.query.includeRecipes === '1';
+
+        const reviews = includeRecipes ? 
+            await getAllUserReviewsWithRecipes(userId, paginationOptions, sortFilter) 
+            : await getAllUserReviews(userId, paginationOptions, sortFilter);
+
+        res.status(200).send({
+            data: reviews,
+            pagination: paginationOptions
         });
     }
 
-    static GetAll(req: Request, res: Response) {
-        const { id } = req.params;
+    async getBestRated(req: Request, res: Response) {
+        const paginationOptions = parsePage(req);
+        const month = parseInt(req.query.month as string);
+        const year = parseInt(req.query.year as string);
 
-        const reviews = getAllReviews();
+        if (isNaN(month) || isNaN(year) || month < 1 || month > 12) {
+            return res.status(400).send({ error: "Invalid month or year parameter" });
+        }
+
+        const bestRated = await getBestRatedRecipes(month, year, paginationOptions);
 
         res.status(200).send({
-            data: [],
+            data: bestRated,
+            pagination: paginationOptions
         });
+    }
+
+    async lowRatingUsers(req: Request, res: Response) {
+        const result = await getUsersWithLowRatings();
+        res.status(200).send({ data: result });
     }
 }

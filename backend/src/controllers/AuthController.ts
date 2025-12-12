@@ -3,6 +3,7 @@ import { AuthRepository } from "../models/auth.ts";
 import bcrypt from "bcrypt";
 import { v6 as uuidv6 } from "uuid";
 import type { User } from "../types/User";
+import { createUser, getUserFromUsername } from "../models/user.ts";
 
 
 const SALT = 10
@@ -17,7 +18,7 @@ export class AuthController {
             return res.status(400).send({ error: "Missing username or password"  });
         }
 
-        const user = await this.authRepository.findUserByUsername(username);
+        const user = await getUserFromUsername(username);
         if (!user) {
             return res.status(401).send({ error: "Invalid username or password 1" });
         }
@@ -47,12 +48,12 @@ export class AuthController {
             return res.status(400).send({ error: "Missing username, password or email" });
         }
         else {
-            const existingUser = await this.authRepository.findUserByUsername(username);
+            const existingUser = await getUserFromUsername(username);
             if (existingUser) {
                 return res.status(409).send({ error: "Username already exists" });
             }
             else {
-                await this.authRepository.createUser(user);
+                await createUser(user);
                 res.status(201).send({ message: "User registered successfully" });
             }
         }
