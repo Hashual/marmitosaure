@@ -5,7 +5,7 @@ import type { RecipeSearchFilters } from "../types/Recipe"
 const RecipeSchema = new mongoose.Schema({
     title: String,
     description: String,
-    preparation_time: String,
+    preparation_time: Number,
     steps: [String],
     ingredients: {
         quantity: String,
@@ -48,6 +48,10 @@ export async function getRecipes(paginationOptions: PaginationOptions, searchFil
 
     if (searchFilters?.author_id) {
         findOptions.author_id = { $regex: searchFilters.author_id, $options: 'i' };
+    }
+
+    if (searchFilters?.maxPreparationTime) {
+        findOptions.preparation_time = { $lte: searchFilters.maxPreparationTime };
     }
 
     const recipes = await Recipes.find(findOptions)

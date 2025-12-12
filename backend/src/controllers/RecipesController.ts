@@ -14,11 +14,13 @@ export class RecipesController {
         const title = req.query.title ? String(req.query.title) : "";
         const tags = req.query.tags ? String(req.query.tags).split(",") : [];
         const author_id = req.query.author_id ? String(req.query.author_id) : "";
+        const maxPreparationTime = req.query.maxPreparationTime ? Number(req.query.maxPreparationTime) : undefined;
 
         const searchFilters: RecipeSearchFilters = {
             title: title || undefined,
             tags: tags.length > 0 ? tags : undefined,
-            author_id: author_id || undefined
+            author_id: author_id || undefined,
+            maxPreparationTime: maxPreparationTime,
         };
 
         const paginationOptions = parsePage(req);
