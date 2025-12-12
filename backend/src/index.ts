@@ -18,7 +18,13 @@ app.use(session({
     secret: SESSION_SECRET,
     cookie: { maxAge: 60000 }
 }));
-app.use(cors());
+
+app.use(cors({
+    origin: 'http://localhost:5174',
+    credentials: true,
+    methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+    allowedHeaders: ['Content-Type', 'Authorization']
+}));
 
 app.use(jsonParser);
 app.use(urlencodedParser);

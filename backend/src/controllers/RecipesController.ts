@@ -69,11 +69,18 @@ export class RecipesController {
             description,
             preparation_time,
             origin,
-            steps,
-            ingredients,
-            utensils,
-            tags
         } = req.body;
+
+        // Parser les données JSON envoyées depuis le frontend
+        let steps, ingredients, utensils, tags;
+        try {
+            steps = typeof req.body.steps === 'string' ? JSON.parse(req.body.steps) : req.body.steps;
+            ingredients = typeof req.body.ingredients === 'string' ? JSON.parse(req.body.ingredients) : req.body.ingredients;
+            utensils = typeof req.body.utensils === 'string' ? JSON.parse(req.body.utensils) : req.body.utensils;
+            tags = typeof req.body.tags === 'string' ? JSON.parse(req.body.tags) : req.body.tags;
+        } catch (e) {
+            return res.status(400).send({ error: "Invalid JSON format for steps, ingredients, utensils or tags" });
+        }
 
         if (
             !title ||

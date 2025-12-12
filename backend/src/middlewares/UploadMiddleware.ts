@@ -28,5 +28,7 @@ export async function UploadMiddleware(req: Request, res: Response, next: Functi
                 callback(new Error('Invalid file type. Only JPEG, PNG and GIF are allowed.'));
             }
         }
-    })
+    });
+
+    upload.single('image')(req, res, next);
 }

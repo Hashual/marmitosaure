@@ -7,39 +7,8 @@ import { useAtomValue } from "jotai";
 import { tokenAtom } from "../atoms/token";
 import { useNavigate } from "react-router";
 import { getMe, type User } from "../api/auth";
-
-const MOCK_USER_RECIPES = [
-  {
-    id: "1",
-    title: "Tarte au beurre de Québec",
-    image: "https://images.unsplash.com/photo-1535920527002-b35e96722eb9?w=400",
-    author: "User",
-    rating: 4.7,
-    prepTime: 45,
-    tags: ["Végétarien"],
-  },
-  {
-    id: "2",
-    title: "Poutine Traditionnelle",
-    image: "https://images.unsplash.com/photo-1585325701165-9e821c8f63e1?w=400",
-    author: "User",
-    rating: 4.9,
-    prepTime: 30,
-    tags: ["Facile"],
-  },
-];
-
-const MOCK_LIKED_RECIPES = [
-  {
-    id: "3",
-    title: "Crêpes Françaises",
-    image: "https://images.unsplash.com/photo-1528207776546-365bb710ee93?w=400",
-    author: "Marie",
-    rating: 4.6,
-    prepTime: 20,
-    tags: ["Végétarien", "Rapide"],
-  },
-];
+import { fetchUserRecipes } from "../api/recipes";
+import type { Recipe } from "../types/Recipe";
 
 const ITEMS_PER_PAGE = 12;
 
@@ -47,23 +16,42 @@ export default function ProfilePage() {
   const [activeTab, setActiveTab] = useState<"recettes" | "likes">("recettes");
   const [currentPage, setCurrentPage] = useState(1);
   const [user, setUser] = useState<User>();
-  const token = useAtomValue(tokenAtom)
+  const [userRecipes, setUserRecipes] = useState<Recipe[]>([]);
+  const [likedRecipes, setLikedRecipes] = useState<Recipe[]>([]); // Pour l'instant vide
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+  const token = useAtomValue(tokenAtom);
   const navigate = useNavigate();
 
   useEffect(() => {
-    void async function () {
+    const loadUserData = async () => {
       try {
-        const user = await getMe();
-        setUser(user);
+        setLoading(true);
+        setError(null);
+        
+        const userData = await getMe();
+        setUser(userData);
+        
+        // Récupérer les recettes de l'utilisateur
+        const recipes = await fetchUserRecipes(userData.utilisateur_id);
+        setUserRecipes(recipes);
+        
+        // TODO: Implémenter la récupération des likes plus tard
+        setLikedRecipes([]);
+      } catch (err) {
+        setError("Erreur lors du chargement des données");
+        console.error(err);
+        navigate("/login");
+      } finally {
+        setLoading(false);
       }
-      catch {
-        navigate("/login")
-      }
-    }()
-  }, [token])
+    };
+
+    loadUserData();
+  }, [token, navigate]);
 
   const displayedRecipes =
-    activeTab === "recettes" ? MOCK_USER_RECIPES : MOCK_LIKED_RECIPES;
+    activeTab === "recettes" ? userRecipes : likedRecipes;
 
   // Pagination calculations
   const totalPages = Math.ceil(displayedRecipes.length / ITEMS_PER_PAGE);
@@ -92,7 +80,9 @@ export default function ProfilePage() {
                   <span className="text-2xl">📝</span>
                 </div>
               </div>
-              <div className="text-3xl font-bold mb-1">{MOCK_USER_RECIPES.length}</div>
+              <div className="text-3xl font-bold mb-1">
+                {loading ? "..." : userRecipes.length}
+              </div>
               <div className="text-sm text-gray-600">Recettes créées</div>
             </div>
 
@@ -102,7 +92,9 @@ export default function ProfilePage() {
                   <span className="text-2xl">❤️</span>
                 </div>
               </div>
-              <div className="text-3xl font-bold mb-1">{MOCK_LIKED_RECIPES.length}</div>
+              <div className="text-3xl font-bold mb-1">
+                {loading ? "..." : likedRecipes.length}
+              </div>
               <div className="text-sm text-gray-600">Recettes aimées</div>
             </div>
           </div>
@@ -149,11 +141,19 @@ export default function ProfilePage() {
         </div>
 
         {/* Recipe Grid with Cards */}
-        {displayedRecipes.length > 0 ? (
+        {loading ? (
+          <div className="text-center py-12">
+            <p className="text-gray-500 text-lg">Chargement des recettes...</p>
+          </div>
+        ) : error ? (
+          <div className="text-center py-12">
+            <p className="text-red-500 text-lg">{error}</p>
+          </div>
+        ) : displayedRecipes.length > 0 ? (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
               {currentRecipes.map((recipe) => (
-                <RecipeCard key={recipe.id} recipe={recipe} />
+                <RecipeCard key={recipe._id} recipe={recipe} />
               ))}
             </div>
             <Pagination

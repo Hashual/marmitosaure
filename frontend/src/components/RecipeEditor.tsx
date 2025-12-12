@@ -1,5 +1,9 @@
 import { useState } from "react";
 import type { FormEvent } from "react";
+import { useNavigate } from "react-router-dom";
+import { useAtomValue } from "jotai";
+import { tokenAtom } from "../atoms/token";
+import { createRecipe } from "../api/recipes";
 import ImageUpload from "./ImageUpload";
 import TextEditor from "./TextEditor";
 import IngredientsList from "./IngredientsList";
@@ -16,20 +20,57 @@ export default function RecipeEditor() {
   const [cookTime, setCookTime] = useState("");
   const [tags, setTags] = useState<string[]>([]);
   const [origin, setOrigin] = useState("");
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  
+  const navigate = useNavigate();
+  const token = useAtomValue(tokenAtom);
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
-    console.log("Recipe data:", {
-      title,
-      description,
-      ingredients,
-      steps,
-      image,
-      prepTime,
-      cookTime,
-      tags,
-      origin,
-    });
+    
+    if (!token) {
+      setError("Vous devez être connecté pour créer une recette");
+      navigate("/login");
+      return;
+    }
+    
+    setIsSubmitting(true);
+    setError(null);
+    
+    try {
+      // Transformer les ingrédients string en objets
+      const formattedIngredients = ingredients.map(ing => ({
+        quantity: "",
+        name: ing,
+        type: ""
+      }));
+      
+      // Pour l'instant, ustensils vide (à adapter selon vos besoins)
+      const utensils: { name: string; type: string }[] = [];
+      
+      const recipeData = {
+        title,
+        description,
+        preparation_time: prepTime,
+        origin: origin || "Non spécifié",
+        steps,
+        ingredients: formattedIngredients,
+        utensils,
+        tags,
+        image: image || undefined,
+      };
+      
+      const createdRecipe = await createRecipe(recipeData, token);
+      
+      // Rediriger vers la page de la recette créée
+      navigate(`/recipe/${createdRecipe._id}`);
+    } catch (err) {
+      console.error("Error creating recipe:", err);
+      setError(err instanceof Error ? err.message : "Erreur lors de la création de la recette");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
 
   return (
@@ -57,12 +98,19 @@ export default function RecipeEditor() {
           </div>
 
           <div className="lg:col-span-2 space-y-6">
+            {error && (
+              <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded">
+                {error}
+              </div>
+            )}
+            
             <div className="flex justify-end">
               <button
                 type="submit"
-                className="bg-teal-400 hover:bg-teal-500 text-white px-6 py-2.5 rounded-md flex items-center gap-2 transition-colors font-medium"
+                disabled={isSubmitting}
+                className="bg-teal-400 hover:bg-teal-500 text-white px-6 py-2.5 rounded-md flex items-center gap-2 transition-colors font-medium disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                Publier
+                {isSubmitting ? "Publication..." : "Publier"}
                 <svg
                   className="w-5 h-5"
                   fill="none"
