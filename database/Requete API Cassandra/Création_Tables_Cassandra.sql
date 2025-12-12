@@ -21,11 +21,13 @@ CREATE TABLE Recettes (
     ingredients LIST<FROZEN<MAP<TEXT, TEXT>>>)
     -- Exemple : [{ingredient_id: 1, quantite: "500g"}]
 
-CREATE TABLE Avis (
+CREATE TABLE notices (
     recette_id UUID,
     user_id UUID,
-    commentaire TEXT,
-    date_publication TIMESTAMP,
+    comment TEXT,
+    notation int,
+    publication_date TIMESTAMP,
+    like_id UUID,
     PRIMARY KEY (recette_id, user_id)
 );
 
@@ -54,18 +56,6 @@ CREATE TABLE Ingredients (
     nom_ingredient TEXT,
     type_ingredient UUID,
     FOREIGN KEY (type_ingredient) REFERENCES type_ingredients(id_type)
-);
-
-CREATE TABLE type_ustensiles (
-    id_type UUID PRIMARY KEY,
-    nom_type TEXT
-);
-
-CREATE TABLE Ustensiles (
-    ustensiles_id UUID PRIMARY KEY,
-    nom_ustensiles TEXT,
-    type_id UUID,
-    FOREIGN KEY (type_id) REFERENCES type_ustensiles(id_type)
 );
 
 -- voler les données sur marmiton
