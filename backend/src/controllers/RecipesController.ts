@@ -6,6 +6,9 @@ import {
 } from "../models/recipes"
 import type { RecipeSearchFilters } from "../types/Recipe"
 import { parsePage } from "../utils/pagination"
+import fs from "fs";
+import path from "path";
+import {uuid} from "@datastax/astra-db-ts";
 
 export class RecipesController {
     static async GetRecipes(req: Request, res: Response) {
@@ -53,10 +56,13 @@ export class RecipesController {
     }
 
     static async Create(req: Request, res: Response) {
-        const author_id = req.session.user?._id || 'e245acb1-bd1b-4f8e-9d68-bc3b681c9538';
+        const author_id = req.session.user?._id;
         if (!author_id) {
             return res.status(401).send({ error: "Unauthorized" });
         }
+
+        const file = (req as any).file;
+        const image_url = file ? `/uploads/${file.filename}` : undefined;
 
         const {
             title,
@@ -66,8 +72,7 @@ export class RecipesController {
             steps,
             ingredients,
             utensils,
-            tags,
-            image_url,
+            tags
         } = req.body;
 
         if (
@@ -94,7 +99,7 @@ export class RecipesController {
             ingredients,
             utensils,
             tags,
-            image_url,
+            image_url
         );
 
 
