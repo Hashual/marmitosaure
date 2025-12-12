@@ -1,4 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
+import { useAtomValue } from "jotai";
+import { tokenAtom } from "../atoms/token";
 import LucideHeart from "../assets/LucideHeart";
 import LucideUser from "../assets/LucideUser";
 import LucidePlus from "../assets/LucidePlus";
@@ -7,12 +9,14 @@ import Logo from "../assets/dino.png";
 
 export default function Header() {
   const navigate = useNavigate();
+  const token = useAtomValue(tokenAtom);
+  const isAuthenticated = !!token;
 
   return (
     <>
       {/* Background gradient with clip path */}
       <div
-        className="left-0 top-0 w-full h-[235px] z-0"
+        className="absolute left-0 top-0 w-full h-[235px] z-0"
         style={{
           background: "linear-gradient(180deg, #7dd3bd 0%, #ecf9f5 100%)",
           clipPath: "polygon(0 0, 100% 0, 100% 75%, 0 100%)",
@@ -54,12 +58,14 @@ export default function Header() {
               >
                 <LucidePlus />
               </button>
-              <button
-                className="w-[24px] h-[24px] cursor-pointer hover:opacity-75 transition-opacity"
-                aria-label="Favoris"
-              >
-                <LucideHeart />
-              </button>
+              {isAuthenticated && (
+                <button
+                  className="w-[24px] h-[24px] cursor-pointer hover:opacity-75 transition-opacity"
+                  aria-label="Favoris"
+                >
+                  <LucideHeart />
+                </button>
+              )}
               <button
                 onClick={() => navigate("/login")}
                 className="w-[24px] h-[24px] cursor-pointer hover:opacity-75 transition-opacity"
