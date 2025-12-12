@@ -20,10 +20,6 @@ export class AuthRepository {
         this.cassandraDb = db();
     }
 
-    findUserByUsername = async (username: string) => {
-        return this.cassandraDb.collection("users").findOne({ username }) as Promise<User | undefined>;
-    }
-
     createSession = async (user: User) => {
         const sessionId = uuidv6()
 
@@ -57,9 +53,5 @@ export class AuthRepository {
         } catch (err) {
             return null;
         }
-    }
-
-    createUser = async (user: User) => {
-        await this.cassandraDb.collection("users").insertOne(user);
     }
 }
