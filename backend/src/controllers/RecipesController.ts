@@ -1,11 +1,14 @@
 import type { Request, Response } from "express"
 import {
-    countRecipes,
+    countRecipes, createRecipe,
     getRecipeById,
     getRecipes
 } from "../models/recipes"
+import type { RecipeSearchFilters } from "../types/Recipe"
 import { parsePage } from "../utils/pagination"
-import type { RecipeSearchFilters } from "../types/Recipe";
+import fs from "fs";
+import path from "path";
+import {uuid} from "@datastax/astra-db-ts";
 
 export class RecipesController {
     static async GetRecipes(req: Request, res: Response) {
@@ -13,10 +16,16 @@ export class RecipesController {
 
         const title = req.query.title ? String(req.query.title) : "";
         const tags = req.query.tags ? String(req.query.tags).split(",") : [];
+        const author_id = req.query.author_id ? String(req.query.author_id) : "";
+        const maxPreparationTime = req.query.maxPreparationTime ? Number(req.query.maxPreparationTime) : undefined;
+        const ingredients = req.query.ingredients ? String(req.query.ingredients).split(",") : [];
 
         const searchFilters: RecipeSearchFilters = {
             title: title || undefined,
             tags: tags.length > 0 ? tags : undefined,
+            author_id: author_id || undefined,
+            ingredients: ingredients.length > 0 ? ingredients : undefined,
+            maxPreparationTime: maxPreparationTime,
         };
 
         const paginationOptions = parsePage(req);
@@ -46,46 +55,59 @@ export class RecipesController {
         });
     }
 
-    // static Create(req: Request, res: Response) {
-    //     const {
-    //         _id,
-    //         title,
-    //         description,
-    //         ingredients,
-    //         steps,
-    //         tags,
-    //         author,
-    //         date_creation,
-    //     } = req.body;
+    static async Create(req: Request, res: Response) {
+        const author_id = req.session.user?._id;
+        if (!author_id) {
+            return res.status(401).send({ error: "Unauthorized" });
+        }
 
-    //     if (
-    //         !_id ||
-    //         !title ||
-    //         !description ||
-    //         !ingredients ||
-    //         !steps ||
-    //         !tags ||
-    //         !author ||
-    //         !date_creation
-    //     ) {
-    //         return res.status(400).send({ error: "Missing required fields" });
-    //     }
+        const file = (req as any).file;
+        const image_url = file ? `/uploads/${file.filename}` : undefined;
 
-//         const recipe = createRecipe(
-//             _id,
-//             title,
-//             description,
-//             ingredients,
-//             steps,
-//             tags,
-//             author,
-//             new Date(date_creation)
-//         );
+        const {
+            title,
+            description,
+            preparation_time,
+            origin,
+            steps,
+            ingredients,
+            utensils,
+            tags
+        } = req.body;
 
-//         res.status(201).send({
-//             data: recipe,
-//         });
-//     }
+        if (
+            !title ||
+            !description ||
+            !preparation_time ||
+            !origin ||
+            !steps ||
+            !ingredients ||
+            !utensils ||
+            !tags ||
+            !author_id
+        ) {
+            return res.status(400).send({ error: "Missing required fields" });
+        }
+
+        const recipe = await createRecipe(
+            title,
+            author_id,
+            description,
+            preparation_time,
+            origin,
+            steps,
+            ingredients,
+            utensils,
+            tags,
+            image_url
+        );
+
+
+        res.status(201).send({
+            data: recipe,
+        });
+    }
+
 
 //     static Update(req: Request, res: Response) {
 //         const { id } = req.params;

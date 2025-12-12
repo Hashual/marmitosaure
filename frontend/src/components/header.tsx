@@ -60,6 +60,7 @@ export default function Header() {
               </button>
               {isAuthenticated && (
                 <button
+                  onClick={() => navigate("/favorites")}
                   className="w-[24px] h-[24px] cursor-pointer hover:opacity-75 transition-opacity"
                   aria-label="Favoris"
                 >
@@ -67,9 +68,9 @@ export default function Header() {
                 </button>
               )}
               <button
-                onClick={() => navigate("/login")}
+                onClick={() => navigate(isAuthenticated ? "/profile" : "/login")}
                 className="w-[24px] h-[24px] cursor-pointer hover:opacity-75 transition-opacity"
-                aria-label="Connexion"
+                aria-label={isAuthenticated ? "Profil" : "Connexion"}
               >
                 <LucideUser />
               </button>

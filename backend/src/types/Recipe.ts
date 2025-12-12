@@ -1,5 +1,4 @@
 import type { Ingredient } from "./Ingredient"
-import type { User } from "./User"
 
 export type Recipe = {
   _id: string
@@ -20,4 +19,7 @@ export type Recipe = {
 export type RecipeSearchFilters = {
   title?: string,
   tags?: string[]
+  author_id?: string
+  maxPreparationTime?: number;
+  ingredients?: string[]
 }

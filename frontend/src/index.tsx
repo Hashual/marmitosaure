@@ -4,7 +4,7 @@ import { createRoot } from "react-dom/client";
 import { BrowserRouter, useRoutes } from "react-router-dom";
 
 import routes from "~react-pages";
-import Header from "./components/Header";
+import Header from "./components/header";
 import LoadingMask from "./components/LoadingMask";
 
 function App() {

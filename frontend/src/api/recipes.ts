@@ -1,11 +1,13 @@
 import { HOST } from "./constants";
-import type { Recipe } from "../types/Recipe";
+import type { Recipe } from "../types/recipe";
 
 export interface RecipesResponse {
-  recipes: Recipe[];
-  total: number;
-  page: number;
-  limit: number;
+  data: Recipe[];
+  pagination: {
+    total: number;
+    page: number;
+    limit: number;
+  };
 }
 
 export async function fetchRecipes(page: number = 1): Promise<RecipesResponse> {
@@ -15,19 +17,8 @@ export async function fetchRecipes(page: number = 1): Promise<RecipesResponse> {
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
-    const data = await response.json();
+    const data = await response.json() as RecipesResponse;
     
-    // Si l'API renvoie directement un tableau (ancienne version), on le transforme
-    if (Array.isArray(data)) {
-      return {
-        recipes: data,
-        total: data.length,
-        page: page,
-        limit: 12
-      };
-    }
-    
-    // L'API renvoie maintenant { recipes, total, page, limit }
     return data;
   } catch (error) {
     console.error("Error fetching recipes:", error);

@@ -26,8 +26,8 @@ export default function Home() {
         setError(null);
         // On charge uniquement la page demandée si pas de filtres
         const data = await fetchRecipes(hasActiveFilters ? 1 : currentPage);
-        setRecipes(data.recipes);
-        setTotalRecipes(data.total);
+        setRecipes(data.data);
+        setTotalRecipes(data.pagination.total);
       } catch (err) {
         setError("Erreur lors du chargement des recettes");
         console.error(err);
