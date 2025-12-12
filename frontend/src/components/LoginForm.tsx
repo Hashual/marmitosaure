@@ -88,7 +88,7 @@ export default function LoginForm() {
 
         <button
           type="submit"
-          className="w-full bg-gray-800 text-white py-3 rounded-md hover:bg-gray-700 transition-colors font-medium"
+          className="w-full bg-gray-800 text-white py-3 rounded-md hover:bg-gray-700 transition-colors font-medium cursor-pointer"
         >
           Se connecter
         </button>
