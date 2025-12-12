@@ -1,6 +1,6 @@
 import type { Request, Response } from "express"
 import {
-    countRecipes,
+    countRecipes, createRecipe,
     getRecipeById,
     getRecipes
 } from "../models/recipes"
@@ -50,46 +50,57 @@ export class RecipesController {
         });
     }
 
-    // static Create(req: Request, res: Response) {
-    //     const {
-    //         _id,
-    //         title,
-    //         description,
-    //         ingredients,
-    //         steps,
-    //         tags,
-    //         author,
-    //         date_creation,
-    //     } = req.body;
+    static async Create(req: Request, res: Response) {
+        const author_id = req.session.user?._id || 'e245acb1-bd1b-4f8e-9d68-bc3b681c9538';
+        if (!author_id) {
+            return res.status(401).send({ error: "Unauthorized" });
+        }
 
-    //     if (
-    //         !_id ||
-    //         !title ||
-    //         !description ||
-    //         !ingredients ||
-    //         !steps ||
-    //         !tags ||
-    //         !author ||
-    //         !date_creation
-    //     ) {
-    //         return res.status(400).send({ error: "Missing required fields" });
-    //     }
+        const {
+            title,
+            description,
+            preparation_time,
+            origin,
+            steps,
+            ingredients,
+            utensils,
+            tags,
+            image_url,
+        } = req.body;
 
-//         const recipe = createRecipe(
-//             _id,
-//             title,
-//             description,
-//             ingredients,
-//             steps,
-//             tags,
-//             author,
-//             new Date(date_creation)
-//         );
+        if (
+            !title ||
+            !description ||
+            !preparation_time ||
+            !origin ||
+            !steps ||
+            !ingredients ||
+            !utensils ||
+            !tags ||
+            !author_id
+        ) {
+            return res.status(400).send({ error: "Missing required fields" });
+        }
 
-//         res.status(201).send({
-//             data: recipe,
-//         });
-//     }
+        const recipe = await createRecipe(
+            title,
+            author_id,
+            description,
+            preparation_time,
+            origin,
+            steps,
+            ingredients,
+            utensils,
+            tags,
+            image_url,
+        );
+
+
+        res.status(201).send({
+            data: recipe,
+        });
+    }
+
 
 //     static Update(req: Request, res: Response) {
 //         const { id } = req.params;

@@ -1,23 +1,23 @@
-import mongoose, { type RootFilterQuery } from "mongoose"
-import type { PaginationOptions } from "../types/PaginationOptions"
-import type { RecipeSearchFilters } from "../types/Recipe"
+import mongoose, {type RootFilterQuery} from "mongoose"
+import type {RecipeSearchFilters} from "../types/Recipe";
+import type {PaginationOptions} from "../types/PaginationOptions";
 
 const RecipeSchema = new mongoose.Schema({
     title: String,
     description: String,
     preparation_time: Number,
+    origin: String,
     steps: [String],
-    ingredients: {
+    ingredients: Array<{
         quantity: String,
         name: String,
         type: String
-        },
-    ustensils: {
+    }>,
+    utensils: Array<{
         name: String,
         type: String
-    },
+    }>,
     tags: [String],
-    origines: String,
     author_id: String,
     image_url: String,
     creation_date: {type: Date, default: Date.now},
@@ -30,8 +30,7 @@ if (!uri) {
 const Recipes = mongoose.model('recipes', RecipeSchema);
 
 export async function countRecipes() {
-	const count = await Recipes.countDocuments().exec();
-	return count;
+    return await Recipes.countDocuments().exec();
 }
 
 export async function getRecipes(paginationOptions: PaginationOptions, searchFilters?: RecipeSearchFilters) {
@@ -72,21 +71,36 @@ export async function getRecipeById(id: string): Promise<any> {
 // 	if (recipe) { recipe[key] = value; }
 // }
 
-// export function createRecipe(_id: string, title: string, description: string, ingredients: string[], steps: string[], tags: Tag[], author: User, date_creation: Date): Recipe {
-// 	let recipe: Recipe = {
-// 		_id,
-// 		title,
-// 		description,
-// 		ingredients,
-// 		steps,
-// 		tags,
-// 		author,
-// 		date_creation
-// 	};
+export async function createRecipe(title: string, author_id: string, description: string, preparation_time: string, origin: string, steps: string[], ingredients: { quantity: string; name: string; type: string }[], utensils: { name: string; type: string }[], tags: string[], image_url?: string) {
+    console.log({
+        title,
+        author_id,
+        description,
+        preparation_time,
+        origin,
+        steps,
+        ingredients,
+        utensils,
+        tags,
+        image_url,
+    });
 
-// 	recipes.push(recipe);
-// 	return recipe;
-// }
+    const newRecipe = new Recipes ({
+        title,
+        author_id,
+        description,
+        preparation_time,
+        origin,
+        steps,
+        ingredients,
+        utensils,
+        tags,
+        image_url,
+    });
+    return await newRecipe.save().then((recipe) => {
+        return recipe;
+    })
+}
 
 // export function deleteRecipe(_id: string) {
 // 	const index = recipes.findIndex(recipe => recipe._id === _id);

@@ -5,7 +5,7 @@ import { ReviewsRouter } from "./reviews.routes"
 export const RecipesRouter = Router();
 
 RecipesRouter.get("/", RecipesController.GetRecipes);
-// RecipesRouter.post("/", RecipesController.Create);
+RecipesRouter.post("/", RecipesController.Create);
 
 RecipesRouter.get("/:id", RecipesController.GetById);
 // RecipesRouter.put("/:id", RecipesController.Update);
