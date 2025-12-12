@@ -22,3 +22,8 @@ export enum ReviewSortBy {
 export type ReviewSortFilter = {
     sortBy?: ReviewSortBy;
 }
+
+export type RatingWithRecipe = {
+    recipe: Recipe;
+    rating: number;
+}

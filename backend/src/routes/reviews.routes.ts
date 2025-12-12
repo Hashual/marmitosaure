@@ -5,3 +5,4 @@ export const ReviewsRouter = Router();
 const controller = new ReviewsController();
 
 ReviewsRouter.get("/users/:userId", controller.getAllForUser);
+ReviewsRouter.get("/best-rated", controller.getBestRated);

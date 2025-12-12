@@ -2,7 +2,7 @@ import type { Request, Response } from "express";
 
 import { parsePage } from "../utils/pagination.ts";
 import { getUserFromId } from "../models/user.ts";
-import { getAllUserReviews, getAllUserReviewsWithRecipes } from "../models/reviews.ts";
+import { getAllUserReviews, getAllUserReviewsWithRecipes, getBestRatedRecipes } from "../models/reviews.ts";
 import { ReviewSortBy, type ReviewSortFilter } from "../types/Review.ts";
 
 export class ReviewsController {
@@ -40,6 +40,23 @@ export class ReviewsController {
 
         res.status(200).send({
             data: reviews,
+            pagination: paginationOptions
+        });
+    }
+
+    async getBestRated(req: Request, res: Response) {
+        const paginationOptions = parsePage(req);
+        const month = parseInt(req.query.month as string);
+        const year = parseInt(req.query.year as string);
+
+        if (isNaN(month) || isNaN(year) || month < 1 || month > 12) {
+            return res.status(400).send({ error: "Invalid month or year parameter" });
+        }
+
+        const bestRated = await getBestRatedRecipes(month, year, paginationOptions);
+
+        res.status(200).send({
+            data: bestRated,
             pagination: paginationOptions
         });
     }
