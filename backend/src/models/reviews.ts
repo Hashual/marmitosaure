@@ -1,7 +1,8 @@
 import db from "../lib/cassandra.ts";
 import type { PaginationOptions } from "../types/PaginationOptions.ts";
-import type { RatingWithRecipe, Review, ReviewSortFilter, ReviewWithRecipe } from "../types/Review.ts";
+import type { RatingWithRecipe, Review, ReviewSortFilter, ReviewWithRecipe, UserWithAverageRating } from "../types/Review.ts";
 import { getRecipeById } from "./recipes.ts";
+import { getUsersFromIds } from "./user.ts";
 
 export async function getAllUserReviews(userId: string, paginationOptions: PaginationOptions, sortFilter: ReviewSortFilter): Promise<Review[]> {
     const currentDb = await db();
@@ -68,4 +69,51 @@ export async function getBestRatedRecipes(month: number, year: number, paginatio
     );
 
     return ratingsWithRecipe;
+}
+
+// récupérer les utilisateurs qui ont le moins bien noté les recettes
+export async function getUsersWithLowRatings(): Promise<UserWithAverageRating[]> {
+    const currentDb = await db();
+
+    // Récupérer toutes les recettes avec une note inférieure ou égale à 2
+    const reviews = await currentDb.collection("notices")
+        .find({ notation: { $lte: 2 } })
+        .toArray();
+
+    
+    const avgPerUser = new Map<string, { sum: number; count: number }>();
+    reviews.forEach((review) => {
+        const current = avgPerUser.get(review.user_id) || { sum: 0, count: 0 };
+        avgPerUser.set(review.user_id, {
+            sum: current.sum + review.notation,
+            count: current.count + 1,
+        });
+    });
+
+    const lowRatingUsersIds = Array.from(avgPerUser.entries())
+        .map(([userId, ratings]) => ({
+            userId,
+            average: ratings.sum / ratings.count
+        }))
+        .sort((a, b) => a.average - b.average)
+        .slice(0, 10)
+        .map(entry => entry.userId);
+
+
+    const result: UserWithAverageRating[] = [];
+
+    const users = await getUsersFromIds(lowRatingUsersIds);
+
+    lowRatingUsersIds.forEach((userId) => {
+        const user = users.find(u => u._id === userId);
+        if (user) {
+            const ratings = avgPerUser.get(userId)!;
+            result.push({
+                user,
+                averageRating: ratings.sum / ratings.count,
+            });
+        }
+    });
+
+    return result.sort((a, b) => a.averageRating - b.averageRating);
 }

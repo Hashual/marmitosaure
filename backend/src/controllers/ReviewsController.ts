@@ -2,7 +2,7 @@ import type { Request, Response } from "express";
 
 import { parsePage } from "../utils/pagination.ts";
 import { getUserFromId } from "../models/user.ts";
-import { getAllUserReviews, getAllUserReviewsWithRecipes, getBestRatedRecipes } from "../models/reviews.ts";
+import { getAllUserReviews, getAllUserReviewsWithRecipes, getBestRatedRecipes, getUsersWithLowRatings } from "../models/reviews.ts";
 import { ReviewSortBy, type ReviewSortFilter } from "../types/Review.ts";
 
 export class ReviewsController {
@@ -59,5 +59,10 @@ export class ReviewsController {
             data: bestRated,
             pagination: paginationOptions
         });
+    }
+
+    async lowRatingUsers(req: Request, res: Response) {
+        const result = await getUsersWithLowRatings();
+        res.status(200).send({ data: result });
     }
 }

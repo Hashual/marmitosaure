@@ -1,4 +1,5 @@
 import type { Recipe } from "./Recipe";
+import type { User } from "./User";
 
 export type Review = {
     recipes_id: string;
@@ -26,4 +27,9 @@ export type ReviewSortFilter = {
 export type RatingWithRecipe = {
     recipe: Recipe;
     rating: number;
+}
+
+export type UserWithAverageRating = {
+    user: User;
+    averageRating: number;
 }

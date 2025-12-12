@@ -16,3 +16,8 @@ export async function createUser(user: User): Promise<User> {
 	await currentDb.collection("users").insertOne(user);
 	return user;
 }
+
+export async function getUsersFromIds(ids: string[]): Promise<User[]> {
+	const currentDb = await db();
+	return currentDb.collection("users").find({ _id: { $in: ids } }).toArray() as Promise<User[]>;
+}

@@ -18,4 +18,6 @@ Exemple pour récupérer toutes les recettes avec moins de 15 minutes de prépar
 `curl http://localhost:5000/recipes?maxPreparationTime=15 | jq`
 
 - Stocker les suggestions en Redis à partir des préférences et le mettre à jour quand de nouvelles recettes avec les tags dans les préférences sont ajoutées
-- Utilisateurs qui ont donnés les plus mauvaises notes.	
+
+### Utilisateurs qui ont donnés les plus mauvaises notes.	
+`curl "http://localhost:5000/reviews/users/low-rating" | jq`
