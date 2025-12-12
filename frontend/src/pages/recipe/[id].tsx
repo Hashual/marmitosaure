@@ -78,7 +78,7 @@ export default function RecipePage() {
         <img
           alt={recipe.title}
           className="w-full h-full object-cover"
-          src={recipe.image_url || "https://via.placeholder.com/507"}
+          src={"http://localhost:5000/images"+recipe.image_url || "https://via.placeholder.com/507"}
         />
       </div>
 
