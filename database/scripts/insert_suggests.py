@@ -6,7 +6,6 @@ from datetime import datetime, timedelta
 from pymongo import MongoClient
 from astrapy import DataAPIClient
 
-# Configuration
 MONGODB_URI = "mongodb+srv://romaindesmond_db_user:SrH8SuGLoU2Qd4O0@mamiton.arpq4w5.mongodb.net/?appName=Mamiton"
 MONGO_DB_NAME = "Marmitosaure"
 MONGO_COLLECTION_NAME = "recipes"
@@ -14,7 +13,6 @@ MONGO_COLLECTION_NAME = "recipes"
 ASTRA_TOKEN = "AstraCS:HRWcKnryqRSMrZqHIgpqaZWf:f07bb8c11326362093ab0f53dd374baaecb2fbef72348f52a4fd0013f67a0de8"
 ASTRA_ENDPOINT = "https://7c54ee1c-ff64-4897-92f5-4c86a8c9b7ae-us-east-2.apps.astra.datastax.com"
 
-# Paths
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.join(BASE_DIR, '..', 'donnees_marmiton_v3')
 USERS_FILE = os.path.join(DATA_DIR, 'utilisateurs.json')
@@ -36,8 +34,6 @@ def fetch_recipes_from_mongo():
         db = client[MONGO_DB_NAME]
         col = db[MONGO_COLLECTION_NAME]
         
-        # Fetch _id and title (assuming field is 'title' or 'nom' - usually 'title' in previous files)
-        # Checking edited_recettes.json structure from memory: it had "title".
         cursor = col.find({}, {'_id': 1, 'title': 1})
         recipes = []
         for doc in cursor:
@@ -55,7 +51,6 @@ def generate_suggestions(users, recipes, count=500):
     print(f"Generating {count} suggestions...")
     suggestions = []
     
-    # Combinatorial components to generate thousands of unique suggestions
     openings = [
         "Alors là,", "Franchement,", "Honnêtement,", "Wouah,", "Perso,", 
         "Bon,", "Pour le coup,", "J'avoue,", "Super découverte,", "Un peu déçu,",
@@ -95,24 +90,20 @@ def generate_suggestions(users, recipes, count=500):
         user_id = random.choice(users)
         recipe = random.choice(recipes)
         
-        # 20% chance of asking a question, 80% chance of a comment
         if random.random() < 0.2:
             template = random.choice(questions)
             content = template.format(title=recipe['title'])
         else:
-            # Construct a sentence
             part1 = random.choice(openings)
             part2 = random.choice(subjects).format(title=recipe['title'])
             part3 = random.choice(verbs)
             part4 = random.choice(contexts)
             
-            # Mix parts: "Franchement, cette recette de X est incroyable pour le diner."
             content = f"{part1} {part2} {part3} {part4}"
 
         random_days = random.randint(0, 365)
         suggest_date = (start_date + timedelta(days=random_days)).isoformat()
         
-        # Construct object - NO suggest_id as requested
         suggestion = {
             "recipe_id": recipe['id'],
             "user_id": user_id,
@@ -129,15 +120,19 @@ def insert_into_astra(suggestions):
     db = client.get_database_by_api_endpoint(ASTRA_ENDPOINT)
     
  
-    col_name = "suggestions"
+    col_name = "suggests"
     
-    print(f"Inserting into collection '{col_name}'...")
+    existing_collections = db.list_collection_names()
+    print(f"Existing collections: {existing_collections}")
+    
+    if col_name not in existing_collections:
+        print(f"Collection '{col_name}' not found. Creating it...")
+        db.create_collection(col_name)
+        print(f"Collection '{col_name}' created.")
+    else:
+        print(f"Collection '{col_name}' found.")
+
     collection = db.get_collection(col_name)
-    if not collection:
-        print(f"Collection '{col_name}' not found. Attempting to create/access 'suggestions' (lowercase)...")
-        collection = db.get_collection("suggestions")
-        if not collection:
-             collection = db.create_collection(col_name)
 
     total = len(suggestions)
     batch_size = 20

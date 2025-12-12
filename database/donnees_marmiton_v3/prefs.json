@@ -1,0 +1,600 @@
+[
+    {
+        "tags": [
+            "entrée",
+            "rapide",
+            "facile",
+            "bon marché"
+        ],
+        "allergens": [
+            "gluten"
+        ],
+        "recipe_type": [
+            "Entrée",
+            "Plat principal"
+        ],
+        "ingredients": [
+            {
+                "name": "tomate",
+                "type": "légumes"
+            },
+            {
+                "name": "oignon",
+                "type": "légumes"
+            },
+            {
+                "name": "huile d'olive",
+                "type": "huiles"
+            }
+        ],
+        "diets": [
+            "méditerranéen"
+        ]
+    },
+    {
+        "tags": [
+            "dessert",
+            "chocolat",
+            "facile"
+        ],
+        "allergens": [
+            "lactose",
+            "oeufs"
+        ],
+        "recipe_type": [
+            "Dessert"
+        ],
+        "ingredients": [
+            {
+                "name": "chocolat",
+                "type": "autre"
+            },
+            {
+                "name": "beurre",
+                "type": "produits_laitiers"
+            },
+            {
+                "name": "sucre",
+                "type": "sucrants"
+            }
+        ],
+        "diets": []
+    },
+    {
+        "tags": [
+            "plat principal",
+            "viande",
+            "gratin"
+        ],
+        "allergens": [],
+        "recipe_type": [
+            "Plat principal"
+        ],
+        "ingredients": [
+            {
+                "name": "boeuf",
+                "type": "viandes"
+            },
+            {
+                "name": "pomme de terre",
+                "type": "légumes"
+            },
+            {
+                "name": "crème fraîche",
+                "type": "produits_laitiers"
+            }
+        ],
+        "diets": [
+            "cétogène"
+        ]
+    },
+    {
+        "tags": [
+            "végétarien",
+            "légumes",
+            "rapide"
+        ],
+        "allergens": [
+            "arachides"
+        ],
+        "recipe_type": [
+            "Plat principal",
+            "Entrée"
+        ],
+        "ingredients": [
+            {
+                "name": "courgette",
+                "type": "légumes"
+            },
+            {
+                "name": "carotte",
+                "type": "légumes"
+            },
+            {
+                "name": "poivron",
+                "type": "légumes"
+            }
+        ],
+        "diets": [
+            "végétarien",
+            "vegan"
+        ]
+    },
+    {
+        "tags": [
+            "poisson",
+            "santé",
+            "léger"
+        ],
+        "allergens": [
+            "crustacés"
+        ],
+        "recipe_type": [
+            "Plat principal"
+        ],
+        "ingredients": [
+            {
+                "name": "saumon",
+                "type": "poissons"
+            },
+            {
+                "name": "citron",
+                "type": "fruits"
+            },
+            {
+                "name": "aneth",
+                "type": "herbes"
+            }
+        ],
+        "diets": [
+            "méditerranéen",
+            "sans gluten"
+        ]
+    },
+    {
+        "tags": [
+            "asiatique",
+            "épicé",
+            "exotique"
+        ],
+        "allergens": [
+            "soja"
+        ],
+        "recipe_type": [
+            "Plat principal"
+        ],
+        "ingredients": [
+            {
+                "name": "riz",
+                "type": "féculents"
+            },
+            {
+                "name": "gingembre",
+                "type": "épices"
+            },
+            {
+                "name": "sauce soja",
+                "type": "autre"
+            }
+        ],
+        "diets": [
+            "sans lactose"
+        ]
+    },
+    {
+        "tags": [
+            "pâtisserie",
+            "gâteau",
+            "anniversaire"
+        ],
+        "allergens": [
+            "gluten",
+            "lactose",
+            "oeufs"
+        ],
+        "recipe_type": [
+            "Dessert"
+        ],
+        "ingredients": [
+            {
+                "name": "farine",
+                "type": "farines"
+            },
+            {
+                "name": "oeufs",
+                "type": "oeufs"
+            },
+            {
+                "name": "vanille",
+                "type": "épices"
+            }
+        ],
+        "diets": []
+    },
+    {
+        "tags": [
+            "salade",
+            "fraîcheur",
+            "été"
+        ],
+        "allergens": [],
+        "recipe_type": [
+            "Entrée"
+        ],
+        "ingredients": [
+            {
+                "name": "salade",
+                "type": "légumes"
+            },
+            {
+                "name": "concombre",
+                "type": "légumes"
+            },
+            {
+                "name": "feta",
+                "type": "fromages"
+            }
+        ],
+        "diets": [
+            "végétarien"
+        ]
+    },
+    {
+        "tags": [
+            "soupe",
+            "hiver",
+            "réconfort"
+        ],
+        "allergens": [
+            "céleri"
+        ],
+        "recipe_type": [
+            "Entrée",
+            "Plat principal"
+        ],
+        "ingredients": [
+            {
+                "name": "poireau",
+                "type": "légumes"
+            },
+            {
+                "name": "pomme de terre",
+                "type": "légumes"
+            },
+            {
+                "name": "crème",
+                "type": "produits_laitiers"
+            }
+        ],
+        "diets": [
+            "végétarien"
+        ]
+    },
+    {
+        "tags": [
+            "burger",
+            "américain",
+            "gourmand"
+        ],
+        "allergens": [
+            "gluten",
+            "sésame"
+        ],
+        "recipe_type": [
+            "Plat principal"
+        ],
+        "ingredients": [
+            {
+                "name": "steak haché",
+                "type": "viandes"
+            },
+            {
+                "name": "pain hamburger",
+                "type": "féculents"
+            },
+            {
+                "name": "cheddar",
+                "type": "fromages"
+            }
+        ],
+        "diets": []
+    },
+    {
+        "tags": [
+            "italien",
+            "pâtes",
+            "tomate"
+        ],
+        "allergens": [
+            "gluten"
+        ],
+        "recipe_type": [
+            "Plat principal"
+        ],
+        "ingredients": [
+            {
+                "name": "pâtes",
+                "type": "féculents"
+            },
+            {
+                "name": "parmesan",
+                "type": "fromages"
+            },
+            {
+                "name": "basilic",
+                "type": "herbes"
+            }
+        ],
+        "diets": [
+            "végétarien"
+        ]
+    },
+    {
+        "tags": [
+            "indien",
+            "curry",
+            "épicé"
+        ],
+        "allergens": [
+            "fruits à coque"
+        ],
+        "recipe_type": [
+            "Plat principal"
+        ],
+        "ingredients": [
+            {
+                "name": "poulet",
+                "type": "viandes"
+            },
+            {
+                "name": "curry",
+                "type": "épices"
+            },
+            {
+                "name": "lait de coco",
+                "type": "produits_laitiers"
+            }
+        ],
+        "diets": [
+            "sans gluten"
+        ]
+    },
+    {
+        "tags": [
+            "mexicain",
+            "tacos",
+            "festif"
+        ],
+        "allergens": [
+            "maïs"
+        ],
+        "recipe_type": [
+            "Plat principal"
+        ],
+        "ingredients": [
+            {
+                "name": "tortilla",
+                "type": "féculents"
+            },
+            {
+                "name": "haricots rouges",
+                "type": "légumes"
+            },
+            {
+                "name": "avocat",
+                "type": "fruits"
+            }
+        ],
+        "diets": [
+            "végétarien"
+        ]
+    },
+    {
+        "tags": [
+            "brunch",
+            "oeufs",
+            "week-end"
+        ],
+        "allergens": [
+            "oeufs"
+        ],
+        "recipe_type": [
+            "Entrée",
+            "Plat principal"
+        ],
+        "ingredients": [
+            {
+                "name": "oeufs",
+                "type": "oeufs"
+            },
+            {
+                "name": "bacon",
+                "type": "viandes"
+            },
+            {
+                "name": "pain",
+                "type": "féculents"
+            }
+        ],
+        "diets": []
+    },
+    {
+        "tags": [
+            "tarte",
+            "fruits",
+            "été"
+        ],
+        "allergens": [
+            "gluten",
+            "lactose"
+        ],
+        "recipe_type": [
+            "Dessert"
+        ],
+        "ingredients": [
+            {
+                "name": "pâte brisée",
+                "type": "féculents"
+            },
+            {
+                "name": "fraises",
+                "type": "fruits"
+            },
+            {
+                "name": "crème pâtissière",
+                "type": "produits_laitiers"
+            }
+        ],
+        "diets": []
+    },
+    {
+        "tags": [
+            "gratin",
+            "fromage",
+            "réconfort"
+        ],
+        "allergens": [
+            "lactose",
+            "gluten"
+        ],
+        "recipe_type": [
+            "Plat principal"
+        ],
+        "ingredients": [
+            {
+                "name": "pomme de terre",
+                "type": "légumes"
+            },
+            {
+                "name": "gruyère",
+                "type": "fromages"
+            },
+            {
+                "name": "lait",
+                "type": "produits_laitiers"
+            }
+        ],
+        "diets": [
+            "végétarien"
+        ]
+    },
+    {
+        "tags": [
+            "smoothie",
+            "healthy",
+            "petit-déjeuner"
+        ],
+        "allergens": [],
+        "recipe_type": [
+            "Boisson"
+        ],
+        "ingredients": [
+            {
+                "name": "banane",
+                "type": "fruits"
+            },
+            {
+                "name": "lait d'amande",
+                "type": "produits_laitiers"
+            },
+            {
+                "name": "miel",
+                "type": "sucrants"
+            }
+        ],
+        "diets": [
+            "vegan",
+            "sans gluten"
+        ]
+    },
+    {
+        "tags": [
+            "quiche",
+            "lorraine",
+            "classique"
+        ],
+        "allergens": [
+            "gluten",
+            "lactose",
+            "oeufs"
+        ],
+        "recipe_type": [
+            "Plat principal"
+        ],
+        "ingredients": [
+            {
+                "name": "lardons",
+                "type": "viandes"
+            },
+            {
+                "name": "oeufs",
+                "type": "oeufs"
+            },
+            {
+                "name": "crème fraîche",
+                "type": "produits_laitiers"
+            }
+        ],
+        "diets": []
+    },
+    {
+        "tags": [
+            "wok",
+            "légumes",
+            "asiatique"
+        ],
+        "allergens": [
+            "soja"
+        ],
+        "recipe_type": [
+            "Plat principal"
+        ],
+        "ingredients": [
+            {
+                "name": "nouilles",
+                "type": "féculents"
+            },
+            {
+                "name": "brocoli",
+                "type": "légumes"
+            },
+            {
+                "name": "sauce soja",
+                "type": "autre"
+            }
+        ],
+        "diets": [
+            "vegan"
+        ]
+    },
+    {
+        "tags": [
+            "risotto",
+            "crémeux",
+            "italien"
+        ],
+        "allergens": [
+            "lactose"
+        ],
+        "recipe_type": [
+            "Plat principal"
+        ],
+        "ingredients": [
+            {
+                "name": "riz arborio",
+                "type": "féculents"
+            },
+            {
+                "name": "parmesan",
+                "type": "fromages"
+            },
+            {
+                "name": "vin blanc",
+                "type": "autre"
+            }
+        ],
+        "diets": [
+            "végétarien"
+        ]
+    }
+]
