@@ -21,4 +21,5 @@ export type RecipeSearchFilters = {
   tags?: string[]
   author_id?: string
   maxPreparationTime?: number;
+  ingredients?: string[]
 }

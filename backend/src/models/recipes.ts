@@ -55,8 +55,12 @@ export async function getRecipes(paginationOptions: PaginationOptions, searchFil
         findOptions.preparation_time = { $lte: searchFilters.maxPreparationTime };
     }
 
+    if (searchFilters?.ingredients) {
+        findOptions["ingredients.name"] = { $all: searchFilters.ingredients };
+    }
+
     const recipes = await Recipes.find(findOptions)
-        .skip((page) * limit)
+        .skip((page - 1) * limit)
         .limit(limit)
         .exec();
 
