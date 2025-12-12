@@ -10,6 +10,8 @@ RecipesRouter.get("/", RecipesController.GetRecipes);
 RecipesRouter.post("/", AuthMiddleware, UploadMiddleware, RecipesController.Create);
 
 RecipesRouter.get("/:id", RecipesController.GetById);
-// RecipesRouter.put("/:id", RecipesController.Update);
+RecipesRouter.put("/:id", AuthMiddleware, UploadMiddleware, RecipesController.Update);
+
+RecipesRouter.delete("/:id", AuthMiddleware, RecipesController.Delete);
 
 RecipesRouter.use("/:id/reviews", ReviewsRouter);

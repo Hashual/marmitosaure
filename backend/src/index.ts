@@ -37,6 +37,8 @@ const { TagsRouter } = await import("./routes/tags.routes");
 const { AuthRouter } = await import("./routes/auth.routes");
 const { MeRouter } = await import("./routes/me.routes");
 
+app.use('/images', express.static('public'));
+
 app.use('/recipes', RecipesRouter);
 app.use('/tags', TagsRouter);
 app.use('/auth', AuthRouter);

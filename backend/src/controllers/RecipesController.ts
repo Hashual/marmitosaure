@@ -6,9 +6,6 @@ import {
 } from "../models/recipes"
 import type { RecipeSearchFilters } from "../types/Recipe"
 import { parsePage } from "../utils/pagination"
-import fs from "fs";
-import path from "path";
-import {uuid} from "@datastax/astra-db-ts";
 
 export class RecipesController {
     static async GetRecipes(req: Request, res: Response) {
@@ -115,49 +112,66 @@ export class RecipesController {
         });
     }
 
+    static async Update(req: Request, res: Response) {
+        const { id } = req.params;
 
-//     static Update(req: Request, res: Response) {
-//         const { id } = req.params;
-//         const { key, value } = req.body;
+        if (!id) {
+            return res.status(400).send({ error: "Missing recipe ID" });
+        }
 
-//         if (!id) {
-//             return res
-//                 .status(400)
-//                 .send({ error: "Missing or invalid recipe ID" });
-//         }
+        const {
+            title,
+            description,
+            preparation_time,
+            origin,
+            steps,
+            ingredients,
+            utensils,
+            tags
+        } = req.body;
 
-//         if (!key || value === undefined) {
-//             return res
-//                 .status(400)
-//                 .send({ error: "Missing key or value in request body" });
-//         }
+        const recipe = await getRecipeById(id);
+        if (!recipe) {
+            return res.status(404).send({ error: "Recipe not found" });
+        }
 
-//         updateRecipe(id, key, value);
 
-//         res.status(200).send({
-//             data: { id, key, value },
-//         });
-//     }
+        const file = (req as any).file;
+        const image_url = file ? `/uploads/${file.filename}` : undefined;
 
-//     static Delete(req: Request, res: Response) {
-//         const { id } = req.params;
+        recipe.title = title || recipe.title;
+        recipe.description = description || recipe.description;
+        recipe.preparation_time = preparation_time || recipe.preparation_time;
+        recipe.origin = origin || recipe.origin;
+        recipe.steps = steps || recipe.steps;
+        recipe.ingredients = ingredients || recipe.ingredients;
+        recipe.utensils = utensils || recipe.utensils;
+        recipe.tags = tags || recipe.tags;
+        recipe.image_url = image_url || recipe.image_url;
 
-//         if (!id) {
-//             return res
-//                 .status(400)
-//                 .send({ error: "Missing or invalid recipe ID" });
-//         }
+        await recipe.save();
 
-//         const recipe = getRecipeById(id);
+        res.status(200).send({
+            data: recipe,
+        });
+    }
 
-//         if (!recipe) {
-//             return res.status(404).send({ error: "Recipe not found" });
-//         }
+    static async Delete(req: Request, res: Response) {
+        const { id } = req.params;
 
-//         deleteRecipe(id);
+        if (!id) {
+            return res.status(400).send({ error: "Missing recipe ID" });
+        }
 
-//         res.status(200).send({
-//             data: { id },
-//         });
-//     }
+        const recipe = await getRecipeById(id);
+        if (!recipe) {
+            return res.status(404).send({ error: "Recipe not found" });
+        }
+
+        await recipe.deleteOne();
+
+        res.status(200).send({
+            data: { id },
+        });
+    }
 }
