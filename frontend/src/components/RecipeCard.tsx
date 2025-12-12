@@ -3,9 +3,10 @@ import type { Recipe } from "../types/Recipe";
 
 interface RecipeCardProps {
   recipe: Recipe;
+  useAbsoluteImage?: boolean;
 }
 
-export default function RecipeCard({ recipe }: RecipeCardProps) {
+export default function RecipeCard({ recipe, useAbsoluteImage }: RecipeCardProps) {
   const prepTimeMinutes = parseInt(recipe.preparation_time) || 0;
   
   const validTags = recipe.tags.filter(tag => tag && tag.trim() !== '');
@@ -18,7 +19,7 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
       {/* Image */}
       <div className="relative h-48 overflow-hidden">
         <img
-          src={"http://localhost:5000/images"+recipe.image_url}
+          src={useAbsoluteImage ? `http://localhost:5000/images${recipe.image_url}` : recipe.image_url}
           alt={recipe.title}
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
         />
