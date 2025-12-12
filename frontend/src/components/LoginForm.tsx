@@ -15,11 +15,15 @@ export default function LoginForm() {
   const handleSubmit = async (e: FormEvent<HTMLFormElement>): Promise<void> => {
     e.preventDefault();
 
+    try {
     const token = await login(username, password);
     localStorage.setItem("token", token)
     setToken(token);
 
-    navigate("/profile")
+      navigate("/profile")
+    } catch (error: any) {
+      alert("Erreur de connexion. Vérifiez vos identifiants et réessayez.");
+    }
   };
 
   return (
@@ -28,7 +32,7 @@ export default function LoginForm() {
         <h2 className="text-xl font-semibold">Connexion</h2>
         <button
           onClick={() => navigate("/")}
-          className="text-white hover:text-gray-200 text-2xl leading-none"
+          className="text-white hover:text-gray-200 text-2xl leading-none font-bold cursor-pointer"
           aria-label="Fermer"
         >
           ×
@@ -88,7 +92,7 @@ export default function LoginForm() {
 
         <button
           type="submit"
-          className="w-full bg-gray-800 text-white py-3 rounded-md hover:bg-gray-700 transition-colors font-medium"
+          className="w-full bg-gray-800 text-white py-3 rounded-md hover:bg-gray-700 transition-colors font-medium cursor-pointer"
         >
           Se connecter
         </button>
@@ -97,7 +101,7 @@ export default function LoginForm() {
           <button
             type="button"
             onClick={() => navigate("/register")}
-            className="text-gray-700 hover:text-teal-500 font-medium"
+            className="text-gray-700 hover:text-teal-500 font-medium cursor-pointer"
           >
             Créer un compte
           </button>
@@ -105,7 +109,7 @@ export default function LoginForm() {
           <button
             type="button"
             onClick={() => navigate("/forgot-password")}
-            className="text-gray-600 hover:text-teal-500 text-xs mt-1"
+            className="text-gray-600 hover:text-teal-500 text-xs mt-1 cursor-pointer"
           >
             mot de passe oublié
           </button>
