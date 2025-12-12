@@ -31,6 +31,9 @@ CREATE TABLE notices (
     PRIMARY KEY (recette_id, user_id)
 );
 
+-- Index pour filtrer par date de publication
+CREATE INDEX IF NOT EXISTS idx_notices_publication_date ON notices (publication_date);
+
 CREATE TABLE Likes (
     recette_id UUID,
     user_id UUID,

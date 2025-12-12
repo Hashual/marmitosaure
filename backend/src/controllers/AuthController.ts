@@ -52,8 +52,6 @@ export class AuthController {
                 return res.status(409).send({ error: "Username already exists" });
             }
             else {
-                const passwdHasehd = bcrypt.hashSync(password, SALT);
-
                 await this.authRepository.createUser(user);
                 res.status(201).send({ message: "User registered successfully" });
             }
