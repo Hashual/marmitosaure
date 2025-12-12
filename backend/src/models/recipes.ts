@@ -72,19 +72,6 @@ export async function getRecipeById(id: string): Promise<any> {
 // }
 
 export async function createRecipe(title: string, author_id: string, description: string, preparation_time: string, origin: string, steps: string[], ingredients: { quantity: string; name: string; type: string }[], utensils: { name: string; type: string }[], tags: string[], image_url?: string) {
-    console.log({
-        title,
-        author_id,
-        description,
-        preparation_time,
-        origin,
-        steps,
-        ingredients,
-        utensils,
-        tags,
-        image_url,
-    });
-
     const newRecipe = new Recipes ({
         title,
         author_id,
