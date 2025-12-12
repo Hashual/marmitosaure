@@ -32,22 +32,30 @@ export default function ProfilePage() {
         const userData = await getMe();
         setUser(userData);
         
+        console.log("User data:", userData); // Debug
+        
         // Récupérer les recettes de l'utilisateur
-        const recipes = await fetchUserRecipes(userData.utilisateur_id);
+        // Utiliser _id du backend
+        const recipes = await fetchUserRecipes(userData._id);
+        console.log("User recipes:", recipes); // Debug
         setUserRecipes(recipes);
         
         // TODO: Implémenter la récupération des likes plus tard
         setLikedRecipes([]);
       } catch (err) {
         setError("Erreur lors du chargement des données");
-        console.error(err);
+        console.error("Error loading user data:", err);
         navigate("/login");
       } finally {
         setLoading(false);
       }
     };
 
-    loadUserData();
+    if (token) {
+      loadUserData();
+    } else {
+      navigate("/login");
+    }
   }, [token, navigate]);
 
   const displayedRecipes =
@@ -69,7 +77,7 @@ export default function ProfilePage() {
     <div className="min-h-screen bg-gray-50">
       <main className="max-w-7xl mx-auto px-6 py-8">
         {/* Welcome Section */}
-        <h1 className="text-3xl font-bold text-gray-800 mb-8">Bienvenue, {user?.nom_utilisateur}</h1>
+        <h1 className="text-3xl font-bold text-gray-800 mb-8">Bienvenue, {user?.username}</h1>
 
         <div className="grid md:grid-cols-2 gap-8 mb-12">
           {/* Stats */}

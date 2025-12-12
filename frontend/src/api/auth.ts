@@ -26,11 +26,11 @@ export async function login(username: string, password: string): Promise<string>
 }
 
 export interface User {
-  utilisateur_id: string;
-  nom_utilisateur: string;
-  mot_de_passe: string;
+  _id: string;
+  username: string;
+  password: string;
   email: string;
-  date_inscription: string;
+  registration_date: string;
 }
 
 export async function getMe(): Promise<User> {

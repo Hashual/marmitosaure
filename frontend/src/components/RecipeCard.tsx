@@ -18,7 +18,7 @@ export default function RecipeCard({ recipe }: RecipeCardProps) {
       {/* Image */}
       <div className="relative h-48 overflow-hidden">
         <img
-          src={recipe.image_url}
+          src={"http://localhost:5000/images"+recipe.image_url}
           alt={recipe.title}
           className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
         />
