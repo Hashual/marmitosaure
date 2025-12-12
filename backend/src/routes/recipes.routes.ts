@@ -6,11 +6,8 @@ import {UploadMiddleware} from "../middlewares/UploadMiddleware.ts";
 
 export const RecipesRouter = Router();
 
-RecipesRouter.use(AuthMiddleware);
-RecipesRouter.use(UploadMiddleware);
-
 RecipesRouter.get("/", RecipesController.GetRecipes);
-RecipesRouter.post("/", RecipesController.Create);
+RecipesRouter.post("/", RecipesController.Create, AuthMiddleware, UploadMiddleware);
 
 RecipesRouter.get("/:id", RecipesController.GetById);
 // RecipesRouter.put("/:id", RecipesController.Update);
