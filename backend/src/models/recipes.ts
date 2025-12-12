@@ -1,6 +1,7 @@
-import mongoose, {type RootFilterQuery} from "mongoose"
-import type {RecipeSearchFilters} from "../types/Recipe";
-import type {PaginationOptions} from "../types/PaginationOptions";
+import mongoose, { type RootFilterQuery } from "mongoose"
+import type { PaginationOptions } from "../types/PaginationOptions"
+import type { RecipeSearchFilters } from "../types/Recipe"
+import { getAuthorsByIds } from "./author"
 
 const RecipeSchema = new mongoose.Schema({
     title: String,
@@ -19,6 +20,7 @@ const RecipeSchema = new mongoose.Schema({
     }>,
     tags: [String],
     author_id: String,
+    author_name: String,
     image_url: String,
     creation_date: {type: Date, default: Date.now},
 });
@@ -58,7 +60,30 @@ export async function getRecipes(paginationOptions: PaginationOptions, searchFil
         .limit(limit)
         .exec();
 
-    return recipes;
+    const authorIdsOnPage = recipes
+        .map(r => r.author_id)
+        .filter(id => id) as string[];
+
+    const uniqueAuthorIds = [...new Set(authorIdsOnPage)];
+
+    const authorsFound = await getAuthorsByIds(uniqueAuthorIds);
+
+    const authorMap = new Map<string, string>();
+    authorsFound.forEach(author => {
+        authorMap.set(author._id.toString(), author.username); 
+    });
+
+    const recipesWithAuthorNames = recipes.map(recipe => {
+        const recipeObject = recipe.toObject ? recipe.toObject() : recipe;
+        if (recipeObject.author_id && authorMap.has(recipeObject.author_id)) {
+            recipeObject.author_name = authorMap.get(recipeObject.author_id);
+        } else {
+            recipeObject.author_name = 'Auteur Inconnu';
+        }
+        return recipeObject;
+    });
+
+    return recipesWithAuthorNames;
 }
 
 export async function getRecipeById(id: string): Promise<any> {
